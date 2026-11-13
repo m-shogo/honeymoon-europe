@@ -18,8 +18,9 @@
     "allocation": "DAY2〜4バルセロナ、DAY5〜6ローマ、DAY7〜8ベネチア、DAY9〜11パリ（DAY10モンサンミッシェル）、DAY1とDAY12国際線",
     "hard_truth": "DAY5/7/9は都市間移動があるため半日観光。DAY12パリ出発なら日本到着は通常DAY13。",
     "day_end_target": "観光日は18時頃まで。食事は18〜21時の範囲を基本に別枠で確保",
-    "exception": "モンサンミッシェルだけは往復7〜9時間超の遠距離日帰りを許容し、DAY10は他の観光を詰め込まない",
-    "time_model": "全時刻は現地時間の仮プラン。実便・曜日・予約枠が確定後に調整する"
+    "exception": "モンサンミッシェルは必ず行きたい。DAY10に島と修道院を確保し、他の観光を追加しない",
+    "time_model": "全時刻は現地時間の仮プラン。実便・曜日・予約枠が確定後に調整する",
+    "preference_persistence": "必須・希望は蓄積し、変更・削除はユーザーからの指示がある場合のみ"
   },
   "transport_estimates": [
     {
@@ -180,8 +181,8 @@
       "category": "食事",
       "origin": "uploaded_47_spots_xlsx",
       "original_row": 12,
-      "visit_status": "今回は見送り",
-      "not_scheduled_reason": "旅程上の時間と移動の都合。台帳には継続保存"
+      "visit_status": "予定",
+      "not_scheduled_reason": null
     },
     {
       "id": "013",
@@ -280,8 +281,8 @@
       "category": "食事",
       "origin": "uploaded_47_spots_xlsx",
       "original_row": 22,
-      "visit_status": "今回は見送り",
-      "not_scheduled_reason": "旅程上の時間と移動の都合。台帳には継続保存"
+      "visit_status": "予定",
+      "not_scheduled_reason": null
     },
     {
       "id": "023",
@@ -658,6 +659,24 @@
       "origin": "user_requested_or_researched_2026-11-13",
       "visit_status": "予定",
       "not_scheduled_reason": null
+    },
+    {
+      "id": "062",
+      "city": "ローマ",
+      "name": "真実の口（サンタ・マリア・イン・コスメディン教会）",
+      "category": "観光",
+      "origin": "user_preference_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "063",
+      "city": "ベネチア",
+      "name": "ゴンドラ乗船（30分）",
+      "category": "体験",
+      "origin": "user_preference_2026-11-13",
+      "visit_status": "希望（時間が合えば）",
+      "not_scheduled_reason": "DAY8の水上バスと入替候補。天候・料金・予約次第"
     }
   ],
   "days": [
@@ -842,7 +861,10 @@
         "location": "Passeig de Gràcia 24 Bis",
         "dish": "タパス・魚料理・肉料理（複数の飲食エリア）",
         "verified": true,
-        "notes": "グラシア通りに戻る。約10〜20分"
+        "notes": "グラシア通りに戻る。約10〜20分",
+        "spot_ids": [
+          "012"
+        ]
       }
     },
     {
@@ -1074,7 +1096,7 @@
             "021"
           ],
           "start": "10:20",
-          "end": "12:00",
+          "end": "11:45",
           "label": "フォロ・ロマーノ・パラティーノの丘",
           "transport_from_previous": "徒歩",
           "transfer_minutes_est": 10,
@@ -1084,51 +1106,62 @@
           "spot_ids": [
             "028"
           ],
-          "start": "12:15",
-          "end": "13:20",
+          "start": "12:00",
+          "end": "13:00",
           "label": "モンティ地区で昼食・雑貨",
           "transport_from_previous": "徒歩",
           "transfer_minutes_est": 10,
-          "notes": ""
+          "notes": "食事と雑貨の時間を短縮。"
         },
         {
           "spot_ids": [
             "029"
           ],
-          "start": "13:30",
-          "end": "13:50",
+          "start": "13:10",
+          "end": "13:25",
           "label": "ヴェネツィア広場（外観）",
           "transport_from_previous": "徒歩",
           "transfer_minutes_est": 10,
-          "notes": ""
+          "notes": "時間が押したら外観は省略して真実の口を優先。"
+        },
+        {
+          "spot_ids": [
+            "062"
+          ],
+          "start": "13:45",
+          "end": "14:15",
+          "label": "真実の口で記念撮影",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 20,
+          "notes": "基本9:30〜17:50。列が長い場合は後続の外観観光を短縮。"
         },
         {
           "spot_ids": [],
-          "start": "13:50",
-          "end": "14:35",
+          "start": "14:15",
+          "end": "15:00",
           "label": "ヴァチカンへ移動",
-          "transport_from_previous": "地下鉄＋徒歩/タクシー",
+          "transport_from_previous": "タクシー",
           "transfer_minutes_est": null,
-          "notes": "交通状況により30〜50分",
+          "notes": "約30〜50分を確保。交通混雑で変動",
           "type": "transfer"
         },
         {
           "spot_ids": [
             "031"
           ],
-          "start": "14:35",
-          "end": "16:15",
+          "start": "15:00",
+          "end": "16:30",
           "label": "サン・ピエトロ大聖堂",
           "transport_from_previous": "徒歩",
           "transfer_minutes_est": 0,
-          "notes": "宗教行事・警備待ちで短縮の可能性"
+          "notes": "行列や宗教行事によって城の外観観光を省く場合あり"
         },
         {
           "spot_ids": [
             "030"
           ],
-          "start": "16:35",
-          "end": "17:00",
+          "start": "16:50",
+          "end": "17:10",
           "label": "サンタンジェロ城（外観のみ）",
           "transport_from_previous": "徒歩",
           "transfer_minutes_est": 15,
@@ -1136,7 +1169,7 @@
         },
         {
           "spot_ids": [],
-          "start": "17:00",
+          "start": "17:10",
           "end": "18:00",
           "label": "テヴェレ川沿いの散策・休憩",
           "transport_from_previous": "徒歩",
@@ -1151,7 +1184,10 @@
         "location": "Via Giovanni Giolitti 36（テルミニ駅横）",
         "dish": "トラピッツィーノ・ピザ・パスタを自由に選択",
         "verified": true,
-        "notes": "近くのホテル向け。バチカン方面から地下鉄約30〜40分"
+        "notes": "近くのホテル向け。バチカン方面から地下鉄約30〜40分",
+        "spot_ids": [
+          "022"
+        ]
       }
     },
     {
@@ -1336,7 +1372,10 @@
           "label": "大運河の水上バス体験",
           "transport_from_previous": "ヴァポレット",
           "transfer_minutes_est": 10,
-          "notes": "1号線等。乗船時間・待ち時間は便次第"
+          "notes": "ゴンドラ乗船（昼間30分・1艘€90）と入れ替え可能。乗り場・天候によって決定。",
+          "optional_spot_ids": [
+            "063"
+          ]
         },
         {
           "spot_ids": [
@@ -1862,5 +1901,66 @@
     "海鮮店La Mar Saladaは火曜休み、同日なら別店へ",
     "大きな荷物を持って旧市街を歩かず、ホテルかロッカーへ預ける",
     "1時間のルーブル館内鑑賞には入退場・保安検査の余裕を別途設ける"
+  ],
+  "preferences": {
+    "must_visit": [
+      {
+        "spot_id": "060",
+        "reason": "モンサンミッシェル島内",
+        "confirmed_on": "2026-11-13"
+      },
+      {
+        "spot_id": "061",
+        "reason": "モンサンミッシェル修道院",
+        "confirmed_on": "2026-11-13"
+      },
+      {
+        "spot_id": "062",
+        "reason": "真実の口",
+        "confirmed_on": "2026-11-13"
+      }
+    ],
+    "nice_to_have": [
+      {
+        "spot_id": "063",
+        "reason": "ゴンドラにあわよくば乗りたい。DAY8水上バスと入替候補",
+        "confirmed_on": "2026-11-13"
+      }
+    ],
+    "ongoing_constraints": [
+      "元の47スポットを削除せず見送り理由を残す",
+      "必須・希望を明示的に優先度管理し、今後勝手に削らない",
+      "市場・商店街・お土産・昼食・夕食は旅行の重要な要素",
+      "観光日は18時頃まで。各施設間の移動手段・所要時間も記録",
+      "モンサンミッシェルだけは長距離日帰りを許容する例外",
+      "見やすい雑誌風画像は元データを使い昼食を時間順に表示"
+    ]
+  },
+  "decision_log": [
+    {
+      "date": "2026-11-13",
+      "priority": "must",
+      "spot_ids": [
+        "060",
+        "061"
+      ],
+      "comment": "モンサンミッシェルは絶対に行きたい"
+    },
+    {
+      "date": "2026-11-13",
+      "priority": "must",
+      "spot_ids": [
+        "062"
+      ],
+      "comment": "ローマで真実の口に行きたい"
+    },
+    {
+      "date": "2026-11-13",
+      "priority": "optional",
+      "spot_ids": [
+        "063"
+      ],
+      "comment": "ベネチアのゴンドラはあわよくば"
+    }
   ]
 }
