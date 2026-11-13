@@ -1,0 +1,155 @@
+[
+  {
+    "spot_id": "001",
+    "hours": "1〜2月 月〜土09:00-18:00、日10:30-18:00／3月は曜日により19:00まで",
+    "closed": "宗教行事で変動",
+    "booking": "オンライン購入のみ",
+    "url": "https://sagradafamilia.org/en/web/guest/schedules-how-to-get",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "002",
+    "hours": "観光枠 09:30〜17:30（2026年11月確認。季節・日付で変動）",
+    "closed": "原則通年",
+    "booking": "日時指定予約",
+    "url": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "003",
+    "hours": "毎日08:30〜22:30、最終21:30",
+    "closed": "通常無休",
+    "booking": "日時指定推奨",
+    "url": "https://www.casabatllo.es/en/visit/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "006",
+    "hours": "冬季09:00〜18:30（2027/2/25まで）",
+    "closed": "2027/1/11〜17休館予定",
+    "booking": "日時指定推奨",
+    "url": "https://www.lapedrera.com/en/practical-information/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "005",
+    "hours": "平日09:30〜18:30／土09:30〜17:15／日祝14:00〜17:00",
+    "closed": "礼拝で変更",
+    "booking": "入場方法確認",
+    "url": "https://catedralbcn.org/es/visita-turistica/horarios-visita-turistica/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "009",
+    "hours": "月〜土08:00〜20:30",
+    "closed": "日曜は原則休場",
+    "booking": "不要",
+    "url": "https://www.boqueria.barcelona/contact",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "016",
+    "hours": "冬季08:30〜16:30（1〜2月前半）、2月後半以降延長",
+    "closed": "1月1日・12月25日など",
+    "booking": "時間指定券30日前から",
+    "url": "https://colosseo.it/en/opening-times-and-tickets/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "019",
+    "hours": "09:00〜19:00、最終18:30",
+    "closed": "宗教行事で変動",
+    "booking": "公式チケット方式を確認",
+    "url": "https://cultura.gov.it/luogo/pantheon",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "031",
+    "hours": "宗教行事・警備により変動",
+    "closed": "宗教行事で変動",
+    "booking": "待機列の余裕必須",
+    "url": "https://www.basilicasanpietro.va/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "034",
+    "hours": "月〜土09:30〜17:15／日祝は観光14:00〜17:15",
+    "closed": "礼拝で変動",
+    "booking": "時間枠を確認",
+    "url": "https://www.veneziaunica.it/en/things-to-do-in-venice/other-churches-of-venice/st-mark-s-basilica",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "035",
+    "hours": "11〜3月09:00〜18:00、最終17:00",
+    "closed": "臨時休館に注意",
+    "booking": "公式オンライン",
+    "url": "https://palazzoducale.visitmuve.it/en/visitor-information/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "048",
+    "hours": "季節・日付で変動。公式の希望日表示で確認",
+    "closed": "天候・運営による",
+    "booking": "展望台は指定予約推奨",
+    "url": "https://www.toureiffel.paris/en/rates-opening-times",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "052",
+    "hours": "月木土日09:00〜18:00／水金09:00〜21:00",
+    "closed": "毎週火曜・1/1・5/1・12/25",
+    "booking": "指定時刻券推奨",
+    "url": "https://www.louvre.fr/en/visit/hours-admission",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "053",
+    "hours": "月火水金07:50〜19:00／木07:50〜22:00／土日08:15〜19:30",
+    "closed": "特別行事で変動",
+    "booking": "無料時間枠を利用可能",
+    "url": "https://www.notredamedeparis.fr/en/faq/reservation/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "057",
+    "hours": "通常月〜土10:00〜20:30／日11:00〜20:00（特別日変動）",
+    "closed": "祝日等で変動",
+    "booking": "不要",
+    "url": "https://haussmann.galerieslafayette.com/en/plan-my-visit/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "058",
+    "hours": "通常月〜土09:30〜21:30／日祝11:00〜20:00",
+    "closed": "特別日変動",
+    "booking": "店ごと",
+    "url": "https://haussmann.galerieslafayette.com/en/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "061",
+    "hours": "1〜3月の基本09:30〜18:00、最終入場17:00（要再確認）",
+    "closed": "1/1・12/25など",
+    "booking": "公式で日時・開館確認",
+    "url": "https://www.abbaye-mont-saint-michel.fr/en/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  }
+]

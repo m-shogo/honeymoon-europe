@@ -1,0 +1,1866 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-13",
+  "title": "新婚旅行｜4都市＋モンサンミッシェル 12日間モデル",
+  "travel_months": [
+    "2027-01",
+    "2027-02",
+    "2027-03"
+  ],
+  "dates_confirmed": false,
+  "flights_booked": false,
+  "hotels_booked": false,
+  "important": {
+    "source_spot_count": 47,
+    "original_47_ids_are_immutable": true,
+    "candidate_spots_must_never_be_deleted_when_removed_from_schedule": true,
+    "priority": "無理な移動をしない・商店街/市場/お土産と夕食を必ず含める",
+    "allocation": "DAY2〜4バルセロナ、DAY5〜6ローマ、DAY7〜8ベネチア、DAY9〜11パリ（DAY10モンサンミッシェル）、DAY1とDAY12国際線",
+    "hard_truth": "DAY5/7/9は都市間移動があるため半日観光。DAY12パリ出発なら日本到着は通常DAY13。",
+    "day_end_target": "観光日は18時頃まで。食事は18〜21時の範囲を基本に別枠で確保",
+    "exception": "モンサンミッシェルだけは往復7〜9時間超の遠距離日帰りを許容し、DAY10は他の観光を詰め込まない",
+    "time_model": "全時刻は現地時間の仮プラン。実便・曜日・予約枠が確定後に調整する"
+  },
+  "transport_estimates": [
+    {
+      "route": "日本→バルセロナ",
+      "mode": "飛行機",
+      "duration": "乗継・日本国内移動を含め変動",
+      "confirmed": false
+    },
+    {
+      "route": "バルセロナ→ローマ",
+      "mode": "直行便",
+      "duration": "飛行約1時間55分／ホテル間約5〜7時間",
+      "confirmed": false
+    },
+    {
+      "route": "ローマ→ベネチア",
+      "mode": "Frecciarossa",
+      "duration": "列車最短約3時間58分／ホテル間約5〜6時間",
+      "confirmed": false,
+      "url": "https://www.trenitalia.com/"
+    },
+    {
+      "route": "ベネチア→パリ",
+      "mode": "直行便",
+      "duration": "飛行約2時間／ホテル間約6〜8時間",
+      "confirmed": false
+    },
+    {
+      "route": "パリ↔モンサンミッシェル",
+      "mode": "TGV＋バス＋シャトル",
+      "duration": "片道約3.5〜4.5時間、往復約7〜9時間以上",
+      "confirmed": false,
+      "url": "https://www.ot-montsaintmichel.com/en/discover/visit-the-mont-saint-michel/access-the-mont-saint-michel/by-train-plane-and-ferry/"
+    },
+    {
+      "route": "パリ→日本",
+      "mode": "飛行機",
+      "duration": "通常日本到着は翌DAY13",
+      "confirmed": false
+    }
+  ],
+  "source_workbook": "新婚旅行｜3都市47スポット・料金・営業時間・予約・お土産.xlsx",
+  "spots": [
+    {
+      "id": "001",
+      "city": "バルセロナ",
+      "name": "サグラダ・ファミリア",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 1,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "002",
+      "city": "バルセロナ",
+      "name": "グエル公園",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 2,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "003",
+      "city": "バルセロナ",
+      "name": "カサ・バトリョ",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 3,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "004",
+      "city": "バルセロナ",
+      "name": "ゴシック地区",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 4,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "005",
+      "city": "バルセロナ",
+      "name": "バルセロナ大聖堂",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 5,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "006",
+      "city": "バルセロナ",
+      "name": "カサ・ミラ",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 6,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "007",
+      "city": "バルセロナ",
+      "name": "バルセロネータ・ビーチ",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 7,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "008",
+      "city": "バルセロナ",
+      "name": "ランブラス通り",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 8,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "009",
+      "city": "バルセロナ",
+      "name": "ボケリア市場",
+      "category": "市場",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 9,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "010",
+      "city": "バルセロナ",
+      "name": "ポルタル・デ・ランヘル通り",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 10,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "011",
+      "city": "バルセロナ",
+      "name": "エル・ボルン地区",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 11,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "012",
+      "city": "バルセロナ",
+      "name": "エル・ナシオナル",
+      "category": "食事",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 12,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "旅程上の時間と移動の都合。台帳には継続保存"
+    },
+    {
+      "id": "013",
+      "city": "バルセロナ",
+      "name": "グラシア通り",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 13,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "014",
+      "city": "バルセロナ",
+      "name": "サンタ・カテリーナ市場",
+      "category": "市場",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 14,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "015",
+      "city": "バルセロナ",
+      "name": "カタルーニャ広場",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 15,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "016",
+      "city": "ローマ",
+      "name": "コロッセオ",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 16,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "017",
+      "city": "ローマ",
+      "name": "トレビの泉",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 17,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "018",
+      "city": "ローマ",
+      "name": "スペイン階段",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 18,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "019",
+      "city": "ローマ",
+      "name": "パンテオン",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 19,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "020",
+      "city": "ローマ",
+      "name": "ナヴォーナ広場",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 20,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "021",
+      "city": "ローマ",
+      "name": "フォロ・ロマーノ",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 21,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "022",
+      "city": "ローマ",
+      "name": "メルカート・チェントラーレ",
+      "category": "食事",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 22,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "旅程上の時間と移動の都合。台帳には継続保存"
+    },
+    {
+      "id": "023",
+      "city": "ローマ",
+      "name": "コルソ通り",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 23,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "旅程上の時間と移動の都合。台帳には継続保存"
+    },
+    {
+      "id": "024",
+      "city": "ローマ",
+      "name": "カンポ・デ・フィオーリ広場",
+      "category": "市場",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 24,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "025",
+      "city": "ローマ",
+      "name": "トラステヴェレ地区",
+      "category": "食事",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 25,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "026",
+      "city": "ローマ",
+      "name": "テスタッチョ市場",
+      "category": "市場",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 26,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "テスタッチョ市場は街の中心から時間がかかるため2日間では除外"
+    },
+    {
+      "id": "027",
+      "city": "ローマ",
+      "name": "コンドッティ通り",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 27,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "028",
+      "city": "ローマ",
+      "name": "モンティ地区",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 28,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "029",
+      "city": "ローマ",
+      "name": "ヴェネツィア広場",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 29,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "030",
+      "city": "ローマ",
+      "name": "サンタンジェロ城",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 30,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "031",
+      "city": "ローマ",
+      "name": "サン・ピエトロ大聖堂",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 31,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "032",
+      "city": "ローマ",
+      "name": "バチカン美術館・システィーナ礼拝堂",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 32,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "バチカン美術館・システィーナ礼拝堂は最低2〜4時間、今回はサン・ピエトロ大聖堂を優先"
+    },
+    {
+      "id": "033",
+      "city": "ベネチア",
+      "name": "サン・マルコ広場",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 33,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "034",
+      "city": "ベネチア",
+      "name": "サン・マルコ寺院",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 34,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "035",
+      "city": "ベネチア",
+      "name": "ドゥカーレ宮殿",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 35,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "036",
+      "city": "ベネチア",
+      "name": "リアルト橋",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 36,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "037",
+      "city": "ベネチア",
+      "name": "ため息橋",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 37,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "038",
+      "city": "ベネチア",
+      "name": "カナル・グランデ（大運河）",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 38,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "039",
+      "city": "ベネチア",
+      "name": "ムラーノ島",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 39,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "ムラーノ島は水上バス移動と工房見学に半日必要"
+    },
+    {
+      "id": "040",
+      "city": "ベネチア",
+      "name": "ブラーノ島",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 40,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "ブラーノ島は船移動が長く、ベネチア本島を優先"
+    },
+    {
+      "id": "041",
+      "city": "ベネチア",
+      "name": "メルチェリエ通り",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 41,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "042",
+      "city": "ベネチア",
+      "name": "ストラーダ・ノーヴァ",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 42,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "043",
+      "city": "ベネチア",
+      "name": "リアルト市場",
+      "category": "市場",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 43,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "044",
+      "city": "ベネチア",
+      "name": "バーカロ巡りエリア（カンナレージョ）",
+      "category": "食事",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 44,
+      "visit_status": "今回は見送り",
+      "not_scheduled_reason": "カンナレージョのバーカロ巡りは余裕があれば。夜に別枠で追加可"
+    },
+    {
+      "id": "045",
+      "city": "ベネチア",
+      "name": "アカデミア橋",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 45,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "046",
+      "city": "ベネチア",
+      "name": "サンタ・マリア・デッラ・サルーテ聖堂",
+      "category": "観光",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 46,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "047",
+      "city": "ベネチア",
+      "name": "アクア・アルタ書店",
+      "category": "商店街",
+      "origin": "uploaded_47_spots_xlsx",
+      "original_row": 47,
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "048",
+      "city": "パリ",
+      "name": "エッフェル塔",
+      "category": "観光",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "049",
+      "city": "パリ",
+      "name": "凱旋門",
+      "category": "観光",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "050",
+      "city": "パリ",
+      "name": "シャンゼリゼ通り",
+      "category": "商店街",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "051",
+      "city": "パリ",
+      "name": "コンコルド広場",
+      "category": "観光",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "052",
+      "city": "パリ",
+      "name": "ルーブル美術館",
+      "category": "観光",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "053",
+      "city": "パリ",
+      "name": "ノートルダム大聖堂",
+      "category": "観光",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "054",
+      "city": "パリ",
+      "name": "モントルグイユ通り",
+      "category": "市場",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "055",
+      "city": "パリ",
+      "name": "リヴォリ通り",
+      "category": "商店街",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "056",
+      "city": "パリ",
+      "name": "マレ地区",
+      "category": "商店街",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "057",
+      "city": "パリ",
+      "name": "ギャラリー・ラファイエット",
+      "category": "商店街",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "058",
+      "city": "パリ",
+      "name": "ラファイエット・グルメ",
+      "category": "食事",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "059",
+      "city": "パリ",
+      "name": "ストレー",
+      "category": "食事",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "060",
+      "city": "ノルマンディー",
+      "name": "モンサンミッシェル（島）",
+      "category": "観光",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    },
+    {
+      "id": "061",
+      "city": "ノルマンディー",
+      "name": "モンサンミッシェル修道院",
+      "category": "観光",
+      "origin": "user_requested_or_researched_2026-11-13",
+      "visit_status": "予定",
+      "not_scheduled_reason": null
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "city": "移動",
+      "title": "日本からバルセロナへ",
+      "overnight": "バルセロナ（便次第）",
+      "transit_day": true,
+      "events": [
+        {
+          "spot_ids": [],
+          "start": null,
+          "end": null,
+          "label": "日本出発 → バルセロナ到着（便・乗継により時刻変動）",
+          "transport_from_previous": "飛行機",
+          "transfer_minutes_est": null,
+          "notes": "航空券未予約。便の確定前に日中の観光を設定しない。現地到着が翌日なら観光初日を調整。",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [],
+          "start": null,
+          "end": null,
+          "label": "ホテルへ移動・チェックイン・休息",
+          "transport_from_previous": "空港バス/鉄道/タクシー",
+          "transfer_minutes_est": null,
+          "notes": "空港から市街地おおむね30〜60分。夕食は到着時刻次第。",
+          "type": "meal_or_rest"
+        }
+      ],
+      "dinner": {
+        "name": "到着時間に応じてホテル周辺",
+        "time": null,
+        "verified": false,
+        "notes": "到着が遅ければ無理に外出しない"
+      }
+    },
+    {
+      "day": 2,
+      "city": "バルセロナ",
+      "title": "ガウディ建築と公園",
+      "overnight": "バルセロナ",
+      "events": [
+        {
+          "spot_ids": [
+            "001"
+          ],
+          "start": "09:30",
+          "end": "11:30",
+          "label": "サグラダ・ファミリア：内部を見学",
+          "transport_from_previous": "徒歩/地下鉄",
+          "transfer_minutes_est": 0,
+          "notes": "日曜は10:30開場のため時刻を後ろ倒し。事前オンライン予約必須。"
+        },
+        {
+          "spot_ids": [],
+          "start": "11:45",
+          "end": "12:45",
+          "label": "近隣でタパスの昼食",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        },
+        {
+          "spot_ids": [
+            "002"
+          ],
+          "start": "13:30",
+          "end": "15:30",
+          "label": "グエル公園：記念撮影と散策",
+          "transport_from_previous": "タクシーまたは地下鉄＋徒歩",
+          "transfer_minutes_est": 25,
+          "notes": "坂道があるのでタクシー推奨。日時指定で予約。"
+        },
+        {
+          "spot_ids": [],
+          "start": "15:30",
+          "end": "16:00",
+          "label": "公園から市内のカフェ・休憩地点へ",
+          "transport_from_previous": "タクシー/路線バス",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [],
+          "start": "16:00",
+          "end": "18:00",
+          "label": "グラシア地区でカフェ、雑貨、街歩き",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "座って休む時間を確保",
+          "type": "meal_or_rest"
+        }
+      ],
+      "dinner": {
+        "name": "Cervecería Catalana",
+        "time": "19:00",
+        "location": "Carrer de Mallorca 236",
+        "dish": "タパス・モンタディート",
+        "verified": true,
+        "notes": "人気店のため行列に注意"
+      }
+    },
+    {
+      "day": 3,
+      "city": "バルセロナ",
+      "title": "ガウディの住宅建築と買い物",
+      "overnight": "バルセロナ",
+      "events": [
+        {
+          "spot_ids": [
+            "006"
+          ],
+          "start": "09:00",
+          "end": "10:20",
+          "label": "カサ・ミラ：屋上と内部",
+          "transport_from_previous": "徒歩/地下鉄",
+          "transfer_minutes_est": 0,
+          "notes": "2027/1/11〜17は休館予定。その日程なら外観だけに変更"
+        },
+        {
+          "spot_ids": [
+            "003"
+          ],
+          "start": "10:35",
+          "end": "11:55",
+          "label": "カサ・バトリョ：内部見学",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 10,
+          "notes": "日時指定予約推奨"
+        },
+        {
+          "spot_ids": [],
+          "start": "12:10",
+          "end": "13:15",
+          "label": "グラシア通り沿いで昼食",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        },
+        {
+          "spot_ids": [
+            "013"
+          ],
+          "start": "13:15",
+          "end": "15:15",
+          "label": "グラシア通り：ブランド・雑貨・お土産",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "015"
+          ],
+          "start": "15:30",
+          "end": "16:00",
+          "label": "カタルーニャ広場",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 10,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "010"
+          ],
+          "start": "16:10",
+          "end": "18:00",
+          "label": "ポルタル・デ・ランヘル通り：商店街",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 8,
+          "notes": ""
+        }
+      ],
+      "dinner": {
+        "name": "El Nacional Barcelona",
+        "time": "19:00",
+        "location": "Passeig de Gràcia 24 Bis",
+        "dish": "タパス・魚料理・肉料理（複数の飲食エリア）",
+        "verified": true,
+        "notes": "グラシア通りに戻る。約10〜20分"
+      }
+    },
+    {
+      "day": 4,
+      "city": "バルセロナ",
+      "title": "旧市街・市場・海辺",
+      "overnight": "バルセロナ",
+      "events": [
+        {
+          "spot_ids": [
+            "005"
+          ],
+          "start": "09:30",
+          "end": "10:20",
+          "label": "バルセロナ大聖堂",
+          "transport_from_previous": "徒歩/地下鉄",
+          "transfer_minutes_est": 0,
+          "notes": "日曜・宗教祝日の観光枠は14:00〜。該当時は入替必須。"
+        },
+        {
+          "spot_ids": [
+            "004"
+          ],
+          "start": "10:30",
+          "end": "11:20",
+          "label": "ゴシック地区の路地と雑貨屋",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 5,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "014"
+          ],
+          "start": "11:30",
+          "end": "12:10",
+          "label": "サンタ・カテリーナ市場：市場見学",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 8,
+          "notes": "曜日・開場を要確認。閉まっていればエル・ボルン散策に変更"
+        },
+        {
+          "spot_ids": [
+            "011"
+          ],
+          "start": "12:15",
+          "end": "13:45",
+          "label": "エル・ボルン地区：昼食・雑貨",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 7,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "008"
+          ],
+          "start": "14:00",
+          "end": "14:35",
+          "label": "ランブラス通り",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "009"
+          ],
+          "start": "14:35",
+          "end": "15:20",
+          "label": "ボケリア市場：軽食とお土産",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": "日曜休場。日曜の場合はDAY3との順序を入替"
+        },
+        {
+          "spot_ids": [
+            "007"
+          ],
+          "start": "16:00",
+          "end": "17:15",
+          "label": "バルセロネータ・ビーチ：海辺を散策",
+          "transport_from_previous": "地下鉄/タクシー",
+          "transfer_minutes_est": 25,
+          "notes": ""
+        },
+        {
+          "spot_ids": [],
+          "start": "17:15",
+          "end": "18:00",
+          "label": "海沿いで休憩・夕景",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        }
+      ],
+      "dinner": {
+        "name": "La Mar Salada",
+        "time": "20:00",
+        "location": "Pg. de Joan de Borbó 58–59",
+        "dish": "魚介パエリア・フィデウア",
+        "verified": true,
+        "notes": "火曜は休み。火曜なら別の海鮮店に変更。パエリアの夕食は20時からの営業"
+      }
+    },
+    {
+      "day": 5,
+      "city": "ローマ",
+      "title": "午前移動、午後はバロックの街歩き",
+      "overnight": "ローマ",
+      "transit_day": true,
+      "events": [
+        {
+          "spot_ids": [],
+          "start": "07:00",
+          "end": "13:30",
+          "label": "バルセロナのホテル → 空港 → ローマ → 荷物預け",
+          "transport_from_previous": "空港交通＋直行便＋市内鉄道",
+          "transfer_minutes_est": null,
+          "notes": "朝の直行便が取れた場合のモデル。飛行約1時間55分。予約便次第で午後観光を縮小",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [
+            "018"
+          ],
+          "start": "14:00",
+          "end": "14:20",
+          "label": "スペイン階段",
+          "transport_from_previous": "徒歩/地下鉄",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "027"
+          ],
+          "start": "14:20",
+          "end": "14:45",
+          "label": "コンドッティ通り：ショップ見学",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 2,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "017"
+          ],
+          "start": "15:00",
+          "end": "15:25",
+          "label": "トレビの泉",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "019"
+          ],
+          "start": "15:50",
+          "end": "16:25",
+          "label": "パンテオン（内部）",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": "入場規制や宗教行事に注意"
+        },
+        {
+          "spot_ids": [
+            "020"
+          ],
+          "start": "16:35",
+          "end": "17:00",
+          "label": "ナヴォーナ広場",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 8,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "024"
+          ],
+          "start": "17:15",
+          "end": "17:45",
+          "label": "カンポ・デ・フィオーリ広場",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 10,
+          "notes": "市場の営業時間ではなく広場の散策"
+        },
+        {
+          "spot_ids": [
+            "025"
+          ],
+          "start": "18:00",
+          "end": "18:30",
+          "label": "トラステヴェレ地区：夕方の街歩き",
+          "transport_from_previous": "徒歩/タクシー",
+          "transfer_minutes_est": 15,
+          "notes": ""
+        }
+      ],
+      "dinner": {
+        "name": "Tonnarello",
+        "time": "19:00",
+        "location": "Via della Paglia 1–3",
+        "dish": "カルボナーラ、カチョエペペ",
+        "verified": true,
+        "notes": "基本ウォークイン、待ち時間に注意"
+      }
+    },
+    {
+      "day": 6,
+      "city": "ローマ",
+      "title": "古代ローマとバチカン大聖堂",
+      "overnight": "ローマ",
+      "events": [
+        {
+          "spot_ids": [
+            "016"
+          ],
+          "start": "08:30",
+          "end": "10:10",
+          "label": "コロッセオ内部",
+          "transport_from_previous": "地下鉄/徒歩",
+          "transfer_minutes_est": 0,
+          "notes": "冬は早仕舞い。指定時刻券を事前購入。"
+        },
+        {
+          "spot_ids": [
+            "021"
+          ],
+          "start": "10:20",
+          "end": "12:00",
+          "label": "フォロ・ロマーノ・パラティーノの丘",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 10,
+          "notes": "広いので主要動線のみ"
+        },
+        {
+          "spot_ids": [
+            "028"
+          ],
+          "start": "12:15",
+          "end": "13:20",
+          "label": "モンティ地区で昼食・雑貨",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 10,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "029"
+          ],
+          "start": "13:30",
+          "end": "13:50",
+          "label": "ヴェネツィア広場（外観）",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 10,
+          "notes": ""
+        },
+        {
+          "spot_ids": [],
+          "start": "13:50",
+          "end": "14:35",
+          "label": "ヴァチカンへ移動",
+          "transport_from_previous": "地下鉄＋徒歩/タクシー",
+          "transfer_minutes_est": null,
+          "notes": "交通状況により30〜50分",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [
+            "031"
+          ],
+          "start": "14:35",
+          "end": "16:15",
+          "label": "サン・ピエトロ大聖堂",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": "宗教行事・警備待ちで短縮の可能性"
+        },
+        {
+          "spot_ids": [
+            "030"
+          ],
+          "start": "16:35",
+          "end": "17:00",
+          "label": "サンタンジェロ城（外観のみ）",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": ""
+        },
+        {
+          "spot_ids": [],
+          "start": "17:00",
+          "end": "18:00",
+          "label": "テヴェレ川沿いの散策・休憩",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        }
+      ],
+      "dinner": {
+        "name": "Mercato Centrale Roma",
+        "time": "19:00",
+        "location": "Via Giovanni Giolitti 36（テルミニ駅横）",
+        "dish": "トラピッツィーノ・ピザ・パスタを自由に選択",
+        "verified": true,
+        "notes": "近くのホテル向け。バチカン方面から地下鉄約30〜40分"
+      }
+    },
+    {
+      "day": 7,
+      "city": "ベネチア",
+      "title": "高速鉄道で移動・水の都を歩く",
+      "overnight": "ベネチア",
+      "transit_day": true,
+      "events": [
+        {
+          "spot_ids": [],
+          "start": "07:15",
+          "end": "12:30",
+          "label": "ローマ市内 → Roma Termini → Venezia Santa Lucia → 荷物預け",
+          "transport_from_previous": "徒歩＋高速鉄道",
+          "transfer_minutes_est": null,
+          "notes": "Frecciarossa所要約4時間、駅移動と待ち時間を追加。",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [],
+          "start": "12:30",
+          "end": "13:30",
+          "label": "駅・カンナレージョ地区で昼食と休憩",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        },
+        {
+          "spot_ids": [
+            "042"
+          ],
+          "start": "13:30",
+          "end": "14:25",
+          "label": "ストラーダ・ノーヴァ：商店街・雑貨",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "036"
+          ],
+          "start": "14:45",
+          "end": "15:20",
+          "label": "リアルト橋と大運河を撮影",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 20,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "041"
+          ],
+          "start": "15:20",
+          "end": "16:15",
+          "label": "メルチェリエ通り：仮面・ガラスのお土産",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "033"
+          ],
+          "start": "16:30",
+          "end": "17:20",
+          "label": "サン・マルコ広場の街並み",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 10,
+          "notes": ""
+        },
+        {
+          "spot_ids": [],
+          "start": "17:20",
+          "end": "18:00",
+          "label": "運河沿いカフェと夕景",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        }
+      ],
+      "dinner": {
+        "name": "Cantina Do Spade",
+        "time": "19:00",
+        "location": "San Polo 859（リアルト近く）",
+        "dish": "チケッティ・ヴェネチアの魚介",
+        "verified": true,
+        "notes": "サン・マルコから徒歩約15分、予約推奨"
+      }
+    },
+    {
+      "day": 8,
+      "city": "ベネチア",
+      "title": "サン・マルコの名所と大運河",
+      "overnight": "ベネチア",
+      "events": [
+        {
+          "spot_ids": [
+            "043"
+          ],
+          "start": "08:30",
+          "end": "09:15",
+          "label": "リアルト市場：朝の市場と軽食",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": "日曜など休場時はリアルト橋周辺散策"
+        },
+        {
+          "spot_ids": [
+            "035"
+          ],
+          "start": "09:45",
+          "end": "11:15",
+          "label": "ドゥカーレ宮殿内部",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 20,
+          "notes": "冬季9〜18時、最終入場17時"
+        },
+        {
+          "spot_ids": [
+            "034"
+          ],
+          "start": "11:25",
+          "end": "12:20",
+          "label": "サン・マルコ寺院内部",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 5,
+          "notes": "日曜・祝日は14時以降のため午後に入替"
+        },
+        {
+          "spot_ids": [
+            "037"
+          ],
+          "start": "12:25",
+          "end": "12:45",
+          "label": "ため息橋の外観",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 5,
+          "notes": ""
+        },
+        {
+          "spot_ids": [],
+          "start": "12:45",
+          "end": "13:45",
+          "label": "サン・マルコ周辺で昼食",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        },
+        {
+          "spot_ids": [
+            "045"
+          ],
+          "start": "14:10",
+          "end": "14:30",
+          "label": "アカデミア橋で大運河を撮影",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 20,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "046"
+          ],
+          "start": "14:45",
+          "end": "15:20",
+          "label": "サルーテ聖堂（外観中心）",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "038"
+          ],
+          "start": "15:30",
+          "end": "16:15",
+          "label": "大運河の水上バス体験",
+          "transport_from_previous": "ヴァポレット",
+          "transfer_minutes_est": 10,
+          "notes": "1号線等。乗船時間・待ち時間は便次第"
+        },
+        {
+          "spot_ids": [
+            "047"
+          ],
+          "start": "16:40",
+          "end": "17:15",
+          "label": "アクア・アルタ書店：ユニークな本屋",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": ""
+        },
+        {
+          "spot_ids": [],
+          "start": "17:15",
+          "end": "18:00",
+          "label": "市内散歩とお土産",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": null,
+          "notes": "",
+          "type": "meal_or_rest"
+        }
+      ],
+      "dinner": {
+        "name": "サン・マルコ〜リアルト周辺のバーカロ",
+        "time": "19:00",
+        "location": "ベネチア旧市街",
+        "dish": "イカ墨パスタ・魚介・チケッティ",
+        "verified": false,
+        "notes": "店名は渡航日と宿泊位置を確定後に選定"
+      }
+    },
+    {
+      "day": 9,
+      "city": "パリ",
+      "title": "午前移動、パリ名所の外観を巡る",
+      "overnight": "パリ",
+      "transit_day": true,
+      "events": [
+        {
+          "spot_ids": [],
+          "start": "07:00",
+          "end": "14:00",
+          "label": "ベネチア → マルコ・ポーロ空港 → パリ → 荷物預け",
+          "transport_from_previous": "船/空港バス＋直行便＋市内鉄道",
+          "transfer_minutes_est": null,
+          "notes": "直行便が午前にある場合。飛行約2時間。航空便確定前は保証不可",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [
+            "048"
+          ],
+          "start": "14:45",
+          "end": "16:05",
+          "label": "エッフェル塔：外観・周辺／展望台は時間次第",
+          "transport_from_previous": "地下鉄/徒歩",
+          "transfer_minutes_est": 0,
+          "notes": "展望台入場するなら別途1〜2時間必要"
+        },
+        {
+          "spot_ids": [
+            "049"
+          ],
+          "start": "16:40",
+          "end": "17:15",
+          "label": "凱旋門：外観・記念撮影",
+          "transport_from_previous": "メトロ6号線＋徒歩",
+          "transfer_minutes_est": 30,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "050"
+          ],
+          "start": "17:15",
+          "end": "18:00",
+          "label": "シャンゼリゼ通り：買い物・散歩",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": "冬は日没が早いので夜景も楽しむ"
+        }
+      ],
+      "dinner": {
+        "name": "シャンゼリゼ周辺のビストロ",
+        "time": "19:00",
+        "location": "パリ8区",
+        "dish": "ステーキ・フレンチ定番料理",
+        "verified": false,
+        "notes": "ホテルと予算確定後に具体店を選定"
+      }
+    },
+    {
+      "day": 10,
+      "city": "ノルマンディー",
+      "title": "モンサンミッシェル日帰り",
+      "overnight": "パリ",
+      "long_excursion_exception": true,
+      "events": [
+        {
+          "spot_ids": [],
+          "start": "07:00",
+          "end": "11:30",
+          "label": "パリ・モンパルナス駅 → レンヌ → モンサンミッシェル",
+          "transport_from_previous": "TGV＋路線バス＋シャトル",
+          "transfer_minutes_est": null,
+          "notes": "乗継次第で片道3.5〜4.5時間。これは唯一の長距離日帰り。",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [
+            "060"
+          ],
+          "start": "11:30",
+          "end": "12:30",
+          "label": "島内散策と昼食",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "061"
+          ],
+          "start": "12:30",
+          "end": "14:00",
+          "label": "モンサンミッシェル修道院",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": "冬季は通常9:30〜18:00、最終入場17:00。階段が多い。"
+        },
+        {
+          "spot_ids": [
+            "060"
+          ],
+          "start": "14:00",
+          "end": "15:15",
+          "label": "修道院の周辺・島内のお店散策",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [],
+          "start": "15:15",
+          "end": "20:30",
+          "label": "島 → シャトル → レンヌ → パリ",
+          "transport_from_previous": "シャトル＋バス＋TGV",
+          "transfer_minutes_est": null,
+          "notes": "便は未確定。往復の接続次第で21時以降もありえる",
+          "type": "transfer"
+        }
+      ],
+      "dinner": {
+        "name": "Bouillon Chartier Montparnasse",
+        "time": "21:00",
+        "location": "59 Bd du Montparnasse",
+        "dish": "フランスの家庭料理・手頃なビストロ料理",
+        "verified": true,
+        "notes": "モンパルナス駅に戻る場合に便利。遅延時は夕食を簡略化"
+      }
+    },
+    {
+      "day": 11,
+      "city": "パリ",
+      "title": "ルーブル・旧市街・買い物とグルメ",
+      "overnight": "パリ",
+      "events": [
+        {
+          "spot_ids": [
+            "051"
+          ],
+          "start": "08:25",
+          "end": "08:45",
+          "label": "コンコルド広場：オベリスクと写真",
+          "transport_from_previous": "徒歩/地下鉄",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "052"
+          ],
+          "start": "09:00",
+          "end": "10:40",
+          "label": "ルーブル美術館：館内鑑賞60分＋入退場",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": "火曜日は休館。予約入場時刻9:00、展示室1時間程度。"
+        },
+        {
+          "spot_ids": [
+            "054"
+          ],
+          "start": "11:05",
+          "end": "12:25",
+          "label": "モントルグイユ通りで昼食・食べ歩き",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 20,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "059"
+          ],
+          "start": "12:25",
+          "end": "12:45",
+          "label": "ストレー：老舗洋菓子店",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "053"
+          ],
+          "start": "13:15",
+          "end": "14:00",
+          "label": "ノートルダム大聖堂：内部・外観",
+          "transport_from_previous": "徒歩/地下鉄",
+          "transfer_minutes_est": 25,
+          "notes": "無料時間枠が取れれば活用。宗教行事で変動"
+        },
+        {
+          "spot_ids": [
+            "056"
+          ],
+          "start": "14:15",
+          "end": "15:30",
+          "label": "マレ地区：雑貨・お土産・街歩き",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 15,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "055"
+          ],
+          "start": "15:30",
+          "end": "15:50",
+          "label": "リヴォリ通りの買い物",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "057"
+          ],
+          "start": "16:25",
+          "end": "17:20",
+          "label": "ギャラリー・ラファイエット：ドーム・雑貨・展望",
+          "transport_from_previous": "地下鉄＋徒歩",
+          "transfer_minutes_est": 30,
+          "notes": ""
+        },
+        {
+          "spot_ids": [
+            "058"
+          ],
+          "start": "17:20",
+          "end": "18:00",
+          "label": "ラファイエット・グルメ：お土産と食事選び",
+          "transport_from_previous": "徒歩",
+          "transfer_minutes_est": 0,
+          "notes": ""
+        }
+      ],
+      "dinner": {
+        "name": "Galeries Lafayette Le Gourmet",
+        "time": "18:15",
+        "location": "35 Bd Haussmann",
+        "dish": "惣菜、パン、チーズ、チョコ・スイーツ",
+        "verified": true,
+        "notes": "日曜は短縮営業の場合あり。閉店前に食事と買い物を"
+      }
+    },
+    {
+      "day": 12,
+      "city": "移動",
+      "title": "パリ出発・帰国便",
+      "overnight": "機内（通常）",
+      "transit_day": true,
+      "events": [
+        {
+          "spot_ids": [],
+          "start": null,
+          "end": null,
+          "label": "ホテル → パリ空港（余裕を持って移動）",
+          "transport_from_previous": "空港鉄道/タクシー",
+          "transfer_minutes_est": null,
+          "notes": "国際線は通常出発の3時間前を目安に空港到着",
+          "type": "transfer"
+        },
+        {
+          "spot_ids": [],
+          "start": null,
+          "end": null,
+          "label": "パリ → 日本（直行または乗継）",
+          "transport_from_previous": "飛行機",
+          "transfer_minutes_est": null,
+          "notes": "通常、日本には13日目着。12日目の日本到着を保証しない",
+          "type": "transfer"
+        }
+      ],
+      "dinner": {
+        "name": "機内食または空港",
+        "time": null,
+        "verified": false,
+        "notes": "航空便次第"
+      }
+    }
+  ],
+  "venue_rules": [
+    {
+      "spot_id": "001",
+      "hours": "1〜2月 月〜土09:00-18:00、日10:30-18:00／3月は曜日により19:00まで",
+      "closed": "宗教行事で変動",
+      "booking": "オンライン購入のみ",
+      "url": "https://sagradafamilia.org/en/web/guest/schedules-how-to-get",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "002",
+      "hours": "観光枠 09:30〜17:30（2026年11月確認。季節・日付で変動）",
+      "closed": "原則通年",
+      "booking": "日時指定予約",
+      "url": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "003",
+      "hours": "毎日08:30〜22:30、最終21:30",
+      "closed": "通常無休",
+      "booking": "日時指定推奨",
+      "url": "https://www.casabatllo.es/en/visit/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "006",
+      "hours": "冬季09:00〜18:30（2027/2/25まで）",
+      "closed": "2027/1/11〜17休館予定",
+      "booking": "日時指定推奨",
+      "url": "https://www.lapedrera.com/en/practical-information/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "005",
+      "hours": "平日09:30〜18:30／土09:30〜17:15／日祝14:00〜17:00",
+      "closed": "礼拝で変更",
+      "booking": "入場方法確認",
+      "url": "https://catedralbcn.org/es/visita-turistica/horarios-visita-turistica/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "009",
+      "hours": "月〜土08:00〜20:30",
+      "closed": "日曜は原則休場",
+      "booking": "不要",
+      "url": "https://www.boqueria.barcelona/contact",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "016",
+      "hours": "冬季08:30〜16:30（1〜2月前半）、2月後半以降延長",
+      "closed": "1月1日・12月25日など",
+      "booking": "時間指定券30日前から",
+      "url": "https://colosseo.it/en/opening-times-and-tickets/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "019",
+      "hours": "09:00〜19:00、最終18:30",
+      "closed": "宗教行事で変動",
+      "booking": "公式チケット方式を確認",
+      "url": "https://cultura.gov.it/luogo/pantheon",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "031",
+      "hours": "宗教行事・警備により変動",
+      "closed": "宗教行事で変動",
+      "booking": "待機列の余裕必須",
+      "url": "https://www.basilicasanpietro.va/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "034",
+      "hours": "月〜土09:30〜17:15／日祝は観光14:00〜17:15",
+      "closed": "礼拝で変動",
+      "booking": "時間枠を確認",
+      "url": "https://www.veneziaunica.it/en/things-to-do-in-venice/other-churches-of-venice/st-mark-s-basilica",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "035",
+      "hours": "11〜3月09:00〜18:00、最終17:00",
+      "closed": "臨時休館に注意",
+      "booking": "公式オンライン",
+      "url": "https://palazzoducale.visitmuve.it/en/visitor-information/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "048",
+      "hours": "季節・日付で変動。公式の希望日表示で確認",
+      "closed": "天候・運営による",
+      "booking": "展望台は指定予約推奨",
+      "url": "https://www.toureiffel.paris/en/rates-opening-times",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "052",
+      "hours": "月木土日09:00〜18:00／水金09:00〜21:00",
+      "closed": "毎週火曜・1/1・5/1・12/25",
+      "booking": "指定時刻券推奨",
+      "url": "https://www.louvre.fr/en/visit/hours-admission",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "053",
+      "hours": "月火水金07:50〜19:00／木07:50〜22:00／土日08:15〜19:30",
+      "closed": "特別行事で変動",
+      "booking": "無料時間枠を利用可能",
+      "url": "https://www.notredamedeparis.fr/en/faq/reservation/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "057",
+      "hours": "通常月〜土10:00〜20:30／日11:00〜20:00（特別日変動）",
+      "closed": "祝日等で変動",
+      "booking": "不要",
+      "url": "https://haussmann.galerieslafayette.com/en/plan-my-visit/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "058",
+      "hours": "通常月〜土09:30〜21:30／日祝11:00〜20:00",
+      "closed": "特別日変動",
+      "booking": "店ごと",
+      "url": "https://haussmann.galerieslafayette.com/en/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    },
+    {
+      "spot_id": "061",
+      "hours": "1〜3月の基本09:30〜18:00、最終入場17:00（要再確認）",
+      "closed": "1/1・12/25など",
+      "booking": "公式で日時・開館確認",
+      "url": "https://www.abbaye-mont-saint-michel.fr/en/",
+      "last_checked": "2026-11-13",
+      "subject_to_change": true
+    }
+  ],
+  "not_in_schedule": [
+    {
+      "city": "バルセロナ",
+      "name": "モンセラート",
+      "reason": "郊外のため半日〜終日を消費"
+    },
+    {
+      "city": "ローマ",
+      "name": "バチカン美術館・システィーナ礼拝堂",
+      "reason": "所要2〜4時間超。2日間で両立が難しい"
+    },
+    {
+      "city": "ローマ",
+      "name": "サンタンジェロ城内部",
+      "reason": "今回は外観だけ"
+    },
+    {
+      "city": "ベネチア",
+      "name": "ムラーノ島",
+      "reason": "本島からの船と滞在で半日"
+    },
+    {
+      "city": "ベネチア",
+      "name": "ブラーノ島",
+      "reason": "本島から往復移動が長い"
+    },
+    {
+      "city": "パリ",
+      "name": "ヴェルサイユ宮殿",
+      "reason": "半日〜1日。モンサンミッシェルを優先"
+    },
+    {
+      "city": "パリ",
+      "name": "ロワール地方の古城",
+      "reason": "1日以上の移動負担"
+    },
+    {
+      "city": "パリ",
+      "name": "モンマルトル",
+      "reason": "今回の必須観光・商店街を優先"
+    },
+    {
+      "city": "パリ",
+      "name": "オペラ・ガルニエ内部",
+      "reason": "今回はラファイエットを優先"
+    }
+  ],
+  "review_before_booking": [
+    "出発日を決めて曜日を確定：ルーブル火曜休館、ボケリア日曜休場、サン・マルコ寺院日祝午後見学、大聖堂の日祝時間",
+    "カサ・ミラ2027/1/11〜17の休館に当たる場合は別日に変更か外観見学",
+    "モンサンミッシェルTGVとバスの実接続、島内シャトルと修道院最終入場を再検証",
+    "飛行機移動日（DAY5/9）の午後観光は到着時刻次第で削減し、削除した候補は台帳に残す",
+    "日本着を12日以内にするか確認。現行計画はDAY12パリ出発・通常DAY13日本着",
+    "各施設公式予約URLを確認。料金・営業時間は訪問日と季節で変わる",
+    "海鮮店La Mar Saladaは火曜休み、同日なら別店へ",
+    "大きな荷物を持って旧市街を歩かず、ホテルかロッカーへ預ける",
+    "1時間のルーブル館内鑑賞には入退場・保安検査の余裕を別途設ける"
+  ]
+}
