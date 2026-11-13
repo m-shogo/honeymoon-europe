@@ -1,0 +1,181 @@
+{
+  "version": 1,
+  "created_at": "2026-11-13",
+  "status": "provisional_until_flights_dates_and_tickets_confirmed",
+  "recommended_duration_days": 16,
+  "contingency": "DAY1にバルセロナ着できない航空券なら17日以上に調整",
+  "hotel_areas": [
+    {
+      "city": "バルセロナ",
+      "area": "カタルーニャ広場〜グラシア通り",
+      "reason": "空港交通、建築、食事と買い物を両立"
+    },
+    {
+      "city": "ローマ",
+      "area": "テルミニ〜モンティ",
+      "reason": "空港行列車、ベネチア行列車と旧市街への動線"
+    },
+    {
+      "city": "ベネチア",
+      "area": "Venezia Santa Lucia駅から徒歩約10〜15分以内の本島・カンナレージョ",
+      "reason": "スーツケースを橋や石段で引き回さない"
+    },
+    {
+      "city": "パリ",
+      "area": "Les Halles〜Palais Royal",
+      "reason": "空港からのRER Bとモンパルナス行地下鉄4号線、ルーブルに便利"
+    }
+  ],
+  "travel_rules": [
+    "都市間移動日の有料観光は原則予約しない",
+    "徒歩20分前後まで優先。楽しい通りは30分ほど歩く。石段・坂・荷物・天候時は公共交通/タクシー",
+    "昼食はルートの途中に60分以上、夕食は18〜21時台で別枠",
+    "観光地や商店街を画像作成時に勝手に消さずデータと照合する",
+    "モンサンミッシェル、真実の口は必須。ゴンドラは任意",
+    "日付確定後に営業時間・曜日・航空券・列車接続を再検証"
+  ],
+  "movie_stops": [
+    {
+      "city": "ローマ",
+      "place": "真実の口",
+      "movie": "ローマの休日",
+      "must": true,
+      "source": "https://tour.rome.it/rome/what-to-see/details/bocca-della-verita"
+    },
+    {
+      "city": "ローマ",
+      "place": "スペイン階段",
+      "movie": "ローマの休日",
+      "must": false
+    },
+    {
+      "city": "ローマ",
+      "place": "トレビの泉",
+      "movie": "甘い生活",
+      "must": false,
+      "source": "https://turismoroma.it/en/page/dolce-vita"
+    },
+    {
+      "city": "パリ",
+      "place": "ルーブル美術館",
+      "movie": "Netflix『ルパン』",
+      "must": true,
+      "source": "https://parisjetaime.com/eng/article/stroll-through-the-paris-of-lupin-netflix-a1100"
+    },
+    {
+      "city": "パリ",
+      "place": "ポン・デザール",
+      "movie": "Netflix『ルパン』",
+      "must": false,
+      "source": "https://parisjetaime.com/eng/article/stroll-through-the-paris-of-lupin-netflix-a1100"
+    }
+  ],
+  "transport_prices": {
+    "as_of": "2026-11",
+    "currency": "EUR",
+    "items": [
+      {
+        "city": "バルセロナ",
+        "name": "地下鉄・バス単発",
+        "price": 2.9,
+        "unit": "人/回",
+        "source": "https://www.tmb.cat/en/barcelona-fares-metro-bus/transport-ticket-fares"
+      },
+      {
+        "city": "バルセロナ",
+        "name": "T-casual 10回",
+        "price": 13,
+        "unit": "人/10回",
+        "source": "https://www.tmb.cat/en/barcelona-fares-metro-bus/t-casual"
+      },
+      {
+        "city": "ローマ",
+        "name": "BIT 100分",
+        "price": 1.5,
+        "unit": "人/券",
+        "source": "https://www.atac.roma.it/en/tickets-and-passes/bit"
+      },
+      {
+        "city": "ローマ",
+        "name": "Leonardo Express",
+        "price": 14,
+        "unit": "人/片道",
+        "source": "https://www.trenitalia.com/en/services/leonardo-express.html"
+      },
+      {
+        "city": "ベネチア",
+        "name": "ヴァポレット75分",
+        "price": 9.5,
+        "unit": "人/券",
+        "source": "https://www.veneziaunica.it/en/buy-tickets/public-trasport-in-venice/actv-ticket-75"
+      },
+      {
+        "city": "ベネチア",
+        "name": "ゴンドラ昼間30分",
+        "price": 90,
+        "unit": "1艘",
+        "source": "https://www.comune.venezia.it/it/node/16768"
+      },
+      {
+        "city": "パリ",
+        "name": "メトロ・RER一般券",
+        "price": 2.55,
+        "unit": "人/券",
+        "source": "https://www.iledefrance-mobilites.fr/en/tarifs-titre-de-transport-en-commun-2026"
+      },
+      {
+        "city": "パリ",
+        "name": "空港連絡",
+        "price": 14,
+        "unit": "人/券",
+        "source": "https://www.iledefrance-mobilites.fr/en/titres-et-tarifs/detail/ticket-paris-region-aeroports"
+      },
+      {
+        "city": "モンサンミッシェル",
+        "name": "修道院入場",
+        "price": 13,
+        "unit": "大人/人（2027年3月まで）",
+        "source": "https://www.abbaye-mont-saint-michel.fr/en/visit/practical-information"
+      }
+    ]
+  },
+  "closures": [
+    {
+      "place": "カサ・ミラ",
+      "condition": "2027年1月11〜17日休館",
+      "source": "https://www.lapedrera.com/en/practical-information/"
+    },
+    {
+      "place": "ボケリア市場",
+      "condition": "日曜休場"
+    },
+    {
+      "place": "リアルト魚市場",
+      "condition": "日曜・月曜休み",
+      "source": "https://www.veneziaunica.it/en/things-to-do-in-venice/venice-areas/markets"
+    },
+    {
+      "place": "サン・マルコ寺院",
+      "condition": "日曜・祝日の一般見学は午後中心"
+    },
+    {
+      "place": "ルーブル美術館",
+      "condition": "火曜休館",
+      "source": "https://www.louvre.fr/en/visit/hours-admission"
+    },
+    {
+      "place": "モンサンミッシェル修道院",
+      "condition": "1月1日休館。冬季09:30–18:00、最終17:00",
+      "source": "https://www.abbaye-mont-saint-michel.fr/en/visit/practical-information"
+    }
+  ],
+  "important_ticket_sequence": [
+    "国際線日本→BCN/パリ→日本（乗継・到着日・手荷物スルー）",
+    "ベネチア→パリ直行便とバルセロナ→ローマ直行便",
+    "ローマ→ベネチア直通Frecciarossa",
+    "パリ↔モンサンミッシェルのTGV+Keolisバス接続",
+    "サグラダ・ファミリア／グエル公園／コロッセオ／ルーブル等の指定券"
+  ],
+  "official_bus_link": "https://keolis-armor.com/en/5ey-Timetables-of-the-lines.html",
+  "etias_link": "https://travel-europe.europa.eu/etias/faq"
+}
