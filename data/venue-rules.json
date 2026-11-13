@@ -151,5 +151,23 @@
     "url": "https://www.abbaye-mont-saint-michel.fr/en/",
     "last_checked": "2026-11-13",
     "subject_to_change": true
+  },
+  {
+    "spot_id": "062",
+    "hours": "通常毎日09:30〜17:50（2026年11月公式確認）",
+    "closed": "1月1日、宗教行事による変更あり",
+    "booking": "不要。写真撮影の列に時間を確保",
+    "url": "https://cosmedin.org/contact-us/",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
+  },
+  {
+    "spot_id": "063",
+    "hours": "昼間09:00〜19:00は€90/30分/艘、夜間19:00〜04:00は€110/35分/艘",
+    "closed": "天候・潮位・乗船場の運行状況による",
+    "booking": "市の公式乗船場で手配。料金は1艘、最大5人",
+    "url": "https://www.comune.venezia.it/it/node/16768",
+    "last_checked": "2026-11-13",
+    "subject_to_change": true
   }
 ]
