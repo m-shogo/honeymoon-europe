@@ -1,0 +1,44 @@
+{
+  "last_checked": "2026-11-13",
+  "discovered_issue": "旧12日間案はDAY12にパリを出発しDAY13日本着で、都市間移動をローマ/ベネチア/パリの観光日に含めており各都市の終日観光日数が不足",
+  "requested_full_sightseeing_days": {
+    "barcelona": 3,
+    "rome": 2,
+    "venice": 2,
+    "paris_including_mont_saint_michel": 3
+  },
+  "components": {
+    "outbound_1": 1,
+    "full_sightseeing_10": 10,
+    "intercity_transfer_3": 3,
+    "return_departure_1": 1,
+    "return_arrival_next_day_1": 1
+  },
+  "total_days_required": 16,
+  "recommended": "data/itinerary-16days.json",
+  "compressed": "data/itinerary-14days.json",
+  "original_12days": "data/itinerary-12days.json",
+  "original_status": "legacy compressed draft; NOT 12-day Japan roundtrip",
+  "sources": [
+    "https://www.flightconnections.com/flights-from-nrt-to-bcn",
+    "https://www.flightconnections.com/flights-from-hnd-to-bcn",
+    "https://www.trenitalia.com/it/frecciarossa/collegamenti-frecciarossa/con-frecciarossa-a-venezia.app.html?cid=app-n2",
+    "https://www.flight.info/JL46"
+  ],
+  "immutable_preferences": {
+    "must_visit": [
+      "060",
+      "061",
+      "062"
+    ],
+    "nice_to_have": [
+      "063"
+    ]
+  },
+  "assumptions": [
+    "DAY1の日本→バルセロナが同日着の便であること。翌日着便の場合はさらに日数が必要。",
+    "DAY15パリ発・DAY16日本着の帰国便を前提とする。",
+    "都市間移動は半日〜1日として別枠に計上する。",
+    "日付が決まるまでは個別便の時刻を保証しない。"
+  ]
+}

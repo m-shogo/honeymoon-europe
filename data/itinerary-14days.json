@@ -1,0 +1,104 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-13",
+  "status": "compressed_option_with_partial_days",
+  "title": "日本発着14日間｜各都市の観光日が短くなる圧縮案",
+  "note": "これは各都市3/2/2/3日分を丸1日観光できる案ではない。DAY5/7/9は移動＋午後観光。モンサンミッシェルは維持。",
+  "days": [
+    {
+      "day": 1,
+      "city": "日本→バルセロナ",
+      "type": "international_outbound",
+      "notes": "乗継・当日着が成立する便を優先。"
+    },
+    {
+      "day": 2,
+      "city": "バルセロナ①",
+      "type": "full_sightseeing"
+    },
+    {
+      "day": 3,
+      "city": "バルセロナ②",
+      "type": "full_sightseeing"
+    },
+    {
+      "day": 4,
+      "city": "バルセロナ③",
+      "type": "full_sightseeing"
+    },
+    {
+      "day": 5,
+      "city": "バルセロナ→ローマ",
+      "type": "intercity_transfer_plus_partial_sightseeing",
+      "notes": "ローマ午後から散歩。丸1日扱いにはしない"
+    },
+    {
+      "day": 6,
+      "city": "ローマ",
+      "type": "full_sightseeing",
+      "must_visit": [
+        "062"
+      ]
+    },
+    {
+      "day": 7,
+      "city": "ローマ→ベネチア",
+      "type": "intercity_transfer_plus_partial_sightseeing",
+      "notes": "列車約4時間。ベネチア午後観光のみ"
+    },
+    {
+      "day": 8,
+      "city": "ベネチア",
+      "type": "full_sightseeing",
+      "optional_visit": [
+        "063"
+      ]
+    },
+    {
+      "day": 9,
+      "city": "ベネチア→パリ",
+      "type": "intercity_transfer_plus_partial_sightseeing"
+    },
+    {
+      "day": 10,
+      "city": "パリ①",
+      "type": "full_sightseeing"
+    },
+    {
+      "day": 11,
+      "city": "モンサンミッシェル",
+      "type": "full_sightseeing",
+      "must_visit": [
+        "060",
+        "061"
+      ]
+    },
+    {
+      "day": 12,
+      "city": "パリ②",
+      "type": "full_sightseeing"
+    },
+    {
+      "day": 13,
+      "city": "パリ→日本",
+      "type": "international_return_departure"
+    },
+    {
+      "day": 14,
+      "city": "日本到着",
+      "type": "international_return_arrival"
+    }
+  ],
+  "full_days": {
+    "barcelona": 3,
+    "rome": 1,
+    "venice": 1,
+    "paris_including_mont_saint_michel": 3
+  },
+  "partial_transfer_days": [
+    "DAY5",
+    "DAY7",
+    "DAY9"
+  ],
+  "caveat": "バルセロナへの到着がDAY2になる便なら更なる調整が必要。"
+}

@@ -1,0 +1,716 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-13",
+  "status": "recommended_realistic_duration_model",
+  "title": "ヨーロッパ新婚旅行16日間｜10日間の終日観光を確保",
+  "order": [
+    "日本",
+    "バルセロナ",
+    "ローマ",
+    "ベネチア",
+    "パリ",
+    "日本"
+  ],
+  "departure_window": "2027年1〜3月・日時未確定",
+  "absolute_minimum_days": 16,
+  "day_count_principle": "日本発・現地観光10日・都市間移動3日・欧州出発日・日本到着翌日まで含む",
+  "flight_booking_status": "not_booked",
+  "hotel_booking_status": "not_booked",
+  "venue_dates_verified": false,
+  "note": "DAY1バルセロナ到着は同日着の乗継便に乗れる場合。翌日着なら17日間以上に調整。曜日・航空便・予約により順序変更。DAY15パリ発→DAY16日本着は日付をまたぐのが基本。",
+  "preference_spot_ids": {
+    "must_visit": [
+      "060",
+      "061",
+      "062"
+    ],
+    "optional": [
+      "063"
+    ]
+  },
+  "overnight_plan": "バルセロナ4泊(D1–4)、ローマ3泊(D5–7)、ベネチア3泊(D8–10)、パリ4泊(D11–14)、D15機内、D16日本着",
+  "days": [
+    {
+      "day": 1,
+      "phase": "日本→バルセロナ",
+      "type": "international_outbound",
+      "counts_as_full_sightseeing_day": false,
+      "overnight": "バルセロナ（同日到着の便を選べた場合）",
+      "items": [
+        {
+          "place": "日本出発→乗継→バルセロナ",
+          "transport": "飛行機・空港アクセス",
+          "notes": "東京から直行便なし。接続を含め約17時間以上。到着したらホテルへ。",
+          "spot_ids": []
+        },
+        {
+          "place": "ホテルチェックイン・時差調整・ホテル周辺で軽い夕食",
+          "transport": "空港鉄道/バス/タクシー",
+          "notes": "到着後の長距離観光は入れない",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 2,
+      "phase": "バルセロナ①",
+      "type": "full_sightseeing",
+      "city": "バルセロナ",
+      "overnight": "バルセロナ",
+      "items": [
+        {
+          "place": "サグラダ・ファミリア内部",
+          "transport": "地下鉄＋徒歩",
+          "notes": "9:30–11:30、要予約",
+          "spot_ids": [
+            "001"
+          ]
+        },
+        {
+          "place": "周辺でタパスの昼食",
+          "transport": "徒歩",
+          "notes": "",
+          "spot_ids": []
+        },
+        {
+          "place": "グエル公園",
+          "transport": "タクシー約20〜30分",
+          "notes": "13:30–15:30、坂道回避、要予約",
+          "spot_ids": [
+            "002"
+          ]
+        },
+        {
+          "place": "グラシア地区で雑貨・カフェ",
+          "transport": "タクシー/バス＋徒歩",
+          "notes": "16:00–18:00",
+          "spot_ids": []
+        },
+        {
+          "place": "夕食：Cervecería Catalana",
+          "transport": "徒歩/地下鉄",
+          "notes": "19:00目安",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 3,
+      "phase": "バルセロナ②",
+      "type": "full_sightseeing",
+      "city": "バルセロナ",
+      "overnight": "バルセロナ",
+      "items": [
+        {
+          "place": "カサ・ミラ",
+          "transport": "徒歩",
+          "notes": "09:00〜10:20、休館日期間に注意",
+          "spot_ids": [
+            "006"
+          ]
+        },
+        {
+          "place": "カサ・バトリョ",
+          "transport": "徒歩10分",
+          "notes": "10:35〜11:55",
+          "spot_ids": [
+            "003"
+          ]
+        },
+        {
+          "place": "グラシア通りで昼食・買い物",
+          "transport": "徒歩",
+          "notes": "12:10〜15:15",
+          "spot_ids": [
+            "013"
+          ]
+        },
+        {
+          "place": "カタルーニャ広場・ポルタル・デ・ランヘル通り",
+          "transport": "徒歩",
+          "notes": "15:30〜18:00",
+          "spot_ids": [
+            "015",
+            "010"
+          ]
+        },
+        {
+          "place": "夕食：El Nacional",
+          "transport": "徒歩",
+          "notes": "19:00",
+          "spot_ids": [
+            "012"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 4,
+      "phase": "バルセロナ③",
+      "type": "full_sightseeing",
+      "city": "バルセロナ",
+      "overnight": "バルセロナ",
+      "items": [
+        {
+          "place": "大聖堂・ゴシック地区・サンタカテリーナ市場",
+          "transport": "徒歩",
+          "notes": "09:30〜12:10。大聖堂の祝日時間、サンタカテリーナ市場の曜日に注意",
+          "spot_ids": [
+            "005",
+            "004",
+            "014"
+          ]
+        },
+        {
+          "place": "エル・ボルンで昼食・雑貨",
+          "transport": "徒歩",
+          "notes": "12:15〜13:45",
+          "spot_ids": [
+            "011"
+          ]
+        },
+        {
+          "place": "ランブラス通り・ボケリア市場",
+          "transport": "徒歩",
+          "notes": "14:00〜15:20、市場日曜休場",
+          "spot_ids": [
+            "008",
+            "009"
+          ]
+        },
+        {
+          "place": "バルセロネータ・ビーチ",
+          "transport": "タクシー/地下鉄約25分",
+          "notes": "16:00〜18:00",
+          "spot_ids": [
+            "007"
+          ]
+        },
+        {
+          "place": "夕食：La Mar Salada",
+          "transport": "徒歩",
+          "notes": "20:00、火曜休業に注意",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 5,
+      "phase": "バルセロナ→ローマ",
+      "type": "intercity_transfer",
+      "counts_as_full_sightseeing_day": false,
+      "overnight": "ローマ",
+      "items": [
+        {
+          "place": "午前〜午後にバルセロナ→ローマへ",
+          "transport": "空港交通＋飛行機＋空港鉄道",
+          "notes": "直行便1時間55分、ホテル間約5〜7時間。航空便は未予約",
+          "spot_ids": []
+        },
+        {
+          "place": "チェックイン・近所の散策",
+          "transport": "徒歩",
+          "notes": "午後は予備時間。予約制観光は入れない",
+          "spot_ids": []
+        },
+        {
+          "place": "ローマで夕食・ジェラート",
+          "transport": "徒歩",
+          "notes": "19:00目安",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 6,
+      "phase": "ローマ①",
+      "type": "full_sightseeing",
+      "city": "ローマ",
+      "overnight": "ローマ",
+      "items": [
+        {
+          "place": "コロッセオ内部",
+          "transport": "地下鉄/徒歩",
+          "notes": "08:30〜10:10。冬季の閉館が早いため午前に予約",
+          "spot_ids": [
+            "016"
+          ]
+        },
+        {
+          "place": "フォロ・ロマーノ・パラティーノ",
+          "transport": "徒歩10分",
+          "notes": "10:20〜11:45",
+          "spot_ids": [
+            "021"
+          ]
+        },
+        {
+          "place": "モンティ地区で昼食・雑貨",
+          "transport": "徒歩",
+          "notes": "12:00〜13:00",
+          "spot_ids": [
+            "028"
+          ]
+        },
+        {
+          "place": "真実の口（映画『ローマの休日』）",
+          "transport": "徒歩/タクシー",
+          "notes": "13:45〜14:15、混雑時は余裕を増やす",
+          "spot_ids": [
+            "062"
+          ]
+        },
+        {
+          "place": "ヴェネツィア広場・カンポ・デ・フィオーリ",
+          "transport": "徒歩/タクシー",
+          "notes": "15:00〜17:00、実際の移動で調整",
+          "spot_ids": [
+            "029",
+            "024"
+          ]
+        },
+        {
+          "place": "トラステヴェレで夕食",
+          "transport": "徒歩/タクシー",
+          "notes": "19:00、カルボナーラ等",
+          "spot_ids": [
+            "025"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 7,
+      "phase": "ローマ②",
+      "type": "full_sightseeing",
+      "city": "ローマ",
+      "overnight": "ローマ",
+      "items": [
+        {
+          "place": "サン・ピエトロ大聖堂",
+          "transport": "地下鉄/タクシー",
+          "notes": "午前、行列や行事に注意",
+          "spot_ids": [
+            "031"
+          ]
+        },
+        {
+          "place": "サンタンジェロ城外観",
+          "transport": "徒歩約15分",
+          "notes": "午前中",
+          "spot_ids": [
+            "030"
+          ]
+        },
+        {
+          "place": "ナヴォーナ広場・パンテオンと昼食",
+          "transport": "徒歩",
+          "notes": "12:00〜14:00",
+          "spot_ids": [
+            "020",
+            "019"
+          ]
+        },
+        {
+          "place": "トレビの泉・スペイン階段・コンドッティ通り",
+          "transport": "徒歩",
+          "notes": "14:00〜17:30",
+          "spot_ids": [
+            "017",
+            "018",
+            "027"
+          ]
+        },
+        {
+          "place": "コルソ通りでお土産・夜はメルカートチェントラーレで夕食",
+          "transport": "徒歩/地下鉄",
+          "notes": "18:00〜19:00",
+          "spot_ids": [
+            "023",
+            "022"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 8,
+      "phase": "ローマ→ベネチア",
+      "type": "intercity_transfer",
+      "counts_as_full_sightseeing_day": false,
+      "overnight": "ベネチア",
+      "items": [
+        {
+          "place": "Roma Termini→Venezia Santa Lucia",
+          "transport": "高速鉄道Frecciarossa",
+          "notes": "列車約4時間＋駅/ホテル移動。予約便で変動",
+          "spot_ids": []
+        },
+        {
+          "place": "ホテルに荷物を預ける",
+          "transport": "徒歩/ヴァポレット",
+          "notes": "階段と橋があるため荷物は最小限",
+          "spot_ids": []
+        },
+        {
+          "place": "余力があればストラーダ・ノーヴァの散策",
+          "transport": "徒歩",
+          "notes": "17時前後まで自由時間",
+          "spot_ids": [
+            "042"
+          ]
+        },
+        {
+          "place": "夕食：バーカロでチケッティ",
+          "transport": "徒歩",
+          "notes": "19:00",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 9,
+      "phase": "ベネチア①",
+      "type": "full_sightseeing",
+      "city": "ベネチア",
+      "overnight": "ベネチア",
+      "items": [
+        {
+          "place": "リアルト市場・リアルト橋",
+          "transport": "徒歩",
+          "notes": "08:30〜09:30、市場休場日に注意",
+          "spot_ids": [
+            "043",
+            "036"
+          ]
+        },
+        {
+          "place": "ドゥカーレ宮殿内部",
+          "transport": "徒歩約20分",
+          "notes": "09:45〜11:15、事前予約推奨",
+          "spot_ids": [
+            "035"
+          ]
+        },
+        {
+          "place": "サン・マルコ寺院と広場",
+          "transport": "徒歩",
+          "notes": "11:25〜12:30、日祝は寺院の観光が午後から",
+          "spot_ids": [
+            "034",
+            "033"
+          ]
+        },
+        {
+          "place": "サン・マルコ周辺で昼食",
+          "transport": "徒歩",
+          "notes": "12:30〜13:45",
+          "spot_ids": []
+        },
+        {
+          "place": "ゴンドラ30分（できれば）",
+          "transport": "徒歩/ゴンドラ",
+          "notes": "14:15前後。30分1艘€90、天候で変動。水上バスと入替可",
+          "spot_ids": [
+            "063"
+          ]
+        },
+        {
+          "place": "ため息橋・メルチェリエ通りでお土産",
+          "transport": "徒歩",
+          "notes": "15:15〜18:00",
+          "spot_ids": [
+            "037",
+            "041"
+          ]
+        },
+        {
+          "place": "夕食：Cantina Do Spade",
+          "transport": "徒歩",
+          "notes": "19:00",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 10,
+      "phase": "ベネチア②",
+      "type": "full_sightseeing",
+      "city": "ベネチア",
+      "overnight": "ベネチア",
+      "items": [
+        {
+          "place": "カンナレージョ・ストラーダ・ノーヴァ街歩き",
+          "transport": "徒歩",
+          "notes": "09:00〜11:30、運河沿いを楽しむ",
+          "spot_ids": [
+            "044",
+            "042"
+          ]
+        },
+        {
+          "place": "リアルト周辺で昼食・工芸品",
+          "transport": "徒歩",
+          "notes": "11:30〜13:00",
+          "spot_ids": [
+            "036"
+          ]
+        },
+        {
+          "place": "アカデミア橋・サルーテ聖堂",
+          "transport": "徒歩",
+          "notes": "13:30〜15:00",
+          "spot_ids": [
+            "045",
+            "046"
+          ]
+        },
+        {
+          "place": "大運河ヴァポレットとアクア・アルタ書店",
+          "transport": "水上バス＋徒歩",
+          "notes": "15:00〜17:30、街の眺めを楽しむ",
+          "spot_ids": [
+            "038",
+            "047"
+          ]
+        },
+        {
+          "place": "夕景と夕食",
+          "transport": "徒歩",
+          "notes": "18:00〜20:00",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 11,
+      "phase": "ベネチア→パリ",
+      "type": "intercity_transfer",
+      "counts_as_full_sightseeing_day": false,
+      "overnight": "パリ",
+      "items": [
+        {
+          "place": "ベネチア中心部→空港→パリ",
+          "transport": "ヴァポレット/バス＋直行便＋鉄道",
+          "notes": "飛行約2時間、ホテル間約6〜8時間。航空便未予約",
+          "spot_ids": []
+        },
+        {
+          "place": "チェックイン・近所の散歩",
+          "transport": "徒歩",
+          "notes": "到着時間次第で無理なく街歩き",
+          "spot_ids": []
+        },
+        {
+          "place": "夕食：ホテル周辺のビストロ",
+          "transport": "徒歩",
+          "notes": "19:00。早朝発便に合わせ休息",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 12,
+      "phase": "パリ①",
+      "type": "full_sightseeing",
+      "city": "パリ",
+      "overnight": "パリ",
+      "items": [
+        {
+          "place": "エッフェル塔（希望すれば展望台）",
+          "transport": "地下鉄/徒歩",
+          "notes": "09:00〜11:00、展望台は予約制",
+          "spot_ids": [
+            "048"
+          ]
+        },
+        {
+          "place": "トロカデロ周辺で写真・ランチ",
+          "transport": "徒歩",
+          "notes": "11:00〜12:30",
+          "spot_ids": []
+        },
+        {
+          "place": "凱旋門",
+          "transport": "地下鉄6号線＋徒歩",
+          "notes": "13:00〜14:00",
+          "spot_ids": [
+            "049"
+          ]
+        },
+        {
+          "place": "シャンゼリゼ通り",
+          "transport": "徒歩",
+          "notes": "14:00〜16:00、買い物と街並み",
+          "spot_ids": [
+            "050"
+          ]
+        },
+        {
+          "place": "コンコルド広場",
+          "transport": "徒歩",
+          "notes": "16:00〜16:30",
+          "spot_ids": [
+            "051"
+          ]
+        },
+        {
+          "place": "セーヌ川沿い・夜景・夕食",
+          "transport": "徒歩/メトロ",
+          "notes": "18:00以降。クルーズは希望があれば別途",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 13,
+      "phase": "モンサンミッシェル",
+      "type": "full_sightseeing",
+      "city": "パリ/ノルマンディー",
+      "overnight": "パリ",
+      "items": [
+        {
+          "place": "パリ・モンパルナス→レンヌ→島",
+          "transport": "TGV＋バス＋シャトル",
+          "notes": "07:00発想定。片道3.5〜4.5時間以上、実ダイヤ必須",
+          "spot_ids": []
+        },
+        {
+          "place": "島内の散策と昼食",
+          "transport": "徒歩",
+          "notes": "11:30〜12:30。坂道・石段あり",
+          "spot_ids": [
+            "060"
+          ]
+        },
+        {
+          "place": "モンサンミッシェル修道院",
+          "transport": "徒歩",
+          "notes": "12:30〜14:00。冬季09:30〜18:00、要開館確認",
+          "spot_ids": [
+            "061"
+          ]
+        },
+        {
+          "place": "土産物屋と島内散歩",
+          "transport": "徒歩",
+          "notes": "14:00〜15:15",
+          "spot_ids": [
+            "060"
+          ]
+        },
+        {
+          "place": "島→レンヌ→パリ",
+          "transport": "シャトル＋バス＋TGV",
+          "notes": "15:15〜20:30目安。最終交通の接続最優先",
+          "spot_ids": []
+        },
+        {
+          "place": "夕食：モンパルナス周辺",
+          "transport": "徒歩",
+          "notes": "21:00以降。遅延時は軽食",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 14,
+      "phase": "パリ②",
+      "type": "full_sightseeing",
+      "city": "パリ",
+      "overnight": "パリ",
+      "items": [
+        {
+          "place": "ルーブル美術館（展示室は1時間）",
+          "transport": "徒歩/地下鉄",
+          "notes": "09:00〜10:40。火曜休館",
+          "spot_ids": [
+            "052"
+          ]
+        },
+        {
+          "place": "モントルグイユ通りで食べ歩き・昼食",
+          "transport": "徒歩約20分",
+          "notes": "11:05〜12:45、ストレーのスイーツも",
+          "spot_ids": [
+            "054",
+            "059"
+          ]
+        },
+        {
+          "place": "ノートルダム大聖堂",
+          "transport": "徒歩/地下鉄",
+          "notes": "13:15〜14:00、無料枠・行事に注意",
+          "spot_ids": [
+            "053"
+          ]
+        },
+        {
+          "place": "マレ地区とリヴォリ通り",
+          "transport": "徒歩",
+          "notes": "14:15〜16:00、雑貨・お土産",
+          "spot_ids": [
+            "056",
+            "055"
+          ]
+        },
+        {
+          "place": "ギャラリー・ラファイエット＆グルメ",
+          "transport": "地下鉄＋徒歩",
+          "notes": "16:30〜18:00、食品館で夕食も",
+          "spot_ids": [
+            "057",
+            "058"
+          ]
+        }
+      ]
+    },
+    {
+      "day": 15,
+      "phase": "パリ→日本（出発）",
+      "type": "international_return_departure",
+      "counts_as_full_sightseeing_day": false,
+      "overnight": "機内",
+      "items": [
+        {
+          "place": "ホテル→パリ空港",
+          "transport": "空港鉄道/タクシー",
+          "notes": "国際線出発の3時間前を目安に空港着",
+          "spot_ids": []
+        },
+        {
+          "place": "パリ発の日本行きに搭乗",
+          "transport": "飛行機",
+          "notes": "約13〜14時間。翌日着となる便が基本",
+          "spot_ids": []
+        },
+        {
+          "place": "機内食",
+          "transport": "機内",
+          "notes": "この日を帰国完了日として数えない",
+          "spot_ids": []
+        }
+      ]
+    },
+    {
+      "day": 16,
+      "phase": "日本到着・帰宅",
+      "type": "international_return_arrival",
+      "counts_as_full_sightseeing_day": false,
+      "overnight": "自宅",
+      "items": [
+        {
+          "place": "羽田/成田着・入国審査・荷物受取",
+          "transport": "飛行機＋徒歩",
+          "notes": "昼〜夜の到着例あり。便次第",
+          "spot_ids": []
+        },
+        {
+          "place": "空港→自宅",
+          "transport": "電車/バス/タクシー",
+          "notes": "入国や交通の遅延分に余裕を確保。仕事・予定はできれば入れない",
+          "spot_ids": []
+        }
+      ]
+    }
+  ]
+}
