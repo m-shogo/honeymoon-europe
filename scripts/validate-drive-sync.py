@@ -1,0 +1,47 @@
+"""Drive同期用の確定データを検査する（ネットワーク書き込みなし）。"""
+import csv
+import json
+from collections import Counter
+from pathlib import Path
+from urllib.parse import urlparse, parse_qs
+
+ROOT = Path(__file__).resolve().parents[1]
+def read_csv(name):
+    with (ROOT / 'data' / name).open(encoding='utf-8-sig', newline='') as f:
+        reader = csv.DictReader(f)
+        return reader.fieldnames, list(reader)
+
+headers, rows = read_csv('honeymoon-61-photo-index.csv')
+assert len(headers) == 25 and len(rows) == 61
+assert [r['連番'] for r in rows] == [f'{i:03}' for i in range(1, 62)]
+assert len({(r['都市'], r['スポット名']) for r in rows}) == 61
+assert Counter(r['都市'] for r in rows) == {'バルセロナ':15,'ローマ':17,'ヴェネツィア':15,'パリ':12,'ノルマンディー':2}
+photos = json.loads((ROOT / 'data/paris-added-spots-048-061.json').read_text())
+assert len(photos) == 14
+for r in rows:
+    assert None not in r
+    assert r['画像ファイル名'] == f"{r['連番']}_{r['スポット名']}.jpg"
+    assert r['Drive相対パス'] == '写真_映え版_001-061/' + r['画像ファイル名']
+    u = urlparse(r['Googleマップ検索'])
+    assert u.netloc == 'www.google.com' and u.path == '/maps/search/'
+    assert parse_qs(u.query)['query'] == [r['場所検索']]
+for r, photo in zip(rows[47:], photos):
+    assert r['連番'] == photo['no']
+    assert r['画像ファイル名'] == photo['filename']
+    assert r['写真URL'] == photo['image_url'] and r['写真出典URL'] == photo['source_url']
+    assert photo['drive_id'] in photo['drive_url']
+    assert photo['author'] and photo['license'] and photo['sha256']
+_, map_rows = read_csv('mymaps-61-import.csv')
+assert len(map_rows) == 61
+for r, m in zip(rows, map_rows):
+    assert m['Name'] == r['スポット名'] and m['City'] == r['都市']
+    assert m['Address or Query'] == r['場所検索']
+    assert m['Photo URL'] == r['写真URL'] and m['Google Maps URL'] == r['Googleマップ検索']
+_, source_rows = read_csv('photo-source-index-61.csv')
+assert len(source_rows) == 61
+for r, s in zip(rows, source_rows):
+    assert all(r[k] == s[k] for k in s)
+verification = json.loads((ROOT / 'data/mymaps-photo-verification-048-061.json').read_text())
+assert [p['no'] for p in verification] == [f'{i:03}' for i in range(48, 62)]
+assert all(p['photo'] and p['coords'] for p in verification)
+print('OK: 61件・25列・001〜061・都市別件数・地図リンク61件・追加写真14件・CSV間の行対応')

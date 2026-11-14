@@ -44,3 +44,9 @@ node scripts/validate-trip.mjs
 - `docs/travel-day-audit.md`：旅行日程の計算ミスと差分の説明。
 - `scripts/validate-duration.mjs`：日数・都市間移動・日本着・必須訪問の漏れをチェック。
 - 旧 `data/itinerary-12days.json` は圧縮した過去案であり、**12日間の日本帰着行程とは呼ばない**。写真・画像を作るときも正本として使わない。
+
+## Google Drive・61件の写真と地図（2026-11-14）
+
+- [Drive同期結果](docs/google-drive-paris-sync.md)：追加14件の実写真保存・公式情報・既存47件の保持を記録。
+- [My Maps登録状況](docs/map-registration-status.md)：61件の実地図とインポートCSV、写真表示の確認範囲。
+- `python3 scripts/validate-drive-sync.py` で写真対応CSV・出典表・地図CSVの61件の行対応を検査。
