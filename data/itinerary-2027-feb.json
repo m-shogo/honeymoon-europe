@@ -139,17 +139,18 @@
       "status": "到着空港とホテル未確定"
     }
   ],
-  "chosen_date_status": "unconfirmed",
-  "provisional_preferred_departure": "2027-02-03",
+  "chosen_date_status": "unconfirmed_waiting_for_real_ANA_multi_city_airfares",
+  "provisional_preferred_departure": "2027-02-01",
   "departure_options": [
     {
       "start": "2027-02-01",
-      "label": "比較候補A・混雑回避寄り",
-      "grade": "alternative",
+      "label": "暫定第一候補・観光と混雑のバランス",
+      "grade": "provisional_preferred",
       "notes": [
         "ヴェネツィアは2/2-3。市場は水曜営業",
         "パリ出発2/13、羽田到着2/14。余裕ある帰国",
-        "ヴェネツィア・カーニバルは開催中だが終盤前"
+        "ヴェネツィア・カーニバルは開催中だが終盤前",
+        "バルセロナ2/6〜8はカーニバル期間、ディズニー2/10（水）は民間混雑予測44%、ローマの主要施設を通常営業日に回りやすい"
       ],
       "outbound_haneda": "2027-02-01",
       "milan_and_venice_arrival": "2027-02-02",
@@ -184,8 +185,8 @@
     },
     {
       "start": "2027-02-03",
-      "label": "現時点の暫定第一候補",
-      "grade": "provisional_preferred",
+      "label": "参考候補・カーニバル街頭ショーとローマ日曜のトレードオフ",
+      "grade": "alternative",
       "notes": [
         "ヴェネツィア2/4-5はカーニバル開催中で市場の魚売場も金曜営業",
         "ローマ2/6-7（日曜一部施設休館に注意）",
@@ -225,13 +226,14 @@
     },
     {
       "start": "2027-02-06",
-      "label": "2/20帰国条件下で最も遅い候補",
+      "label": "比較候補・ヴェネツィア街頭ショー重視",
       "grade": "alternative",
       "notes": [
         "ヴェネツィア2/7-8はカーニバル終盤だがリアルト魚市場は日月休場",
         "バルセロナ2/11-13は2/12サンタ・エウラリアの日と重なる可能性（2027プログラム要確認）",
         "パリは2/14から。バレンタイン・学校休暇の影響に注意",
-        "2/19に羽田帰国で締切前日"
+        "2/19に羽田帰国で締切前日",
+        "パリ2/16（火）ディズニー民間混雑予測68%。カーニバル中だがリアルト魚市場は日・月休場"
       ],
       "outbound_haneda": "2027-02-06",
       "milan_and_venice_arrival": "2027-02-07",
@@ -263,6 +265,48 @@
       },
       "paris_departure": "2027-02-18",
       "haneda_arrival": "2027-02-19"
+    },
+    {
+      "start": "2027-02-08",
+      "label": "比較候補・現行11泊なら帰国期限超過",
+      "grade": "deadline_incompatible",
+      "notes": [
+        "11泊・4都市泊数そのままだとパリ2/20発→羽田2/21着、2/20帰国希望に反する",
+        "期限内に戻る場合はパリ2/19発・3泊へ短縮、モンサン・ディズニー・市街地を十分に回る時間が不足",
+        "2/11（木）はバチカン美術館休館、2/12（金）に見学予定",
+        "ヴェネツィア2/9カーニバル最終日、2/10魚市場営業",
+        "同一ホテル日付別保存価格11泊参考合計$1,937。ANA実売未確認"
+      ],
+      "outbound_haneda": "2027-02-08",
+      "milan_and_venice_arrival": "2027-02-09",
+      "hotel_nights": {
+        "venice": [
+          "2027-02-09",
+          "2027-02-10"
+        ],
+        "rome": [
+          "2027-02-11",
+          "2027-02-12"
+        ],
+        "barcelona": [
+          "2027-02-13",
+          "2027-02-14",
+          "2027-02-15"
+        ],
+        "paris": [
+          "2027-02-16",
+          "2027-02-17",
+          "2027-02-18",
+          "2027-02-19"
+        ]
+      },
+      "intercity": {
+        "venice_to_rome": "2027-02-11",
+        "rome_to_barcelona": "2027-02-13",
+        "barcelona_to_paris": "2027-02-16"
+      },
+      "paris_departure": "2027-02-20",
+      "haneda_arrival": "2027-02-21"
     }
   ],
   "days": [
@@ -450,5 +494,7 @@
     "https://www.flight.info/VY6007",
     "https://www.flight.info/VY8062",
     "https://www.louvre.fr/en/visit/hours-admission"
-  ]
+  ],
+  "latest_comparison_doc": "docs/2027-feb-01-06-08-comparison.md",
+  "days_note": "days配列の具体日付は旧暫定案2/3出発のまま。候補日正式決定後に更新し、現状の暫定第一候補2/1と混同しない。"
 }
