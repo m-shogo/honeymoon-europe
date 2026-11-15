@@ -46,7 +46,20 @@
     "photo_spots_film_locations": true,
     "museum_visit_time_approx_minutes": 60,
     "most_days_tour_until_local": "18:00",
-    "dinner_each_evening": true
+    "dinner_each_evening": true,
+    "current_2027_candidate_priority": [
+      "スペイン階段",
+      "バチカン美術館・システィーナ礼拝堂",
+      "コロッセオ",
+      "真実の口",
+      "サグラダ・ファミリア",
+      "ルーブル美術館",
+      "エッフェル塔",
+      "凱旋門",
+      "モン・サン＝ミッシェル",
+      "ディズニーランド・パリ",
+      "ゴンドラ"
+    ]
   },
   "long_haul_flights": [
     {
@@ -312,19 +325,19 @@
   "days": [
     {
       "day": 1,
-      "date": "2027-02-03",
+      "date": "2027-02-01",
       "place": "日本・機内",
       "overnight": "outbound_night",
-      "outline": "羽田21:40 NH207出発・機内泊",
+      "outline": "羽田21:40 NH207 ミラノへ・機内泊",
       "candidate_spot_ids": [],
       "planned_not_reserved": true
     },
     {
       "day": 2,
-      "date": "2027-02-04",
+      "date": "2027-02-02",
       "place": "ミラノ経由→ヴェネツィア",
       "overnight": "venice_hotel",
-      "outline": "ミラノ04:50着、昼12時頃列車、ヴェネツィア14:30頃着。カーニバル街歩き",
+      "outline": "ミラノMXP04:50着、昼12時頃高速鉄道、ヴェネツィア14:30頃着。運河とカーニバル時期の街並み",
       "candidate_spot_ids": [
         "033",
         "036"
@@ -333,10 +346,10 @@
     },
     {
       "day": 3,
-      "date": "2027-02-05",
+      "date": "2027-02-03",
       "place": "ヴェネツィア",
       "overnight": "venice_hotel",
-      "outline": "サン・マルコ・ドゥカーレ宮殿・リアルト魚市場（金曜営業）・ゴンドラ",
+      "outline": "リアルト魚市場（水曜営業）・サンマルコ広場・ドゥカーレ宮殿・ゴンドラ。公式街頭ショーは2/4からで当日対象外",
       "candidate_spot_ids": [
         "034",
         "035",
@@ -347,10 +360,10 @@
     },
     {
       "day": 4,
-      "date": "2027-02-06",
+      "date": "2027-02-04",
       "place": "ヴェネツィア→ローマ",
       "overnight": "rome_hotel",
-      "outline": "高速鉄道10〜11時頃発、ローマ14〜15時頃着。午後は旧市街と夕食",
+      "outline": "高速鉄道10〜11時頃発、ローマ14〜15時頃着。スペイン階段・トレビの泉・夕食",
       "candidate_spot_ids": [
         "017",
         "019"
@@ -359,10 +372,10 @@
     },
     {
       "day": 5,
-      "date": "2027-02-07",
+      "date": "2027-02-05",
       "place": "ローマ",
       "overnight": "rome_hotel",
-      "outline": "コロッセオ・真実の口・市内街歩き。日曜の休館と予約枠に注意",
+      "outline": "バチカン美術館・システィーナ礼拝堂・サンピエトロ大聖堂、コロッセオと真実の口（予約枠次第では多忙）",
       "candidate_spot_ids": [
         "016",
         "062",
@@ -372,34 +385,34 @@
     },
     {
       "day": 6,
-      "date": "2027-02-08",
+      "date": "2027-02-06",
       "place": "ローマ→バルセロナ",
       "overnight": "barcelona_hotel",
-      "outline": "午前は空港へ。FCO 12:35→BCN 14:25、ホテルへ移動",
+      "outline": "午前はFCOへ（9:30〜10:00空港着推奨）。12:35発→14:25BCN着。バルセロナ・カーニバル期間",
       "candidate_spot_ids": [],
       "planned_not_reserved": true
     },
     {
       "day": 7,
-      "date": "2027-02-09",
+      "date": "2027-02-07",
       "place": "バルセロナ",
       "overnight": "barcelona_hotel",
-      "outline": "サグラダ・ファミリア・グエル公園・ガウディ建築",
+      "outline": "グエル公園・カサバトリョ・ゴシック地区街歩き・市場",
       "candidate_spot_ids": [
-        "001",
         "002",
-        "003"
+        "003",
+        "004"
       ],
       "planned_not_reserved": true
     },
     {
       "day": 8,
-      "date": "2027-02-10",
+      "date": "2027-02-08",
       "place": "バルセロナ",
       "overnight": "barcelona_hotel",
-      "outline": "ゴシック地区・市場・ランブラス通り・街歩き・買い物",
+      "outline": "サグラダ・ファミリア（平日営業）とお土産ショッピング",
       "candidate_spot_ids": [
-        "004",
+        "001",
         "008",
         "009"
       ],
@@ -407,42 +420,30 @@
     },
     {
       "day": 9,
-      "date": "2027-02-11",
+      "date": "2027-02-09",
       "place": "バルセロナ→パリ",
       "overnight": "paris_hotel",
-      "outline": "BCN 15:40→パリ17:40、空港からホテルへ",
+      "outline": "BCN15:40→パリ17:40、ホテルへ",
       "candidate_spot_ids": [],
       "planned_not_reserved": true
     },
     {
       "day": 10,
-      "date": "2027-02-12",
-      "place": "パリ・モンサンミッシェル",
-      "overnight": "paris_hotel",
-      "outline": "モンサンミッシェル島と修道院への日帰り。天候・接続要確認",
-      "candidate_spot_ids": [
-        "060",
-        "061"
-      ],
-      "planned_not_reserved": true
-    },
-    {
-      "day": 11,
-      "date": "2027-02-13",
+      "date": "2027-02-10",
       "place": "パリ・ディズニーランド",
       "overnight": "paris_hotel",
-      "outline": "ディズニーランド・パリ終日（前回の希望を反映）。入園日を平日優先で要調整",
+      "outline": "ディズニーランド・パリ終日（水曜日、民間混雑予測44%）。チケット・アトラクション営業時間要確認",
       "candidate_spot_ids": [
         "064"
       ],
       "planned_not_reserved": true
     },
     {
-      "day": 12,
-      "date": "2027-02-14",
+      "day": 11,
+      "date": "2027-02-11",
       "place": "パリ中心街",
       "overnight": "paris_hotel",
-      "outline": "エッフェル塔・ルーブル・凱旋門・シャンゼリゼ・商店街。時間不足なら優先順位付け",
+      "outline": "ルーブル美術館（火曜以外）・凱旋門・エッフェル塔・シャンゼリゼ・お土産",
       "candidate_spot_ids": [
         "048",
         "049",
@@ -452,11 +453,23 @@
       "planned_not_reserved": true
     },
     {
+      "day": 12,
+      "date": "2027-02-12",
+      "place": "パリ・モンサンミッシェル",
+      "overnight": "paris_hotel",
+      "outline": "モン・サン＝ミッシェル島と修道院への日帰り。長距離移動・接続・潮位/天候確認",
+      "candidate_spot_ids": [
+        "060",
+        "061"
+      ],
+      "planned_not_reserved": true
+    },
+    {
       "day": 13,
-      "date": "2027-02-15",
+      "date": "2027-02-13",
       "place": "パリ→羽田",
       "overnight": "return_night",
-      "outline": "午前〜昼にパリ市内観光・買い物、空港へ。NH216 18:40発、機内泊",
+      "outline": "午前パリ市内で買い物、空港へ。NH216 CDG18:40発",
       "candidate_spot_ids": [
         "053",
         "057"
@@ -465,10 +478,10 @@
     },
     {
       "day": 14,
-      "date": "2027-02-16",
+      "date": "2027-02-14",
       "place": "日本",
       "overnight": "arrive_japan",
-      "outline": "羽田16:10着（パリ出発翌日）",
+      "outline": "羽田16:10着、2027/2/20の帰国期限を満たす",
       "candidate_spot_ids": [],
       "planned_not_reserved": true
     }
@@ -496,5 +509,7 @@
     "https://www.louvre.fr/en/visit/hours-admission"
   ],
   "latest_comparison_doc": "docs/2027-feb-01-06-08-comparison.md",
-  "days_note": "days配列の具体日付は旧暫定案2/3出発のまま。候補日正式決定後に更新し、現状の暫定第一候補2/1と混同しない。"
+  "days_note": "daysは2027-02-01出発の暫定第一候補14日モデル。2/6・2/8はdeparture_optionsと比較文書を参照。日付正式決定後に施設予約時刻を確定する。",
+  "price_comparison_as_of": "2026-11-15",
+  "price_comparison_notes": "ANAオープンジョー3日付組の実売未取得。同一ホテル・2名1室11泊を比較するAxel保存参考価格USD: 2/1 $1921, 2/6 $2072, 2/8 $1937（税や特定部屋条件の再確認必須）。"
 }
