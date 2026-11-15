@@ -50,3 +50,7 @@ node scripts/validate-trip.mjs
 - [Drive同期結果](docs/google-drive-paris-sync.md)：追加14件の実写真保存・公式情報・既存47件の保持を記録。
 - [My Maps登録状況](docs/map-registration-status.md)：61件の実地図とインポートCSV、写真表示の確認範囲。
 - `python3 scripts/validate-drive-sync.py` で写真対応CSV・出典表・地図CSVの61件の行対応を検査。
+
+## 写真付き61スポット完成版（2026-11-15）
+
+[都市別My Mapsを開く](https://www.google.com/maps/d/viewer?mid=1gKS7F8p3_YdS952P8K2jDE28-1epSAM)。全61件のピン内写真を実表示確認し、4都市＋ノルマンディーの5レイヤーへ整理済み。[検証記録と未確認事項](docs/map-registration-status.md)、[全写真の出典・利用条件](data/photo-credits-001-061.csv)を記録。前の地図・既存写真は保持している。

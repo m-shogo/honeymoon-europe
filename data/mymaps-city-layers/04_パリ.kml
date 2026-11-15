@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2"><Document><name>パリ</name><Style id="icon-1899-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-0F9D58-normal">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-0F9D58-highlight">
+      <IconStyle>
+        <color>ff589d0f</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-0F9D58">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-0F9D58-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-0F9D58-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1899-F57C00-normal">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1899-F57C00-highlight">
+      <IconStyle>
+        <color>ff007cf5</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+        <hotSpot x="32" xunits="pixels" y="64" yunits="insetPixels" />
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1899-F57C00">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1899-F57C00-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1899-F57C00-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Placemark id="spot-048"><name>エッフェル塔</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Eiffel_Tower_and_blue_sky.jpg/1280px-Eiffel_Tower_and_blue_sky.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🔵 観光スポット ★★★&lt;br&gt;見どころ：パリの象徴。登るなら指定時刻券が便利&lt;br&gt;料金：外観無料。1/10まで：2階階段€14.80・2階エレベーター€23.50・最上階エレベーター€36.70。1/11以降：順に€15.20・€24.10・€37.70（2027年）&lt;br&gt;営業時間：季節・日付で変動。公式カレンダー参照&lt;br&gt;休み・注意：悪天候・保安検査・最上階規制&lt;br&gt;滞在目安：1.5〜2時間（外観30分）&lt;br&gt;近くで回る：トロカデロ→エッフェル塔→凱旋門&lt;br&gt;食べ物：クレープ／クロワッサン&lt;br&gt;お土産：塔の模型／マグネット&lt;br&gt;&lt;br&gt;&lt;a href="https://ticket.toureiffel.paris/en"&gt;公式・予約ページ&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Tour%20Eiffel%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1ahscYMTBk1JdDaWn7gfS3FG1Eb_x833A/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Nikolija Grozdanovic／CC BY-SA 4.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Eiffel_Tower_and_blue_sky.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by-sa/4.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0288D1</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Eiffel_Tower_and_blue_sky.jpg/1280px-Eiffel_Tower_and_blue_sky.jpg</value></Data></ExtendedData><Point><coordinates>2.29448,48.85837,0</coordinates></Point></Placemark><Placemark id="spot-049"><name>凱旋門</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Arc_De_Triomphe%2C_Paris%2C_France.jpg/1280px-Arc_De_Triomphe%2C_Paris%2C_France.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🔵 観光スポット ★★★&lt;br&gt;見どころ：高所展望より街歩き中心なら外観でも十分&lt;br&gt;料金：外観・無名戦士の墓は無料／屋上は現行冬期一般€16（2027訪問日の料金を予約時確認）&lt;br&gt;営業時間：10〜3月：水〜月10:00〜22:30／火11:00〜22:30（最終45分前）&lt;br&gt;休み・注意：2027/1/1は17:30閉館。式典・悪天候で臨時変更。地下通路を利用&lt;br&gt;滞在目安：30〜60分&lt;br&gt;近くで回る：シャンゼリゼ通り／コンコルド広場&lt;br&gt;食べ物：エクレア／カフェ&lt;br&gt;お土産：凱旋門の模型・ポストカード&lt;br&gt;&lt;br&gt;&lt;a href="https://www.paris-arc-de-triomphe.fr/en/visit"&gt;公式・予約ページ&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Arc%20de%20Triomphe%2C%20Place%20Charles%20de%20Gaulle%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1lgOGJ82cBDl1q6B1nS5ATruC0f_QjDao/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：TorbeyCharbel／CC BY 4.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Arc_De_Triomphe,_Paris,_France.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by/4.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0288D1</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ae/Arc_De_Triomphe%2C_Paris%2C_France.jpg/1280px-Arc_De_Triomphe%2C_Paris%2C_France.jpg</value></Data></ExtendedData><Point><coordinates>2.29502,48.87379,0</coordinates></Point></Placemark><Placemark id="spot-050"><name>シャンゼリゼ通り</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Champs_Elysees_Paris_Wikimedia_Commons.jpg/1280px-Champs_Elysees_Paris_Wikimedia_Commons.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🟢 お土産・商店街 ★★★&lt;br&gt;見どころ：約1.9kmの大通り。街並みを見ながら徒歩がおすすめ&lt;br&gt;料金：通り無料／買い物代別&lt;br&gt;営業時間：屋外終日／店ごとに異なる&lt;br&gt;休み・注意：店ごとの休業日確認&lt;br&gt;滞在目安：1〜2時間&lt;br&gt;近くで回る：凱旋門→シャンゼリゼ通り→コンコルド広場&lt;br&gt;食べ物：マカロン／カフェ&lt;br&gt;お土産：ブランド小物／パリ雑貨&lt;br&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Avenue%20des%20Champs-%C3%89lys%C3%A9es%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1iXypcN3y_ZDw8edZn3SGo2CXjrJngoSC/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Benh LIEU SONG／CC BY-SA 3.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Champs_Elysees_Paris_Wikimedia_Commons.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by-sa/3.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0F9D58</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Champs_Elysees_Paris_Wikimedia_Commons.jpg/1280px-Champs_Elysees_Paris_Wikimedia_Commons.jpg</value></Data></ExtendedData><Point><coordinates>2.29793,48.87294,0</coordinates></Point></Placemark><Placemark id="spot-051"><name>コンコルド広場</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Obelisk_and_fountain_in_Place_de_la_Concorde%2C_Paris.JPG/1280px-Obelisk_and_fountain_in_Place_de_la_Concorde%2C_Paris.JPG" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🔵 観光スポット ★★&lt;br&gt;見どころ：凱旋門から歩き、広場で休憩&lt;br&gt;料金：無料&lt;br&gt;営業時間：屋外終日&lt;br&gt;休み・注意：工事・イベントによる立入制限&lt;br&gt;滞在目安：15〜30分&lt;br&gt;近くで回る：シャンゼリゼ／チュイルリー庭園／ルーブル&lt;br&gt;食べ物：カフェ／焼き菓子&lt;br&gt;お土産：オベリスクのポストカード&lt;br&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Place%20de%20la%20Concorde%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1iZsRV-IxnO-TYn7r_2zbXP1FjQot93H7/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Rodrigo Menezes／CC BY-SA 3.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Obelisk_and_fountain_in_Place_de_la_Concorde,_Paris.JPG"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by-sa/3.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0288D1</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/Obelisk_and_fountain_in_Place_de_la_Concorde%2C_Paris.JPG/1280px-Obelisk_and_fountain_in_Place_de_la_Concorde%2C_Paris.JPG</value></Data></ExtendedData><Point><coordinates>2.32054,48.86558,0</coordinates></Point></Placemark><Placemark id="spot-052"><name>ルーブル美術館</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Louvre_Pyramid_and_Cour_Napol%C3%A9on%2C_Paris.jpg/1280px-Louvre_Pyramid_and_Cour_Napol%C3%A9on%2C_Paris.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🔵 観光スポット ★★★&lt;br&gt;見どころ：日時指定予約推奨。館内1時間は希望に基づく計画目安で、移動・保安検査・行列を含まない。&lt;br&gt;料金：€32（非EEA一般大人、2026年確認）&lt;br&gt;営業時間：月木土日9:00〜18:00／水金9:00〜21:00&lt;br&gt;休み・注意：火曜・1/1・5/1・12/25休館&lt;br&gt;滞在目安：展示室1時間＋入退場40分&lt;br&gt;近くで回る：コンコルド広場／ポン・デザール／モントルグイユ通り&lt;br&gt;食べ物：カフェ／クロワッサン&lt;br&gt;お土産：美術館限定雑貨・画集&lt;br&gt;&lt;br&gt;&lt;a href="https://ticket.louvre.fr/en"&gt;公式・予約ページ&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Mus%C3%A9e%20du%20Louvre%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1uH52rbbObYuMmG66V1g5CeHyZurtbXOe/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Aliva Sahoo／CC BY-SA 4.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Louvre_Pyramid_and_Cour_Napol%C3%A9on,_Paris.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by-sa/4.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0288D1</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Louvre_Pyramid_and_Cour_Napol%C3%A9on%2C_Paris.jpg/1280px-Louvre_Pyramid_and_Cour_Napol%C3%A9on%2C_Paris.jpg</value></Data></ExtendedData><Point><coordinates>2.33764,48.86061,0</coordinates></Point></Placemark><Placemark id="spot-053"><name>ノートルダム大聖堂</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Notre-Dame_de_Paris%2C_facade.jpg/1280px-Notre-Dame_de_Paris%2C_facade.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🔵 観光スポット ★★★&lt;br&gt;見どころ：大聖堂への入場は無料、予約は必須ではない。無料時間枠は公式予約画面で確認。宗教行事を優先。&lt;br&gt;料金：大聖堂は無料／一部有料見学別&lt;br&gt;営業時間：公式案内：平日7:50–19:00（木曜22:00まで）／土日8:15–19:30。礼拝・特別日は変更。訪問前に要確認&lt;br&gt;休み・注意：ミサ・宗教行事で一般見学制限&lt;br&gt;滞在目安：30〜60分&lt;br&gt;近くで回る：シテ島／マレ地区／リヴォリ通り&lt;br&gt;食べ物：クレープ／パン&lt;br&gt;お土産：ステンドグラス・大聖堂の雑貨&lt;br&gt;&lt;br&gt;&lt;a href="https://www.notredamedeparis.fr/en/visit/reservation-free/"&gt;公式・予約ページ&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Cath%C3%A9drale%20Notre-Dame%20de%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1AIXiXMxT7D3qF4WbWEA3YUtKB4Gs0DN4/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Gerda Arendt／CC0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Notre-Dame_de_Paris,_facade.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="http://creativecommons.org/publicdomain/zero/1.0/deed.en"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0288D1</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Notre-Dame_de_Paris%2C_facade.jpg/1280px-Notre-Dame_de_Paris%2C_facade.jpg</value></Data></ExtendedData><Point><coordinates>2.3499,48.85296,0</coordinates></Point></Placemark><Placemark id="spot-054"><name>モントルグイユ通り</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Paris_-_Rue_Montorgueil.jpg/1280px-Paris_-_Rue_Montorgueil.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🟢 お土産・商店街 ★★★&lt;br&gt;見どころ：昔ながらの食材店やカフェが並ぶ市場通り&lt;br&gt;料金：無料（商店街）／飲食代別&lt;br&gt;営業時間：通りは終日／店舗は店舗ごと&lt;br&gt;休み・注意：店による／朝〜昼の食べ歩き推奨&lt;br&gt;滞在目安：1〜1.5時間&lt;br&gt;近くで回る：ストレー／レ・アル／ルーブル&lt;br&gt;食べ物：パン／チーズ／エスカルゴ&lt;br&gt;お土産：ジャム／焼き菓子／紅茶&lt;br&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Rue%20Montorgueil%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1IxFv_ccIHoBetWexasfG5GsWgPgQacQf/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：GillyBerlin from Berlin, Germany／CC BY 2.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Paris_-_Rue_Montorgueil.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by/2.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0F9D58</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Paris_-_Rue_Montorgueil.jpg/1280px-Paris_-_Rue_Montorgueil.jpg</value></Data></ExtendedData><Point><coordinates>2.3468,48.86478,0</coordinates></Point></Placemark><Placemark id="spot-055"><name>リヴォリ通り</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Rue_de_RIVOLI%2C_Paris.jpg/1280px-Rue_de_RIVOLI%2C_Paris.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🟢 お土産・商店街 ★★&lt;br&gt;見どころ：パリ中心部の定番買い物ルート&lt;br&gt;料金：無料（商店街）&lt;br&gt;営業時間：屋外終日／店舗は店舗ごと&lt;br&gt;休み・注意：店舗ごとに異なる&lt;br&gt;滞在目安：30〜60分&lt;br&gt;近くで回る：ルーブル／マレ地区／パリ市庁舎&lt;br&gt;食べ物：チョコ／カフェ&lt;br&gt;お土産：Tシャツ／雑貨／ファッション&lt;br&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Rue%20de%20Rivoli%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1uTELdxHjFDJCxItHvC2wFWpynKw8gNBS/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Britchi Mirela／CC BY-SA 3.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Rue_de_RIVOLI,_Paris.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by-sa/3.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0F9D58</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Rue_de_RIVOLI%2C_Paris.jpg/1280px-Rue_de_RIVOLI%2C_Paris.jpg</value></Data></ExtendedData><Point><coordinates>2.33219,48.86374,0</coordinates></Point></Placemark><Placemark id="spot-056"><name>マレ地区</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jewish_quarter%2C_rue_des_Rosiers%2C_Le_Marais%2C_Paris_2016.jpg/1280px-Jewish_quarter%2C_rue_des_Rosiers%2C_Le_Marais%2C_Paris_2016.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🟢 お土産・商店街 ★★★&lt;br&gt;見どころ：石畳・ブティック・個人商店を散策&lt;br&gt;料金：無料（街歩き）&lt;br&gt;営業時間：屋外終日／個店の営業は店ごと&lt;br&gt;休み・注意：日曜営業の個店も多いが要確認&lt;br&gt;滞在目安：1〜2時間&lt;br&gt;近くで回る：リヴォリ通り／ノートルダム／サン・ポール&lt;br&gt;食べ物：ファラフェル／パティスリー&lt;br&gt;お土産：香水／革小物／ヴィンテージ雑貨&lt;br&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Le%20Marais%2C%2075004%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1e6NFTYTCVtOT8xV2wvgu1iFJ1nyBcEfO/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Guilhem Vellut from Paris, France／CC BY 2.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Jewish_quarter,_rue_des_Rosiers,_Le_Marais,_Paris_2016.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by/2.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-0F9D58</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fd/Jewish_quarter%2C_rue_des_Rosiers%2C_Le_Marais%2C_Paris_2016.jpg/1280px-Jewish_quarter%2C_rue_des_Rosiers%2C_Le_Marais%2C_Paris_2016.jpg</value></Data></ExtendedData><Point><coordinates>2.35827,48.85342,0</coordinates></Point></Placemark><Placemark id="spot-057"><name>ギャラリー・ラファイエット</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🟢 お土産・商店街 ★★★&lt;br&gt;見どころ：美しいドームと屋上が必見。オペラ座内部には行かない&lt;br&gt;料金：入館無料／買い物別&lt;br&gt;営業時間：現行案内：月〜土10:00–20:30／日11:00–20:00。2027年の営業日・祝日は要確認&lt;br&gt;休み・注意：屋上は天候で閉鎖／祝日は変動&lt;br&gt;滞在目安：1〜1.5時間&lt;br&gt;近くで回る：ラファイエット・グルメ／オペラ周辺&lt;br&gt;食べ物：マカロン／カフェ&lt;br&gt;お土産：フランスコスメ・ファッション・土産&lt;br&gt;&lt;br&gt;&lt;a href="https://haussmann.galerieslafayette.com/en/plan-my-visit/"&gt;公式案内&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Galeries%20Lafayette%20Paris%20Haussmann%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1_Ukn4Wu9nDLF3zQpYFM0N4iKDj0v0v_T/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Giallopolenta ／Public domain&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Galeries_Lafayette_Paris_Dome.jpg"&gt;写真の出典&lt;/a&gt;&lt;br&gt;写真の再利用条件は要確認（既存資料の写真）</description><styleUrl>#icon-1899-0F9D58</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Galeries_Lafayette_Paris_Dome.jpg/1280px-Galeries_Lafayette_Paris_Dome.jpg</value></Data></ExtendedData><Point><coordinates>2.3321,48.87362,0</coordinates></Point></Placemark><Placemark id="spot-058"><name>ラファイエット・グルメ</name><description>&lt;img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Galeries_Lafayette_Gourmet.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🟠 食事・市場 ★★★&lt;br&gt;見どころ：有名フードホール。夕食・お土産の両方に便利&lt;br&gt;料金：入場無料／飲食代別&lt;br&gt;営業時間：月〜土9:30〜21:30／日祝11:00〜20:00&lt;br&gt;休み・注意：店舗ごとに営業時間差あり&lt;br&gt;滞在目安：45〜90分&lt;br&gt;近くで回る：ギャラリー・ラファイエット／オペラ周辺&lt;br&gt;食べ物：チーズ／総菜／パン／マカロン&lt;br&gt;お土産：チョコ／ジャム／焼き菓子&lt;br&gt;&lt;br&gt;&lt;a href="https://haussmann.galerieslafayette.com/en/the-gourmet-market/"&gt;公式案内&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Galeries%20Lafayette%20Le%20Gourmet%2C%2035%20Bd%20Haussmann%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1jc6sa6B3cyFPTf8DETfFQtuW-lXvzL5U/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：Thomon／CC BY-SA 4.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Galeries_Lafayette_Gourmet.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by-sa/4.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-F57C00</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://upload.wikimedia.org/wikipedia/commons/e/e7/Galeries_Lafayette_Gourmet.jpg</value></Data></ExtendedData><Point><coordinates>2.3304,48.87315,0</coordinates></Point></Placemark><Placemark id="spot-059"><name>ストレー</name><description>&lt;img src="https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Stohrer_Patisserie_in_Paris.jpg/1280px-Stohrer_Patisserie_in_Paris.jpg" height="220" width="auto"&gt;&lt;br&gt;&lt;br&gt;🟠 食事・市場 ★★&lt;br&gt;見どころ：1730年創業。生菓子は現地で食べたい&lt;br&gt;料金：入場無料／購入代別&lt;br&gt;営業時間：モントルグイユ本店：月〜土8:00–20:30／日8:00–20:00（現行公式案内。2027特別日は要確認）&lt;br&gt;休み・注意：祝日・特別営業に注意&lt;br&gt;滞在目安：15〜30分&lt;br&gt;近くで回る：モントルグイユ通り／レ・アル&lt;br&gt;食べ物：ババ・オ・ラム／エクレア&lt;br&gt;お土産：焼き菓子／ギフト菓子&lt;br&gt;&lt;br&gt;&lt;a href="https://stohrer.fr/nos-boutiques/"&gt;公式案内&lt;/a&gt;&lt;br&gt;&lt;a href="https://www.google.com/maps/search/?api=1&amp;amp;query=Stohrer%2C%2051%20Rue%20Montorgueil%2C%20Paris%2C%20France"&gt;Googleマップで開く&lt;/a&gt;&lt;br&gt;&lt;a href="https://drive.google.com/file/d/1-JqWHwE9_1KE8I8JyvG7iEXBbtg7QWJW/view?usp=drivesdk"&gt;保存した写真&lt;/a&gt;&lt;br&gt;確認：2026-11-14／訪問日の料金・営業は再確認&lt;br&gt;写真：TorbeyCharbel／CC BY 4.0&lt;br&gt;&lt;a href="https://commons.wikimedia.org/wiki/File:Stohrer_Patisserie_in_Paris.jpg"&gt;写真の出典&lt;/a&gt;・&lt;a href="https://creativecommons.org/licenses/by/4.0"&gt;利用条件&lt;/a&gt;</description><styleUrl>#icon-1899-F57C00</styleUrl><ExtendedData><Data name="gx_media_links"><value>https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Stohrer_Patisserie_in_Paris.jpg/1280px-Stohrer_Patisserie_in_Paris.jpg</value></Data></ExtendedData><Point><coordinates>2.34681,48.86526,0</coordinates></Point></Placemark></Document></kml>

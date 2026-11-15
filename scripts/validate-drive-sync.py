@@ -45,3 +45,23 @@ verification = json.loads((ROOT / 'data/mymaps-photo-verification-048-061.json')
 assert [p['no'] for p in verification] == [f'{i:03}' for i in range(48, 62)]
 assert all(p['photo'] and p['coords'] for p in verification)
 print('OK: 61件・25列・001〜061・都市別件数・地図リンク61件・追加写真14件・CSV間の行対応')
+
+# 完成版My Mapsの読み戻しとKML・写真確認記録を照合する。
+import xml.etree.ElementTree as ET
+ns = {'k':'http://www.opengis.net/kml/2.2'}
+kml = ET.parse(ROOT / 'data/mymaps-61-photos-city-layers.kml')
+placemarks = kml.findall('.//k:Placemark', ns)
+assert len(placemarks) == 61
+assert [p.find('k:name', ns).text for p in placemarks] == [r['スポット名'] for r in rows]
+assert len(kml.findall('.//k:Folder', ns)) == 5
+assert all('<img src=' in p.find('k:description', ns).text for p in placemarks)
+verified = json.loads((ROOT/'data/mymaps-61-verification.json').read_text())
+assert len(verified) == 61 and all(v['photo'] and v['maps_link'] and v['official_link'] for v in verified)
+expected_icons = {'観光スポット':'1899-0288D1','食事・市場':'1899-F57C00','お土産・商店街':'1899-0F9D58'}
+assert all(v['name'] == r['スポット名'] and v['icon'] == expected_icons[r['色分け']] for v,r in zip(verified,rows))
+photo_checks = json.loads((ROOT/'data/mymaps-viewer-photo-checks.json').read_text())
+assert len(photo_checks) == 61 and all(v['googleHostedPhoto'] and v['visible_photo_stddev'] > 5 for v in photo_checks)
+assert [v['no'] for v in photo_checks] == [r['連番'] for r in rows]
+rounding = json.loads((ROOT/'data/mymaps-coordinate-rounding-audit.json').read_text())
+assert all(v['distance_m'] < 1.2 for v in rounding)
+print('OK: KML61件・5フォルダ・写真61件の実表示記録・登録リンク・3色・座標表示差1.2m未満')

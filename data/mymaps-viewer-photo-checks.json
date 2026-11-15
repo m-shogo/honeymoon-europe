@@ -1,0 +1,856 @@
+[
+  {
+    "no": "001",
+    "name": "サグラダ・ファミリア",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 65.828,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "002",
+    "name": "グエル公園",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 72.012,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "003",
+    "name": "カサ・バトリョ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 61.32,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "004",
+    "name": "ゴシック地区",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 42.878,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "005",
+    "name": "バルセロナ大聖堂",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 78.823,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "006",
+    "name": "カサ・ミラ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 52.142,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "007",
+    "name": "バルセロネータ・ビーチ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 57.413,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "008",
+    "name": "ランブラス通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 56.74,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "009",
+    "name": "ボケリア市場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 55.638,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "010",
+    "name": "ポルタル・デ・ランヘル通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 55.523,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "011",
+    "name": "エル・ボルン地区",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 65.857,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "012",
+    "name": "エル・ナシオナル",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 50.303,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "013",
+    "name": "グラシア通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 75.046,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "014",
+    "name": "サンタ・カテリーナ市場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 72.553,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "015",
+    "name": "カタルーニャ広場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 55.446,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "016",
+    "name": "コロッセオ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 75.243,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "017",
+    "name": "トレビの泉",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 60.309,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "018",
+    "name": "スペイン階段",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 52.057,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "019",
+    "name": "パンテオン",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 74.202,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "020",
+    "name": "ナヴォーナ広場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 49.608,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "021",
+    "name": "フォロ・ロマーノ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 63.142,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "022",
+    "name": "メルカート・チェントラーレ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 64.868,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "023",
+    "name": "コルソ通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 56.869,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "024",
+    "name": "カンポ・デ・フィオーリ広場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 53.686,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "025",
+    "name": "トラステヴェレ地区",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 61.804,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "026",
+    "name": "テスタッチョ市場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 56.716,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "027",
+    "name": "コンドッティ通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 67.693,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "028",
+    "name": "モンティ地区",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 60.091,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "029",
+    "name": "ヴェネツィア広場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 76.77,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "030",
+    "name": "サンタンジェロ城",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 70.196,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "031",
+    "name": "サン・ピエトロ大聖堂",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 73.778,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "032",
+    "name": "バチカン美術館・システィーナ礼拝堂",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 34.233,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "033",
+    "name": "サン・マルコ広場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 50.937,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "034",
+    "name": "サン・マルコ寺院",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 70.007,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "035",
+    "name": "ドゥカーレ宮殿",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 43.27,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "036",
+    "name": "リアルト橋",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 69.802,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "037",
+    "name": "ため息橋",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 46.681,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "038",
+    "name": "カナル・グランデ（大運河）",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 57.952,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "039",
+    "name": "ムラーノ島",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 53.062,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "040",
+    "name": "ブラーノ島",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 71.397,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "041",
+    "name": "メルチェリエ通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 58.584,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "042",
+    "name": "ストラーダ・ノーヴァ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 47.738,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "043",
+    "name": "リアルト市場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 59.652,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "044",
+    "name": "バーカロ巡りエリア（カンナレージョ）",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 58.644,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "045",
+    "name": "アカデミア橋",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 79.392,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "046",
+    "name": "サンタ・マリア・デッラ・サルーテ聖堂",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 44.676,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "047",
+    "name": "アクア・アルタ書店",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 67.125,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "048",
+    "name": "エッフェル塔",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 91.131,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "049",
+    "name": "凱旋門",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 48.781,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "050",
+    "name": "シャンゼリゼ通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 49.684,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "051",
+    "name": "コンコルド広場",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 53.08,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "052",
+    "name": "ルーブル美術館",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 57.532,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "053",
+    "name": "ノートルダム大聖堂",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 60.786,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "054",
+    "name": "モントルグイユ通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 58.216,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "055",
+    "name": "リヴォリ通り",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 73.479,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "056",
+    "name": "マレ地区",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 54.549,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "057",
+    "name": "ギャラリー・ラファイエット",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 77.931,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "058",
+    "name": "ラファイエット・グルメ",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 58.931,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "059",
+    "name": "ストレー",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 63.872,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "060",
+    "name": "モンサンミッシェル（島）",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 39.822,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  },
+  {
+    "no": "061",
+    "name": "モンサンミッシェル修道院",
+    "checked_date": "2026-11-15",
+    "capture_rectangle": {
+      "x": 0,
+      "y": 0,
+      "width": 420,
+      "height": 172
+    },
+    "googleHostedPhoto": true,
+    "visible_photo_stddev": 53.912,
+    "verification_method": "閲覧モードでの実表示スクリーンショット・目視確認"
+  }
+]

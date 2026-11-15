@@ -1,0 +1,612 @@
+[
+  {
+    "no": "001",
+    "name": "サグラダ・ファミリア",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.40361, 2.17435",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "002",
+    "name": "グエル公園",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.41449, 2.15269",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "003",
+    "name": "カサ・バトリョ",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.3917, 2.16491",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "004",
+    "name": "ゴシック地区",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38192, 2.17729",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "005",
+    "name": "バルセロナ大聖堂",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38396, 2.17619",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "006",
+    "name": "カサ・ミラ",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.39521, 2.1619",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "007",
+    "name": "バルセロネータ・ビーチ",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.37836, 2.19246",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "008",
+    "name": "ランブラス通り",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38559, 2.16981",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "009",
+    "name": "ボケリア市場",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38172, 2.17158",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "010",
+    "name": "ポルタル・デ・ランヘル通り",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38584, 2.17275",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "011",
+    "name": "エル・ボルン地区",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38568, 2.18367",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "012",
+    "name": "エル・ナシオナル",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.39058, 2.16839",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "013",
+    "name": "グラシア通り",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38803, 2.17027",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "014",
+    "name": "サンタ・カテリーナ市場",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.38636, 2.17815",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "015",
+    "name": "カタルーニャ広場",
+    "city": "バルセロナ",
+    "photo": true,
+    "coords": "41.387, 2.17004",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "016",
+    "name": "コロッセオ",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.89021, 12.49223",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "017",
+    "name": "トレビの泉",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.90093, 12.48331",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "018",
+    "name": "スペイン階段",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.9061, 12.48294",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "019",
+    "name": "パンテオン",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.89861, 12.47687",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "020",
+    "name": "ナヴォーナ広場",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.89913, 12.47329",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "021",
+    "name": "フォロ・ロマーノ",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.89209, 12.48643",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "022",
+    "name": "メルカート・チェントラーレ",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.8988, 12.50344",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "023",
+    "name": "コルソ通り",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.90321, 12.47949",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "024",
+    "name": "カンポ・デ・フィオーリ広場",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.8954, 12.4722",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "025",
+    "name": "トラステヴェレ地区",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.88482, 12.4704",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "026",
+    "name": "テスタッチョ市場",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.87768, 12.47384",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "027",
+    "name": "コンドッティ通り",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.90515, 12.4805",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "028",
+    "name": "モンティ地区",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.8947, 12.49252",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "029",
+    "name": "ヴェネツィア広場",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.89576, 12.48257",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "030",
+    "name": "サンタンジェロ城",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.90306, 12.46627",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "031",
+    "name": "サン・ピエトロ大聖堂",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.90216, 12.45393",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "032",
+    "name": "バチカン美術館・システィーナ礼拝堂",
+    "city": "ローマ",
+    "photo": true,
+    "coords": "41.90648, 12.45364",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "033",
+    "name": "サン・マルコ広場",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43427, 12.33811",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "034",
+    "name": "サン・マルコ寺院",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43456, 12.33971",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "035",
+    "name": "ドゥカーレ宮殿",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.4337, 12.34038",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "036",
+    "name": "リアルト橋",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43798, 12.33589",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "037",
+    "name": "ため息橋",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43404, 12.34085",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "038",
+    "name": "カナル・グランデ（大運河）",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43539, 12.32788",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "039",
+    "name": "ムラーノ島",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.45898, 12.35234",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "040",
+    "name": "ブラーノ島",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.48539, 12.41665",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "041",
+    "name": "メルチェリエ通り",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43964, 12.33792",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "042",
+    "name": "ストラーダ・ノーヴァ",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.44144, 12.33372",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "043",
+    "name": "リアルト市場",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43965, 12.33375",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "044",
+    "name": "バーカロ巡りエリア（カンナレージョ）",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.44426, 12.33279",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "045",
+    "name": "アカデミア橋",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43166, 12.32891",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "046",
+    "name": "サンタ・マリア・デッラ・サルーテ聖堂",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43067, 12.33476",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "047",
+    "name": "アクア・アルタ書店",
+    "city": "ヴェネツィア",
+    "photo": true,
+    "coords": "45.43798, 12.34228",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "048",
+    "name": "エッフェル塔",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.85837, 2.29448",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "049",
+    "name": "凱旋門",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.87379, 2.29502",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "050",
+    "name": "シャンゼリゼ通り",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.87294, 2.29793",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "051",
+    "name": "コンコルド広場",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.86558, 2.32053",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "052",
+    "name": "ルーブル美術館",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.86061, 2.33764",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "053",
+    "name": "ノートルダム大聖堂",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.85296, 2.3499",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "054",
+    "name": "モントルグイユ通り",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.86478, 2.3468",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "055",
+    "name": "リヴォリ通り",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.86374, 2.33219",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "056",
+    "name": "マレ地区",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.85342, 2.35827",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "057",
+    "name": "ギャラリー・ラファイエット",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.87362, 2.3321",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0F9D58"
+  },
+  {
+    "no": "058",
+    "name": "ラファイエット・グルメ",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.87315, 2.3304",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "059",
+    "name": "ストレー",
+    "city": "パリ",
+    "photo": true,
+    "coords": "48.86526, 2.34681",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-F57C00"
+  },
+  {
+    "no": "060",
+    "name": "モンサンミッシェル（島）",
+    "city": "ノルマンディー",
+    "photo": true,
+    "coords": "48.63606, -1.51145",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  },
+  {
+    "no": "061",
+    "name": "モンサンミッシェル修道院",
+    "city": "ノルマンディー",
+    "photo": true,
+    "coords": "48.63595, -1.51174",
+    "maps_link": true,
+    "official_link": true,
+    "icon": "1899-0288D1"
+  }
+]
