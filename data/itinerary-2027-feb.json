@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "updated_at": "2026-11-15",
+  "status": "almost_fixed_route_unbooked_dates_under_comparison",
+  "title": "新婚旅行｜2027年2月・羽田→ミラノ→ヴェネツィア→ローマ→バルセロナ→パリ→羽田",
+  "authoritative_for": "現時点の最新旅程（旧12・14・16日モデルとは別、こちらを優先）",
+  "source": "2026-11-15本人提供の移動便・ホテル泊数と、公開公式情報の検証",
+  "travel_year": 2027,
+  "must_return_to_japan_on_or_before": "2027-02-20",
+  "hotel_nights_total": 11,
+  "total_calendar_days_including_aircraft_overnights": 14,
+  "overnight_breakdown": {
+    "venice_hotel": 2,
+    "rome_hotel": 2,
+    "barcelona_hotel": 3,
+    "paris_hotel": 4,
+    "outbound_flight": 1,
+    "return_flight": 1
+  },
+  "schedule_not_booked": true,
+  "flights_booked": false,
+  "hotels_booked": false,
+  "airfare_live_fares_verified": false,
+  "fixed_order": [
+    "羽田",
+    "ミラノ（空港＋鉄道乗継）",
+    "ヴェネツィア",
+    "ローマ",
+    "バルセロナ",
+    "パリ",
+    "羽田"
+  ],
+  "travel_preferences": {
+    "must_visit_spot_ids": [
+      "001",
+      "060",
+      "061",
+      "062"
+    ],
+    "desired_spot_ids": [
+      "063",
+      "064"
+    ],
+    "keep_original_47_immutable": true,
+    "city_walks_markets_shopping_souvenirs": true,
+    "photo_spots_film_locations": true,
+    "museum_visit_time_approx_minutes": 60,
+    "most_days_tour_until_local": "18:00",
+    "dinner_each_evening": true
+  },
+  "long_haul_flights": [
+    {
+      "flight": "NH207",
+      "segment": "羽田→ミラノ・マルペンサ",
+      "from": "HND",
+      "to": "MXP",
+      "departure_local": "21:40",
+      "arrival_local_next_day": "04:50",
+      "operating_weekdays": [
+        "月",
+        "水",
+        "土"
+      ],
+      "airline": "ANA",
+      "nonstop": true,
+      "source": "https://www.ana.co.jp/ja/jp/international/area/europe/promotion/"
+    },
+    {
+      "flight": "NH216",
+      "segment": "パリ・シャルルドゴール→羽田",
+      "from": "CDG",
+      "to": "HND",
+      "departure_local": "18:40",
+      "arrival_local_next_day": "16:10",
+      "operating_weekdays": [
+        "毎日"
+      ],
+      "airline": "ANA",
+      "nonstop": true,
+      "source": "https://www.ana.co.jp/ja/jp/guide/plan/airinfo/int-routeinfo/"
+    }
+  ],
+  "planned_transfers": [
+    {
+      "segment": "マルペンサ空港→ミラノ中央駅",
+      "mode": "Malpensa Express",
+      "approx_duration_min": 50,
+      "planned_departure_local": null,
+      "planned_arrival_local": null,
+      "status": "目安・列車未予約"
+    },
+    {
+      "segment": "ミラノ中央駅→ヴェネツィア・サンタルチア駅",
+      "mode": "高速鉄道",
+      "planned_departure_local": "12:00頃",
+      "planned_arrival_local": "14:30頃",
+      "approx_duration_min": 150,
+      "status": "希望時刻・列車未予約"
+    },
+    {
+      "segment": "ヴェネツィア・サンタルチア駅→ローマ・テルミニ駅",
+      "mode": "高速鉄道",
+      "planned_departure_local": "10:00〜11:00",
+      "planned_arrival_local": "14:00〜15:00",
+      "status": "希望時間帯・未予約"
+    },
+    {
+      "segment": "ローマ・テルミニ駅→フィウミチーノ空港",
+      "mode": "Leonardo Express等",
+      "user_planned_departure_local": "10:00頃",
+      "user_planned_arrival_local": "11:00頃",
+      "revised_recommendation": "12:35発は空港到着が遅い。09:30〜10:00頃空港到着を推奨（余裕2.5〜3時間）。",
+      "status": "移動時刻は修正提案・未予約"
+    },
+    {
+      "segment": "ローマFCO→バルセロナBCN",
+      "mode": "直行便（航空会社要最終確定・VY6007候補）",
+      "planned_departure_local": "12:35",
+      "planned_arrival_local": "14:25",
+      "status": "ユーザー指定時刻。2027年2月に時刻表例あり。運賃・席未確認"
+    },
+    {
+      "segment": "バルセロナBCN→パリ（到着空港の最終確認必要）",
+      "mode": "直行便",
+      "planned_departure_local": "15:40",
+      "planned_arrival_local": "17:40",
+      "status": "ユーザー指定時刻。CDG着のVY8062が時刻表に見られるが、候補日運航は未確定"
+    },
+    {
+      "segment": "バルセロナ空港↔ホテル",
+      "mode": "鉄道or送迎",
+      "approx_duration_min": 60,
+      "status": "ホテル未定"
+    },
+    {
+      "segment": "パリ空港→ホテル",
+      "mode": "鉄道or送迎",
+      "approx_duration_min": null,
+      "status": "到着空港とホテル未確定"
+    }
+  ],
+  "chosen_date_status": "unconfirmed",
+  "provisional_preferred_departure": "2027-02-03",
+  "departure_options": [
+    {
+      "start": "2027-02-01",
+      "label": "比較候補A・混雑回避寄り",
+      "grade": "alternative",
+      "notes": [
+        "ヴェネツィアは2/2-3。市場は水曜営業",
+        "パリ出発2/13、羽田到着2/14。余裕ある帰国",
+        "ヴェネツィア・カーニバルは開催中だが終盤前"
+      ],
+      "outbound_haneda": "2027-02-01",
+      "milan_and_venice_arrival": "2027-02-02",
+      "hotel_nights": {
+        "venice": [
+          "2027-02-02",
+          "2027-02-03"
+        ],
+        "rome": [
+          "2027-02-04",
+          "2027-02-05"
+        ],
+        "barcelona": [
+          "2027-02-06",
+          "2027-02-07",
+          "2027-02-08"
+        ],
+        "paris": [
+          "2027-02-09",
+          "2027-02-10",
+          "2027-02-11",
+          "2027-02-12"
+        ]
+      },
+      "intercity": {
+        "venice_to_rome": "2027-02-04",
+        "rome_to_barcelona": "2027-02-06",
+        "barcelona_to_paris": "2027-02-09"
+      },
+      "paris_departure": "2027-02-13",
+      "haneda_arrival": "2027-02-14"
+    },
+    {
+      "start": "2027-02-03",
+      "label": "現時点の暫定第一候補",
+      "grade": "provisional_preferred",
+      "notes": [
+        "ヴェネツィア2/4-5はカーニバル開催中で市場の魚売場も金曜営業",
+        "ローマ2/6-7（日曜一部施設休館に注意）",
+        "バルセロナ2/8-10、パリ2/11-14、2/16羽田帰国",
+        "パリ滞在中はフランス学校冬休み"
+      ],
+      "outbound_haneda": "2027-02-03",
+      "milan_and_venice_arrival": "2027-02-04",
+      "hotel_nights": {
+        "venice": [
+          "2027-02-04",
+          "2027-02-05"
+        ],
+        "rome": [
+          "2027-02-06",
+          "2027-02-07"
+        ],
+        "barcelona": [
+          "2027-02-08",
+          "2027-02-09",
+          "2027-02-10"
+        ],
+        "paris": [
+          "2027-02-11",
+          "2027-02-12",
+          "2027-02-13",
+          "2027-02-14"
+        ]
+      },
+      "intercity": {
+        "venice_to_rome": "2027-02-06",
+        "rome_to_barcelona": "2027-02-08",
+        "barcelona_to_paris": "2027-02-11"
+      },
+      "paris_departure": "2027-02-15",
+      "haneda_arrival": "2027-02-16"
+    },
+    {
+      "start": "2027-02-06",
+      "label": "2/20帰国条件下で最も遅い候補",
+      "grade": "alternative",
+      "notes": [
+        "ヴェネツィア2/7-8はカーニバル終盤だがリアルト魚市場は日月休場",
+        "バルセロナ2/11-13は2/12サンタ・エウラリアの日と重なる可能性（2027プログラム要確認）",
+        "パリは2/14から。バレンタイン・学校休暇の影響に注意",
+        "2/19に羽田帰国で締切前日"
+      ],
+      "outbound_haneda": "2027-02-06",
+      "milan_and_venice_arrival": "2027-02-07",
+      "hotel_nights": {
+        "venice": [
+          "2027-02-07",
+          "2027-02-08"
+        ],
+        "rome": [
+          "2027-02-09",
+          "2027-02-10"
+        ],
+        "barcelona": [
+          "2027-02-11",
+          "2027-02-12",
+          "2027-02-13"
+        ],
+        "paris": [
+          "2027-02-14",
+          "2027-02-15",
+          "2027-02-16",
+          "2027-02-17"
+        ]
+      },
+      "intercity": {
+        "venice_to_rome": "2027-02-09",
+        "rome_to_barcelona": "2027-02-11",
+        "barcelona_to_paris": "2027-02-14"
+      },
+      "paris_departure": "2027-02-18",
+      "haneda_arrival": "2027-02-19"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "date": "2027-02-03",
+      "place": "日本・機内",
+      "overnight": "outbound_night",
+      "outline": "羽田21:40 NH207出発・機内泊",
+      "candidate_spot_ids": [],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 2,
+      "date": "2027-02-04",
+      "place": "ミラノ経由→ヴェネツィア",
+      "overnight": "venice_hotel",
+      "outline": "ミラノ04:50着、昼12時頃列車、ヴェネツィア14:30頃着。カーニバル街歩き",
+      "candidate_spot_ids": [
+        "033",
+        "036"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 3,
+      "date": "2027-02-05",
+      "place": "ヴェネツィア",
+      "overnight": "venice_hotel",
+      "outline": "サン・マルコ・ドゥカーレ宮殿・リアルト魚市場（金曜営業）・ゴンドラ",
+      "candidate_spot_ids": [
+        "034",
+        "035",
+        "043",
+        "063"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 4,
+      "date": "2027-02-06",
+      "place": "ヴェネツィア→ローマ",
+      "overnight": "rome_hotel",
+      "outline": "高速鉄道10〜11時頃発、ローマ14〜15時頃着。午後は旧市街と夕食",
+      "candidate_spot_ids": [
+        "017",
+        "019"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 5,
+      "date": "2027-02-07",
+      "place": "ローマ",
+      "overnight": "rome_hotel",
+      "outline": "コロッセオ・真実の口・市内街歩き。日曜の休館と予約枠に注意",
+      "candidate_spot_ids": [
+        "016",
+        "062",
+        "031"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 6,
+      "date": "2027-02-08",
+      "place": "ローマ→バルセロナ",
+      "overnight": "barcelona_hotel",
+      "outline": "午前は空港へ。FCO 12:35→BCN 14:25、ホテルへ移動",
+      "candidate_spot_ids": [],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 7,
+      "date": "2027-02-09",
+      "place": "バルセロナ",
+      "overnight": "barcelona_hotel",
+      "outline": "サグラダ・ファミリア・グエル公園・ガウディ建築",
+      "candidate_spot_ids": [
+        "001",
+        "002",
+        "003"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 8,
+      "date": "2027-02-10",
+      "place": "バルセロナ",
+      "overnight": "barcelona_hotel",
+      "outline": "ゴシック地区・市場・ランブラス通り・街歩き・買い物",
+      "candidate_spot_ids": [
+        "004",
+        "008",
+        "009"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 9,
+      "date": "2027-02-11",
+      "place": "バルセロナ→パリ",
+      "overnight": "paris_hotel",
+      "outline": "BCN 15:40→パリ17:40、空港からホテルへ",
+      "candidate_spot_ids": [],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 10,
+      "date": "2027-02-12",
+      "place": "パリ・モンサンミッシェル",
+      "overnight": "paris_hotel",
+      "outline": "モンサンミッシェル島と修道院への日帰り。天候・接続要確認",
+      "candidate_spot_ids": [
+        "060",
+        "061"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 11,
+      "date": "2027-02-13",
+      "place": "パリ・ディズニーランド",
+      "overnight": "paris_hotel",
+      "outline": "ディズニーランド・パリ終日（前回の希望を反映）。入園日を平日優先で要調整",
+      "candidate_spot_ids": [
+        "064"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 12,
+      "date": "2027-02-14",
+      "place": "パリ中心街",
+      "overnight": "paris_hotel",
+      "outline": "エッフェル塔・ルーブル・凱旋門・シャンゼリゼ・商店街。時間不足なら優先順位付け",
+      "candidate_spot_ids": [
+        "048",
+        "049",
+        "050",
+        "052"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 13,
+      "date": "2027-02-15",
+      "place": "パリ→羽田",
+      "overnight": "return_night",
+      "outline": "午前〜昼にパリ市内観光・買い物、空港へ。NH216 18:40発、機内泊",
+      "candidate_spot_ids": [
+        "053",
+        "057"
+      ],
+      "planned_not_reserved": true
+    },
+    {
+      "day": 14,
+      "date": "2027-02-16",
+      "place": "日本",
+      "overnight": "arrive_japan",
+      "outline": "羽田16:10着（パリ出発翌日）",
+      "candidate_spot_ids": [],
+      "planned_not_reserved": true
+    }
+  ],
+  "important_limits": [
+    "11泊はホテル泊数。羽田発とパリ発の飛行機内2泊を合わせると日本出発日から日本到着日まで14日間（13泊相当）になる。11泊13日表記ではない。",
+    "ヴェネツィアの魚市場は日・月曜休業（果物野菜売場は日曜休業）。",
+    "パリのルーブル美術館は火曜休館。",
+    "パリの学校冬季休暇（ゾーンC）は2027-02-06から2027-02-22の登校再開まで。",
+    "カーニバル公式開催期間は2027-01-23〜2027-02-09。詳細プログラム未確定。",
+    "カーニバル期間中のヴェネツィア宿泊費上昇・人混みの可能性。",
+    "ディズニーとモンサンミッシェルはそれぞれ原則一日を要し、パリ市内の終日観光は残り一日。",
+    "航空運賃とホテル相場の候補日別比較はリアルタイム料金が取得できず未検証。過去セール価格と実売価格を混同しない。",
+    "2027年2月のローマ→バルセロナ、バルセロナ→パリの指定便は航空会社公式の当日予約画面で再確認。",
+    "GitHubへの公開データには予約番号、氏名、パスポート、住所などの個人情報を追加しない。"
+  ],
+  "sources": [
+    "https://carnevale.venezia.it/en/full-program/",
+    "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/mercati",
+    "https://www.service-public.gouv.fr/particuliers/actualites/A18563",
+    "https://www.ana.co.jp/ja/jp/international/area/europe/promotion/",
+    "https://www.ana.co.jp/ja/jp/guide/plan/airinfo/int-routeinfo/",
+    "https://www.flight.info/VY6007",
+    "https://www.flight.info/VY8062",
+    "https://www.louvre.fr/en/visit/hours-admission"
+  ]
+}
