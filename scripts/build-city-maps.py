@@ -35,5 +35,7 @@ for index,city in enumerate(dict.fromkeys(r['都市'] for r in rows),1):
   doc.append(placemark);all_folder.append(copy.deepcopy(placemark))
  E.ElementTree(kml).write(folder/f'{index:02}_{city}.kml',encoding='utf-8',xml_declaration=True)
 E.ElementTree(all_root).write(data/'mymaps-61-photos-city-layers.kml',encoding='utf-8',xml_declaration=True)
+for generated in [data/'mymaps-61-photos-city-layers.kml',*folder.glob('*.kml')]:
+ generated.write_bytes(b'\n'.join(line.rstrip(b' \t') for line in generated.read_bytes().split(b'\n')))
 assert len(all_doc.findall('.//k:Placemark',N))==61
 print('KML: 61件・写真61件・元の座標61件・4都市＋ノルマンディーのレイヤー用ファイル')
