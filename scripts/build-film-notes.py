@@ -1,0 +1,42 @@
+"""一次・公式情報と映像比較資料に基づく作品情報を、地点IDで管理する。"""
+import json
+from pathlib import Path
+p=Path(__file__).resolve().parents[1]/'data';a=[]
+bfi='https://www.bfi.org.uk/features/roman-holiday-rome-locations-audrey-hepburn-gregory-peck';vicky='https://editorial.arquitecturacatalana.cat/es/rutes/vicky-i-cristina-barcelona/';analysis='https://uvadoc.uva.es/bitstream/handle/10324/32105/TFG-A-099.pdf?sequence=1';angels='https://www.italyformovies.it/film-serie-tv-games/detail/6574/angels-demons';spider='https://www.italyformovies.it/film-serie-tv-games/detail/6913/spiderman-far-from-home';lupin='https://parisjetaime.com/article/balade-dans-le-paris-de-lupin-netflix-a1100';amelie='https://parisjetaime.com/article/le-montmartre-d-amelie-poulain-a480';cityamelie='https://www.paris.fr/en/pages/what-if-we-rediscovered-paris-through-the-eyes-of-amelie-poulain-34990'
+def add(no,work,kind,scene,source,status='場所・場面の関係確認済み'):
+ a.append({'no':no,'work':work,'relation':kind,'scene':scene,'source':source,'status':status,'checked':'2026-11-16'})
+add('001','それでも恋するバルセロナ（2008）','実写・都市の観光描写','バルセロナを紹介する建築・観光の場面。特定の撮影位置や秒数は未特定。',vicky,'建築ルート掲載／具体的カットは要照合')
+add('002','それでも恋するバルセロナ（2008）','撮影地','ヴィッキーとフアン・アントニオが会話する公園の場面。公園全体のピンで、ベンチの撮影角度は別途確認。',analysis)
+add('006','それでも恋するバルセロナ（2008）','外観の登場','カサ・ミラの外観を見せる街歩きの場面。屋内の全見学区域が撮影場所という意味ではない。',analysis)
+add('016','ジョジョの奇妙な冒険 黄金の風','アニメの作中舞台','第29話「目的地はローマ！コロッセオ」。謎の男との合流先として、一行がコロッセオを目指す。','https://jojo-animation.com/story/029.php')
+add('017','甘い生活（1960）','撮影地','シルヴィアが夜の噴水に入り、マルチェロを呼ぶ象徴的な場面。現地で入水を再現せず、広場から鑑賞。','https://turismoroma.it/en/itineraries/fellinis-locations')
+add('018','ローマの休日（1953）','撮影地','アン王女がスペイン階段でジェラートを食べ、ジョーと再会する場面。現在の現地ルールに従って撮影する。',bfi)
+add('019','天使と悪魔（2009）','作中舞台・内部は再現セット','ラングドンが最初の手掛かりを探す場所として登場。映画の内部は現地そのものではなく再現セット。',angels)
+add('020','天使と悪魔（2009）','作中舞台・ロケとセットが混在','四大河の噴水が「水」の手掛かりになる場面。広場や噴水の一部はセットも使用され、全画角が現地と一致するわけではない。',angels)
+add('021','ローマの休日（1953）','撮影地・周辺','ジョーが夜の遺跡周辺でアンに出会う場面。セプティミウス・セウェルスの凱旋門周辺。夜間の遺跡内部へ入れるという意味ではない。',bfi)
+add('030','ローマの休日（1953）','城の近隣の撮影地','城近くのテヴェレ川沿い、船上ダンス会場の場面。城の内部で撮られたダンスではない。',bfi)
+add('030','天使と悪魔（2009）','作中舞台・内部は再現セット','終盤の隠れ家として登場。内部空間は再現セットが含まれる。',angels)
+add('031','天使と悪魔（2009）','作中舞台・内部は再現セット','終盤のバチカンをめぐる事件の舞台。映画の大聖堂内部は現地で撮影したものではない。',angels)
+add('032','天使と悪魔（2009）','作中舞台・再現セット','コンクラーベに関係するシスティーナ礼拝堂。映画では内部をセットで再現。',angels)
+for no in ['033','036']:
+ add(no,'スパイダーマン：ファー・フロム・ホーム（2019）','実写の撮影地・都市の舞台','修学旅行で訪れるヴェネツィア編。サン・マルコ広場、リアルト橋、運河が登場し、水の怪物とミステリオの騒動へ。場面写真はヴェネツィア編の参考で、ピンと同一の画角とは限らない。',spider)
+add('038','007 カジノ・ロワイヤル（2006）','撮影地・都市の舞台','終盤、ボンドとヴェスパーがヨットでヴェネツィアへ入る場面。沈む建物のアクション内部は英国のセットで、実際の建物が崩れたわけではない。','https://www.movie-locations.com/movies/c/Casino-Royale-2006.php')
+add('045','007 カジノ・ロワイヤル（2006）','撮影地','アカデミア橋はヴェネツィア編の撮影地。橋上の特定カット・秒数は未特定。','https://www.imdb.com/title/tt0381061/locations?item=lc0056676','撮影地確認／具体的場面は要照合')
+add('052','LUPIN／ルパン（Netflix）','撮影地・作中舞台','S1冒頭、清掃員に扮したアサンがルーブルの首飾り強盗を企てる場面。劇中の展示・動線が現在も同じとは限らない。','https://www.france.fr/fr/article/lupin-lieux-serie/')
+add('053','ノートルダムの鐘（1996）','アニメの作中舞台','鐘楼に暮らすカジモドと、鐘や聖堂を中心に展開する物語。実写の撮影地ではなくアニメの舞台。建物表現には創作も含まれる。','https://www.paris.fr/pages/des-aristochats-a-ratatouille-6-films-d-animation-pour-redecouvrir-paris-22879')
+add('055','LUPIN／ルパン（Netflix）','通りの登場','リヴォリ通りのアーケードが作品に登場。どの区間・話数のカットかは未特定のため、通り全体を撮影ポイントとは断定しない。',lupin,'通りの登場確認／区間・場面は要照合')
+add('062','ローマの休日（1953）','撮影地','ジョーが真実の口に手を入れ、抜けなくなったふりをしてアンを驚かせる有名な場面。',bfi)
+add('068','それでも恋するバルセロナ（2008）','撮影地','公園の大噴水周辺に登場。クリスティーナとマリア・エレーナの写真撮影に関わる場面のロケ地として紹介される。',vicky+' | https://www.movie-locations.com/movies/v/Vicky-Cristina-Barcelona.php')
+add('070','ジョジョの奇妙な冒険 黄金の風','アニメの作中舞台','第20話「ボスからの最終指令」。ブチャラティがトリッシュを連れて、島の教会の鐘楼へ向かう。内部・エレベーターの描写は創作を含み、現地で同じ経路を歩けるとは限らない。','https://jojo-animation.com/story/020.php')
+add('072','アメリ（2001）','撮影地・周辺','モンマルトルの丘とサクレクール前の階段。ニノを導く仕掛けに関わる街歩きの場面を楽しむ。',amelie)
+add('072','LUPIN／ルパン（Netflix）','背景の登場','アサンのパリの街並みや屋根の眺めに関わる聖堂と丘。特定の窓や私有の屋上を訪ねる案内ではない。',lupin)
+add('077','ミッドナイト・イン・パリ（2011）','作中舞台・撮影地','雨の夜、ギルとガブリエルが出会い、歩き出すラストの橋。','https://www.scrite.io/wp-content/uploads/2024/07/Midnight-in-Paris-script.pdf')
+add('079','LUPIN／ルパン（Netflix）','撮影地・公園の登場','公園での面会や、配達員の集団に紛れて警察から逃れる場面に関連。公園内のどこでも同一画角になるわけではない。',lupin)
+add('080','LUPIN／ルパン（Netflix）','撮影地','アサンと息子ラウールが歩く父子の場面。ルーブル観光とつなげて楽しめる歩道橋。','https://parisjetaime.com/eng/convention/article/event-lupin-netflix-paris-a1365')
+add('081','LUPIN／ルパン（Netflix）','撮影地・図書館の登場','S3の資料調べに関係するオーバル室。S1関連で紹介されるラブルースト室とは別の部屋で、入室条件も異なる。',lupin)
+add('082','インセプション（2010）','撮影地','コブとアリアドネがパリの夢の空間を歩く場面に登場する、高架下の鉄柱が連なる橋。鏡・夢の演出は現地に常設されたものではない。','https://www.paris.fr/pages/le-pont-bir-hakeim-retrouve-une-seconde-jeunesse-cet-ete-8169')
+add('083','アメリ（2001）','撮影地','アメリがウェイトレスとして働くカフェ。赤い店構えやカウンターの雰囲気を楽しむ。',cityamelie)
+add('084','ローマの休日（1953）','撮影地・外観','ジョーのアパートの入口として使われた51番地。住民の私有建物のため、公共の通りから外観だけを見る。',bfi)
+add('085','インディ・ジョーンズ／最後の聖戦（1989）','外観の撮影地・内部は架空','ヴェネツィアの図書館として使われた教会の外観。床のX印から地下へ進む図書館・地下空間が現地にあるわけではない。','https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte')
+add('086','それでも恋するバルセロナ（2008）','撮影地・広場周辺','ヴィッキー、ダグ、クリスティーナ、フアン・アントニオが会食するテラスの場面。広場の噴水や石造りの景観を見る。',analysis)
+(p/'film-location-notes.json').write_text(json.dumps(a,ensure_ascii=False,indent=2)+'\n');print('作品',len({x['work'] for x in a}),'件、地点',len({x['no'] for x in a}),'件、作品関連',len(a),'件')

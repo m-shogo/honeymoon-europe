@@ -1,0 +1,186 @@
+[
+  {
+    "no": "065",
+    "name": "サン・パウ病院",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/065-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "066",
+    "name": "カタルーニャ音楽堂",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/066-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "067",
+    "name": "モンジュイック城",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/067-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "068",
+    "name": "シウタデリャ公園",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/068-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "062",
+    "name": "真実の口",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/062-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "069",
+    "name": "カンピドリオ広場",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/069-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "070",
+    "name": "サン・ジョルジョ・マッジョーレ聖堂",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/070-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "071",
+    "name": "リヴァ・デリ・スキアヴォーニ",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/071-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "072",
+    "name": "モンマルトル・サクレクール",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/072-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "073",
+    "name": "サント・シャペル",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/073-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "074",
+    "name": "オルセー美術館",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/074-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "075",
+    "name": "ヴェルサイユ宮殿",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/075-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "076",
+    "name": "オペラ・ガルニエ（外観）",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/076-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "077",
+    "name": "アレクサンドル3世橋",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/077-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "078",
+    "name": "オランジュリー美術館",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/078-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "079",
+    "name": "リュクサンブール公園",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/079-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "086",
+    "name": "サン・フェリプ・ネリ広場",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/086-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "084",
+    "name": "マルグッタ通り51番地",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/084-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "085",
+    "name": "サン・バルナバ教会（外観）",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/085-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "080",
+    "name": "ポン・デ・ザール",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/080-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "081",
+    "name": "フランス国立図書館リシュリュー館",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/081-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "082",
+    "name": "ビル・アケム橋",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/082-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  },
+  {
+    "no": "083",
+    "name": "カフェ・デ・ドゥ・ムーラン",
+    "kind": "place",
+    "raw_screenshot_local": "data/expansion-screen-checks/083-place.png",
+    "evidence": "docs/evidence/mymaps-expansion-photos-contact.jpg",
+    "visual_review": "画像を目視確認済み／2026-11-16"
+  }
+]

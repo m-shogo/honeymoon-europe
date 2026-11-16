@@ -679,5 +679,235 @@
     "official_url": "https://tickets.disneylandparis.com/en-int/tickets",
     "prefix": "🎟 予約：日付指定券を事前購入推奨／日付指定なし券は別途入園日登録が必要（空き次第）。購入券種の条件を確認\n公式予約：https://tickets.disneylandparis.com/en-int/tickets\n🌤 屋外中心｜雨天注意・屋内アトラクションもあり\n\n",
     "updated": "2026-11-15"
+  },
+  {
+    "no": "062",
+    "name": "真実の口",
+    "city": "ローマ",
+    "reservation": "予約可否は公式確認。行列の余裕を確保",
+    "weather": "🌦 半屋外の柱廊｜行列は雨具",
+    "official_url": "https://cosmedin.org/la-bocca-della-verita/",
+    "prefix": "🎟 予約：予約可否は公式確認。行列の余裕を確保\n公式・案内：https://cosmedin.org/la-bocca-della-verita/\n🌦 半屋外の柱廊｜行列は雨具\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "065",
+    "name": "サン・パウ病院",
+    "city": "バルセロナ",
+    "reservation": "内部見学は事前購入推奨",
+    "weather": "🌦 屋内外あり｜パビリオン間は屋外",
+    "official_url": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
+    "prefix": "🎟 予約：内部見学は事前購入推奨\n公式・案内：https://santpaubarcelona.org/en/prepara-la-teva-visita/\n🌦 屋内外あり｜パビリオン間は屋外\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "066",
+    "name": "カタルーニャ音楽堂",
+    "city": "バルセロナ",
+    "reservation": "見学または公演を公式から事前予約推奨",
+    "weather": "☔ 屋内中心｜雨の日候補",
+    "official_url": "https://www.palaumusica.cat/en/buy-tickets_1641072",
+    "prefix": "🎟 予約：見学または公演を公式から事前予約推奨\n公式・案内：https://www.palaumusica.cat/en/buy-tickets_1641072\n☔ 屋内中心｜雨の日候補\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "067",
+    "name": "モンジュイック城",
+    "city": "バルセロナ",
+    "reservation": "内部券・移動手段を公式確認",
+    "weather": "🌤 屋外中心｜晴天・眺望向き",
+    "official_url": "https://guia.barcelona.cat/en/detall/-castell-de-montjuic_99077121755.html",
+    "prefix": "🎟 予約：内部券・移動手段を公式確認\n公式・案内：https://guia.barcelona.cat/en/detall/-castell-de-montjuic_99077121755.html\n🌤 屋外中心｜晴天・眺望向き\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "068",
+    "name": "シウタデリャ公園",
+    "city": "バルセロナ",
+    "reservation": "通常の散策は予約不要",
+    "weather": "🌤 屋外中心｜雨天は優先度を下げる",
+    "official_url": "https://www.barcelona.cat/en/what-to-do-in-bcn/parks-and-gardens",
+    "prefix": "🎟 予約：通常の散策は予約不要\n公式・案内：https://www.barcelona.cat/en/what-to-do-in-bcn/parks-and-gardens\n🌤 屋外中心｜雨天は優先度を下げる\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "069",
+    "name": "カンピドリオ広場",
+    "city": "ローマ",
+    "reservation": "広場のみ予約不要／美術館は公式確認",
+    "weather": "🌤 屋外中心｜雨で石畳が滑りやすい",
+    "official_url": "https://www.turismoroma.it/it/luoghi/piazza-del-campidoglio-0",
+    "prefix": "🎟 予約：広場のみ予約不要／美術館は公式確認\n公式・案内：https://www.turismoroma.it/it/luoghi/piazza-del-campidoglio-0\n🌤 屋外中心｜雨で石畳が滑りやすい\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "070",
+    "name": "サン・ジョルジョ・マッジョーレ聖堂",
+    "city": "ヴェネツィア",
+    "reservation": "教会・鐘楼は運営者へ確認／Cini財団ツアーは別予約",
+    "weather": "🌦 教会内＋島の屋外｜移動時は雨具",
+    "official_url": "https://parco.cini.app/en/landing",
+    "prefix": "🎟 予約：教会・鐘楼は運営者へ確認／Cini財団ツアーは別予約\n公式・案内：https://parco.cini.app/en/landing\n🌦 教会内＋島の屋外｜移動時は雨具\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "071",
+    "name": "リヴァ・デリ・スキアヴォーニ",
+    "city": "ヴェネツィア",
+    "reservation": "散策は予約不要",
+    "weather": "🌤 屋外中心｜水辺の風・高潮に注意",
+    "official_url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia",
+    "prefix": "🎟 予約：散策は予約不要\n公式・案内：https://www.veneziaunica.it/it/cosa-fare-a-venezia\n🌤 屋外中心｜水辺の風・高潮に注意\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "072",
+    "name": "モンマルトル・サクレクール",
+    "city": "パリ",
+    "reservation": "聖堂本体は通常予約不要／ドームは別確認",
+    "weather": "🌦 聖堂内＋丘の散策｜眺望は晴天向き",
+    "official_url": "https://www.sacre-coeur-montmartre.com/en/info-and-visits/practical-information/hours-and-directions/",
+    "prefix": "🎟 予約：聖堂本体は通常予約不要／ドームは別確認\n公式・案内：https://www.sacre-coeur-montmartre.com/en/info-and-visits/practical-information/hours-and-directions/\n🌦 聖堂内＋丘の散策｜眺望は晴天向き\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "073",
+    "name": "サント・シャペル",
+    "city": "パリ",
+    "reservation": "日時指定の事前予約推奨",
+    "weather": "☔ 屋内中心｜明るい時間帯にステンドグラス",
+    "official_url": "https://www.sainte-chapelle.fr/en/visit/practical-information",
+    "prefix": "🎟 予約：日時指定の事前予約推奨\n公式・案内：https://www.sainte-chapelle.fr/en/visit/practical-information\n☔ 屋内中心｜明るい時間帯にステンドグラス\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "074",
+    "name": "オルセー美術館",
+    "city": "パリ",
+    "reservation": "日時指定の事前予約推奨",
+    "weather": "☔ 屋内中心｜雨の日候補",
+    "official_url": "https://www.musee-orsay.fr/en/visit",
+    "prefix": "🎟 予約：日時指定の事前予約推奨\n公式・案内：https://www.musee-orsay.fr/en/visit\n☔ 屋内中心｜雨の日候補\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "075",
+    "name": "ヴェルサイユ宮殿",
+    "city": "パリ",
+    "reservation": "宮殿は日時指定券の事前予約推奨",
+    "weather": "🌦 宮殿内＋広い屋外｜雨の日は庭園を短縮",
+    "official_url": "https://en.chateauversailles.fr/plan-your-visit/tickets-and-prices",
+    "prefix": "🎟 予約：宮殿は日時指定券の事前予約推奨\n公式・案内：https://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\n🌦 宮殿内＋広い屋外｜雨の日は庭園を短縮\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "076",
+    "name": "オペラ・ガルニエ（外観）",
+    "city": "パリ",
+    "reservation": "外観のみ予約不要",
+    "weather": "🌤 外観中心｜雨天は近隣百貨店と組み合わせ",
+    "official_url": "https://www.operadeparis.fr/en/visits/palais-garnier",
+    "prefix": "🎟 予約：外観のみ予約不要\n公式・案内：https://www.operadeparis.fr/en/visits/palais-garnier\n🌤 外観中心｜雨天は近隣百貨店と組み合わせ\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "077",
+    "name": "アレクサンドル3世橋",
+    "city": "パリ",
+    "reservation": "散策は予約不要",
+    "weather": "🌤 屋外中心｜夕景・夜景の候補",
+    "official_url": "https://parisjetaime.com/eng/transport/pont-alexandre-iii-p1889",
+    "prefix": "🎟 予約：散策は予約不要\n公式・案内：https://parisjetaime.com/eng/transport/pont-alexandre-iii-p1889\n🌤 屋外中心｜夕景・夜景の候補\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "078",
+    "name": "オランジュリー美術館",
+    "city": "パリ",
+    "reservation": "時間枠の事前予約推奨",
+    "weather": "☔ 屋内中心｜雨の日候補",
+    "official_url": "https://www.musee-orangerie.fr/en/visit-orangerie",
+    "prefix": "🎟 予約：時間枠の事前予約推奨\n公式・案内：https://www.musee-orangerie.fr/en/visit-orangerie\n☔ 屋内中心｜雨の日候補\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "079",
+    "name": "リュクサンブール公園",
+    "city": "パリ",
+    "reservation": "通常散策は予約不要",
+    "weather": "🌤 屋外中心｜晴れ間の休憩",
+    "official_url": "https://jardin.senat.fr/",
+    "prefix": "🎟 予約：通常散策は予約不要\n公式・案内：https://jardin.senat.fr/\n🌤 屋外中心｜晴れ間の休憩\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "080",
+    "name": "ポン・デ・ザール",
+    "city": "パリ",
+    "reservation": "散策は予約不要",
+    "weather": "🌤 屋外中心｜雨・風に注意",
+    "official_url": "https://www.paris.fr/",
+    "prefix": "🎟 予約：散策は予約不要\n公式・案内：https://www.paris.fr/\n🌤 屋外中心｜雨・風に注意\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "081",
+    "name": "フランス国立図書館リシュリュー館",
+    "city": "パリ",
+    "reservation": "オーバル室の通常個人利用は予約不要／企画・団体は別確認",
+    "weather": "☔ 屋内中心｜雨の日の寄り道",
+    "official_url": "https://www.bnf.fr/fr/richelieu",
+    "prefix": "🎟 予約：オーバル室の通常個人利用は予約不要／企画・団体は別確認\n公式・案内：https://www.bnf.fr/fr/richelieu\n☔ 屋内中心｜雨の日の寄り道\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "082",
+    "name": "ビル・アケム橋",
+    "city": "パリ",
+    "reservation": "散策は予約不要",
+    "weather": "🌦 高架下あり｜屋外の風雨を防ぐ施設ではない",
+    "official_url": "https://www.paris.fr/pages/le-pont-bir-hakeim-retrouve-une-seconde-jeunesse-cet-ete-8169",
+    "prefix": "🎟 予約：散策は予約不要\n公式・案内：https://www.paris.fr/pages/le-pont-bir-hakeim-retrouve-une-seconde-jeunesse-cet-ete-8169\n🌦 高架下あり｜屋外の風雨を防ぐ施設ではない\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "083",
+    "name": "カフェ・デ・ドゥ・ムーラン",
+    "city": "パリ",
+    "reservation": "飲食・予約可否は店舗へ確認",
+    "weather": "☔ 店内飲食｜満席なら外観のみ",
+    "official_url": "https://parisjetaime.com/article/le-montmartre-d-amelie-poulain-a480",
+    "prefix": "🎟 予約：飲食・予約可否は店舗へ確認\n公式・案内：https://parisjetaime.com/article/le-montmartre-d-amelie-poulain-a480\n☔ 店内飲食｜満席なら外観のみ\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "084",
+    "name": "マルグッタ通り51番地",
+    "city": "ローマ",
+    "reservation": "外観のみ予約不要",
+    "weather": "🌤 屋外中心｜短い街歩き",
+    "official_url": "https://www.bfi.org.uk/features/roman-holiday-rome-locations-audrey-hepburn-gregory-peck",
+    "prefix": "🎟 予約：外観のみ予約不要\n公式・案内：https://www.bfi.org.uk/features/roman-holiday-rome-locations-audrey-hepburn-gregory-peck\n🌤 屋外中心｜短い街歩き\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "085",
+    "name": "サン・バルナバ教会（外観）",
+    "city": "ヴェネツィア",
+    "reservation": "外観のみ予約不要",
+    "weather": "🌤 外観中心｜雨・高潮に注意",
+    "official_url": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte",
+    "prefix": "🎟 予約：外観のみ予約不要\n公式・案内：https://www.veneziaunica.it/it/cosa-fare-a-venezia/itinerari/dorsoduro-sestiere-d-arte\n🌤 外観中心｜雨・高潮に注意\n\n",
+    "updated": "2026-11-16"
+  },
+  {
+    "no": "086",
+    "name": "サン・フェリプ・ネリ広場",
+    "city": "バルセロナ",
+    "reservation": "広場散策は予約不要／食事は店舗別",
+    "weather": "🌤 屋外中心｜小さな寄り道",
+    "official_url": "https://www.barcelonaturisme.cat/wv3/es/page/1247/placa-sant-felip-neri.html",
+    "prefix": "🎟 予約：広場散策は予約不要／食事は店舗別\n公式・案内：https://www.barcelonaturisme.cat/wv3/es/page/1247/placa-sant-felip-neri.html\n🌤 屋外中心｜小さな寄り道\n\n",
+    "updated": "2026-11-16"
   }
 ]

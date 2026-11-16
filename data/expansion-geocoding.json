@@ -1,0 +1,117 @@
+{
+  "070": [
+    {
+      "place_id": 78669236,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 138804537,
+      "lat": "45.4293889",
+      "lon": "12.3432792",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.4499234675436917,
+      "addresstype": "amenity",
+      "name": "Basilica di San Giorgio Maggiore",
+      "display_name": "Basilica di San Giorgio Maggiore, San Giorgio, Venezia-Murano-Burano, Lido, Venezia, Veneto, 30142, Italia",
+      "boundingbox": [
+        "45.4290722",
+        "45.4296621",
+        "12.3427299",
+        "12.3438850"
+      ]
+    }
+  ],
+  "072": [
+    {
+      "place_id": 98334720,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23762981,
+      "lat": "48.8868058",
+      "lon": "2.3430153",
+      "class": "amenity",
+      "type": "place_of_worship",
+      "place_rank": 30,
+      "importance": 0.5325382896543615,
+      "addresstype": "amenity",
+      "name": "Basilique du Sacré-Cœur",
+      "display_name": "Basilique du Sacré-Cœur, Rue du Chevalier de la Barre, Quartier de Clignancourt, Paris 18e Arrondissement, Paris, Île-de-France, France métropolitaine, 75018, France",
+      "boundingbox": [
+        "48.8863615",
+        "48.8872306",
+        "2.3426601",
+        "2.3433943"
+      ]
+    }
+  ],
+  "081": [
+    {
+      "place_id": 97910584,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "relation",
+      "osm_id": 545655,
+      "lat": "48.8672823",
+      "lon": "2.3381642",
+      "class": "amenity",
+      "type": "library",
+      "place_rank": 30,
+      "importance": 0.2521482229732802,
+      "addresstype": "amenity",
+      "name": "Bibliothèque nationale de France, Richelieu",
+      "display_name": "Bibliothèque nationale de France, Richelieu, 58, Rue de Richelieu, Vivienne, Paris 2e Arrondissement, Paris, Île-de-France, France métropolitaine, 75002, France",
+      "boundingbox": [
+        "48.8664044",
+        "48.8681624",
+        "2.3374787",
+        "2.3394331"
+      ]
+    }
+  ],
+  "084": [
+    {
+      "place_id": 80839974,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 218295502,
+      "lat": "41.9085431",
+      "lon": "12.4798243",
+      "class": "building",
+      "type": "yes",
+      "place_rank": 30,
+      "importance": 8.896238651097914e-05,
+      "addresstype": "building",
+      "name": "",
+      "display_name": "51, Via Margutta, Campo Marzio, Municipio Roma I, Roma, Roma Capitale, Lazio, 00187, Italia",
+      "boundingbox": [
+        "41.9083873",
+        "41.9087304",
+        "12.4796724",
+        "12.4800899"
+      ]
+    }
+  ],
+  "069": [
+    {
+      "place_id": 80908526,
+      "licence": "Data © OpenStreetMap contributors, ODbL 1.0. http://osm.org/copyright",
+      "osm_type": "way",
+      "osm_id": 23055100,
+      "lat": "41.8932482",
+      "lon": "12.4829853",
+      "class": "place",
+      "type": "square",
+      "place_rank": 25,
+      "importance": 0.45839591610396974,
+      "addresstype": "square",
+      "name": "Piazza del Campidoglio",
+      "display_name": "Piazza del Campidoglio, Campitelli, Municipio Roma I, Roma, Roma Capitale, Lazio, Italia",
+      "boundingbox": [
+        "41.8928366",
+        "41.8936211",
+        "12.4824452",
+        "12.4834856"
+      ]
+    }
+  ]
+}

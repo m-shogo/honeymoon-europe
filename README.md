@@ -58,7 +58,7 @@ node scripts/validate-trip.mjs
 
 - [Drive同期結果](docs/google-drive-paris-sync.md)：追加14件の実写真保存・公式情報・既存47件の保持を記録。
 - [My Maps登録状況](docs/map-registration-status.md)：61件の実地図とインポートCSV、写真表示の確認範囲。
-- `python3 scripts/validate-drive-sync.py` で写真対応CSV・出典表・地図CSVの62件の行対応を検査。
+- `python3 scripts/validate-drive-sync.py` で写真対応CSV・出典表・地図CSVの85件の行対応を検査。
 
 ## 写真付き61スポット完成版（2026-11-15）
 
@@ -67,3 +67,7 @@ node scripts/validate-trip.mjs
 ## 最新：62スポット・予約先頭・雨天の印（2026-11-15）
 
 [My Maps](https://www.google.com/maps/d/viewer?mid=1gKS7F8p3_YdS952P8K2jDE28-1epSAM)とSheets・CSVを62件へ同期。全ピンに予約案内の先頭表示と☔／🌦／🌤の印を登録。ディズニーは公式券・営業時間・アクセス・注意点を追記し、写真をDriveへ保存。2026-11-16にディズニー写真を登録・再読み込み後の実表示確認ができ、地図内写真は62/62件。[実施結果と引き継ぎ](docs/reservation-weather-disney-sync.md)。既存旅程・出発候補は変更しない。
+
+## 85スポット・定番候補と作品ゆかり（2026-11-16最新版）
+
+[写真付き地図](https://www.google.com/maps/d/viewer?mid=1gKS7F8p3_YdS952P8K2jDE28-1epSAM)を85件へ更新。既存62件を保持し、定番候補16件・映画アニメ寄り道7件を追加。32ピンに作品・場面情報、10ピンに2枚目の場面画像を登録。[更新結果・採否の選び方・未確定事項](docs/classic-film-expansion.md)を参照。候補は既存旅程へ自動追加していない。上記の61/62件の記述は過去の完了履歴。

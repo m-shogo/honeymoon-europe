@@ -1,0 +1,28 @@
+{
+  "checked_date": "2026-11-16",
+  "sheet_counts": {
+    "全85スポット": 85,
+    "バルセロナ": 20,
+    "ローマ": 20,
+    "ヴェネツィア": 18,
+    "パリ": 27
+  },
+  "original_cell_differences": 0,
+  "drive_photo_files": 85,
+  "drive_photo_link_issues": [],
+  "guide_photos": {
+    "latest_additions": 38,
+    "original_preserved": 47
+  },
+  "guide_old_body_unchanged": true,
+  "guide_pdf_reviewed_pages": [
+    2,
+    15,
+    21,
+    33
+  ],
+  "phone_actual_device": "未確認（実機なし）",
+  "drive_csv_matches_local_sha256": true,
+  "scene_images_saved": 9,
+  "scene_images_map_pins": 10
+}

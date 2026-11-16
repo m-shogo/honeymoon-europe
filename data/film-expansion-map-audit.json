@@ -1,0 +1,1287 @@
+[
+  {
+    "no": "001",
+    "name": "サグラダ・ファミリア",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4DpfXzuqQXcguAczIhYaLqfiHhQppdZNmyoClXlGc5PAjbERfVD-cETvXXjxmZ74dJ95jzj0mAlZ1Ztf2Jx7rEKyFzwO2Ne-KEF0_uwTjuIkOh4SOWi57dBx9ETREXBDR-XUDBw1Wawkkjpw-jj1ZIAVXBzarZDj63DOCe-8WT1FvqbEnllTofC342MOP-7oBPOwms2tIYJm0NqUr_DgOWdqtiILvx73oO9Iws8cEDwc9ob3TczR5qny7M4sDi6Juth97GEi4ZfbXnua7cRRciboqW_Hr7fQnPUFHpS5LZ965W5QTmkH5zPRkg-kGeaz-RIThrJoeH-halVkGY1gg-vPi9gq7SrCcssqIgZBfrKdA3vofXVBn0Q46SJbNMJuHHLtyGN3y1_VECIAmYIWOKhh1hlU0_yz2Bpm7mRCfajq_uLyXpFOkkXHhWfJgVe1UI3UNDA9riqnugzCrLz31PnzavefOap3JcGQ8pgfu5pFbFIKg4iMsfvSA3zyg7pURa5Ei0DnmrCs1bX3gynNNXlngj1N_TTllePk1qKU5PHi0M32KXFK4"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.17435,41.40362,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "002",
+    "name": "グエル公園",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6sk5fHdjp4-pdSSe5CGr7gAU8iS5Jqk5PfvbDXz3Ig_XBHYEm2u7usP1IV3H5B5b8GAxyizpJkJMqhZYGG5Uc-IwQGs9n0cEzu2PG_VD9Hhd3wq_mKnRsgKJZu3POXySuX2f-Ogb3n5LuixRRHizcKXd2mC6Bj8YVwZSyzHBBu-c0gggQP7aaLo_OF2nUmyorGZbzLnyhI72-D4iad_vxIxklt0rah7q7lirDQ-QYkRLTCKz_TSmP0_12dI-ux-ahqHwEDNCe-dp4rUmDsoL6-28Uat1sd8CiIlU7T3xjf4Z8A4RzoPhz8rKmFSXlrilhkjitely13mEi8nawXCshXkO5S0aXzR4y53apqscrcCrad_73WoFHyGJXQq6ljfTf3e_VoFunZWuUi7qOnSjArqSw9pjU1SCDO3xHEGU-amYgfZ-kg-jugufUe6DFjD3zty_I2ew4DJjQYquwL1bmLRQVw37FAy_AmlHGpH9ZZ"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.15269,41.41449,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "003",
+    "name": "カサ・バトリョ",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v72R4iaFwghV1UoHlaHSxG3xhLJ_c3JLGRo1diicvy4-SqTBzMevxCZlRugdna8nobjWakMLlzqN9ANCNFwKYWBQXUgFMmtja8KhDZxoxe3fwooO39vtC0X7i4XrjIgz3cZT39hr8QIaVBbGTh-kRLZQhbJRY2I2mPwCAKr_nsl1HB_AYtFXkT9g-d9ha_Kzgq3nTLp9OcPzKdQ59ENEpKFX1TpKcp7dlchDOYtKUai26i2kfbjkoDR94zkl28hZ9K-AF5Z13t94FpaiWKrDsDG6NKaPh52R3OoJSVfRqpI5Ao5ygeEXrP13Hl9Q-HXEXwnUH31a47GNSp90QbZrCN_aNRyjmuqYNY80w6EoxxwzEV8Tz0eK1GFxtQtlBBPwqn7MjaUblPtTsq_t7VG27b9GwElXGKiUG-Duhuynh80_UXEUwG8ZUTH8-VsLbGyr1R7MPnRLdT_N6XzGNPb9R0qNrtRtJVTb7s-oUdsHxXNSsM2B7OZ62hqHLLKDtfTF46G6HbJeyo5uPMkQMgGFKS77YwY7ZGACg"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.16491,41.3917,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "004",
+    "name": "ゴシック地区",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7WwU_nyYPHz0Ik2leYH_6rvxhkAgRFruNdk-AxMoB0hbCg7DqgBKziCjuRrhTphxT09UrFohmT0qJbc2hSxTDacDEKC3F-H0dPODGqYy1MEHwog_qLC9xFAF_I-Ke-13HBc8twydsTwiDNIaO9C-kPNzjvt0S5dJwOXCGPvJH_2I-umjRNfDS7jrinEIDS4cNMbgO3YI-HWw3qkuAXAbOFsfoA5J9nCE7BykRjI9iLlRjpu5vCuG3uJlANi-XFbn-KdtHQHxIXJ1St8aQHp_RNd6JIOEOkf5p6HeYGt4MjBtIeVHEYKktgifDz9dh_y5TbIyBNNKEEBo41IdfsKMShSGxjdSn_BPu4CyC61FikqVw-b2Bg9jF_sSNwt88m0tQMa8lyIaFwFktcRzKI9lzMt3HoBwDLb14skSfKw3P5igw378EydsFcgujqr0_nBoEcQyPRkz-0VgV1m23RrRIrqqTaC0jY-jf_BdaSFWPMfYYq6XA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.1773,41.38192,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "005",
+    "name": "バルセロナ大聖堂",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4bbmDS6WOiBhZLAqndcrN3eCLtwCjamdzxvX5j2sUmG8mOBk63VBtiVdt7joqharrhd4XsR85AdYvHv34_ebXeNK-fvry8G5FUSOPWU-31Ct44-zafrP4y6Aw9mbvwGg58dAeDWyApWnnQ9373LseIZYPrGKwlvhdXFOqihJsHG5zQ74SwPdM9qxtyHK79WuTtnGUgRqgz6k6ahZ7OPSs63XHT8BD4C-IY3vE3HuQqzPDjQMsf-BBwjlKp1OQAjPBwclmbVZTW33Rz4rMBzHENlrE644LjlB1suFpQ0_5sOctahg1rmi8qolNnr3JypJxpem6taZuTfDYGP5h2nopIZn4lISLCNVM06tpZrzoU6iRsYTNgbXtrZ9Q6DHvaotejzniaKvcJYo2sKbhoFD2x_hPrHwn3-VCsK5dzeCeQZ4QT81Ge4TUVWVB1nVUX9_doVIUAMJkHgXMFo4vvdhFq6WhsVFcju25Qj5n4vSukJ7ds5TPkvkz8K7GLUC4t"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.17619,41.38396,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "006",
+    "name": "カサ・ミラ",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5FpxQUxffkyRnrSGLfhKDpQbXUwMXetoBm4pvoT-3YCZ_1UoqfdwlBuzvNxRxyQMyKbqO517ouAJeK1EkZTvEsSQYuBGiC2ONZXqN8dJT614MLDd97XXqzB8GNAxwAPBv-eJxIksN-2ZD6d4GnrccwO-jHul05icLw6EAFrYVCNUEw3ub844Sj5biK534JQzkofTE7Y0htcsW07hOPPzr5fFYVaIvAauKH2oE2i8mbHN3D5n7-_HRoNKXXZuXrKqhU3u5Oay-iMGGNqTr63RNotonG76srNM1M9TunVN4zYHFbbkybmuxw3pr6IcoCT9bIGx2a456m9Xx11Y4-rxc3ZsW6gzzCGio-_Rk1V2bg7YPKjNRFAQA5Tco9Gj4akNN_SUmjMI7rYaNTu5DPPlSnslYVK5qFCMhkBV9q6XxFyOeB9wqx1aPNS0-LLYS6ETj9jr0VWCJhqUOAGNkYUPV4WbgvQSIT9tCHWxMbdCVkYS1-gV4FpActhbuoUWQvKQgu6Mf9H_FVtmSDo9_lNo7zQ5fDITpRCUqrgc4JL58xQVOJZeZFzRgGQCwE7P62fXQWt-diYscX"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.1619,41.39521,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "007",
+    "name": "バルセロネータ・ビーチ",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6ZGgH-n1H_Rvgr6jSl3254qtD_ZWGwBzQOzAkougRAd7Zgq1K--s-_lFpGrIpzYcaHlHs4x9T22p0tQEeSoscO72V5pskm6tC38vfV0Ul1BwOHPWNGhIhtdg5HoszxjBGIxQn3HNLnDcKEXJI15Vw7tG6BNrCyU_ghDTkSfmCfCSHfOK2GANBNdO4Ek11qNS5f9SRd01V--H_I7kGYNKz0hZuBwmAYM1O_ZQATwB2iW9OFiiPFBl5mS5H-5q95XTohz-JVO6FZSmy3GF2mpTZ6ca6X3XiBSGqagytN4WMnJ_3AKYeqN_l8lDjeBiUaEruSmu3EegbwMLpGcyd6DCbwjlK9LsFN9gw-cnWLfuheuY81s8zk_01qKFbQ6RxCqkhvROAtihevfc37xF-ecxNCaxthIrfDCl_qWAFAGUkuJCM6aG2j4pSXC-327cBr8C9rmKaNGxIRPovboMJ2F1gmAE3R9kDxIANhmNKk1akpwZfJaIHmKRQy_Owh4RQPBhzJw4ifbujsghErJgkzEpfmo6S3OctKo624xfUOfMmY8DkVcvB_SYuWUxDMGEOfqTxDua86fMNLi2HpF9I7jjDZWm7f6tfz1CrYAMPC_d4Ws0W9At0AjvEgYFAKVBMgmnpomYemPo2T"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.19246,41.37837,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "008",
+    "name": "ランブラス通り",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6HImQaK8dxMEqM9RtDgWNkMOjfAEfx1asAQU2WmaAYsPjTuuCLGcFgg6tH3R459ax92omLaYe5kQQloSIe67iYJiMC2I9gxZAdAKE-fu7IIcpTaHuJsI-DP9TGaVnPxpSSyiI65_oNRKt7ZEzXxqzfwu3naxz1Yirxy66GnaI1R-SLtXOAqvWbzy3rW2sirdCrba5JzgJfmGdXRKy0jL6z88JeA9M16s-zzMupZJ07jNOKcAtIPl2HK9jKhMAxcHnn0_6lgJkNIawjlTOizVhHXcPPTMvIleY12tdwUEMRwWXidT6iZb7Kw2OjgwbEPcS9YxoxMV7SYaDISt9EQxS3ZDUBTuUlLdIttkJVn75ZvsuMwRbRrColkw2vuFFUDtuFXD1MZWgfnFHF8X3KUmlO3sOiv4sfTX7ZvAsysKXRc7tK57jgmnDL3u2sV13RFqv2fEjawY00IiavAZH6iijZVTEORuzNJT5p8cXDwWF9p1qZjqPfBOOkCn1wXmvpDpgLHCeX3-2kTzMTaMKrf_WhusLA3pYbqAlvt1539FthRg8AJA-ipl1-b6jdeVJIu9XaS9yF"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.16981,41.3856,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "009",
+    "name": "ボケリア市場",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6R77AMNUL3mM6zXU2Wr9kB4JttgD_oAH1VtT4g-qD-Y9v50QG1svCHXJhR_LwlPNjB0OB0xxwQP1TdycReypI1pfM7_Gu8BiwrCtQ2UPTMePb5yeA_FqJDJXN-k6mjnkqMInIDsRdKp3nZ2aBuYzYg_LQiplaluILdpKXByWtvZpcCPEjfIwF_VJHxYEXbMefK3qMmeOPd6dzTvFXOeVW3UE5t2E_VzHTKs-cA3FZykweG1El258intxXRwhlHR-mlA8ne5yMKyp-XC9GUSz5PweASs5b5luV8-zU4qlfWrMKUSLlLyrejwM7_lc17Kw7NrR8u4X5J3UwZl5W7XlMSP_zvJSZFXh8tdLtH7mQ9xn1q_5GdySfuncoYng0uLxrT6xhZ2WGy4GtCr3LaeUMtH-XSHw48"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.17158,41.38173,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "010",
+    "name": "ポルタル・デ・ランヘル通り",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4RgAybEfw90ulIurRZYj1Ro3fijwE1nWyEIoAZsAv0_YzRcMkaqiyDXmNwRg5ljeu3b6ZBQPchLQCWQwoUNZ7q45ouv6uhCsaM87e0tcH2O87PgdqKEsRvh8VWNiAKqIXSAHAlU8RYcFiDv4VT3qrpHFts6oeHfcu9sqrPXd3NTUyV1dVnBf1CyibkylBmQ4N470uvgGHcxk9QjsCGhb2AjIVPLs0Xr2v8e9KCtUh3lfh4r8jMvePCTbfHI1HrsL25kJAb7SCVTB2q8nXr9J1C11RaFwfhN1_lTx2y8y2MDsKUrDRC5JTIaxDV1Sp529y-DgSAV0bnbjoHrRSkQTVb9oeNKvU8x9vpCqrMNTjGbcXdznS5rBg7SKv1P3tq0yEWeT1DSHzqyvMyJJXH_I0joZvoxhiQsFpTDmmsXc87GT8Y9g-c2B6_NSRueULoczH9AF2OiZdwEWI4lzuKzgchKxmDq4aYFzV5lLsWqoQt3YuBjHXEzWw4QJIh4AA3hDMw-yE2GYxnJyuOD0qzDglNYhQdF85moopI1Yeah2gzCndzqzMFD42eP9201vmjJhI9ZS8TRqDPQ20KNFM"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.17275,41.38584,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "011",
+    "name": "エル・ボルン地区",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6JEc-bXXdU9ysQS5L-HPo-VoYO9L0vDOP8momY3KV1ZjfxWgE3umgSEA6u2KIhvOr4Ex8YnrOJ79Q1CmhJsmW47YTleW6daU8g5FGp_KrIcefztlnmtmU-ixaAWWcYrzdLp6llFp3cS14_FwnR8LAr3aAf-Qtybl9W7u8p356lAAMu2MaPLrwCgfuqx6OeDVQDOar1O1SwKrQVi8esICSi6I712liSYLhBa0kNgkQqxpz-zsT3gHnmNEf0-KtoIpYAzqpBGnfSVzc3tj1maPO71KmO_EJoodbqwZYkoaa5BgF-sZ9xd6s2x1olP50uU-Mjsiv9y3LdHBrIVIw3Ypk-a4IERhMfoz9NK5YbS9qYidYap6_6l_Ob__rMksqJ43yQHwVzbMQcYp-bceXZBYJfxpKj-MsAsRYsPnYu1yNsew4Gm9CB0gpyVsi_dY0OEjjM7RPuY2D4z0wLPXuC0b6_gGvU4uBHPMKqiZM1xy0TEgbOE_gTM4f8KWYQYqYOq-pyqxdwbDw0lar6n8zB4a8QQegD2Q"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.18368,41.38568,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "012",
+    "name": "エル・ナシオナル",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7XA24WTBlMZLP7VSj1EYQbgKxAs084yHIs0Jkik59q7bS5c1tg_EligB53P4a3Agl9gE7YfMoYkkoWJJkgsv8SHR2zc5YaJUi6Dfc2tmihXnJoldONNBhFzGx6aWjwuUeTTf5SPfzM1sBb3Rmsqwffda4rm82HVl70mMLexVVxIwN7TkEkIl55ENkTxP9l-lgpKI2n3t05nS77v8wyK9oxoyAF0NSNgO_Uz1vg0_CdGRI8brgRb0jP1OJ3Nx4tk5HkaA9y0KIxphTnLsys9Ll2VqQKJxTh6UGakDGbyXx3roEBG6shtEyjG3lDFJacGABsj2vtf1g9JGj_Bes5zZc8K8_fCUMUhjY3Z4-Y9TZQhXzN2xhcgUHf8yrmru3zqPkMVLxb23_au9AdS_MonXwxT7GExCqLlzG79zKkp4V1mkYxsky9GgxKZod7BJvriOkgn_R2zgA1-dt1S7OXqENojjfVLJevyePwFkw"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.16839,41.39058,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "013",
+    "name": "グラシア通り",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5aSEjcJgLFuUpAr0jq5AQD7ZQbj9LXP7TV6GaFkw9B9NlD06_jvo9F63eDebUoNh0lz5K0_ud6o3M3KgEZfjuSuyw2PrGYeyBis0h1_0d2Pta_NXA69B59MR52mxjJ60FI_HY5al22HCHomiUFWX_ARs3rfKRx4cBVQhKfEhRwlJ4d82hY1F61bz2mg2z-GwhcTvMlMRoZJCbZYIsP1Lz_F1zQkufvJesCHKo4lM1SlmoDwWOc1lf-NrR8hM36W_KPVQjDhRiNvhK-jVxZotZl8SSgzxvQ_dAOW2L0ub7NRtpq6JQILYZ_9LMIfqMJtImq860g2O9genS4ejm7-NNo2bdxBV9Piz0wIAwFksPshQIUjo8KgtsZG_u6z4NC4oTtN6C8aBByTFP2EwTl6IKdS8HN3GtvQT3G36RkGNIhqy65eo942iQVa-PrtqY_tbfyp6m9UQwSc5Vgg1cwSDeRupG3eRhvw-Ke_2P0JULXAJlJJ9ncwa2_yL6yKX7CuG4RhHEXFOJ9"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.17027,41.38804,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "014",
+    "name": "サンタ・カテリーナ市場",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v55iVCt_aqvRrhk-CZPrm76oZCclf4MiT3WqgSPiWBGwHPhxM4x95-5JK4pUg2M9uxgVzKp7tmMa8WuTgZN1DbXZ9Yg56i2KmbkecLg2KgoeArcMPuZzJFHRe25GLbTBZMzBqrzRkQ_Ga4K4l6OlpFN-Vrkd9NSO-dnyoBTAXFDC6M__PyiSBUsK0rNLjjmvMq64z7MI7hbpycQ3yoJQ4mECqnM0AX6yHHTIx0_bphcag1AmUdqWex7Z51VopaiXbEe7sFo3QU_K2Daj45LYkOyhIL5nrEs1UyPXGwF43myCC9-oLVFbl1rxVniodmwu3PozWyWxfBsWiJNEEzF4FgiffDjbctDlQ0-HbnMWSj9X4UJWI68JT-KMMX6pRfN0c45BMemCcmP_W8y2OkcOd88iXTRHNhFGLLO0LtmnCLWe-5rTZ0XH7Mt2XjVhfmob8wvGXfsWkqVLMhSccfav9_ORnOmt6zNyYDA8HikTX5Xnt5UbwIwQLpeNY6IjdsOehwR58lck48dQNg2nAn2krdK4w"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.17815,41.38636,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "015",
+    "name": "カタルーニャ広場",
+    "layer": "バルセロナ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7XVMWYrWyarOMSBISmR1Qz_2CKwXdZCAUUS3xrd6KMtZVzDpQDzVYYRcs4NfE1DxH6p56CxCXRGANSBXjaCTHHzX7tifEcKSlJ8_keIWuXwkAxu32WmQ_QhlNvpVEAuyZoJomixkptkOno-7tkFIfeMoPWXhhs9E8bbikGzigFW1ivEY9j_HPC4UW8a_IXuRDMsdDcDg_gFWzo3MfAG9BiNnDfbU4A2m_ZZ8qiQd7iMDJDRzYEq6DxqGo-It0VHao1hhrQA3i71HAEHhU_jGbnt6pURvTuZjm4Dk8KqaQZxNgKL1EeK5X26FqQevhq3xhuACPKA4ceE3ElVg1yrtPATBPFC7u8GyhASA1hP56edBEquREb-p5pjuiPWJi5kY9iXvBn1Wa-bFfNvimpHiYKrd6RL0a12D4p2qhWDEl-Eppd1PAXEev-D-eTLQcA8wGh0695Mr2UG0o4maMqHyvdNSjqiEiaIzF6u39OV-gzVlaOpGHfeIvnY6WTZpSnDr2Z"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.17004,41.38701,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "016",
+    "name": "コロッセオ",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v77ouv29SrAan1-xPLciTbNPG79gtObn2nZ2gUzlye1s6WN260rP3P6jX2BuGfBLZo0qtBrtlDsWhshRMqWOaDYnPE4PGvltNui133F1ecPOXvLqY1pniznKawsXkTZHLe30MajexIex5bcfLnbnYvzaKOW21k7Zd3vBh6r1BfjlYWRP9OfH039DiqzBAkO7wS57IeQK4jWwfZZuKsePU79H5QbCTi-ydcFS__BzAgJTHftKmW9j8Ix_Ugtfv_e-OQP0_7AOmFKLqo6qxLY-xmkEDiCQghz0jtVeMEN-YLtYmjoYoYyE1hJWVwJryPsDiMSx7T9Gi-6UXTOMWu7fTLjpk-O0mLlRMwXliD2wbblCkUYtMyNg_TAdAmkwyPJGLbsXPqHssJm50sXkqoNy9mf7nIKcQccsSsgerfACHhoJ8Y-PKxjIuG5RtdDNLbGgC0iY00qsqs37goFCr7soG_d9Yv1BiaePHQyziUPT8QkZUpN"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.49223,41.89021,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "017",
+    "name": "トレビの泉",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7wYdUXAcEcAKiCbp6R177RsxUBp1-5DzS5dbf9CEgP2V7GvOPrMuDsG8pGiSmqkcXAu5AkOMz-C1QOT7xauyFABVBPMxnfGZcQCY2BjAboMONqRZaR0u4KrQrdrBo03VgQH7ACVjTj6RMzDE4-STsjTNFPoHVMU1FZbH9cmwLQiy43G__ePPSDlxJnEX0yfUh2r8nWg1J2go2NASAvuu-CWdY1J0eiyd1fgE089sCrvlzzD-VOOWIF744GlcU6nB2vsExP09KvDbLeysX902PwDKdf-GsaNNDoibCV6XMbUvNIi9XpR7qyvM1J0w3e4fKrS-atVfLwfqZx46Adq9lgMVHuZqmSMm9fAy5exQecdSGsmefsSiPBuuBtQJXdf6fGZzBySwb7I-1qEwjg58LvVKg5CQw6m20r8x9EydHdy_oY61ZjGKmNuUVR-XbZBM5VDFLeURUuZcpTfF6zBBFO1Pym-8iVom7yEjXrdKz7VNZpQHj2mHQdJwQhZzScnGU9l7ki"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.48331,41.90093,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "018",
+    "name": "スペイン階段",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7eUwVpMRoWTdH-tBYVOGJNtdmuZt72r2F1cUYHBCtvSPQoUoTu09CMjam0oQDdQFYeCZ9g8FfeDmnZ56R-LVhumTzZ8E4qHjmRBuAs8Q_HC38s7y_DqvHcZBToUv3WUcSgkk_0OjP4z313i1TIDsjcWSOFsdCiW-Dcf9pkIx13g688_gmfeGJn154XefcnK9YpkfiGm45XHyyl73h07W0-qsHIYMIJ4zvm5vGI36J-KwEjwR49ZVr-PU4cVwfVWAi9AkdqqFMRv-wGcZMFhQmMke8sxw79SJ2ArfJAt0M_fS2ODu2xwIo_Tifmas_q_rM6WZuCGL_ShodjjCnjtHqPIBjvQBjFQ06Jr62MXLlVFN2JVJaatjzvYCUIxAunEh7CJY35eI0nIL2b8kQ_Y__F1Tc8WQrEUbS5ompB01g73onhyGTvwPH9WaX1D_WxzFu85cn0IeuU8zuEXlYabTJnSzWGr7sfKb5uVFhLo6gJqypf6U0Dna6tgLTQTQiEgcyY4DkEMMbOXGXyC8IVR39XrbBBU9sU0bbEOrUgZjkYtOm5r2EuvyRQkG0dz18FzRFQq4yocAPnzSWG5V1E3J86BA2SwlB91AQSjL6gfndDmTU-sCkJ2d6yaienNVD7N61MdhWa2zoM5OqMikcrXhjkpTbX496dChFuB5V8ko-vUj4",
+      "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZikih15vMeeeVQzmY4rzUoILQ9NCdoz0CZ17LOuJ5e0pOKrxikGiTmKb_58eI2zS_14xa69KV1foDLtuELlGYDUr2ea2cxu9KDMtK5B8F4o4VwOPSilXTLbzeZvYXReUsrBQv4VUaY-l5A-vqFM6zYEZ8CkiROZfDGoOnMOO3rtsqudFNT6ukTy-IrZtmD-JJH8zQ2waFoO7UuClAdc-JwRgv-v2PSTaMoGT9VNWF_GYnaXL8g5et3aqsY?authuser=0&fife=s16383"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.48294,41.9061,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "019",
+    "name": "パンテオン",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v78rualaxDYwZTvLFpQpEULgFxa6ImazpA3fQSkH_tve73gdAMfCSxBsbrYEy4J0eiP8_GGqm6An9gCt11EHtQu3Vf76R07vuMzzgFwNXy7gveB7qVOnl0PuGBiEF7gqf1bizrWYtHuGEFfBGzVyl-hRfIsSAmfl_TbSAuKEGffAsPfFTcg28QEjs-x8KcHYYOgOZ0A1YQwp5FoEfyu9leO3UYuvhc_vu58FloKRLG4YJyxsbE7eV8ILUlvDm9idh_N-2DTFii3u_AE26DLAuZcUncrqjO080x274TjLkXohiw7OuAlvR5Betss1luBgmBwFY4ppWhN3-DHzQpP67fqt_OB74uuS3cqSA_yG9obkzxfSPrlbE0rPcu4fWrPQEo6BnqnZnzwR3yTIGTVB1DmQ9RrqSQV3WQMwVnQOSPu1j60Fyt2KFlkJExAeR3CCKd5-PCIETsoAkGyJBwtY6c8DfkcUX56dVGd-QMmUR0w4yW9PXI0v-2kgw"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.47687,41.89861,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "020",
+    "name": "ナヴォーナ広場",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7MwLiGeXwoRC1csgGP8toISeGDvtiYxab23qmIbInkDRrUWZ78EtJ7uneEEFkoZSyfzKdhXupnaG6XytMizIeZzq3aoVZ5rBvbGptMZ7L5gUvIG-CXCSYDdNd6TtmjPcl5Lm9eD0wvyuuF2Zc25oF4PjU2VWPQy804JQ4qfn_0vvkfTQyD7sGjv-qZz_-M-RtHetNEWWmyMWSoc35au3CYWyN2odkCq2fAaUD9MgcE8nPeANky12X3H1GYvrguA5Y-tR9GH8WFnNAeu1F6U_NoiLuwH0EOtlisennGELDG_sVK_QZNtkn517a50Gxq9mBWivp9ZHSPTTbeWAg6TNqxLB4AJIuEaQxTkfi_5JVvxha1Ha2H7ULE48AAMwidLrGIF_ZPO93fOKd0ZczZRp24Z4gSfiMaYpFrptmY8X0kZ1xAcaamIETQ_3SeAkUvljJbYn6AsjH-9wET9HHE6a8ObToatnM_9gtRAzXzmLzJ8jQMGOUJw_KZbT5GeGZS5dIn03UyOp6xR1_ef1i_2s9UXj9jAJNmdjDEEkEs4fdAJY9R2PN8pqAt83bawvZ3XYIgzyMe3a-N4KhFe3h5ODNqoT9H_A"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.47329,41.89913,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "021",
+    "name": "フォロ・ロマーノ",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7bTwVs_81S_xri3nk5lSeS141wj7EHKCcyCUycfdkF5x-WtApaZnAXnfSccZt2JXylw2IRVCu6Dr_BQDNZTrAlfmr4g7GeGwW8b-lXTIZbYMK1vEZ6T9G125F64H8BTrVdLSuBi4k8G_pf6nN6kpVq7dHwMJIO3edDQfQ8uV5iAvR8r2CaKnH8U4VXybPg5pxZimxzIloSxECulmMc26cXYtrmNk_FOCqxjt-Q3sl_T43w3-yuHKPTtfmHzPYt3YKgjkVaiSxsP7zeo54Xvt11XrCgeHplSwH1RBND-SjMc581NlCaJvWk9LQKnct4NMb5Elf6m3kKsu4O4ScvRQl8pDMLtfEObvZZ_XfvXpcD6jQDfisna7BGFWTypqOIWJJwDmthsNFxfYq7ZRmAsGDBuaSOxihqmXbu_ZgHS5AOsgK6LtCDeCEfrbvG-5wABpsn4yTLjHTw73BPrR7vMq7mtnRyPvVTqMYY95zVhMw-RHE2kLh7QUOcNtmuyHRm3g",
+      "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZh0VB11DwK8Y_X1idCH5Ix7zeP0ACW7GKojCypgbRnN33CAJcGU4iytr85y7nQJ3oy2srn1rPF0N_9ZGRHGN5rNVCPS3b8JqBVVe3nilqL2wQd39KReq47GCYGPNEq5VNmpikr6xM46DkeIb-YbjCk1N-rm6ZSd_UlrVFKzQDuy3KRp29-1kv9kihlMZmRHszrYaz-D6YghTlbC0zdF6yiKcezWVcxOqr_f8xf3t6RHnEH1QwbLEATpWUM?authuser=0&fife=s16383"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.48643,41.89209,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "022",
+    "name": "メルカート・チェントラーレ",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4xGk6Uajh38Qiux9TyFeZLLEsI2EgLXb_-YlUaC_zPI8TyiL687aE3cPSHrw5NydiSryuuVI3VDf-57C-Yu4UUcWo74AXy2ca_MXX_DWslf7-hzF2cW94SiCba8DLYuPPUIRyfkI2jV6EK5uVlb1Mbv-DM4oItmba_dhybNVboXlTwfEf5NmWrV-T05S4T-RVCBNbq5qVlG2xWFNv0bYZgPqTv07Z-HwdMGZKHYjGMA-aJNq6fpjd1Jc2kdS-QtvfKhVgWyTdnB714guP7SgO6xibioOSuMuIuyevE"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.50344,41.8988,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "023",
+    "name": "コルソ通り",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4CpzZ7_tjPGsOdxNmmuy9tT-ov0Y8lKdPrGmmDIRXh5KUoOy5DsD5YI1dGESz0U29zqsQqCVHdfz7WIMHMHJ8DCJZKVPo90XFksoGmH4W7MFOCLFhHHrtdKJjJIA7e89kcVa4tar83cKPY4eLUTjAYaZBv1x42k4khyCkfpQ5vKqyul7J5bOGysh8JpO7EdzzJhNjTnq578hHDHFAN_fNhTglfxJ-nds2Z81PkH0Yoazj7dwqEqLGjWw_J25aRUlYzSxV0EOeOnsp3oAp-AVwIMYudjoL8jrXixWUgHJNL7vlvjIUcdnhUiJf1us6dsYgkc--0opWAM_c7dhsFzTTQv49Fw-_khWCQjRMPUhcVIfVS5lXe8Ad2SuD8bzcSklE5NBNB-9M5tLDiMPVcjkJRU4VX3fK2aRM6urG8neBzEr36vcz74ONZKzvDhlXqWg"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.47949,41.90321,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "024",
+    "name": "カンポ・デ・フィオーリ広場",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5Fid97oCKWSKjDpOWAbavX10HEkejk1EzRrMbjclUMMqViSsL3OTfeMYGtobU4PP20KVXbG-97BoFtdSjl01vlDiOVsWU1j-7vwaLJcPEVmuFIcPHvPX8zcbM6NiiX0gKJ2kbintwZI3vygKRuQYQox3qEaPl01HmYHE7Wmq-ENJRSYL70TOXKwISfDKOf-fd1kRwjrf_YdT1xKjK6BFc5bLcV12kIlBusZPirhfVtOrIWuXdkG3udwV_FN9aqcwYXi4Isc3jZwkj-ybMFqlZyshcnBTIfZKnHBouaRsFxn9r4vRXAAwRB7Z0fSY6CLIpMpX1_ZIlrAGIRoAJCkZwdEaS_NAf-H1amHX3stPpeBZHZdduarBGZ5__2O3Efrk2b0OElb2hoUhHWTaYkts2lC4hThjuCwV29SFp30MRq2hR3fZg6_wDA6sf7t340CWT4eEopbSEGniQTgAzHwiwF3VYPS7BbWVdWmW_zbHkmXvhqLbXN5znuFS01_hiTl0vP"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.4722,41.8954,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "025",
+    "name": "トラステヴェレ地区",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7r9zZQYc1On25DmjguIDCW9aw6Hz4wBbJI2-jT2ypl_1mNqv1NOVt-urAcDdjxgMpm3S40iiq5m35OviOzmEe6RIfLrRBGHBN8hqWk8iOUu9n8O7YrUbgdNbAeM3vcMwEyc9_R_3KeRqbEa7SyxfbkWBng7SHeQTFyWhLKplxk4IqsYasWXknHEzKdXfixP90ITE9hDJOuF3IXaDKNtaRElrJFkGOYrWfuCCRgRKp9WIKEtuAGiPI-7tUUO96KkSlMVQOG8R7rZoXvFGCI6vK6AIXxM1f57Tovnyxw4uIiTdQTi9np-IvrJ7Ys7Y0W_8-ouw9buYqjf6U9-SOoQJIlVZZ2JbwE4jx0jPkBbJDfVF8F34TKDgFFMsGiQtR_x_hR_9jcO1qGwMRxDmSk7mVJeygqytBOdUD-WjD9lOEkPjEIOkum9DWnja1doyzdLICqvXb9Vav4Lz8U39HO1uofAlVNyY3Xio39xvQ2HkNRdN0pwCQhF6_V8aG3Qoqjiy8YaBDvoHAtsRX7j0y0i8I"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.4704,41.88482,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "026",
+    "name": "テスタッチョ市場",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5Q80aAxbS5-VH6SErjBEwjWUIoLWnx3q9xQ4rPldvelWJFlIRPg3UzRqJv2cP7dPVyWnvw_4TH_OS1AWSLS39szqig-XaVItqq8peY-4xTKZ6RkdHHjYSl19BmvTPZATc-KlnrCMpxlNTZeR89igFbWBMkTmWUcf2BXddkbSa_WuAQIoLL-PC7hxIaQv9etzcFuFvtTwAd_IuINEeqS9UyEDNXjT6oAu2aGf0BmNW4rOJhk0een7f2hDLEtfisAw5WCdZ8EXzX1c1spRni1VSsq3dzfC3rsq9LsS4Bfy_QSw7qRtA8rSIgpI5IXB5B0dP619FcmV8gURHdpt6XJb11dMJDiFTi8_D7jAD84QHNhO9byusIyWDzggQigPQ8IbwijFSLk4wngc1qVsnc1Ui0K1PDX3eJ2OtK7rwucGMcE0sg3JG_5sXAOpyOaDwx0CHZZxzrlFV8Ii_ZHH-719ThUT5q3iRG1B1gXpZLWp4Vd5R_wRH21JiHoV4K9i5hxrkhMzbOJaISnWBu1ww_VTk1Sg"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.47384,41.87768,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "027",
+    "name": "コンドッティ通り",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7_Fo6Bzio1450rsU-g2EENs1npl8k4o6t8uD9opj1ZZh7R1UnfOPXm0ovCbf6KDJLCBZDEmswBmus8L5Ypd7FIPsmnH0x43KRd6-mmNnoUL3qYuAjzFMmhBTO_sx8xY7kHtbHS9VJD-mrDLVnTm8VaNXXgoSp1qVs3OjXyAghWwim0ZXvIDsOXlCJv2IL65ei8TSr-M3Ar4xgDkInehxoz_2iNrmDQweI1rCQM82A8i-SIS8z2JUEzmwJnIxtfdM5Im1_uWl1FcQ8-AUvbmqjQYSwQYxqP2MJd-2rvbBU1HywCsQWTQnlpXoKpksFDwxGnjxTB0csi49P3FVIJZvUySJ4LyCCtcQ4smhiDU8tzeedxUip4XoJRGiWIdKi0kV_dlkkQcZCHS9jaqJNgohYZnKrLnjkR8fDTtF9eNeLDsjbeE_jRjFE-PiPGwAGlt-DJ"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.4805,41.90515,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "028",
+    "name": "モンティ地区",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4qMjq_50H9n5fkUnl8jpkXEpnVDdAx6IFXvSwWcopcG1BDnuMnI-233QRBdjaatS03gtw2ltZMd4Aei6hJc2NpnwOyvgVBehiXryGPsltGXyuOz6IJFwvx_O8-kXDoDAfBtYnfThWrM0XOyMRIigUXBv8pxhXxQn9RVwdWiRfNXKhYGYgnkfRz1imG8Xmk26U4L4xD2q_c43l6v7Rcp30egFC9p5J4UHaIoC-dMfqUITmQYiZgGGD4XyZ9AUK528oK1YjwQyJDFKjo_amnzZyMbQw8Y9fgmGdlux-lSGbKD9VbZjpwhGsbcGelSWU3LwIxWsC3uEPcVjzEpkFWwgocW5CSxJM2lO9PV2-p0ywD0qNaGmiNa416bXAcXguz83-9QpJU-HBUwtL30t5N4rBzuu4eygDEGEfi_oGFvlYKt4Wib4aeJnhdxd_rZyjCcU7th416mzgnjamN_9s3JVKHoJs_5tv9aXf5U42rSlNr3u2gKEzmCwQw-1XRBbbA9bTo1msXjuXwhw39In556wpQVNruA5bnQ-klmas-NTyBds1tbcTKjKg"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.49252,41.8947,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "029",
+    "name": "ヴェネツィア広場",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6oqifEeYywrRY3q8lVvahjYcQQFyDxLQX7ZQtKWjbKbYuQ2l5XLSa6KxBfR4IKA5DzCfX6MHosg4Wh2vMF7FB-hew-yraNogYbDu13aaRNMucqmp3TeAuyB1r2rL85MVkZRdzw3rXOyzpuuk_fW1lD7g-d_O-gFL4FyZW8QyX1niyvnqVgabndLI616mCmO2BY_7QuZJMmAzhbw9gG2K-nJHppONNE6PCmSMg79ozIDpW0AawiUkrOJUcblgCu6DOJObChMQ44TdZCQmJjExKPd5hlWs_iAx3r_d8GkDcay-yzWz87fzU0akKBylUDBANLOciA-BY3yc_O0bB6CyJBjnwi1HA918P-hF-m9KhYk2nUwYikDD6oj9-4r-r_T7ZPXWRun1BSiuHeuw4mKm6eagwKkXTZg7V_oOUTkKN6M2lAgs_sS8Mw0CwKGpq5g4A0HERA4EaT7GrS9zBCbZ7zM-sRiN2wYtY2Cx_R"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.48257,41.89576,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "030",
+    "name": "サンタンジェロ城",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6w049UuZD10Jb0hCfLWmMm7KItZaTyFjefvzlSfYArU2I_-dR2m1QtYe6z0642kY9sEtUMqAJlt093jpwsydipAn5epci87cEZAu2XjZTo_JIth28jhdkxwmRHOeb4RKy09mfX5B44RHOfiGn2cT6WxOaQolOkVTM95bzojSNkkeSXCZAbzsKKKArG1WKX2zDP_6tmMZfMqHayDyuISwxzDZrQfmYzxMn1RvSKfkOzZ19nmdcS2Ro_SN_fTth3IxyTapHNJ6Dy3avD8vyZ_EK0CZVzlexKbQQ7jTxcbsf2FWuXYQXD_Oy2jTHLtcwxpg9sKvuXlCqNbmWnvPzSzVVgtRdyCPsNb9gHmCiwTWORkjOI72kA7zXZsGhTuSDQyMTEsCUwXOsUSzd_6ASgNGNHS2w4QwmLJvRZI65XcCnqQC6pX0jfxngTmJNbnEpIY9p_KQWUiWhUVvzFvqI8KmJ6M5oBTsNz73gAT0rL_46Rz9EqypY",
+      "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZhdp5Yt-ABR84VAzTCPlrMPEvbQlOR6-UVKLnYuc_n4UxbYmgqdbQJ_K9JIpsZK6JKjqegtmtrEsJsn9u6NKU_p31Qfh-xAypAmDW8F48u5stQj64-dv1vwPXiRBx8NpvG2xjsaISTzZWQF5QzSS1XD-XfONoA5PoznDxciR_iqislvD0BAMQ47PviVMzpTrz2ZfL_6NcOBQRdU8pEcn8jPeEMUm3qriigpcjZ40AJs0cZDNhvJMEx2OGg?authuser=0&fife=s16383"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.46627,41.90306,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "031",
+    "name": "サン・ピエトロ大聖堂",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4ECxWLUDTgy3AXIK030kaC4FYMHs2FCX1GkUaTyillTNJw_f02dtERAAznZjlxSzgKUR97SXRsCLgNZ_9dvzOsA8XfMS-uexrmUEqx3qDZK0Vce8lx2OtyFC2wnKh5PPXPQVRWqkgvOvWdL-8HzkHYcHkpot7XVrntYXaDnzL149oFAh630Hn0qgJ3Vhl07KyUhncGkTcuHi56ue5QPI7bHn2-M8j4c30Fm1aUYYvKFDqSzKuIy4xNzprTd8ZnWt1iUDP5Oq_yWzZqgagEvp0khDqJXOOc5m7VgFtRTBkfQipAHBLbhCHxvFihhqhaAwTtAV_btLUvSeZefnptSJBmNPCTBnIEsPV7zHd9qnrIcbaJbUgahn8utrfaz9XAK0qgMp4CSIenTUXJG2N_YPQt9O9Br4RER-awjXsv08ndFZOmyknS5V_wEjAUxqv745-WdI2sA1X75__Z8jPr2Hqif4Gt9CfYmWdwhYgPugv-Px3nC-7CO2UQuUrfq8f0z6eeiOWv_MNMisSQk9Erkzzd5fygSZSVW7ss3Ok"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.45393,41.90216,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "032",
+    "name": "バチカン美術館・システィーナ礼拝堂",
+    "layer": "ローマ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4fXZEi67nlbYLiyxnkPn2ZFzxni4EM1B7CctGxUDNGS-6X0Th_mgmZKORjZC6BSz2f5J5Hht6dVGM2Zj5HToyf3f_G-JpgOEwnv1QpxDEvV9BPZTjtxw9APZ7SPiF6STibvJfdvF72Y-heVu81Viz_U9kbQOHAg4GF93M4spCco5O2fWkmRt06w35WxrKn5AXHvCfgPyrWq1qY_aW8XeV1GQn7HGV_9RR0pk9msFyRCFPJVayJYw-Jdei1QcPkOlSidLKe_yXpcrd9Nfm8XUbnqgezB3KxM_lniLQZgMWGh5fMTd_QpnXIaCxfMgI6PFHQmH1EvJS8SMTGs6lb-eOKcbiwYVS8x8MxZnJpGfjs5bpzI7FBz07pJdziMim0pbWUi5Odg128f5Y3ZqLBgcZjWAzOjk7hhKBqE8m4EuJm2NW_l7tQkTSNPp1btlKRQfAmm_5SiD2gBwSg_ETk-i8Z-aC05GC0F3t0o-TSACaRPAcN55SaG1fR_HlrUvo4OBjxCtSnjOBUAkL5jcJvXeA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.45364,41.90648,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "033",
+    "name": "サン・マルコ広場",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6IBDixdxVyw-2kcMD0rih4YmbeOUtkj3so6vXDeHiBuqjAZpi6LKMC7oBlOrNsWgq1t_Q2EiWqNXy3UesFcCsOGe5SEjE7wqjagHp96dFuneg9wnZ6n06axOvO0DyG5m76gDWRpsm9bBRUvdk3fbagzSoUKQA4vk1t3UgAkPpQAmpZD7xuRP3kuAWpK3qiq-rvSySOAWhAP29YM1Ud5RKRkdsBVzyEA57nwY2GxfCS5H2dsP360BF_HAwy4iMzuPr4NebLSsmHB32V-jJETH3eerkxD_6aRM9hUoLIx5dSOp5KKI5qyU5v24sAQYBDl4-DFWOtl9-sSHBeVeosRBhYSaNWXLEqflLWCt-xaAYh3ubnMpzPW8AzaOTF_RvtcHbwYnoIC19w6StldO1mQ8jWSrc8hX2UzsnI37pR7W5ITeQqoef4Pp1GM2hEOEx0Tkt8LReWBlUQyU5ljGFKWqz_-3wYixGtVgGuCBc4bd8NoVlDGnT7nHI",
+      "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjk8cKNeGAPQQzuXMpLGI57pNg5D_QOgawYhpfeRk3Pj_iNbP30utPhUbECd9jPPY5u934FdJTVKLlemNFuW1xCRaswf7zREH-OHIUZgJsv2L2QTlPVjYHKJ9XiETmrJIQKilyymrWR4_3kqYEZgKH-gDeXcPNpnhouHpbAH7q25M4ISWiCWLk5vbbvPnLC3subEsV7ogEyPU-VuLRNSVKGMrshcarqPoCLnvSUIrMWyXe15wpYRuFYX8g?authuser=0&fife=s16383"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.33811,45.43427,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "034",
+    "name": "サン・マルコ寺院",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6zmal039JJOESocjy2_oBi5bhur67jb_w2Lq_wuXVupuLU71AFbUTYIFyU220WzZqd1iUR3gqACi1cAPGEoSfAefp7tJufayN-AppG4_W-TqN8EblGwXL2j9golR4l-DAY_42j5FJu8O0V0x19A67M_fqCwiaq785rQY1Az3VkV_g17xXfBUoFnXfUIVfmEDi1vQj4E-azX0oZTkjMoBpqJpx7ob58lFUV5ygeZdXY5xGnIG5eVz9g6AB3PUygg_VV9xlwvlnVP-bDgZ8SexGRoSlWUnW3rZ9WcDiHO_kqAT3oM-Yta7B_S7Ru0FY5Me9Al0RXiAsYvy4BAZhuRx5z1qeGhZc2p9RdtVyS3TXMyJjSe0SZ3xT58r-uiCiL55yX3Oeo2nm0b3EkCW2w_jA2QZdL87B7TKuM3g1oOchkBuU-GJCrJxm9M1MTlCdYAju7xupOSvvkO7hDrRA0c3ccZNinsMG2FRlugIISFtrAnTqQnrhS9A8rCfqDq69qOg_JfbNnuG44JzfPZq1hUzUWpIV2HHD_MtBGDAa4cMB1jreNXA3vmuyDySqVZnt2H7HHJm51lcdtgMUu_B0DADBOHRqk7g"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.33971,45.43456,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "035",
+    "name": "ドゥカーレ宮殿",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v72n-pDZneDYi9B4leD-oKHxlDS_84nF-A63iUo3z26zRfBKeY5kz8-TkfA-8JoPjfd1GoWMAnHyQCny8L-f7kFHhHrJ79QMTRBeihqG6IsdfIEgxZuScYA8mXyIGkOUy5A9iLCVMsl5ljtzhweOxOKxzn9TQZhCDFvR4pJ6YhGTHMzTHJNTfzqUpjEO4upAaccpB7yFlIWU-LArtIWW4I35lOa6ZuYxpw_6GwUm5UxY7BFbWZ8I9KIIzAS8YK58DYvQtbPw-d-BiNAn3XpPcfnmAdJYmijiRMzPj-XH3-NMth8GnHFh4FYSFfJ5CwEJwpIGEK-J_vkAhQTONyFpjBqr8S6U0fySw03i85yZDVgkSnnLTMndi68PRyZJeSp3c6RaEuMrmC9VE3JZBtL0mCVQVw2B0fYKfO-suFyKUXDTrQSrhz7uEaKSX5w_EcmBO-92B0uKFlUb_492ZcjsOegXGoajaV48AIssBTllqtwwe4qDzcuI8ilB_6DfuLaXDq6eoPynoRD41SJ7hhnAkvUa-Y4jvS6d1OtFil9Q1vnb6g7"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.34038,45.4337,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "036",
+    "name": "リアルト橋",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4LmCdPWx1gHulk_flShkWXosu2C75n1phJ7R3V8KYwBy-xL5FC-NuGzEDiMDVg2V0cZvWgXOF4Viq0U0KMupnM_3bQrLg5MNs7xBQu-WL2xZQq_CZW-hSFU-qwJ5gm10fGXMfbXDobYThsvgtkNEsJNSK_RBc0t0INY2s4LyqAQ22aOohpPSfJucYBw2lfw7y0022ckhOt5Z5iGRDoMPMhMZD0cF4NaVzds--VJJqti06HVzdh0pDF5p0hrO5V0u11GIEtHKKKC_6EGDvn_37kWjdw26UtBnczZFkBSxZ88V1w8HIWFdfEIYwRNxEI0STdQLGEAtGnqYZEJaCSzlXMx4MND94PQ_Ph_G5UOsBb-sObslVoAVKnt8hYklZqNlDKW6E7PtElcGVp26J32NSGh-1xfuTEovyXTMN98bwH4S-Z9mpgb7_S2RXODRWe5upL_wT_JlPDNXXMsc8ICTnulOQLVuMAGie1V_kCDtKP4RKsO9hktXw0tpNvDJDft-AsTlEcT1kbPn-rV6fiEehjCSMMrXR5celtNdhnKyi1oOvXuMFXTTwXhv9sLtpe0ycWO3H2uLGXeYcC_egCU8IHnsC1KI_3XXKLWPZYfHtZQDc",
+      "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZi38LkVvjia_alTMmRY-i7xCoN-n73XLIo3buwzc0HosTYvXfhTS_yD7Wm1508uEjj-kbD8KcSOajzCMjQ4W1Hs43rhyHRqikwC6PivTrZ0zFOYIEHXxLfyuU-op4u4zppxTdXW1HIk9U_7LK8H4P6fvE5AtJyyWv-w3UM4fWCB8WmvT3P2obZ8iWAQ5EQ--4tP0ALzpo3Tv3AMkD5JyrkqOYhsZVOk3bS-X3fIsmkpnRNJ7Zt1sC9Kp0w?authuser=0&fife=s16383"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.33589,45.43798,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "037",
+    "name": "ため息橋",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7m2C_IPY_m-6PLPaFrJQz1EIbUx7sYM4m0XoxFiGEpib9k6vpIQQ6lBkkZoB0oWoxjP37uA0AjJURgvmHQMVcNeZPjuIj27k9IzxQyFqOTofsL0v7s6O6BpOTS085vRNPd3LC5F_Zyc4DZnWASnE8ltoLWZ147yOdkdYsrdq1hWeSRPhpOQqJ00p5Oc7WKDlJZZBbs8yQIztgKIwFKSQXpAPu9Q-RaSlItpZ-Gntuic1EfPYvM029NWyO--pgRzV2mQdqXGKcbveJ_uXLoN3kI8WpaV2jehtzsXuvnaJFOwQoZXTR_LY7QS8dhbiRafjv_Do2IUK9M7grI-yqfZA_mev0UcMGXPGe_6RLb56_0TDCTVQBUwqT6SNHPZwDIWGciVAmucl4tfxOnstNgDTvO7lTOd5mkcI8GV7RbMMDwMMwte_Q00RWHER9C792O0PL2vKP9NHkIsprAZMbX0xxbbdjQ4TQJFhA8TwyaGHR5PKWkuCViO6cjcRETOwNGbDffNc__tSLml00xkVqKCnmkbNPDVVulgA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.34085,45.43404,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "038",
+    "name": "カナル・グランデ（大運河）",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5N8iX_zzzRo5JdJFNio6cgpmYUQgf9vCJxBzipZIIrQcCDKGy9gLOz_s3Xw5MS8ypVvHOZdeBv-VFS-iY88xBCumBhylNAWmE0YFOXMbcESMinnG8PCkKo3LgTW-u7ACDw2gS-DF-k6Cg6uML_XzJdyuEuMovOU5PJRarXnamNxaDI1ZU8XpbRkT-nU5tzIPFh3KKUCxnpa8n6Q4ThBe4ZZ3YSk3_vNLY8uADWcXn1jyCBpLNwx1VZOdDZGsSU5Vh3CzOAwQtTwi8lvHwo6zuPrJLzI3Vz9c_HnX1D--smEv_AIiTJu2JLb7MT-tQkCwPm7yxCZjMgpdaNa7ez7Kk5GcTqmZdMnxGxbprhDyxfOYmocf5uy3eFu-gLy8aOPFrVIWhE4OeXqpSzCq219g83EMA20eeT3yRAlU5G-Vp50vTQtIOPPhuoMX4C8S7Jmi39BkGHWQ_VAgxIQBGHyeaPvlubKA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.32788,45.43539,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "039",
+    "name": "ムラーノ島",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7geVKWA1TOfG63uMyga92NY-N4Wc_OF4NqjVu0sz_wphpdky93O7t5q2ZzGMvwWxMfze0eSq5umsy3Yk2xwKaWUZuw3cmdpSHUTx-XS6qwV1S7M7FgHgfcB_qTYuaI2wEbUOe7ViaYEHsleff1EZzRYrIh9UKaR-tiaVMuy1g5XJyKSdoUz7Ga7IZp91_3sfMsaO0CX_x_Yvw14UNflw63msoCQb8kFXP2p4BzKNJuFgZPR7Aq1pSkKI5jS1kSLuQ57zhaHmsSkNuah1gVoG0iK4bB-G5Y0s-a4go6cpVryKmnoTCDLRBAwYXTJf47c9fUHu_04laCypaajmvwhoC_ZSITP58Tq14oLUrtgbdXl6nJwKuDM4Z_aKAfsxD3P7hLbtVsK6LjDu7c-y8cA4IcUs48EMT40u7Bmr6w4groept66IGpoDQc2V0oy0eWJfhJGbM8"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.35234,45.45898,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "040",
+    "name": "ブラーノ島",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v78ZerWU4_4GpnW0HHUIRLz5XvDz9bwsovTy9lYI2Fr6K3g2BrehjWFMsmaSCE0a9ik3uX1jwNubyxHCiyVkwgQL2wN7B3tJ7zD9GnNxkQMz0V_Msk89nkcp-v6DmG-GeQ3jEGn80m1oexF9YhZqh28k_PCVvqSzjVf4yl4uMrOyzYlGKHNDv0ZXi5mGEum5qqX6cxCRWf4bmE8yi2P_N0B40xyFgps8oiglVxo0bkw6td6U_1_8-RRKwFv19iBnqEpJCJaMJoIhpsKBKEs3VCCrq8_T6UfWX5p-NCS_IyuAQSDXKBbuOa1XvCW8xo-l7FKvuc8GWtv6f6Dxn1EII4ZDa3ZBwE9BEtLX5H6rZdSotDu6KJ24g-0vjE6_IUfHVKOlS6imJcJ5rcSaTN1k3lmRDQaG21o4H2IUmCk6VWY7_Fu2DIAH9dhxKHZxtrosAdg37Vh8ovs9YOg1v5s-J8AHsDn0tEJMG4L9lBngvK1KAYrnR2ouPPVbMLuBXlsfchxjmvTcFCS1oDpzgOs-Yl96MM7iIt7tD2gZuhus9ahx0Q"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.41665,45.48539,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "041",
+    "name": "メルチェリエ通り",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6Li-OMI3bWdBRFRuqgjHEU17e7OPM-tygman27JvoDNfRsKI59GOnVwjT2CELSBRaXxjiTDswXUM_FXeBxTPl1Cvo2lBC9yQAdDnbsxWzgm5WO4RDXMoO8_vXwPQVAB_JvNQhcwZWsQi7oAdnbHRTrz4SukjIR8cSviCYpvWGzXOtwySdgIsIBY_HecNfWDc6ghz0tKrifkcUscAFq4Fk0ULUR239XSOb-HbwEdeZwb07_zX2-wOv_Haimje5zduZXzxkGV5Pz-WwXIY2jTIi9mN1qpbBVUWCzAs_Wy14RKN2Bunnu-w"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.33792,45.43964,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "042",
+    "name": "ストラーダ・ノーヴァ",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7CGpkP9JfjdRrE8AvBocjlVpNjmWJfMEzP_WilGLR7_g4QlJbuXBznz9jj-w8BCfhE5A5v0txYkAb0hOUgE3xTrWAAt5L_qsgDPaLLuh-huohbeRYQj-mSF_N4Z7i4KU5dRlBVAgioWJ9-B0P8YxOLolOl7eDfimlXBxFrv8H599Vns7CbQuKTqR6Mly94lulQrELW9rl-0AJ_kxImkNnLr596bO1L0_tJmT-_KB2SKTqRQdEcADAauXPSKXKWu-KaPugKdDmhWdBw9c_JL8eazwmp-RE0CriieyVKFSvKjK9aLoyTX80gsFuhynNHrLH-EfMQPPgcb_bOcwPLkIalL2WWTxicjII9HmRj8ugJzVUaCHth9SKo3GPr9BHm3an4sl6-2rs-UbNfgOrLS8S1lAt9zSwn01K9QDaJn0cFjSedTTOmBtwoKqWHLbAIpaLyUJOma1j8QrasrjpACxtnoMgsdtqh_QM1iSgKLt_5M8hyZ0JIl5w_m7grVycpxnBLKbtp"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.33372,45.44144,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "043",
+    "name": "リアルト市場",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4tH0x4If27gyDBMgCjPHZ8zIAv5eztmnhFbLzaczyuKwjMi5-SBWb8nFM7s2zMXeGwMHhX1D1p4MEwcS3ia5dxnXPgoDUdQ55UGoINtNIM2TmDf_QAWVLyNHVk2b7RvLzz5lVotu5pG2iIbX066kjGXKhtzLHts7FK7o1mAW3w3TOqdpWh3k--wbEK0JCUh-YCppkkG3EMEQeyFLuUI2Nvc-ChhEltaLXO85n-AQSTn_4Kn947T-4MZCnh59lSnZogEXRCiI8QDqnH62n5tqRXe9i_PPxHu76xH3oUx1U9hDOzmJ1ZEFm-SLI9j0phftCJIdeCvv72D4OnD0Nt8uSp4NTa0EY_KNb5gN4nOUkedhcpzkCbFuO6MiWw9GHOv3_3Utc3ix4s3_IqTnEbAHDILm8hr44HBjANwsgPSjfY-pw02lojrtO4nmQ_lilwM60rHBNtS-HE5SCAlEuDytkH7VxjOnFM7Rw0B3TqIK9QwHHLwoo_myR8WmN-izfh1j2QFRG2MIL9WdmlrjKVQE-c6LQ"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.33375,45.43965,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "044",
+    "name": "バーカロ巡りエリア（カンナレージョ）",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5GfVRWgG5P9eOd8EIz5G_9qdf8bmAwrbM1g6eeXzpTqOGCRG94Lf_YfDhmlv3LGST9B2sCS_Y5YffSQwqFcArKtv8g_PstON-Gt4gHBbT1XIHNevLoUakvfGeDGaPttIrZ_fIqBJtyqy3mLrw0T0oC3Xb4T_xN8BtN2yx-2SsUqM7VYPlrPNiKrh9OOua1X0G92PR67MdXsegHUp67Q5q2qqI9l8qxkotWaxiPwyAPqKeYxZNWJUIrV4tco3bI_QSOQAxqIc418MCuAOOOwFfuzoRtsd2gFqnhe98RdvbZEW33z9PDDdNbjfVuYVygmzBD682LIwKEXQ63uFgR_dJ-fDozcHvkCr_cG74SOhHIiW4oTepbSJlvsjOBSz-rVDPdBboAMS6fi7WTZQrBg6S4-RdxHWEFJtloZHVFRhQsoDd5w0r8A08As2TxM15fgRlY83Ckj2rhKKhkmmlYkSPQ-A0_d9pP9Nw9VX53HgKYmnEw8QfOxNzPVX7iueTs"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.33279,45.44426,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "045",
+    "name": "アカデミア橋",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7sVqFVUmF0ra3w9zGJjV18DeMEMROCA7DkGYUvuWT-1MmzmjBRIbU-PJ1W2vZmbtI0TuTe6w4jn5UGVxjmridEEWrEPoDOsltJoBTIbQFinvP1WV7AQkBd9vkNTF3mFZRDZydUsyuzcUVsJpga6oloGRP46l6-GVJ-W7EgFwq968Md7jPDlkt8VlbiqG5xla2ER6I8zMQZCH5FwM-XM1Oo9dJE5SiBVAnWjips76m_4GG7HkDKBrxo4MuavbBIKOQPM2UWBqkfAeT5KUCIozlQpIXdWGA_trMV1lvF2ZBYaDGRk6Ap-ZACPjW08Dd4vIC4raiBehoRuvosxQGnd_INwqxiSad8bi6U286F5sS5NHDub5t4afEJVNrGDc5MgHcggC_GcDNE7lNW_hz_yu8TF16TDhgFpxzaOGDHWAyIlqn7gmOAykS0ZT2E_74-ajhBgBCDk2b_czbtEUZAbZ9VVe09DJsVWSp74bPAteew60bn1SkS1MzXjY6eOcyT_yn6BnAoFRJLuJTFCjTTrdj_i3iEdvFHxE9Ia1T02KccvZzlDsrYKO8lh5TWyWGkql1LOayKQetydmOC6f0"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.32891,45.43166,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "046",
+    "name": "サンタ・マリア・デッラ・サルーテ聖堂",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6HpW0b-b6PvQlnfKtOkmPWFlHcplWKKDgaGuaFgO8Ql3B7abaGNKN_AmgF5SVlfkNN1Skpc56vN-b4A0c4D2yh-kL_isNy8_BZ_UZLTYgzevQ85LgvULIdA-kACkBYbVemD65B_qbHGeqh73zDnshxpcj-tNbNrIB62uIAvRlHrFYMa4bxzJBZh7Wr2z3qOCnH-y8UkFqddEDtrOCKrYlR7ROpK2YWZLJZ_edGnU1FGaQPgsNqEz7qYrbzFUKdw8XKiEe2CPe59ozKJO9rmC7YY10HwDDvben83GHqjFiuvF-ff0hPHhK0PY--DqnCr0unUT1Icer5KwugxHsEGzoEfwGJEPlsr39uQ_9u6yjHCPUQDd0dH_ePkQKVzlVZToEh0nlW_rk2R81DxakA5iEhSlMXcEbaxZx6w3MffySCdhnj90zPhfajsSrvY-zxLmI0uEWtkPurUwns1vTaVjDmStP5jQ6Xe3Dko6MHPxotUHaNH1BJnIW6xEDhRaYxVoEbE8GDFNXwunyx9fSUCEfGwvJiQhgY5bHYrnO6KC120CiKLC5SsU5bSnb65XFAzkt_DxVQYnYiWbzk2Sqt47xLxrfgxbBD1zBLei0fnwKf"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.33476,45.43067,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "047",
+    "name": "アクア・アルタ書店",
+    "layer": "ヴェネツィア",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4T0cGqNkVjGBhHXmXtHXD5vkWNo03JQImKPAWjRBepWp8DzVhFUW2kyQ1PIGXZfCgImEKbl-gI0hbqO43AueWUZtgKaPMfUPJWL4rB-lRPR80Le6vwpFmBHI4QYjKqbiRx6qwm7O5ES6V3zEmIJy4nNhANG4ARRPhSH1ac2kjoKcLz301alJ-JQ89x18WBgyYkPkwpgai0rk_3jrGlRXahDnCNMqTAEYJtrBItwDmNAkCyqfo-g56oog6txQXv6Y9uKb2qHO0XlUYFtO_dGjAgvBm-4Tv_VSi2uZ-uh5hmoLD9Gpftcwze9VgXAH03lii4gv28wwFPJ4m55yHYdVxqdRBQOx1LT-uBtNn9Vyv3nPH9WWzSvwoTByL847nWCdAmk6UVMHFeiAAW4mfNNR-fFncTWYSrGIbU9LbVAOMWrjvRHYahBf30klT_uyIU_ejyR73vrxNOr3tVlhlsiw9MFU9g0n_OxsdjtaCj2oBvrBRab8JJneN-Wa9JrvWIB6UOpjuAOXnnZjbYlHWWw0V4zFRNfA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.34228,45.43798,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "048",
+    "name": "エッフェル塔",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7-VEO5soVGwvZY47rtgGYd7ipqKCTjWwCCCCHEoz8jg-fNsnY_kv-Yodkik1hWLnR8Q1ciS6LiaPlJrMnon80CgWc7FbU2dQHvA6mdFeL-XmHZpNJwvFty26Fwz1VyEJ9GWM2x_KyymR5d6rvFGjXIWUrmmnD0h1mG1u_-FSKJTmpZxc4xH4xBkmBGK4Osk1_8jhiQsz6oPdndH12jILWO-BXyTEr2hIdEqVUurvMLsNxfh6ov5WvZCBMNgmq0raJBEOjRQVD_PUHfQSNVmfwJT-R7V-0RcUP5LK7jqE98eS8mveCgn_jLcC3-JVzAGrGHJLTWi4yYI_KKqVM1sj_mBlBbar7VMmu_fQ"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.29448,48.85837,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "049",
+    "name": "凱旋門",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6Z3IrV8ERPKTAZ9gTUz8tW97NObWyTdxF1Yr6S3g77CEe2enBvbKk7rEQ6JyFSUQa5ofpuIYhkheZ6CD3LNlxjSQYMlNbDKzzH3qdHy611T7cJ1O21MDpFc82Ng2MyofATBsQWVvj8BpkBpSt-9-r9-vVbcEn0WuWnThvcgzB-Fg0GzVXk8dH1SEFgJmpWf3z9pdSp71Nwdj59yf6Jk1UKEIRwiAGMFhRzokiOE5iV9Sd0TSzBU2k6K2M3seBTJ30fOR8bPGNTDL_TvPyIgpfzjckRvktY4ZdlzlVALl_9tvj86zs9SAsOdK_FZZyV2RRzGmrJ4qcXdpGkNbj71LC-88NwuX4CRMnw_veOjFSBfs-3qPUSTqOnaN08tqeC7k_i5ip2"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.29502,48.87379,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "050",
+    "name": "シャンゼリゼ通り",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6TeQi7WuQFF52g8jzO4RuVNqcAnW0olbT_IKxv8lru69T0X5dQDZKvOPjU3QgVLqjmkrFJexU1fzuuqX7BVSICWVs0-LvAlfvre4Rd276n4lg9OLCBFw3cnGmAQM31M9B9H-c5SeGVJqK-ICFcghY_L1f28TNoCzfxkxvBlFJplXz72sQAbk--Yg-WDBWCkvkvp9ZPhzT-zH-dW4lvU-8lh77BCyR7DPv_QJ44k5I9BF4p76GMIuifCilBI7_TyR7QsZVr5WYWZ7RHDGpgfZ2o-FtWYNM3asY1TxwyQ0X-QZ2ebwULN2s07UBYPPuMBWFC3PSIjCwlAG7Durbx9ZeEdV1-6geKCT_MdswoHKAkJuAARjDuMsRLWjDWkVrKpYb1aDRPqpVYAgc_EbN8FH8"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.29793,48.87294,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "051",
+    "name": "コンコルド広場",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5qWW-OC5LWu4z1MId46luSRAbAcYE8OGzaydSWfaUzJvrCAduby5pcKRLyofZ-M98FYW-Booza17CXGryNdFY9IjRDLQ4ZISQW1ZqXILjPEO17j9eEnrDV5kn7Fq3-4tPXcCGmKeebLjhi7oDG8CkyQn_Pb7hKiPMZ5ksBFxQlQKm91Px8bFPjAu5f3l9vsmcdP632TOOFBL4BQ0jzoVolNBzrAOiLbPhYGaTRS4Qwg94W8u3KSsYwMjuZHRG0758KPJ_6Qb1KJ91H7BFtRuVSPeDzMVqhKBAgbGDHHtyel540NzUJLwf5zRrzZvAtTcLd9ovrBGuVAF3wrweteIRpggyUTqsOZe9odR1PEuTS4RGiFP4p-wfRq84-Cqetm5qIPHaeszIKcpccD9cFFxo4nCBlLnMnjJUtlmo2ZBm2wXIOX4UbcZT5P1q6LJEcNS2cJ5m8lFhP"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.32054,48.86558,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "052",
+    "name": "ルーブル美術館",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v48aGL-cLLxJYDi5ntlViYeFGj44f-4CSzoWROC1VSWwF32g75wXNCDSvazeYtzqCP_DkxwaRPyeEW-DC9_vzOpA00u3dNruTkrG1mE5IESTORtWL-N41_sazwwSlMXEQwDnj1l1kAz0W6plekUNHW6xQ0erm67cOaAxUys9YRlgUDpXdezu0wP0NNAOYXov49bUdJrzF8D3PayGlYhTgQnXgmuU2rk8H3S0_kqK9tG9OMqFXgIcieoUrk6431DxDiAkzKTWf_ZSVA9bjChymh30x5ZjR5xPh_AKhqaZRvhxGx6JcBVlSjB9p_EjjFe2mBs0o0BKG-iGlIkgztBicsaL2EQWuxCAUu1kqla-MZGFBASMYqMAKYbSltAmC4rOcou59Xkfp0wci7z1jlWnrvggCZgiNrVw-GwrX-QkZiLqd1Ujgw",
+      "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZiCKddsbjgB4F2-ERGjvC_gAKFxais9M7Lh3mgaIkNhm9bo8Wx2OzEmu8jTRp0uXl6e9DjnPx6qJ9n_56DL6APWStJxpTIz6GcdF4LZBNc0Gm4OguigUToOD43zSmkuchfRdYQ5x2jauX489zJwi1y1oNhnvQf5my9xIUSM2oKE1s_nZ9MgbdlB-jiLcYcr8kHkEkqXd6YhDO1F5-a_n5ECcUI3wIpy4SKRFDJP1K9Ao-ABsWCqVIyNEaY?authuser=0&fife=s16383"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.33764,48.86061,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "053",
+    "name": "ノートルダム大聖堂",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5iO5ZA6mCxW6BDOMwnuwMd5OSJj531rMyqomhedLQjiDfEokLc0zNZrIbvT1Cj1t1bgtLjjDMNom8stwTcvVMzenANHOnR_n1vM7L771KBWaS152XBAb4zlw0HDSnXP3sxswcVFNzEWZpt6PhCIHzfCoIb2VDSLTmNUORmCBqs5CKL7_9lYXTy8F3Uaz6nAdNXfMN7oVifxEPNNEpdsa2XSOZhFfVVMCuaDBtkoBw3uVNvfO89cVvLQQyrljdBB2Q9oBBN-YWQM-J-fW8WhKdBbGG725XEgs4l7Clusxw7v8vaDhsXikWQy4ZM_wmfL13Qn5KJS6A2JZNhY8PaSrrWXMsXc35NoPJH63jvv3M6vM-2cdJUX8g"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.3499,48.85296,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "054",
+    "name": "モントルグイユ通り",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4GnnuXVIlHpgD8wXQxxNSms-3IhsTyF8ubhCtcRhAEsOuSdJXlxrKGnHGCBMz-rLh1u8ctsvorS9ayHjH4PwCaDnOciJ95MAuXfj5Cly_55BemJ-JDAmgNqhZS08XmKej6wxh-2pj-QhsVvBa41rG9CIEAIpEVSTF36X3YF9x9eb8nZ7jl_PFsA53JOhYpBQTBPqGh68gnjAL3bPo3maYD4lRytVDK6VCitVm47rjikmv5XU4KM73rWeUeOvKVOIwNv1fqbWSm5jgiwPbp57vwD5i-TM-6ZyFq7Rc9KEnUeQmLowyNEur5FUoosd5Kbbg61dOT-3ozDP099F3sv8wruRUaA8jG"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.3468,48.86478,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "055",
+    "name": "リヴォリ通り",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4_iE0uYvOSHI3k8ihMWYPxoLDrZQKec9aL0JcI2SxTVJ4PnHecE4bAzBT9Hb0ud2H-1R40fwVH-6rOPw-Su5VDcdxZblUY42Ll_uAnGeMo8annZXFlN0Zv77olWMWjz8Qnq5mywwE8qFVo-TYQU8i8T9VbujhAXcSixIcQoeqKQR77MSPYhO55Lryt2LCpnkajYYCvV5NHSKWFBa92XEQTKN0kgAwgq5H0_jFwD6OvxQrSuj0IXMSK0L6cMQmnsXiMZwXwD4jsWff1xvTdwXGQVvicPrkv2hQVRJNpAcaj0GNP0kVVevXwvu8BIzd7x4-0H7VL9bhevSpsEM2YEFOSJ8c1"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.33219,48.86374,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "056",
+    "name": "マレ地区",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5a-oz0occ5C04vF-5_RaeYmjNbL9d72jvmPe7EryVWBFUbKMXfuk6ToQzhSh58FzQ6LnH5v_dNUTlZAkn1IBRRXBO1CcHYP7UynuBc_w0IIeNLwJOBMhZHtZw5rzGKC8WcaL7zUbsl_gnsFWCOTulJIwg7Vnkda3Q3XjebR6-H9wWSGrv2ng24j_DVFHGYCDzHhsUdvwhYJgBge8SlAiip_A87nTHI-NyXFB2xkhRZ9GrUjDXKvc_lhCfnkK_saiY_0z0giQ-pxqLu2z-F_LZXXPQq98W0jKs6o1DBc8N3IYa8MMU44e4SD0zV4uROWG_RaWV7s03f-PMAkth-Kxw6oKHWzLGLIiy_0QBTISncUFtPpFfUAETOuynmg3rnbfAN3Rx8lWseUhQrX8s0nrrW6w-VSDTw_LAh_1JpN0OXtspa7RWC-wh8NNwFnzg_d6EtqjeVVhEaZ83aVTY8Lld80ojZQTdpD-QC"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.35827,48.85342,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "057",
+    "name": "ギャラリー・ラファイエット",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4ewKipN2dutkQuE3riyK-HefQLQ4jtI_rQ9qMnH0Yj7dzR1gxn-nPgfFi6qfcfPIurC5bUJ5H4Gj4aQ5wupVTNTib_u8a_hcpLdRIkK4vZiyKJzltE-XiflT8Vh_4iY-0aewnXS7b1qyeoifmpPUIkjS-QrsQSTYV4CHjnuaqBQhXPY_m_XoHTUiBJ68k-k5DChQ7scXGCc_7xaKO_puBXvhgs5QtdjFt941PvprdtG7E1znEW6nk6z29ttHE5A5vRxAbDXTqf2l-8yEtLTu6V_ZKpC2iLD-zY_qDBhQ3Ouflgd0Y9DvSRn2HIdowwKyibfbB_s-0j_bDQ2IufJHbbDFqvfMoqyoeaY7q9HWQNNapAeNJ5cwM"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.3321,48.87362,0\n          ",
+    "style": "#icon-1899-0F9D58"
+  },
+  {
+    "no": "058",
+    "name": "ラファイエット・グルメ",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7_xesKWdLKjL_aQJwlvOoTlVVpMvNnh0i4DlWO9HOxXTAjhfOlWegHUdx4JJjyrn4rF7Rf3hrLx4eV1ZlJow-v_7gBZtuv4dUtwvw6Yv-nSvX8nh0XkfSlCtbWWYKWGUKEveIqy7nKpbuy2yRzyL8pkBMuUw942RduaQMlVNicVSYoM8ILwhpWTLF5aJE53XeygYwpB86d1GmLXm6mbHIZp5SVP_Ul6mvVP5XYrC1dnNIBDF4kE3GkS9t0IgNvmv2d4ycd4dbAxvA8iYNJop8JiLQxIg"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.3304,48.87315,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "059",
+    "name": "ストレー",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7c7VKKkCds2TWyBS_Wj8OIEaJbWB3uovuoBxARdVc9rI41ipI_KIlc2gBLPr50lg1swgbX2v4rjF0a-gAYd6nDlQqiBY0rad0vQg8dqyVpNUOvc-Q9pvH1QR-mg0ZQ7g7KUHNRuHlSD7-rIeVWQjhEgqnL5xevsP1Us8T2tCH_A9pb2-qztMLAh8kpYtV9_Xm3kzU7JhGPGWw0wirwdJUXd9kY6HgwWEZsVfuGTb0p0EnbOT4DJUc5Py8DJsGKUBfsTeKI862RbjeHVa5qa_00K2Ip7lPAIkPlavOQmXysz9Z7EE-VT6DZnk8SmGFV3QI_Mz_gv5cdDpcpz2zG0cVnKYtM63SbAT3L5ykPTYli"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.34681,48.86526,0\n          ",
+    "style": "#icon-1899-F57C00"
+  },
+  {
+    "no": "064",
+    "name": "ディズニーランド パーク",
+    "layer": "パリ",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjtxv2t15xnxnpcyEjI4jkS6eiBRZw9MeO_XGINxjONR1MLuXKCDZ6fFUWY2YN1ctdlQurYeH_BLA6Yrn42vTqQRIrgJU_KiQKcqXusED1Uv9rBv7_eUkq3meHMuAovrMnBvTELwS_r7AsTtapbMz-k4FI6BT2Tin9ZmhY0R7cG63Qp-B7EVXvSYgGnfs9Web4-i_WTUb0iykRzcv-yW-G3x4S2kuTgavqjLALWxv05Vvp7GJx3MRoKjwA?authuser=0&fife=s16383"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.7767714,48.8726577,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "060",
+    "name": "モンサンミッシェル（島）",
+    "layer": "ノルマンディー",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5wmFpyWM60bsCaopJZLa3WSh3t1UiRPzJXvt_IX5W4oFd13s6fPYnYJGM1GFY_XOez2awV47NLgDQbbbwm_3j7RhVHuXB9tRWfBwFv8BLaW5kFlZO1L2QzQHaB6slrOKUDvKluyuddSg7r3sIY5HxQahYjOcGnwHv1uGehhZ4uGWoogvhHZPqCb4DmGzyuHM2HZzf_pR9f1wQOBpRtYgVYASDsEeIW1erC81LsFQ2Qnycitl-iIKUyl90udim-0TdPz9KnUdNYJ6cx51KQ2n95DtuKEJPxA5dK8RAk-HzfUSAIuV9eFK0LcgyR3Kv08_46pESFGzl4R66udb1WhIFB81-Vt4ilM0f4d187n4n-h8wCuzwJvD8w-TMl9vCnS5irA6iENhZB-9RqShQZ4o7oWr5T1O-PSzdL6NW57A7YVEKSZiPi__tD7EgljB9BL9S3rS2farK5"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            -1.51145,48.63606,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "061",
+    "name": "モンサンミッシェル修道院",
+    "layer": "ノルマンディー",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v79WY-SduIBOgaZi2BTEE-oZOisduUyEa6U_aG4mdQCaW_e53u6HNlnDhjaB5W56tf5b_fLQzWeRxcEOYKU5wpBet6djbCUO4qPNnziXP8fJAOS2VK48GbGtQ39RMFhZl21VilguPqUzC3LQq3Ic-34dSMd6wCfTqft9kZ9hjHpA9IyxqUVv1z6X10vwzydQu5ezE4M0oMIdKrYNKUYER5O6pxf0sOsZhCm2sVmaF4mQ6ikkw24qacE6fsBATPjQagyp7aIuN7mwR6w3nkwfDPG3-TWZeAtjwXE8FI9e1o901JPLwUmEoakSWtT_YtviEsD5ooc3bGdbztm3zAkWA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            -1.51174,48.63595,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "065",
+    "name": "サン・パウ病院",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6PZFyA_J5eYJnQpMaHZfxHcqEpiZzXeCMwJvqvA6pyyahvOGvg9QNNCKU_sh3vllY3z8kQZhNOjOgBEkrWFtZezYoJ0uPsoUoaFVu-c4U5bdBflSLPnP-1iyowN7LMwHxAuIUdErDuVAfz7owztNwdyj3xMilVa1WbAnTaNDgJ-LWPS5CZw1BykOlZsigu5bzgr6wRC3b4MTNV1Ea4ZJNT1IReOIaGlkkEbccmJVdSQLTV1bSNkKiOescbBofIu1T05kM7gQaKF3XOSmiLv_0FG1tKF8tbTytbv-2OIMutJlIlaPm3PvoDDmidaPVlMxlHpnN7nYZHYEHKtXb5zIiNu8sg2MadZ5sEblaqEjPOjVMP6lyry4epCOJSiaoFsw"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.174444,41.412778,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "066",
+    "name": "カタルーニャ音楽堂",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5l9Y0d2S7anfOooelOBnbsSXGNjNgcWbFQ8GgC9h903a6dEiqQ-0g-yAI-DJWMoAgel1H5z4RU0QjavE7LR2UB31uq7IcxLppBY3Hu0bO5FEfd0DfhH77BCMwaog755nvCdTl0xeeO53k3jUJUlpEO1VwbAiNpWxIrT_WQJvZfmwrdpg0Q7llc7NbocN4zvVGsERgibSh076lMjmtPY032V5T-R36FHF7u263eLq-JiSdml6LbI3z_01YM27RoyXy_BOO2pLCPsbCUBsEUbx-uF6DrfXmURzuEMBF0lAEjpF0Y4A_efxdryKxUAkxC6T-ZNKQjLsXNGnLYO07q6JrrshLsAsQKsT2zkUTsmLXJI6GTOGXKviH1h-9XDZXEAX2GVIeCMciC-Dx312TdASVNxJXrJLs6GpM6x29i7AeHIQE06x96GjlxWDo"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.175556,41.3875,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "067",
+    "name": "モンジュイック城",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5EoOih5_FxO48q0qYV46t8YuH7JaB4RWhH-0MHck7ND3B6E3WRmEkX1qGX_r-oVupF-YZwezlQyynI-0EhwiDZe3RtgFoeNrU6NRfLvuE3NMAOaxqzn6Yigz61P0ub1PpHL0m6291KO-lBqikk9MiW4z_2XPdzH4AHGh-CUTHz-owYPo3JsOPQlHh-b-5WfuaHfYpG0kOAKBLddJCNljYZy8rpDZjTZ32bt5BozUgRWubCNR7TvdnE2p6d5-Z3PZ8gSkZM6p2coJ455MkkVPdIfbI887K6L0BieH9liHGSMhxVL6mKUC3RRnjBCOHId69wVis5hN3qID08HA7dXq87OeGyy6RPILdbaR9DZIsCZCRwGVKABLfGYEzBoGUXBqvPNaePy7ObWcLw9EQIS0fpiyr4e4ytS6ETuXfrM-mnliZP4BmnEhOQoqZyS0-yEDSd16yiI_HgGVxrygYU2kDxvFuBDqQyriC-ZLaDL49wsfzcx0s"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.166111,41.363333,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "068",
+    "name": "シウタデリャ公園",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5TqSbmgWIE-RqZjDURqY29zKGlVes8OwEYyIECAMbEypHwT7r5HAiFkaN8Y68oJ8dxWY2YxJNUS4hFqeyfBDXfMaV_R_T-x8XaBKCuvRmtEO7VLAT6BwTumsZHZ2koteacD5gFvUUI8Oyoyh3GyhZeMKBVPw9aeoICQ8Nf9eQ7-X_AADR3YYw_D087S1IP-JeEr23yrtFPJEYcPEq9ga7CvR2IhTxipxcGBxXfA9m7wQxYbfhyW8oTFqLECYkYdn_4AVsb4Fx8CFfcv7Ul7JbJdnuZdhkyp8nhE4I7nzZjLJcT0MRS58F7u0cfR0MwAKApOltvsMrP24zZfi-8wICdtoIJi-cK9sY"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.1875,41.388056,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "062",
+    "name": "真実の口",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4ut2OsqwTW3A8dPCvejgPJjT0EVfFVDdz6Gn-AGGxbVEBkfp_Rf3Zi51oNw1yP_anFLjQaj05iINNIvT3taqXlCjIkKgCO8J3Uiw9I0BPCccg7fWPzXPE3QAHaJ6cF-hBdlM29bxVWTwHMVdz9DdPLCrnRsn08kYJbjFtEFD441Hi8iyztUJ9hndJYLUCNL-M4mXhgnt_yCVcQQRjTWKuzaOlnrODDxe3U3hyd1XM96HDxysqzkysFh8h9qyC_PKpYLl5s4LkFqvb1FsyYpvEa_IRrcfhefpG022oiBpZlLUgtupjhlPwYodEINwJD5Hbp951W2yq2jZizz-uQw8-StTuzzvfWYQuNSDw6Ik2bmNlIHGEpBHeHEMafLQcL7OkK_kRRuvYYPvZYUtHzOX7HVV8kumFgz6skyfWQoRYvTJYRRv_VuroGHH-IrgjYsgfeg05a1880bbCNJ0uNnpC2V5FCx8OP0KOqzz_D3HP4-tCfbdieAJcBHzr4L9iotLyJFGbTH8SiC15Dk35wMbNdvWYy2_eTAQEGe5lecZrI30UvHTqchh96KODdvHxxP51rMbnortxyWXASjiRuksZFXh5cILBUjoqeK5zXyLe_RfC-duGapI_tzzpCju7HAqK34wprzgwaGfkEG4JQLhBBTSKJ-qIPD4m249Cf2lGuFOancD1kJgwRh7DKJkjiQulxP68dYnWmNg3As_s56VVmhITyzEGWKKCAI6gn-7zwi3yzYGkwqQ",
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5jS-gmphOvYy8jv37y5FAOxbTgxzFXNx7Ei_9sdcdTucrwsDcsI0St9IRoZ717ffzTEPw8iFpwcreeyAYQKmfT42ODx1u_WZwFAvoWkHEZlW7LTqlB9O2wYATrLyF8vm93j8cy3a-wwLNVeHb7U6BJvQ_MRI691fLLYlHDnr5fIyX3WCN77GBhkc9YiKNmysP7wXj9d9VJFC-IabSpZahm8W_kVJUNyuoozRfzvHN4egsRDyg__SlIDoFth_CDK4Y-IJSs4COprkf-1YxPuWjxtfSm4C_Nn3HJvFxNOY9W-YbnnvFK8_g92n2Wvj6nmiIuvCeaP_4mm89eW8bl5k4QjIIKLcq-6bOzuzpiHWqYsuPx_u6fpyR6BMX7kNE4PfpAqGmYnCSk2l9WA3FvmhtQLTJ-jGGomyg3MFiWvO1pyzDTBC4AiPr1vT5AxGzxu09CcfuuBa8Lye_UgY27MYSQ7cza1NnNfYJcKyow9J-wKjNFAwv9H1D94oTCGw"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.481667,41.888056,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "069",
+    "name": "カンピドリオ広場",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4r1p_PPK7s5vEbiAcTwBOW4J3qwU28aawUOqwZeIgETmprVd_o-sobo1wsiXS-l5VvUDatPhQw4G4v_J4GgoeJWr1rf0uHWzhOKqbzAuyVMCSNJayHI-0NBUYdCOsZ3gTqB4g-7hRA4E3K0WeHV1GnYmwr7OIj2cznDqPUiyDzmaGYI4LBTKUNnf-YQxgVfiBtMtUjd0VDc50s5OQCtlW-wUDGnwOJAfYFZON8s2YUTCQ3EOI6_R6qJjSHdKqkAOnvjPgmx6oJ7jzuHL-dP-rpUM1QAB3k572u4ePplcaJRZXdr-obvMgWNMf5v1e9ByQ7fc223bYpeExyJMxG8s7DgTXhTuPnr-9JzOVrLzH_tXJIrLtjUhoWL7pfDPPpljV-1EdFYDLd5N-pk88"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.482985,41.893248,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "070",
+    "name": "サン・ジョルジョ・マッジョーレ聖堂",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7VCD1inig7LlLIwGjSPQeA_4dn84ueQ_M7vaZsRGqkdsuCDQBX0Vc4NzbhvE1k_FTrZxl-DBq8BI-AfHsUDyZuDnsaNMlZF7Jr68Lpq2KXzNnv07nQ-6anG07WSZvl3_p6gcBzj7mmZGBlz99cnopLI_-XaGY2fEsuK4fdunRJoX-rKetR4r7OcLHioveSKcx4fjaYlsdn8v0UCAXrZSWwgEjUjpjxWGy3qdeOR4rpVD42jJ8688tc_aTClHxkiRrBXiZKIlPS8X7ajb9JS1l6YwZhJ2w6eOGS7myyaXjVuMogPeBKle28VXGoPyZaHgnEAPR-vcZB0EZx10WsX_DEFaWqN6U4PfnjtkWkSdYvQmEVdvb0jlXcaJ73bK6_HejlzDep3RDGYkiN4U8a4nXQfXXo1IP8kdvqXsTI5DSYAmxvBx2hKcTx0rrQcd1kITO0P7m8y7Aj8njrqvbR7FMttcJHzRib0jDr0DuKWuIK",
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7InQaNPieWrEWkSt6WokFlpKduXQDxOIrKKu_ZVnnr5aLMnmas1rL33YGvcJ5kmfpkJJiWPESdkNlLNmUL1TgelupFuVjZp4FqM_uxmRoXPkOQb1-RukqNYC1jT6vkl0G4KRgsjmFyXG7li72wE3OjL0YFILJUGwwkhoKi3L4B6KrMX1a7EYnf11Hg5HluMrLg0Vxm2A5006Xa55_Wjr61dLvloHAwBWwEqw"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.343279,45.429389,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "071",
+    "name": "リヴァ・デリ・スキアヴォーニ",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5-iCg82VcrrmdV5tj-0cV7fKPp3xXoX4t_JH8KW8b2G3Vv5Ug2eU2sqXpkL_68goReSK8jDVSdC-GGY2773S8MQezx9KtQiS0ja8ZbzGzFMGOLEBobO_WUDtbioff0e1CAmXIWG5v75bBaaNop1bN5Nmk52GnZZhZlfRYGOan6TkYulknv8qA9DSjvkrsKUXrBBDr3bSv2ClFqRS4GB2TAdM1Aezv5UTfvTR10RghWubyPE3cznVPL2B7eJxuZ5VEZYO7WkxQsrqyVUqrixNjEApf2gTF5V2WpGucfK_tSeY9vBGewv7EnFMnHMVsybqtpuNgXeb_KY38Q1LdkIG4q"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            12.345,45.433889,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "072",
+    "name": "モンマルトル・サクレクール",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6gOMv0DoLBqrFk2_xmNTMhQcfCSOFF1RcjVNK-8G8VDqw3pGtHU-MJx8W5Vosn_aI8TRGBNRc4qf4MO5xABmAHbvrReNsl6bHox-L5jGLCWQu6xdUELI5UxWTVwwQuTzaw-8nUtPoGTjaX2MIFpgtyJDLSr7WcquYpLt8l7TCsYOy0606Z-Q1AKAwZvxycZzO2UT74Mocu0vkmt_cUNUsYtyD7U7kIDASRa-rlBKAPWTP8ZP98PxhTdd8sVnkGmtD8IEuXiDCP1H2yoTxm-IrQEEXgjw6EkcsHwS_rEJXw2JrGer6jt2FJXeYP8YIw"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.343015,48.886806,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "073",
+    "name": "サント・シャペル",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6AzpYIZYnmfD0RdAe81EZMa22kBzVOfc7cN059itEZlRO2Cb7bj6QM6v6jj6Zrhz3yFebZD33CKsyap-_MpFV1TNJUVaFRvA8chOBgoC2Wty1MHM1aIxh7Ew2TqLIuXCgAORDrALIWrUXHwzVQuoR4jVVuV29BWFT9f8nQT0IcUE4DbBtzp4hH_ByGNXK60-OLPbOGMSjEE4MxELbL8GZogY7ogF5aNSNWnU_IiL5r33p4EnMS0gHlzKlZ9vB-x9cKiRt4hfoX4hju6WtMv7GKjnbw23rIF7ixBPY"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.345,48.855278,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "074",
+    "name": "オルセー美術館",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5_wkou3yNr5Op923gEzB-oUtsQVxKNQ6wgt7GRNKSKiip59VvtB2kPVivR9XYLXfsars0LNGn55aJfUVbrfza4Dfcd9JCe7jZLXhLkS84MY4Zm8Pw_MHHuIgL0_-cQNVOJMg0_9VxQVh5O7gYVcKiQ6sW8WvESdD77arSV_85Sd5_Ctux5Bb41pGYF2JWJEC0edAhtkO2P0BoOoJnY8D3Zv0uQlhtGtfIf2zOeE7TPuRVc8yQaV6C6W7maBcXx8TerlSkbh4V5eMMUIQ-S5PeWZcH4ZvIqsnoYIdO27f92cXQbbtXa18MIH6oYl79E8Il5JeKSSjqFMu6UCJkc3ALGYR6Kwq5yeNweKTvpHBwir18hc6gHyoOuUpYGSnBhfg5-IK0UHXdH5F-K9zXnkGvASvKpVHbeK0L4OlQTs-IvgI4fPZyegIKeNJAViglyAYd2PpTLQKkeHjCFoqYc_roNFXWt8w"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.326527,48.859972,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "075",
+    "name": "ヴェルサイユ宮殿",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7Q0cYTfrWWbrxK9JAHnjYVX5l81EduSvUaLLmz12M24lDluLsgzj6kANefpPFluH_w_Sy9QyvAirtSp5eVAme5piRjoQ3xVn6in0gCC9F1lrzITWACbUIoRdhwdKqoxE3ygCZj16tDWtx7Hvivyu5dVuzgrSQ7OZaqsHd6mpOrz6-n2raL-D7vB9_7d3LAoYGzWpT0tFm0V--SMMmd_SNHiFb9pYs_zyzxSweES-4-jpmzSm-N1yQFmnR3_qQc2YIiagwncK2sY-QTdmujuqexWX3oM3WBiKyfURAG3qw_Pn0yENMv467OWp3xti97RVKl9KLM-s17vth95Ng1xf_SCLeiHk2muX8zsp_CNIvhHkI7VQ2QdaqERyyFIC1-OOVGMjr7tOXQ5ZJxMSeVyCCX5H_0R_gUT_UQuulm0IbQt-_zjlKSZAjR72tdEAWuwqa8Uc34WYkwyh7s4s42fpdIi6l9iG9WoAQ4Zik8XPE"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.1203,48.8047,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "076",
+    "name": "オペラ・ガルニエ（外観）",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4LBIALzfVqNeCO9BQW3ON4Gf53HxvDy41oO07r9tF-0_OtgP5AZLV_caYTmiAhV7QMgPegj0WDs5u03YNW4ijU1gbrSPZjRXW_XDd2r-c6XGXiTqkiXafA75xpZNM56ne72doH4FsOlPH1CPojDuEQibaPYUi7oTexUE5-IMr9O9c9erswEMPAQLm8VROTiy_jV4K4QfwIUbl-Hnh31M7aj8px3VVKV7z17yzUMMU0SqiAfHvRCvTIYaMz3CHlmOPIkkUCvDz8ImTohEB79qlCyXZCwEF720bs1d-vF6KWltY9-a-Ytcpa8SUx9ET0Pts3eb3rJvYh-F0Ml24g1rNNTSWYw-qO4mgtHO6ER_PhnRvbou0b_C9IkvmVNlM5emGxvqsN8qXhqrEmPX072d_OXi3flOdSR3JQIP02MoDyPzC2N_qZffIiU40H_A"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.331667,48.871944,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "077",
+    "name": "アレクサンドル3世橋",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7_QZj2_f1jBYXRm2XUcv7zBSNbsRRcDTF-Tgjv7vTg2YvjVePNTJO_55TcwJh2nU7G3RelesIIBf1stcoUAqLYyTcaaQqyxZmXtQr0-XhSyNBqkqQrePo_H_mxPk40zvCrGey235aDRxSjErqeS9ChItbIX0H8waVV6Zgd9oSMGqS8KX0455SNlfn0_FE6zb6cDJUUz-ddpvb4uf5pimJJuD1l61SbhoheS0Jw0HhAEGkS2J4mmOxCHA8pR6vROiy2-6rCl2VGr2eErUmIH1SFh_C0K0W6N3ARCsqdIbfb4mzMVvaM1h3jjuyhd3TlszZ8gWaxvaoMZNLHMIG_wfK_-JG3htl5h36j_9BWqGtAL_YCmKmz-a3Wj-ehsMV2KvCnS9Jt6wHxEF2UveHahNtSytO7SreW8cW-ReEh_pHqi0HP0l6mIyAEWLnnuHBTH_PAFA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.313611,48.863611,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "078",
+    "name": "オランジュリー美術館",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4wVWDhpKQd6mkyzv4aLxMAAzPs2Oj9DBjYM7p-ZkUky9gNE0ONMDfPmJOb5eHgzFVWcd2fByQam7G_Z8CF1NKUTkzWAsNwiCLcbVkCk7ETngWvO5Q5pbXl6Qua6oQCAczCc69pOPh0vbaqNOD8cwaeDp2iZFGwKFszhgsbphuyH0MuUT8eGquOEmxrLNdpYzz-lV-YMl3U46MixN7lq9XAnnu00JKAeqQXwVkOXixOYe6cSpTRXYMVaAVQ4_PnXHdNfbpKp0s4lNEeVuS6TWKTxFy49M2STQ8xcVS6s_UllHN8PgAe-kIX3yjKRkl4DekRiUXWqM5Dqxj0iSXD5bXwL7nmCv5uP1kqDILwRXL6KfMNVhUbgQcQoLdqthg2CuZQ1OSPX2-rbGMVlrtxGc4pHApaPbOOTl0z"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": false,
+    "coords": "\n            2.322538,48.863845,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "079",
+    "name": "リュクサンブール公園",
+    "layer": "追加の定番候補（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v52GE1LqE9Eh8V7vQNWaV528Nrhy9TT-41CYcK3kKpeD14wb3IM5z66PSPTPnfioXoYQo9CvITUkOVowzRTgUiOYlFigsbgaBW4zsbbqP3iJqvulLPHYdurk7pXAh2htyUTjahWIgNU9QGlOlDEr3RnMXOQAjAiFckR0pl9_MpSjIKXXiLNwMO9bwEEkISFI-fBORLODbfo4dUfmBDiVnMVr4cka32e3xXBdiyel3ZtSlKGOzH3kspSdisePXs8BFZ4tfgRd_D2HA78i_fR0oapsuOnyCn_qX7wjYVOn7Oei06-PY7fHz_tVx-KvWmXtj5p4k_00bzZ6GNErOdj4_wRoIV4"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.337222,48.846944,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "086",
+    "name": "サン・フェリプ・ネリ広場",
+    "layer": "🎬映画・アニメ寄り道（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4BAYMj6qIPgny0lJp-L5g8IikOiIoytlg538Ks47l2_haq4YKGflnquyOW66OQtg5uuEA5yR-Lo4GrX3qzcvwFMJdrvGwrpLwVLyoTdwB_nLMSbuI_zZ62CPlykahC-u7igOVl1yTRy8z-v3ni8WkqKcaWqXyWbv35EAy9RkuKwZ06UoR4JK2uzbhF5EhhYDPlu_WlLV0P1AEAS-xmfbLL6gNn_Zikq0ZfD-1JWhc3GylFlzY-iU4G4GXdP2Fsf9Uu0Y316cICv5sEVlxWkGDsNyE8YHvC"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.1751,41.3834,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "084",
+    "name": "マルグッタ通り51番地",
+    "layer": "🎬映画・アニメ寄り道（未決定）",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4zVrhyJ3w78x8Dj3X0XffF1KnUlZX5p5ovHnhtyGR9IraVTUK20jAeTaFTBPEtr7ZzUL0r8flle2ERbzyZ6UVo-ZeEDkgPJ2HXFfk8xgONzumfXy1144cpCjQVRW9dgVJCKG58Tqx-tI2NfrpX_Wr0DyOso4foYPgoiV0vzuto1OO4IMmXj3_rC2WOzxME-m9JijaasBZDwv3LC2bq7I9GFk4m2mot3N-aR8yGkWwbcxTbrofbqZk0k5G8mn-oaNjlk_6pHj7xLW8HWTzv6Q9iix4lY3sSMqqS0KcsNEg0V_pIdNt1aM3TDyz3zrfYjsLspk8",
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7ubr_wBMpNLJ6SKlnQfwsifg2chPEvluaw9YYd6aCQaDvGwHu3Ra_6x6ReMlnZo5fc8HKMGnk6ZBkr709JmC6JtI8fBkyJcNBjfyNV8bcCP10IpExqAnZZwdtPdtmmThb-65wZw_njMLPKLAEnUBgCwSb9_hcm9ZIhAYd6RFxxWhVK7R6oUGtiQflUZlbD0kBsWYu1AVx0VvJKtaLEgYdfoWvnQZ5Ut8at17muJ8q1yZ8OZz4xoJFY_n7qMrV_iC3X94f8PfLJMhYv0yJz_7V-H3Te7rskFA3i2ZCm5S6JFqbAQJiBHXvRkG2xxKoPCtCtGdSNc5JqI-OhOGxNVK1CsUVwwPRAMJHZpJl55qmYgNKPKXRvlFCYqwPv1QpomUdz7goQVqAssh41Tz8jr0Wgwn2V1iSDVtWqbfVTMYr39HU"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.479824,41.908543,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "085",
+    "name": "サン・バルナバ教会（外観）",
+    "layer": "🎬映画・アニメ寄り道（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4pCjbhCZB1qqgMF4uTkFFSPEpl13MyFYJJyz2iLEzvufB1Nu-H2kulMLncmqI9scUwoUg-Z1xf5nJQM31VsuDXRoUz8bgBt_x2WuGUIctPMcjsBtbrHQm1IhXVHaqtLFSUiyV-8grkg36mo6xUqB9dJEwHaPipWpf0Qv-IjoOWj4GPzcVBt_t6TSStbfUDHSsP3DD8X8AY0anjloRbOL43ankyZwXCR_mHX34sw8_dJzIO3LrAXBxYxxO62SBNawA8zWJib18-CRQnLwkhYunnSmS4Ys0TOX8ekaYO94CDyiE-UNmi-6dM6YRcA7B-oYOy7wrzeJEl3dt6ISb4svpJgySn8H0El-07gzgUoTewS-uI6uuLfX1TW63U"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            12.3254,45.4331,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "080",
+    "name": "ポン・デ・ザール",
+    "layer": "🎬映画・アニメ寄り道（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v4OnzBWFQVIwC8d-N9m9P8RrTHibACalQUQGIGgQQj9RsR8fVfifvB6YN_wCWk5RRZCEhVsDlej5sPP69iv9fCV_j7LMjak4CWfLWswno3zyzg8qAsy0rMlHQkHdbJSZ9nwlee_UczgShFUcwNQ56w4BAX-w_hlgcj36yN3tcl18ppkhEGywJK_VbTlNusEpoREGkmeSvm8dojnvPydmPXUahgIOCxFQphZ_1i0uCmAGjtXIFA09ix0seg9g_Jrdzz3natuw5GpOYnHlJ-pWcOBJYaQ-43am9CG1issJkKtTwWH8ameEwvYFgTRFEbDkFXpawWtck4pK6t9eA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.3375,48.858333,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "081",
+    "name": "フランス国立図書館リシュリュー館",
+    "layer": "🎬映画・アニメ寄り道（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v6oLAnYku_U_zBNMyX_75mxa2D4YTe_YDz9rR9XpkxyZyuN7Y2SwKlQ5YGGOe_5sLekuYhdY73iwe6PzXGBV3r0lFaic3HO5XGRP5JS8DSemLf-Whmx0bNp92lYAbKl5x0h8HcbkkLgHMF9XTB2gBQUKF8b85kJNkjqCG3mHGWVksm4QsPJ-KaLzeyWqvhYbVM_BIKvbVDs5Z5-hShCqdKTRpkWvjvR9LWQ6b8R95-9Er269c6bvQl_TMwJgGX6oz6B33RMGyk1LDn6LkwS5h3wzETj2PzPgavdXx3qf62ZlWJGDdHpQFHD2I7gne51YOcmzHzAS8si_EhDm_PtcPElGbnqkK270uK7FMoxWyTYbFsv4ZKFrLBZAEpYxJFJsy4h5xgQ4eigAC3mqIhqN8LiF1tskTjEEPmpFqdwQPMr0t3PNfvrq6QRDvM-S2oAMWy2U7v6w9rwIuNGKhgFw6Ngkj8M9iBS_-zd6o20AFqxRlc-jI5nbP7sqt89JA3UMUD2Y4Z-yB2OG86Zp7QNGO6-kgXQoUM942ZE0het_J8xyHjYfQybrfMzlqjalZvXKvx9tA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.338164,48.867282,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "082",
+    "name": "ビル・アケム橋",
+    "layer": "🎬映画・アニメ寄り道（未決定）",
+    "photo": true,
+    "photo_count": 1,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v41zzhe_4VuqsFdoYtdN9zJcGzUucnEDZ4iIogZf-CQ-8_fs5_tfBWphk1qi-bFc0B4yen0JDN8Q6bVhlGwiyc5urz3xzRE_U9dvebsYVJTVdAR2PjHfp8tRx8LCxZgwIVMcN8d5DNkqO42WIewRI8H7ZlGnbSW8cYE02RC3pDQ-uMF9CgRrRgD2pmLTUu8zYWLh8QuPraKpDfaia08FzLeTE_k1XvJaXsZYOe9AtnUulH1pG_Pa80M_uyC69iY984coUFstM8CgT_E6A3jouShb4G0FHTMvUGbjgWKaq41kOauBWkwiK_hjUOdLbWB8oxEFCCd7oP_681ERKWW3Ifn-zDj25_mBRGLbwcQKqV6SXTXw2kbfB0FBWUB19649QZF-n8tS2tiLNMJTIlzYF7e7nA"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.287778,48.855556,0\n          ",
+    "style": "#icon-1899-0288D1"
+  },
+  {
+    "no": "083",
+    "name": "カフェ・デ・ドゥ・ムーラン",
+    "layer": "🎬映画・アニメ寄り道（未決定）",
+    "photo": true,
+    "photo_count": 2,
+    "media": [
+      "https://lh3.googleusercontent.com/umsh/AN6v0v5aobk0sStLSxsqO-i_xwLe9TaRIO-VXm-362-PpsorX7IXmiuuq2tSmonHObfrl8DXraIH-IUhjaM8sncrYjEjPWya4h8gwLvAvoXyq3o3fr_Y9nIiaZe9l59jlUERPrG0yG-Oa3i0vWwt-K4Rzx0r0iylx_iDrzC1nYbXLH8snPpFXlNs3ALulEPKIA4vbx4D-7VXz2SfA8A4EfQf-2ALnri6SujEB7CVIMf8D0F-YH-r947Cr5oLEHJpcnl5JCiWduFyIrJqhMMEh2NdFVl5d9sDnZGTFZoRW3SBgeRPKoVXD0qi9rKnm2gZ8CyDngZMpSjQ5EYn6X5zm93D5reL-Szm01r9xtDU5eQaBhDQoNYbpJ3ql1sSTjsCTGMnEuXD4bD0Mv0b60AW0OGc0VBsGTVwWYy8BmdAtA",
+      "https://lh3.googleusercontent.com/umsh/AN6v0v7kLNaxhSIRrfFLayU1TgTLxCfRXxQmCrv3MEOGDnjxkyM1NLByDCoq5RihYdExF-JIjXJVK1dCenjSvA0DrepHdiRz3kLoZx8LuZxV7Dov9jArtMAlI-JndV1fDLmXpJtgND5mx_Jgcbrp5pmvoYAcRb6now99jbtFxehMuxhV8HwtS3aAsJ2TNyacqm-9bGfhcqOEm47hMMHxzwEWZr_OhW93ZKtPpA_8qZiczq3n7cH5Yz3XCZ-Lp_TBiqONahWOQSwUgBuCQN2wyCIDXxxM"
+    ],
+    "reservation_first": true,
+    "weather": true,
+    "film": true,
+    "coords": "\n            2.333611,48.884931,0\n          ",
+    "style": "#icon-1899-F57C00"
+  }
+]
