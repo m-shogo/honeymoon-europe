@@ -595,9 +595,12 @@
     "city": "パリ",
     "reservation_first": true,
     "weather": true,
-    "photo": false,
+    "photo": true,
     "coords": "2.7767714,48.8726577,0",
-    "style": "#icon-1899-0288D1"
+    "style": "#icon-1899-0288D1",
+    "photo_verified_date": "2026-11-16",
+    "photo_verification": "既存ピンに画像URLから1枚挿入・保存。ページ再読み込み後に実表示確認。",
+    "photo_media_url": "https://mymaps.usercontent.google.com/hostedimage/m/*/3ABkJAZjS84jjLR3EfSAOhqgfBMPxu2W2zd_5ybemDbKpa-1tI0hm6MfYleGiliTPaB-ans_m9uUsrmjsHfjmt85zCOnTAhzqSQ9CKKtc6acEyHSA30tXQ9ia2g2XvV3-cs7emV44PpI0NXXjiI76_okOwWlL41yUc8AZ1ogU5gjGAR_is2nMO-jcAzNfOVLwQeO-nROfRX5lC2g1oQ6RLy31nzxRYj17YN8EtVRnVq_fX_a0l2alI9UitLThaGI?authuser=0&fife=s16383"
   },
   {
     "no": "060",

@@ -66,13 +66,13 @@ rounding = json.loads((ROOT/'data/mymaps-coordinate-rounding-audit.json').read_t
 assert all(v['distance_m'] < 1.2 for v in rounding)
 print('OK: KML62件・5フォルダ・既存写真61件の実表示記録・登録リンク・3色・座標表示差1.2m未満')
 
-# 今回の保存済みMy Mapsの読み戻し（写真未登録は064のみと明示する）。
+# 保存済みMy Mapsの読み戻し。064は2026-11-16に追加・再読み込み実表示確認。
 current=json.loads((ROOT/'data/reservation-weather-map-checks.json').read_text())
 assert len(current)==62 and all(v['reservation_first'] and v['weather'] for v in current)
 assert {v['no'] for v in current}=={r['連番'] for r in rows}
-assert [v['no'] for v in current if not v['photo']]==['064']
+assert all(v['photo'] for v in current)
 assert all(v['coords'] for v in current)
 guide=json.loads((ROOT/'data/reservation-weather-guide.json').read_text())
 assert len(guide)==62 and len({v['no'] for v in guide})==62
 assert all(r['メモ'].startswith('🎟 予約：') for r in rows)
-print('OK: 保存済み62ピンの予約先頭・天気表示、重複なし。064写真はDrive保存済み／My Maps内は未登録。')
+print('OK: 保存済み62ピンの予約先頭・天気表示、重複なし。写真62/62件登録済み。064は2026-11-16に実表示確認。')

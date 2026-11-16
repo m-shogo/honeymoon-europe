@@ -1,3 +1,5 @@
+> **2026-11-16追記：ディズニー写真の登録完了。** 既存ピンに1枚追加・保存し、ページ再読み込み後の実写真表示を確認。ピンの追加・削除・位置変更なし。写真62/62件。前日の白紙画面の問題は今回は発生せず、画像URLから登録できた。証跡：`docs/evidence/disneyland-photo-registered.png`。以下の未登録記述は前日時点の履歴。
+
 # 予約先頭表示・雨天分類・ディズニー同期（2026-11-15）
 
 更新先：[My Maps](https://www.google.com/maps/d/viewer?mid=1gKS7F8p3_YdS952P8K2jDE28-1epSAM)／[Sheets](https://docs.google.com/spreadsheets/d/1JNnB15CH_WWwwY7uuopvQabzJhF2sx8v4i8P-G4MOYA/edit)／[写真対応CSV](https://drive.google.com/file/d/1CDP9r8Vdb-lFbL8Kla8vOOGuolvI_MH2/view)。各ファイルIDと地図URLは維持。

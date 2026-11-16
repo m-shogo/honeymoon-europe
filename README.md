@@ -66,4 +66,4 @@ node scripts/validate-trip.mjs
 
 ## 最新：62スポット・予約先頭・雨天の印（2026-11-15）
 
-[My Maps](https://www.google.com/maps/d/viewer?mid=1gKS7F8p3_YdS952P8K2jDE28-1epSAM)とSheets・CSVを62件へ同期。全ピンに予約案内の先頭表示と☔／🌦／🌤の印を登録。ディズニーは公式券・営業時間・アクセス・注意点を追記し、写真をDriveへ保存。My Mapsの写真追加画面が白紙になるため、地図内写真は61/62件。[実施結果と引き継ぎ](docs/reservation-weather-disney-sync.md)。既存旅程・出発候補は変更しない。
+[My Maps](https://www.google.com/maps/d/viewer?mid=1gKS7F8p3_YdS952P8K2jDE28-1epSAM)とSheets・CSVを62件へ同期。全ピンに予約案内の先頭表示と☔／🌦／🌤の印を登録。ディズニーは公式券・営業時間・アクセス・注意点を追記し、写真をDriveへ保存。2026-11-16にディズニー写真を登録・再読み込み後の実表示確認ができ、地図内写真は62/62件。[実施結果と引き継ぎ](docs/reservation-weather-disney-sync.md)。既存旅程・出発候補は変更しない。
