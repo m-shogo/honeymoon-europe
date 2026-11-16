@@ -3,34 +3,34 @@
     "no": "001",
     "name": "サグラダ・ファミリア",
     "city": "バルセロナ",
-    "reservation": "内部見学は事前予約推奨",
+    "reservation": "約2か月前｜2026年12月頃（目安・固定日ではない）",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://tickets.sagradafamilia.org/",
-    "prefix": "🎟 予約：内部見学は事前予約推奨\n公式・予約：https://tickets.sagradafamilia.org/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：約2か月前｜2026年12月頃（目安・固定日ではない）\n訪問想定：2027-02-08（主案）（2/1出発主案・未予約）\n公式・予約：https://tickets.sagradafamilia.org/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "002",
     "name": "グエル公園",
     "city": "バルセロナ",
-    "reservation": "有料区域は事前予約推奨",
+    "reservation": "最大3か月前｜2026-11-07頃から予約対象期間内（暦月計算）",
     "weather": "🌤 屋外中心｜雨天・強風時は別の屋内スポットへ",
     "official_url": "https://parkguell.barcelona/en/planning-your-visit/prices-and-times",
-    "prefix": "🎟 予約：有料区域は事前予約推奨\n公式・予約：https://parkguell.barcelona/en/planning-your-visit/prices-and-times\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n\n",
+    "prefix": "🎟 予約：最大3か月前｜2026-11-07頃から予約対象期間内（暦月計算）\n訪問想定：2027-02-07（主案）（2/1出発主案・未予約）\n公式・予約：https://parkguell.barcelona/en/planning-your-visit/prices-and-times\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "003",
     "name": "カサ・バトリョ",
     "city": "バルセロナ",
-    "reservation": "内部見学は事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜屋上・中庭・移動時は雨具",
     "official_url": "https://www.casabatllo.es/en/online-tickets/",
-    "prefix": "🎟 予約：内部見学は事前予約推奨\n公式・予約：https://www.casabatllo.es/en/online-tickets/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-07（主案）（2/1出発主案・未予約）\n公式・予約：https://www.casabatllo.es/en/online-tickets/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "004",
@@ -47,23 +47,23 @@
     "no": "005",
     "name": "バルセロナ大聖堂",
     "city": "バルセロナ",
-    "reservation": "観光入場券・訪問枠を公式で確認",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://tickets.catedralbcn.org/en-US/",
-    "prefix": "🎟 予約：観光入場券・訪問枠を公式で確認\n公式・予約：https://tickets.catedralbcn.org/en-US/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/6〜9滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://tickets.catedralbcn.org/en-US/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "006",
     "name": "カサ・ミラ",
     "city": "バルセロナ",
-    "reservation": "内部見学は事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜屋上・中庭・移動時は雨具",
     "official_url": "https://www.lapedrera.com/en/tickets/",
-    "prefix": "🎟 予約：内部見学は事前予約推奨\n公式・予約：https://www.lapedrera.com/en/tickets/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-07（主案）（2/1出発主案・未予約）\n公式・予約：https://www.lapedrera.com/en/tickets/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n確認区分：2027年2月の営業期間を公式確認／料金未確認\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "007",
@@ -91,12 +91,12 @@
     "no": "009",
     "name": "ボケリア市場",
     "city": "バルセロナ",
-    "reservation": "街歩き・通常の買い物は予約不要／店舗・体験は個別確認",
+    "reservation": "市場入場の予約不要｜対象外",
     "weather": "🌦 屋内外あり｜屋上・中庭・移動時は雨具",
     "official_url": "https://www.boqueria.barcelona/contact",
-    "prefix": "🎟 予約：街歩き・通常の買い物は予約不要／店舗・体験は個別確認\n公式・予約：https://www.boqueria.barcelona/contact\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n\n",
+    "prefix": "🎟 予約：市場入場の予約不要｜対象外\n訪問想定：2027-02-08（主案）（2/1出発主案・未予約）\n公式・予約：https://www.boqueria.barcelona/contact\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "010",
@@ -146,12 +146,12 @@
     "no": "014",
     "name": "サンタ・カテリーナ市場",
     "city": "バルセロナ",
-    "reservation": "街歩き・通常の買い物は予約不要／店舗・体験は個別確認",
+    "reservation": "市場入場の予約不要｜対象外",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://guia.barcelona.cat/en/detall/mercat-santa-caterina_92086009448.html",
-    "prefix": "🎟 予約：街歩き・通常の買い物は予約不要／店舗・体験は個別確認\n公式・予約：https://guia.barcelona.cat/en/detall/mercat-santa-caterina_92086009448.html\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：市場入場の予約不要｜対象外\n訪問想定：未定（2/6〜9滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://guia.barcelona.cat/en/detall/mercat-santa-caterina_92086009448.html\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "015",
@@ -168,23 +168,23 @@
     "no": "016",
     "name": "コロッセオ",
     "city": "ローマ",
-    "reservation": "入場は日時指定券を事前確認",
+    "reservation": "30日前｜2027-01-06（30日前計算／発売時刻は未確認）",
     "weather": "🌤 屋外中心｜雨天・強風時は別の屋内スポットへ",
     "official_url": "https://ticketing.colosseo.it/en",
-    "prefix": "🎟 予約：入場は日時指定券を事前確認\n公式・予約：https://ticketing.colosseo.it/en\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n\n",
+    "prefix": "🎟 予約：30日前｜2027-01-06（30日前計算／発売時刻は未確認）\n訪問想定：2027-02-05（主案）（2/1出発主案・未予約）\n公式・予約：https://ticketing.colosseo.it/en\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n確認区分：2027年2月営業時間確認／料金は現行\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "017",
     "name": "トレビの泉",
     "city": "ローマ",
-    "reservation": "街歩き・通常の買い物は予約不要／店舗・体験は個別確認",
+    "reservation": "有料近接エリアは公式券売／周囲は予約不要｜日付カレンダーで確認",
     "weather": "🌤 屋外中心｜雨天・強風時は別の屋内スポットへ",
     "official_url": "",
-    "prefix": "🎟 予約：街歩き・通常の買い物は予約不要／店舗・体験は個別確認\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n\n",
+    "prefix": "🎟 予約：有料近接エリアは公式券売／周囲は予約不要｜日付カレンダーで確認\n訪問想定：2027-02-04（主案）（2/1出発主案・未予約）\n公式・予約：https://fontanaditrevi.roma.it/en\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "018",
@@ -201,12 +201,12 @@
     "no": "019",
     "name": "パンテオン",
     "city": "ローマ",
-    "reservation": "有料入場券・訪問枠を公式で確認",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://portale.museiitaliani.it/",
-    "prefix": "🎟 予約：有料入場券・訪問枠を公式で確認\n公式・予約：https://portale.museiitaliani.it/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/4〜6滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://portale.museiitaliani.it/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "020",
@@ -223,12 +223,12 @@
     "no": "021",
     "name": "フォロ・ロマーノ",
     "city": "ローマ",
-    "reservation": "コロッセオ共通券の対象・有効期間を確認",
+    "reservation": "基本券は30日前｜2027-01-06（2/5の基本券を取る場合）",
     "weather": "🌤 屋外中心｜雨天・強風時は別の屋内スポットへ",
     "official_url": "https://ticketing.colosseo.it/en",
-    "prefix": "🎟 予約：コロッセオ共通券の対象・有効期間を確認\n公式・予約：https://ticketing.colosseo.it/en\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n\n",
+    "prefix": "🎟 予約：基本券は30日前｜2027-01-06（2/5の基本券を取る場合）\n訪問想定：2027-02-05（主案・コロッセオ券と組合せ）（2/1出発主案・未予約）\n公式・予約：https://ticketing.colosseo.it/en\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n確認区分：2027年2月営業時間確認／料金は現行\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "022",
@@ -322,34 +322,34 @@
     "no": "030",
     "name": "サンタンジェロ城",
     "city": "ローマ",
-    "reservation": "入場券・訪問枠を公式で確認",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜屋上・中庭・移動時は雨具",
     "official_url": "https://portale.museiitaliani.it/",
-    "prefix": "🎟 予約：入場券・訪問枠を公式で確認\n公式・予約：https://portale.museiitaliani.it/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/4〜6滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://portale.museiitaliani.it/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "031",
     "name": "サン・ピエトロ大聖堂",
     "city": "ローマ",
-    "reservation": "大聖堂とクーポラ等は予約・料金の扱いが異なるため公式確認",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜屋上・中庭・移動時は雨具",
     "official_url": "https://www.basilicasanpietro.va/en",
-    "prefix": "🎟 予約：大聖堂とクーポラ等は予約・料金の扱いが異なるため公式確認\n公式・予約：https://www.basilicasanpietro.va/en\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-05（主案）（2/1出発主案・未予約）\n公式・予約：https://www.basilicasanpietro.va/en\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n確認区分：2027年2月の聖堂時間を公式確認／有料商品は別確認\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "032",
     "name": "バチカン美術館・システィーナ礼拝堂",
     "city": "ローマ",
-    "reservation": "日時指定の事前予約推奨",
+    "reservation": "一律60日前との公式根拠は確認できず｜未確定：公式券売カレンダーを確認",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://tickets.museivaticani.va/",
-    "prefix": "🎟 予約：日時指定の事前予約推奨\n公式・予約：https://tickets.museivaticani.va/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：一律60日前との公式根拠は確認できず｜未確定：公式券売カレンダーを確認\n訪問想定：2027-02-05（主案）（2/1出発主案・未予約）\n公式・予約：https://tickets.museivaticani.va/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：2027年公式休館日確認／料金は現行\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "033",
@@ -366,23 +366,23 @@
     "no": "034",
     "name": "サン・マルコ寺院",
     "city": "ヴェネツィア",
-    "reservation": "有料入場券・訪問枠を公式で確認",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://tickets.basilicasanmarco.it/en/",
-    "prefix": "🎟 予約：有料入場券・訪問枠を公式で確認\n公式・予約：https://tickets.basilicasanmarco.it/en/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-03（主案）（2/1出発主案・未予約）\n公式・予約：https://tickets.basilicasanmarco.it/en/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：2027年料金・時間未確認\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "035",
     "name": "ドゥカーレ宮殿",
     "city": "ヴェネツィア",
-    "reservation": "事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜早割の30日前は2027-01-04（発売開始日ではない）",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://palazzoducale.visitmuve.it/en/visitor-information/",
-    "prefix": "🎟 予約：事前予約推奨\n公式・予約：https://palazzoducale.visitmuve.it/en/visitor-information/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜早割の30日前は2027-01-04（発売開始日ではない）\n訪問想定：2027-02-03（主案）（2/1出発主案・未予約）\n公式・予約：https://palazzoducale.visitmuve.it/en/visitor-information/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "036",
@@ -465,12 +465,12 @@
     "no": "043",
     "name": "リアルト市場",
     "city": "ヴェネツィア",
-    "reservation": "街歩き・通常の買い物は予約不要／店舗・体験は個別確認",
+    "reservation": "市場入場の予約不要｜対象外",
     "weather": "🌤 屋外中心｜雨天・強風時は別の屋内スポットへ",
     "official_url": "https://www.veneziaunica.it/en/things-to-do-in-venice/venice-areas/markets",
-    "prefix": "🎟 予約：街歩き・通常の買い物は予約不要／店舗・体験は個別確認\n公式・予約：https://www.veneziaunica.it/en/things-to-do-in-venice/venice-areas/markets\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n\n",
+    "prefix": "🎟 予約：市場入場の予約不要｜対象外\n訪問想定：2027-02-03（主案）（2/1出発主案・未予約）\n公式・予約：https://www.veneziaunica.it/en/things-to-do-in-venice/venice-areas/markets\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "044",
@@ -520,23 +520,23 @@
     "no": "048",
     "name": "エッフェル塔",
     "city": "パリ",
-    "reservation": "登塔する場合は日時指定券を事前予約推奨",
+    "reservation": "EV券90日前／2階階段券60日前｜EV 2026-11-13／階段 2026-12-13（日数計算）",
     "weather": "🌤 屋外中心｜雨天・強風時は別の屋内スポットへ",
     "official_url": "https://ticket.toureiffel.paris/en",
-    "prefix": "🎟 予約：登塔する場合は日時指定券を事前予約推奨\n公式・予約：https://ticket.toureiffel.paris/en\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n\n",
+    "prefix": "🎟 予約：EV券90日前／2階階段券60日前｜EV 2026-11-13／階段 2026-12-13（日数計算）\n訪問想定：2027-02-11（主案）（2/1出発主案・未予約）\n公式・予約：https://ticket.toureiffel.paris/en\n🌤 屋外中心｜雨天・強風時は別の屋内スポットへ\n確認区分：2027年公式料金確認／2/11営業時間未確認\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "049",
     "name": "凱旋門",
     "city": "パリ",
-    "reservation": "屋上展望台に入る場合は入場券を公式で確認",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜屋上・中庭・移動時は雨具",
     "official_url": "https://www.paris-arc-de-triomphe.fr/en/visit",
-    "prefix": "🎟 予約：屋上展望台に入る場合は入場券を公式で確認\n公式・予約：https://www.paris-arc-de-triomphe.fr/en/visit\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-11（主案）（2/1出発主案・未予約）\n公式・予約：https://www.paris-arc-de-triomphe.fr/en/visit\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "050",
@@ -564,23 +564,23 @@
     "no": "052",
     "name": "ルーブル美術館",
     "city": "パリ",
-    "reservation": "日時指定の事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://ticket.louvre.fr/en",
-    "prefix": "🎟 予約：日時指定の事前予約推奨\n公式・予約：https://ticket.louvre.fr/en\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-11（主案）（2/1出発主案・未予約）\n公式・予約：https://ticket.louvre.fr/en\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "053",
     "name": "ノートルダム大聖堂",
     "city": "パリ",
-    "reservation": "大聖堂入場は無料・予約必須ではない／無料時間枠は公式で確認",
+    "reservation": "2日前・前日・当日に枠を公開｜2027-02-11から確認（公開時刻・枠数は未確認）",
     "weather": "☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）",
     "official_url": "https://www.notredamedeparis.fr/en/visit/reservation-free/",
-    "prefix": "🎟 予約：大聖堂入場は無料・予約必須ではない／無料時間枠は公式で確認\n公式・予約：https://www.notredamedeparis.fr/en/visit/reservation-free/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n\n",
+    "prefix": "🎟 予約：2日前・前日・当日に枠を公開｜2027-02-11から確認（公開時刻・枠数は未確認）\n訪問想定：2027-02-13午前（主案）（2/1出発主案・未予約）\n公式・予約：https://www.notredamedeparis.fr/en/visit/reservation-free/\n☔ 雨の日向き｜屋内中心（移動・入場待ちは雨具）\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "054",
@@ -663,51 +663,51 @@
     "no": "061",
     "name": "モンサンミッシェル修道院",
     "city": "ノルマンディー",
-    "reservation": "修道院見学は事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜屋上・中庭・移動時は雨具",
     "official_url": "https://tickets.monuments-nationaux.fr/",
-    "prefix": "🎟 予約：修道院見学は事前予約推奨\n公式・予約：https://tickets.monuments-nationaux.fr/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-12（主案）（2/1出発主案・未予約）\n公式・予約：https://tickets.monuments-nationaux.fr/\n🌦 屋内外あり｜屋上・中庭・移動時は雨具\n確認区分：2027年2月の料金・通常営業時間を公式確認\n\n",
     "classification_basis": "既存の施設種別・見学範囲に基づく旅行向け判断。雨天営業を保証するものではない。",
-    "updated": "2026-11-15"
+    "updated": "2026-11-16"
   },
   {
     "no": "064",
     "name": "ディズニーランド パーク",
     "city": "パリ",
-    "reservation": "日付指定券を事前購入推奨／日付指定なし券は別途入園日登録が必要（空き次第）。購入券種の条件を確認",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌤 屋外中心｜雨天注意・屋内アトラクションもあり",
     "official_url": "https://tickets.disneylandparis.com/en-int/tickets",
-    "prefix": "🎟 予約：日付指定券を事前購入推奨／日付指定なし券は別途入園日登録が必要（空き次第）。購入券種の条件を確認\n公式予約：https://tickets.disneylandparis.com/en-int/tickets\n🌤 屋外中心｜雨天注意・屋内アトラクションもあり\n\n",
-    "updated": "2026-11-15"
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-10（主案）（2/1出発主案・未予約）\n公式・予約：https://tickets.disneylandparis.com/en-int/tickets\n🌤 屋外中心｜雨天注意・屋内アトラクションもあり\n確認区分：2/10営業時間未公開表示／価格取得不能\n\n",
+    "updated": "2026-11-16"
   },
   {
     "no": "062",
     "name": "真実の口",
     "city": "ローマ",
-    "reservation": "予約可否は公式確認。行列の余裕を確保",
+    "reservation": "公式で前売り制度を確認できず｜日付カレンダーで確認",
     "weather": "🌦 半屋外の柱廊｜行列は雨具",
     "official_url": "https://cosmedin.org/la-bocca-della-verita/",
-    "prefix": "🎟 予約：予約可否は公式確認。行列の余裕を確保\n公式・案内：https://cosmedin.org/la-bocca-della-verita/\n🌦 半屋外の柱廊｜行列は雨具\n\n",
+    "prefix": "🎟 予約：公式で前売り制度を確認できず｜日付カレンダーで確認\n訪問想定：2027-02-05（主案）（2/1出発主案・未予約）\n公式・予約：https://cosmedin.org/la-bocca-della-verita/\n🌦 半屋外の柱廊｜行列は雨具\n確認区分：2027年料金・営業時間未確認\n\n",
     "updated": "2026-11-16"
   },
   {
     "no": "065",
     "name": "サン・パウ病院",
     "city": "バルセロナ",
-    "reservation": "内部見学は事前購入推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜パビリオン間は屋外",
     "official_url": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
-    "prefix": "🎟 予約：内部見学は事前購入推奨\n公式・案内：https://santpaubarcelona.org/en/prepara-la-teva-visita/\n🌦 屋内外あり｜パビリオン間は屋外\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/6〜9滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://santpaubarcelona.org/en/prepara-la-teva-visita/\n🌦 屋内外あり｜パビリオン間は屋外\n確認区分：2027年公式料金・冬季通常時間確認\n\n",
     "updated": "2026-11-16"
   },
   {
     "no": "066",
     "name": "カタルーニャ音楽堂",
     "city": "バルセロナ",
-    "reservation": "見学または公演を公式から事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜雨の日候補",
     "official_url": "https://www.palaumusica.cat/en/buy-tickets_1641072",
-    "prefix": "🎟 予約：見学または公演を公式から事前予約推奨\n公式・案内：https://www.palaumusica.cat/en/buy-tickets_1641072\n☔ 屋内中心｜雨の日候補\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/6〜9滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://www.palaumusica.cat/en/buy-tickets_1641072\n☔ 屋内中心｜雨の日候補\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "updated": "2026-11-16"
   },
   {
@@ -744,10 +744,10 @@
     "no": "070",
     "name": "サン・ジョルジョ・マッジョーレ聖堂",
     "city": "ヴェネツィア",
-    "reservation": "教会・鐘楼は運営者へ確認／Cini財団ツアーは別予約",
+    "reservation": "鐘楼は再開情報を先に確認｜再開未定",
     "weather": "🌦 教会内＋島の屋外｜移動時は雨具",
     "official_url": "https://parco.cini.app/en/landing",
-    "prefix": "🎟 予約：教会・鐘楼は運営者へ確認／Cini財団ツアーは別予約\n公式・案内：https://parco.cini.app/en/landing\n🌦 教会内＋島の屋外｜移動時は雨具\n\n",
+    "prefix": "🎟 予約：鐘楼は再開情報を先に確認｜再開未定\n訪問想定：未定（2/2〜4滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://parco.cini.app/en/landing\n🌦 教会内＋島の屋外｜移動時は雨具\n確認区分：現行の鐘楼休止を確認／2027年再開未定\n\n",
     "updated": "2026-11-16"
   },
   {
@@ -774,30 +774,30 @@
     "no": "073",
     "name": "サント・シャペル",
     "city": "パリ",
-    "reservation": "日時指定の事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜明るい時間帯にステンドグラス",
     "official_url": "https://www.sainte-chapelle.fr/en/visit/practical-information",
-    "prefix": "🎟 予約：日時指定の事前予約推奨\n公式・案内：https://www.sainte-chapelle.fr/en/visit/practical-information\n☔ 屋内中心｜明るい時間帯にステンドグラス\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/9〜13滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://www.sainte-chapelle.fr/en/visit/practical-information\n☔ 屋内中心｜明るい時間帯にステンドグラス\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "updated": "2026-11-16"
   },
   {
     "no": "074",
     "name": "オルセー美術館",
     "city": "パリ",
-    "reservation": "日時指定の事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜雨の日候補",
     "official_url": "https://www.musee-orsay.fr/en/visit",
-    "prefix": "🎟 予約：日時指定の事前予約推奨\n公式・案内：https://www.musee-orsay.fr/en/visit\n☔ 屋内中心｜雨の日候補\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/9〜13滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://www.musee-orsay.fr/en/visit\n☔ 屋内中心｜雨の日候補\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "updated": "2026-11-16"
   },
   {
     "no": "075",
     "name": "ヴェルサイユ宮殿",
     "city": "パリ",
-    "reservation": "宮殿は日時指定券の事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 宮殿内＋広い屋外｜雨の日は庭園を短縮",
     "official_url": "https://en.chateauversailles.fr/plan-your-visit/tickets-and-prices",
-    "prefix": "🎟 予約：宮殿は日時指定券の事前予約推奨\n公式・案内：https://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\n🌦 宮殿内＋広い屋外｜雨の日は庭園を短縮\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/9〜13滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://en.chateauversailles.fr/plan-your-visit/tickets-and-prices\n🌦 宮殿内＋広い屋外｜雨の日は庭園を短縮\n確認区分：2027年料金未確認／冬季通常時間参考\n\n",
     "updated": "2026-11-16"
   },
   {
@@ -824,10 +824,10 @@
     "no": "078",
     "name": "オランジュリー美術館",
     "city": "パリ",
-    "reservation": "時間枠の事前予約推奨",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜雨の日候補",
     "official_url": "https://www.musee-orangerie.fr/en/visit-orangerie",
-    "prefix": "🎟 予約：時間枠の事前予約推奨\n公式・案内：https://www.musee-orangerie.fr/en/visit-orangerie\n☔ 屋内中心｜雨の日候補\n\n",
+    "prefix": "🎟 予約：公式で一律の発売開始日を確認できず｜日付カレンダーで確認\n訪問想定：未定（2/9〜13滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://www.musee-orangerie.fr/en/visit-orangerie\n☔ 屋内中心｜雨の日候補\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "updated": "2026-11-16"
   },
   {
@@ -854,10 +854,10 @@
     "no": "081",
     "name": "フランス国立図書館リシュリュー館",
     "city": "パリ",
-    "reservation": "オーバル室の通常個人利用は予約不要／企画・団体は別確認",
+    "reservation": "オヴァル室の通常個人見学は予約不要｜対象外",
     "weather": "☔ 屋内中心｜雨の日の寄り道",
     "official_url": "https://www.bnf.fr/fr/richelieu",
-    "prefix": "🎟 予約：オーバル室の通常個人利用は予約不要／企画・団体は別確認\n公式・案内：https://www.bnf.fr/fr/richelieu\n☔ 屋内中心｜雨の日の寄り道\n\n",
+    "prefix": "🎟 予約：オヴァル室の通常個人見学は予約不要｜対象外\n訪問想定：未定（2/9〜13滞在内の候補）（2/1出発主案・未予約）\n公式・予約：https://www.bnf.fr/fr/richelieu\n☔ 屋内中心｜雨の日の寄り道\n確認区分：現行公式情報（2027訪問日の料金・例外は再確認）\n\n",
     "updated": "2026-11-16"
   },
   {

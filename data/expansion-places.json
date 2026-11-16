@@ -24,10 +24,10 @@
     "sha256": "0ec28035d4e95d3d9c0c3879e3bbabfe8f3e4bec2dab4e6a6e93b8677d71e332",
     "query": "Bocca della Verità, Piazza della Bocca della Verità 18, Roma, Italy",
     "official": "https://cosmedin.org/la-bocca-della-verita/",
-    "fee": "入場条件・寄付の扱いは公式で要確認",
-    "hours": "現行案内9:30〜17:50／訪問日前に教会へ確認",
-    "closed": "教会の礼拝・行列・変更に注意",
-    "reservation": "予約可否は公式確認。行列の余裕を確保",
+    "fee": "要確認（公式ページで料金を確認できず）",
+    "hours": "訪問日の営業時間は要確認",
+    "closed": "バチカン・コロッセオ同日は時間配分に注意",
+    "reservation": "公式で前売り制度を確認できず｜日付カレンダーで確認",
     "weather": "🌦 半屋外の柱廊｜行列は雨具",
     "duration": "30〜60分",
     "nearby": "カンピドリオ広場→真実の口→トラステヴェレ",
@@ -39,7 +39,7 @@
     "souvenirs": "ローマの街並み・映画の絵はがき",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Bocca%20della%20Verit%C3%A0%2C%20Piazza%20della%20Bocca%20della%20Verit%C3%A0%2018%2C%20Roma%2C%20Italy",
     "visit_status": "行く（既存旅程）",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "2027年料金・営業時間未確認",
     "checked": "2026-11-16",
     "drive_id": "1Z3v61Cb1N46_LOvc0go2M_hgN8ln53me",
     "drive_url": "https://drive.google.com/file/d/1Z3v61Cb1N46_LOvc0go2M_hgN8ln53me/view?usp=drivesdk",
@@ -69,7 +69,8 @@
       "062_真実の口.jpg",
       "https://drive.google.com/file/d/1Z3v61Cb1N46_LOvc0go2M_hgN8ln53me/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://cosmedin.org/la-bocca-della-verita/"
   },
   {
     "no": "065",
@@ -96,10 +97,10 @@
     "sha256": "f2714da377658d07593bc12bcaaa8e7893ad9050e6143b46bf658027ce9e111c",
     "query": "Recinte Modernista de Sant Pau, Carrer de Sant Antoni Maria Claret 167, Barcelona, Spain",
     "official": "https://santpaubarcelona.org/en/prepara-la-teva-visita/",
-    "fee": "2027年一般オンライン€19（14時前）／€18（14時以降）。窓口は各€1増",
-    "hours": "11〜3月9:30〜17:00／最終入場30分前",
-    "closed": "12/25休館。見学区画は変更の場合あり",
-    "reservation": "内部見学は事前購入推奨",
+    "fee": "2027/1/1〜オンライン14時前€19・14時以降€18／窓口各＋€1",
+    "hours": "11〜3月9:30–17／最終16:30",
+    "closed": "12/25休館。候補であり訪問決定ではない",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 屋内外あり｜パビリオン間は屋外",
     "duration": "1〜1.5時間",
     "nearby": "サグラダ・ファミリア→サン・パウ病院",
@@ -111,7 +112,7 @@
     "souvenirs": "モデルニスモ建築の絵はがき・地元雑貨",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Recinte%20Modernista%20de%20Sant%20Pau%2C%20Carrer%20de%20Sant%20Antoni%20Maria%20Claret%20167%2C%20Barcelona%2C%20Spain",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "2027年公式料金・冬季通常時間確認",
     "checked": "2026-11-16",
     "drive_id": "1RXqxCWl9GtdmLcszOQwzgRS6ySjv7Cff",
     "drive_url": "https://drive.google.com/file/d/1RXqxCWl9GtdmLcszOQwzgRS6ySjv7Cff/view?usp=drivesdk",
@@ -141,7 +142,8 @@
       "065_サン・パウ病院.jpg",
       "https://drive.google.com/file/d/1RXqxCWl9GtdmLcszOQwzgRS6ySjv7Cff/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://santpaubarcelona.org/en/prepara-la-teva-visita/"
   },
   {
     "no": "066",
@@ -168,10 +170,10 @@
     "sha256": "e930c534a01ca0582e12946165702a4fefa824baca8220d86eccc103ea595a3f",
     "query": "Palau de la Música Catalana, Carrer del Palau de la Música 4-6, Barcelona, Spain",
     "official": "https://www.palaumusica.cat/en/buy-tickets_1641072",
-    "fee": "現行参考：自由見学€20〜／音声・ガイド付€24〜。2027訪問日は要確認",
-    "hours": "見学枠は公演・日付別。公式予約カレンダーで確認",
-    "closed": "公演・リハーサルで見学範囲変更",
-    "reservation": "見学または公演を公式から事前予約推奨",
+    "fee": "自由見学€20〜／音声ガイド・ガイド€24〜（現行）",
+    "hours": "見学枠は公演日程により変動",
+    "closed": "見学券と公演チケットは別",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜雨の日候補",
     "duration": "1時間前後",
     "nearby": "カタルーニャ音楽堂→サンタ・カテリーナ市場→ゴシック地区",
@@ -183,7 +185,7 @@
     "souvenirs": "モデルニスモ建築の絵はがき・地元雑貨",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Palau%20de%20la%20M%C3%BAsica%20Catalana%2C%20Carrer%20del%20Palau%20de%20la%20M%C3%BAsica%204-6%2C%20Barcelona%2C%20Spain",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "現行公式情報（2027訪問日の料金・例外は再確認）",
     "checked": "2026-11-16",
     "drive_id": "1yMEeWvVRPSGg31eAfXMMuBJW0BvYuPcE",
     "drive_url": "https://drive.google.com/file/d/1yMEeWvVRPSGg31eAfXMMuBJW0BvYuPcE/view?usp=drivesdk",
@@ -213,7 +215,8 @@
       "066_カタルーニャ音楽堂.jpg",
       "https://drive.google.com/file/d/1yMEeWvVRPSGg31eAfXMMuBJW0BvYuPcE/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://www.palaumusica.cat/en/buy-tickets_1641072"
   },
   {
     "no": "067",
@@ -452,10 +455,10 @@
     "sha256": "3f63134eeabe72b4dcdbad78777765ab522f669d24b06f24998834bcdb2063e3",
     "query": "Basilica di San Giorgio Maggiore, Isola di San Giorgio Maggiore, Venezia, Italy",
     "official": "https://parco.cini.app/en/landing",
-    "fee": "教会・鐘楼・財団施設で条件が異なる。2027年料金・開放状況は要確認",
-    "hours": "修道院教会の見学時間・鐘楼の開放は訪問前に要確認",
-    "closed": "船移動が必要。礼拝・修復・悪天候に注意",
-    "reservation": "教会・鐘楼は運営者へ確認／Cini財団ツアーは別予約",
+    "fee": "鐘楼の再開・料金は要確認",
+    "hours": "教会の現行時間 毎日9–18／鐘楼休止中",
+    "closed": "公式で鐘楼は修理休止中。2027年の再開保証なし。Cini財団見学とは別",
+    "reservation": "鐘楼は再開情報を先に確認｜再開未定",
     "weather": "🌦 教会内＋島の屋外｜移動時は雨具",
     "duration": "1〜1.5時間（船待ち別）",
     "nearby": "サン・マルコ周辺→船でサン・ジョルジョ島→本島",
@@ -467,7 +470,7 @@
     "souvenirs": "ヴェネツィアの絵はがき・ガラス小物（産地を確認）",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20di%20San%20Giorgio%20Maggiore%2C%20Isola%20di%20San%20Giorgio%20Maggiore%2C%20Venezia%2C%20Italy",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "現行の鐘楼休止を確認／2027年再開未定",
     "checked": "2026-11-16",
     "drive_id": "1IfR7mvm9FdET3C57S8TpV7fFIMoqTPoX",
     "drive_url": "https://drive.google.com/file/d/1IfR7mvm9FdET3C57S8TpV7fFIMoqTPoX/view?usp=drivesdk",
@@ -497,7 +500,8 @@
       "070_サン・ジョルジョ・マッジョーレ聖堂.jpg",
       "https://drive.google.com/file/d/1IfR7mvm9FdET3C57S8TpV7fFIMoqTPoX/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://www.abbaziasangiorgio.it/progetti-culturali/"
   },
   {
     "no": "071",
@@ -666,10 +670,10 @@
     "sha256": "f06a58688d6dba0460024e7d5347823a62133d53fde137b43996cf0a778811cf",
     "query": "Sainte-Chapelle, 10 Boulevard du Palais, Paris, France",
     "official": "https://www.sainte-chapelle.fr/en/visit/practical-information",
-    "fee": "現行：非EEA国籍・非EEA居住の一般€22／2027訪問日は要再確認",
-    "hours": "10〜3月9:00〜17:00／最終入場30分前",
-    "closed": "1/1・5/1・12/25休館。裁判所エリアの保安検査",
-    "reservation": "日時指定の事前予約推奨",
+    "fee": "非EEA€22／EEA€16（現行参考）",
+    "hours": "10〜3月9–17／最終16:30",
+    "closed": "1/1・5/1・12/25休館。保安検査時間を確保",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜明るい時間帯にステンドグラス",
     "duration": "45〜60分（保安検査別）",
     "nearby": "ノートルダム大聖堂→サント・シャペル→セーヌ河畔",
@@ -681,7 +685,7 @@
     "souvenirs": "施設ショップの絵はがき・美術作品や建築の雑貨",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Sainte-Chapelle%2C%2010%20Boulevard%20du%20Palais%2C%20Paris%2C%20France",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "現行公式情報（2027訪問日の料金・例外は再確認）",
     "checked": "2026-11-16",
     "drive_id": "1UosHTvr_jkU_kYSSe5GLgxF1JroA2pUS",
     "drive_url": "https://drive.google.com/file/d/1UosHTvr_jkU_kYSSe5GLgxF1JroA2pUS/view?usp=drivesdk",
@@ -711,7 +715,8 @@
       "073_サント・シャペル.jpg",
       "https://drive.google.com/file/d/1UosHTvr_jkU_kYSSe5GLgxF1JroA2pUS/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://www.sainte-chapelle.fr/en/visiter/informations-pratiques/"
   },
   {
     "no": "074",
@@ -738,10 +743,10 @@
     "sha256": "06b48c14ce470cc11ddf21965e250dee0401cd1945fc22e4b4a95586895dc9dc",
     "query": "Musée d'Orsay, Esplanade Valéry Giscard d'Estaing, Paris, France",
     "official": "https://www.musee-orsay.fr/en/visit",
-    "fee": "現行一般オンライン€16／窓口€14。2027訪問日は要再確認",
-    "hours": "火〜日9:30〜18:00／木〜21:45（現行）",
-    "closed": "月曜・5/1・12/25休館。最終入場は通常17時",
-    "reservation": "日時指定の事前予約推奨",
+    "fee": "オンライン€16／窓口€14（現行）",
+    "hours": "火〜日9:30–18／木〜21:45",
+    "closed": "月・5/1・12/25休館。改修で見学範囲変更あり",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜雨の日候補",
     "duration": "2〜3時間（興味により調整）",
     "nearby": "オルセー→セーヌ河畔→オランジュリーまたはルーブル周辺",
@@ -753,7 +758,7 @@
     "souvenirs": "施設ショップの絵はがき・美術作品や建築の雑貨",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20d%27Orsay%2C%20Esplanade%20Val%C3%A9ry%20Giscard%20d%27Estaing%2C%20Paris%2C%20France",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "現行公式情報（2027訪問日の料金・例外は再確認）",
     "checked": "2026-11-16",
     "drive_id": "15qN7ViAbYSVGpSFQ9XKQjHDhuG2LPdGx",
     "drive_url": "https://drive.google.com/file/d/15qN7ViAbYSVGpSFQ9XKQjHDhuG2LPdGx/view?usp=drivesdk",
@@ -783,7 +788,8 @@
       "074_オルセー美術館.jpg",
       "https://drive.google.com/file/d/15qN7ViAbYSVGpSFQ9XKQjHDhuG2LPdGx/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://www.musee-orsay.fr/en/visit"
   },
   {
     "no": "075",
@@ -810,10 +816,10 @@
     "sha256": "b2f32da3fc0ce22414c600b46d6d27ec2f361d4bd5dff59c22e7c9bb8882d68a",
     "query": "Château de Versailles, Place d'Armes, Versailles, France",
     "official": "https://en.chateauversailles.fr/plan-your-visit/tickets-and-prices",
-    "fee": "券種・居住条件・2027訪問日で変動。公式予約画面で要確認",
-    "hours": "宮殿・庭園・離宮で異なる。冬期訪問日の公式時間を要確認",
-    "closed": "宮殿は月曜休館。庭園と離宮は別条件。パリ市内から鉄道移動",
-    "reservation": "宮殿は日時指定券の事前予約推奨",
+    "fee": "2027年券種別料金は要確認",
+    "hours": "冬季 宮殿17:30閉館／最終16:45",
+    "closed": "宮殿は月曜休館が基本。日時指定予約必須。既定の日帰り観光と入替検討",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "🌦 宮殿内＋広い屋外｜雨の日は庭園を短縮",
     "duration": "原則一日（移動を含む計画目安）",
     "nearby": "ヴェルサイユ宮殿→庭園→時間次第でトリアノン",
@@ -825,7 +831,7 @@
     "souvenirs": "施設ショップの絵はがき・美術作品や建築の雑貨",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Ch%C3%A2teau%20de%20Versailles%2C%20Place%20d%27Armes%2C%20Versailles%2C%20France",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "2027年料金未確認／冬季通常時間参考",
     "checked": "2026-11-16",
     "drive_id": "1UeUHD_BsbfWAJIwculo-K242V7MtV-Mi",
     "drive_url": "https://drive.google.com/file/d/1UeUHD_BsbfWAJIwculo-K242V7MtV-Mi/view?usp=drivesdk",
@@ -855,7 +861,8 @@
       "075_ヴェルサイユ宮殿.jpg",
       "https://drive.google.com/file/d/1UeUHD_BsbfWAJIwculo-K242V7MtV-Mi/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://en.chateauversailles.fr/plan-your-visit/tickets-and-prices"
   },
   {
     "no": "076",
@@ -1026,10 +1033,10 @@
     "sha256": "6056eecda52e75a9d53897f3ae3f141a7f1b40045c75e1e02d7434fe70e011a2",
     "query": "Musée de l'Orangerie, Jardin des Tuileries, Paris, France",
     "official": "https://www.musee-orangerie.fr/en/visit-orangerie",
-    "fee": "現行一般オンライン€12.50／窓口€11。2027訪問日は要再確認",
-    "hours": "通常9:00〜18:00／企画展期間の金曜夜間は公式確認",
-    "closed": "火曜・5/1・7/14午前・12/25休館",
-    "reservation": "時間枠の事前予約推奨",
+    "fee": "オンライン€12.50／窓口€11（現行）",
+    "hours": "通常9–18／最終17:15",
+    "closed": "火曜休館。金曜夜間は特定展示期間のみで2月に自動適用しない",
+    "reservation": "公式で一律の発売開始日を確認できず｜日付カレンダーで確認",
     "weather": "☔ 屋内中心｜雨の日候補",
     "duration": "1〜1.5時間",
     "nearby": "コンコルド広場→オランジュリー→チュイルリー庭園",
@@ -1041,7 +1048,7 @@
     "souvenirs": "施設ショップの絵はがき・美術作品や建築の雑貨",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Mus%C3%A9e%20de%20l%27Orangerie%2C%20Jardin%20des%20Tuileries%2C%20Paris%2C%20France",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "現行公式情報（2027訪問日の料金・例外は再確認）",
     "checked": "2026-11-16",
     "drive_id": "1TliYMIMp_-N4HHHXc-pEETGCh8QLa-pY",
     "drive_url": "https://drive.google.com/file/d/1TliYMIMp_-N4HHHXc-pEETGCh8QLa-pY/view?usp=drivesdk",
@@ -1071,7 +1078,8 @@
       "078_オランジュリー美術館.jpg",
       "https://drive.google.com/file/d/1TliYMIMp_-N4HHHXc-pEETGCh8QLa-pY/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://www.musee-orangerie.fr/en/visit-orangerie"
   },
   {
     "no": "079",
@@ -1240,10 +1248,10 @@
     "sha256": "3156b254a65aeb0010d521c9036b34e1fc0025c046d71cbf8abf2c0a3df80d16",
     "query": "BnF Richelieu, 58 Rue de Richelieu, Paris, France",
     "official": "https://www.bnf.fr/fr/richelieu",
-    "fee": "オーバル室は無料／博物館・展覧会は別料金",
-    "hours": "オーバル室の曜日別時間は公式確認／月曜休館",
-    "closed": "静かな閲覧室。撮影・荷物・入室の案内に従う",
-    "reservation": "オーバル室の通常個人利用は予約不要／企画・団体は別確認",
+    "fee": "オヴァル室は無料／博物館等は別",
+    "hours": "オヴァル室 火10–20／水〜日10–18",
+    "closed": "月曜休室。一般見学入口5 Rue Vivienne、研究用58 Rue Richelieuと区別",
+    "reservation": "オヴァル室の通常個人見学は予約不要｜対象外",
     "weather": "☔ 屋内中心｜雨の日の寄り道",
     "duration": "30〜60分",
     "nearby": "リシュリュー館→パレ・ロワイヤル周辺→ルーブル",
@@ -1255,7 +1263,7 @@
     "souvenirs": "施設ショップの絵はがき・美術作品や建築の雑貨",
     "maps_url": "https://www.google.com/maps/search/?api=1&query=BnF%20Richelieu%2C%2058%20Rue%20de%20Richelieu%2C%20Paris%2C%20France",
     "visit_status": "未決定",
-    "confirmed": "公式・一次情報を優先確認／2027訪問日の再確認が必要",
+    "confirmed": "現行公式情報（2027訪問日の料金・例外は再確認）",
     "checked": "2026-11-16",
     "drive_id": "1iOXEmSx7LcJDgurQWMgs2Se93yzxmPNm",
     "drive_url": "https://drive.google.com/file/d/1iOXEmSx7LcJDgurQWMgs2Se93yzxmPNm/view?usp=drivesdk",
@@ -1285,7 +1293,8 @@
       "081_フランス国立図書館リシュリュー館.jpg",
       "https://drive.google.com/file/d/1iOXEmSx7LcJDgurQWMgs2Se93yzxmPNm/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
-    ]
+    ],
+    "booking_verification_source": "https://www.bnf.fr/fr/richelieu"
   },
   {
     "no": "082",

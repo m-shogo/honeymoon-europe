@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-15",
-  "status": "almost_fixed_route_unbooked_dates_under_comparison",
+  "updated_at": "2026-11-16",
+  "status": "route_almost_fixed_feb01_primary_unbooked",
   "title": "新婚旅行｜2027年2月・羽田→ミラノ→ヴェネツィア→ローマ→バルセロナ→パリ→羽田",
   "authoritative_for": "現時点の最新旅程（旧12・14・16日モデルとは別、こちらを優先）",
   "source": "2026-11-15本人提供の移動便・ホテル泊数と、公開公式情報の検証",
@@ -152,7 +152,7 @@
       "status": "到着空港とホテル未確定"
     }
   ],
-  "chosen_date_status": "unconfirmed_waiting_for_real_ANA_multi_city_airfares",
+  "chosen_date_status": "2026-11-16本人の詳細旅程は2/1出発本線。補足回答では日付未定の選択もあるため発券確定とは扱わず、他候補は参考保存。",
   "provisional_preferred_departure": "2027-02-01",
   "departure_options": [
     {
@@ -511,5 +511,31 @@
   "latest_comparison_doc": "docs/2027-feb-01-06-08-comparison.md",
   "days_note": "daysは2027-02-01出発の暫定第一候補14日モデル。2/6・2/8はdeparture_optionsと比較文書を参照。日付正式決定後に施設予約時刻を確定する。",
   "price_comparison_as_of": "2026-11-15",
-  "price_comparison_notes": "ANAオープンジョー3日付組の実売未取得。同一ホテル・2名1室11泊を比較するAxel保存参考価格USD: 2/1 $1921, 2/6 $2072, 2/8 $1937（税や特定部屋条件の再確認必須）。"
+  "price_comparison_notes": "ANAオープンジョー3日付組の実売未取得。同一ホテル・2名1室11泊を比較するAxel保存参考価格USD: 2/1 $1921, 2/6 $2072, 2/8 $1937（税や特定部屋条件の再確認必須）。",
+  "user_provided_itinerary_2026_11_16": {
+    "departure": "2027-02-01",
+    "user_status": "旅行日程ほぼ確定",
+    "user_duration_label": "計11泊13日",
+    "count_note": "ホテル11泊。羽田出発2/1からパリ出発2/13まで13日、羽田到着2/14まで14日。機内2泊はホテル11泊と別。",
+    "flights": [
+      "NH207 羽田21:40→ミラノMXP翌4:50",
+      "ローマFCO12:35→バルセロナ14:25",
+      "バルセロナ15:40→パリ17:40",
+      "NH216 パリ18:40→羽田翌16:10"
+    ],
+    "hotel_nights": {
+      "venice": 2,
+      "rome": 2,
+      "barcelona": 3,
+      "paris": 4
+    },
+    "rail": [
+      "MXP→ミラノ中央駅：約50分",
+      "ミラノ中央12時頃→ベネチア・サンタルチア14:30頃",
+      "ベネチア10〜11時→ローマ・テルミニ14〜15時",
+      "ローマ・テルミニ10時頃→FCO11時頃（本人案）"
+    ],
+    "flight_airport_note": "FCO11時着→12:35発は余裕が少ないため、9:30〜10:00空港着を別の推奨案として保持。本人案は上書きしない。",
+    "booking_status": "未確認・予約済みとは扱わない"
+  }
 }
