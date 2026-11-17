@@ -28,5 +28,5 @@ for x in b['spots']:
  r=next(r for r in rows if r['連番']==x['no'])
  for field,key in [('fee','入場料金（大人）'),('hours','営業時間（現地）'),('caution','定休日・注意')]:assert r[key]==x[field]
 assert [len(x.findall('k:Placemark',N)) for x in E.parse(D/'mymaps-booking-2027-export.kml').findall('.//k:Folder',N)]==[15,17,15,13,2,16,7]
-audit=dict(checked=b['checked'],map_spots=85,booking_updated=32,photos_preserved=85,scene_gallery_pins_preserved=10,coordinate_changes=0,untouched_descriptions=53,backup_map_id='1k7bZ5FdajxnjSAoFMoeApgw4Wz_pwLY',availability_not_guaranteed=True)
+audit=dict(checked=b.get('last_updated',b['checked']),map_spots=85,booking_updated=32,photos_preserved=85,scene_gallery_pins_preserved=10,coordinate_changes=0,untouched_descriptions=53,backup_map_id='1k7bZ5FdajxnjSAoFMoeApgw4Wz_pwLY',availability_not_guaranteed=True)
 (D/'booking-verification-audit.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n');print(json.dumps(audit,ensure_ascii=False))

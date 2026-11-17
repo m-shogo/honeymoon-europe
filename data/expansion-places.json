@@ -471,7 +471,7 @@
     "maps_url": "https://www.google.com/maps/search/?api=1&query=Basilica%20di%20San%20Giorgio%20Maggiore%2C%20Isola%20di%20San%20Giorgio%20Maggiore%2C%20Venezia%2C%20Italy",
     "visit_status": "未決定",
     "confirmed": "現行の鐘楼休止を確認／2027年再開未定",
-    "checked": "2026-11-16",
+    "checked": "2026-11-17",
     "drive_id": "1IfR7mvm9FdET3C57S8TpV7fFIMoqTPoX",
     "drive_url": "https://drive.google.com/file/d/1IfR7mvm9FdET3C57S8TpV7fFIMoqTPoX/view?usp=drivesdk",
     "sheet_values": [
@@ -501,7 +501,7 @@
       "https://drive.google.com/file/d/1IfR7mvm9FdET3C57S8TpV7fFIMoqTPoX/view?usp=drivesdk",
       "新規保存／地図内の代表写真表示を確認済み（2026-11-16）"
     ],
-    "booking_verification_source": "https://www.abbaziasangiorgio.it/progetti-culturali/"
+    "booking_verification_source": "https://www.abbaziasangiorgio.it/progetti-culturali/\nhttps://www.abbaziasangiorgio.it/book-appointment/"
   },
   {
     "no": "071",

@@ -219,11 +219,11 @@
       "hours": "通常 月〜土8–20／最終18",
       "caution": "2027年公式カレンダーで2/5開館、2/7・2/11休館を確認",
       "release_rule": "一律60日前との公式根拠は確認できず",
-      "release": "未確定：公式券売カレンダーを確認",
-      "source": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html\nhttps://www.museivaticani.va/content/dam/museivaticani/pdf/utilities/calendario_musei.pdf\nhttps://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html",
+      "release": "一律の発売日未確定。2/5・2名の公式検索は該当見学なし（11/17 JST）",
+      "source": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html\nhttps://www.museivaticani.va/content/dam/museivaticani/pdf/utilities/calendario_musei.pdf\nhttps://www.museivaticani.va/content/museivaticani/en/organizza-visita/tariffe-e-biglietti.html\nhttps://tickets.museivaticani.va/",
       "scope": "2027年公式休館日確認／料金は現行",
-      "availability": "訪問日の空き枠は未確認",
-      "checked": "2026-11-16",
+      "availability": "2026/11/17（JST）公式で2/5・2名・通常入場券を検索：条件に合う見学なし。未発売・売切れ等の理由は判別不能",
+      "checked": "2026-11-17",
       "booking_url": "https://tickets.museivaticani.va/"
     },
     {
@@ -375,15 +375,15 @@
       "city": "パリ",
       "name": "ディズニーランド パーク",
       "visit": "2027-02-10（主案）",
-      "fee": "日付別料金未取得（公式商品画面が読込停止）",
-      "hours": "公式で2/10選択：営業時間はまだ表示なし",
-      "caution": "日付指定券はBasic等で取消条件が異なる。未発表価格とは断定しない",
-      "release_rule": "公式で一律の発売開始日を確認できず",
-      "release": "日付カレンダーで確認",
+      "fee": "€75／大人1人（2/10・1日1パーク・通常日付指定券、11/17表示。2名€150、変動制）",
+      "hours": "公式で2/10選択：営業時間は未公開表示（2026/11/17再確認）",
+      "caution": "通常日付指定券は訪問3日前まで取消・全額返金可。Basic券は別条件。未購入・未予約。価格と空きは支払い前に再確認",
+      "release_rule": "通常日付指定券は事前購入。2/10の価格カレンダー公開を確認／一律発売日ルールは未確認",
+      "release": "2/10の通常日付指定券は公式で選択可能（11/17）",
       "source": "https://www.disneylandparis.com/en-int/calendars/park-hours\nhttps://tickets.disneylandparis.com/en-int/tickets",
-      "scope": "2/10営業時間未公開表示／価格取得不能",
-      "availability": "2/10カレンダー選択を画面確認。料金画面の読込停止、空き枠未確認",
-      "checked": "2026-11-16",
+      "scope": "2/10の公式表示額確認（変動制・未購入）／営業時間は未公開表示",
+      "availability": "公式で2027/2/10・1日1パーク・大人2名を選び€150表示を確認。決済前の最終空き確約ではない",
+      "checked": "2026-11-17",
       "booking_url": "https://tickets.disneylandparis.com/en-int/tickets"
     },
     {
@@ -428,10 +428,10 @@
       "caution": "公式で鐘楼は修理休止中。2027年の再開保証なし。Cini財団見学とは別",
       "release_rule": "鐘楼は再開情報を先に確認",
       "release": "再開未定",
-      "source": "https://www.abbaziasangiorgio.it/progetti-culturali/",
+      "source": "https://www.abbaziasangiorgio.it/progetti-culturali/\nhttps://www.abbaziasangiorgio.it/book-appointment/",
       "scope": "現行の鐘楼休止を確認／2027年再開未定",
-      "availability": "訪問日の空き枠は未確認",
-      "checked": "2026-11-16",
+      "availability": "2026/11/17に公式案内の鐘楼休止表示を再確認。2027年の再開日・予約枠は未確認",
+      "checked": "2026-11-17",
       "booking_url": "https://parco.cini.app/en/landing"
     },
     {
@@ -514,5 +514,6 @@
       "checked": "2026-11-16",
       "booking_url": "https://www.bnf.fr/fr/richelieu"
     }
-  ]
+  ],
+  "last_updated": "2026-11-17"
 }

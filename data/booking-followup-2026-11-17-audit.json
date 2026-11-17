@@ -1,0 +1,15 @@
+{
+  "checked": "2026-11-17",
+  "baseline_commit": "7fba88d",
+  "updated_spots": 3,
+  "untouched_map_descriptions": 82,
+  "spots": 85,
+  "csv_columns": 25,
+  "unchanged_adoption_status": true,
+  "disney_quote_adult_eur": 75,
+  "disney_quote_adults": 2,
+  "disney_quote_total_eur": 150,
+  "purchased": false,
+  "vatican_no_matching_visit": true,
+  "reason_of_vatican_unavailability": "unknown"
+}
