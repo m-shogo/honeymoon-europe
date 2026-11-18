@@ -1,0 +1,226 @@
+{
+  "checked": "2026-11-18",
+  "cities": [
+    {
+      "id": "venice",
+      "name": "ヴェネツィア",
+      "local": "Venezia",
+      "country": "イタリア",
+      "tz": "Europe/Rome",
+      "coords": [
+        45.434,
+        12.338
+      ],
+      "food": "ristoranti",
+      "grocery": "supermercato",
+      "convenience": "alimentari",
+      "toilet": "bagni pubblici",
+      "transit": "https://muoversi.venezia.it/it/content/orari-servizio-di-navigazione-0",
+      "toiletOfficial": "https://www.comune.venezia.it/it/content/servizi-igienici-wc",
+      "rail": "https://www.trenitalia.com/en.html",
+      "taxi": "https://www.veneziaunica.it/en",
+      "news": "イタリア ヴェネツィア 交通 ストライキ",
+      "tip": "水上バス・橋・階段がある街。スーツケース移動の日は乗船場所と段差を先に確認。",
+      "toiletNote": "市の案内から運営者のトイレ地図へ。料金・開いている時間は施設ごとに確認。",
+      "phrase": "Dov’è il bagno?",
+      "translation": "トイレはどこですか？",
+      "water": "fontanelle acqua potabile",
+      "pharmacy": "farmacia",
+      "cafe": "caffè",
+      "laundry": "lavanderia automatica",
+      "luggage": "deposito bagagli",
+      "weatherOfficial": "https://www.meteoam.it/it/meteo-citta/venezia",
+      "tides": "https://www.comune.venezia.it/it/content/il-bollettino-marea-venezia"
+    },
+    {
+      "id": "rome",
+      "name": "ローマ",
+      "local": "Roma",
+      "country": "イタリア",
+      "tz": "Europe/Rome",
+      "coords": [
+        41.9028,
+        12.4964
+      ],
+      "food": "ristoranti",
+      "grocery": "supermercato",
+      "convenience": "alimentari",
+      "toilet": "P.Stop bagni pubblici",
+      "transit": "https://www.atac.roma.it/stato-del-servizio",
+      "toiletOfficial": "https://pstop.it/mappa/",
+      "rail": "https://www.trenitalia.com/en.html",
+      "taxi": "https://romamobilita.it/muoversi-a-roma/taxi/",
+      "news": "イタリア ローマ 交通 ストライキ",
+      "tip": "予約時刻と離れた観光地の移動を先に確認。鉄道券・交通券は購入した券種の利用条件を確認。",
+      "toiletNote": "P.Stopは運営者の現行案内で€1。硬貨・非接触カード等に対応。各施設の営業時間は公式地図へ。",
+      "phrase": "Dov’è il bagno?",
+      "translation": "トイレはどこですか？",
+      "water": "fontanelle acqua potabile",
+      "pharmacy": "farmacia",
+      "cafe": "caffè",
+      "laundry": "lavanderia automatica",
+      "luggage": "deposito bagagli",
+      "weatherOfficial": "https://www.meteoam.it/it/meteo-citta/roma"
+    },
+    {
+      "id": "barcelona",
+      "name": "バルセロナ",
+      "local": "Barcelona",
+      "country": "スペイン",
+      "tz": "Europe/Madrid",
+      "coords": [
+        41.3874,
+        2.1686
+      ],
+      "food": "restaurantes",
+      "grocery": "supermercado",
+      "convenience": "alimentación",
+      "toilet": "lavabos públics",
+      "transit": "https://www.tmb.cat/en/home",
+      "toiletOfficial": "https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics",
+      "rail": "https://www.renfe.com/es/en",
+      "taxi": "https://taxi.amb.cat/es/usuaris/picmi-taxi",
+      "news": "スペイン バルセロナ 交通 ストライキ",
+      "tip": "日曜の市場休みと、飲食店の中休みを確認。大聖堂の観光入場と礼拝の時間を分けて計画。",
+      "toiletNote": "市の公衆トイレデータを参照。地図の掲載だけで営業中とは限らないため、もう1か所も候補に。",
+      "phrase": "On és el lavabo? / ¿Dónde está el baño?",
+      "translation": "トイレはどこですか？",
+      "water": "fuentes agua potable",
+      "pharmacy": "farmacia",
+      "cafe": "cafetería",
+      "laundry": "lavandería autoservicio",
+      "luggage": "consigna equipaje",
+      "weatherOfficial": "https://www.aemet.es/ca/eltiempo/prediccion/municipios/barcelona-id08019"
+    },
+    {
+      "id": "paris",
+      "name": "パリ",
+      "local": "Paris",
+      "country": "フランス",
+      "tz": "Europe/Paris",
+      "coords": [
+        48.8566,
+        2.3522
+      ],
+      "food": "restaurants",
+      "grocery": "supermarché",
+      "convenience": "épicerie",
+      "toilet": "toilettes publiques sanisette",
+      "transit": "https://www.bonjour-ratp.fr/info-trafic/",
+      "toiletOfficial": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216",
+      "rail": "https://www.sncf-connect.com/en-en/",
+      "taxi": "https://www.g7.fr/en/book-taxi",
+      "news": "フランス パリ 交通 ストライキ",
+      "tip": "ディズニーとモンサンミッシェルは市内徒歩観光と別日。帰路の列車・バスを先に確認。",
+      "toiletNote": "市の自動公衆トイレは無料。故障・清掃や個別の営業時間があるため、現地表示も確認。",
+      "phrase": "Où sont les toilettes, s’il vous plaît ?",
+      "translation": "トイレはどこですか？",
+      "water": "fontaine eau potable",
+      "pharmacy": "pharmacie",
+      "cafe": "café",
+      "laundry": "laverie automatique",
+      "luggage": "consigne bagages",
+      "weatherOfficial": "https://meteofrance.com/previsions-meteo-france/paris/75000"
+    }
+  ],
+  "places": [
+    {
+      "id": "life-venice-food",
+      "city": "ヴェネツィア",
+      "name": "Dal Moro’s（テイクアウト・パスタ）",
+      "type": "食事",
+      "query": "Dal Moro's Calle de la Casseleria 5324 Venezia Italy",
+      "note": "サン・マルコ周辺で手軽な食事の候補。食べる場所は現地の案内に従う。営業・メニュー・価格は公式で再確認。",
+      "source": "https://www.dalmoros.it/fresh-pasta-to-go/locations/venice"
+    },
+    {
+      "id": "life-venice-shop",
+      "city": "ヴェネツィア",
+      "name": "Coop ピアッツァーレ・ローマ",
+      "type": "買出し",
+      "query": "Coop Santa Croce 499 Piazzale Roma Venezia Italy",
+      "note": "鉄道・バス移動の日の水や軽食の買出し候補。店舗の営業日・営業時間は訪問前に確認。",
+      "source": "https://www.coopalleanza3-0.it/volantino/featured/2542-venezia---piazzale-roma.html"
+    },
+    {
+      "id": "life-rome-food",
+      "city": "ローマ",
+      "name": "All’Antico Vinaio（パンテオン周辺）",
+      "type": "食事",
+      "query": "All'Antico Vinaio Piazza della Maddalena Roma Italy",
+      "note": "スキアッチャータの手軽な食事候補。行列と食べる場所を確認。所在地の最終確認は公式の店舗案内へ。",
+      "source": "https://www.allanticovinaio.com/roma/"
+    },
+    {
+      "id": "life-rome-shop",
+      "city": "ローマ",
+      "name": "Carrefour Express ジュスティニアーニ通り",
+      "type": "買出し",
+      "query": "Carrefour Express Via Giustiniani 15B Roma Italy",
+      "note": "パンテオン周辺の小型スーパー。水・果物・軽食・朝食の買出し候補。営業時間は公式店舗ページへ。",
+      "source": "https://www.carrefour.it/punti-vendita/carrefour-express-roma-via-giustiniani-15b-4752.html"
+    },
+    {
+      "id": "life-barcelona-food",
+      "city": "バルセロナ",
+      "name": "Vinitus（コンセル・デ・セント通り）",
+      "type": "食事",
+      "query": "Vinitus Consell de Cent 333 Barcelona Spain",
+      "note": "グラシア通り周辺でタパスを食べる候補。価格帯・当日の営業・待ち時間は現地確認。市の施設案内で所在地を確認。",
+      "source": "https://guia.barcelona.cat/es/detall/restaurant-vinitus_99400152011.html"
+    },
+    {
+      "id": "life-barcelona-shop",
+      "city": "バルセロナ",
+      "name": "Carrefour Market ランブラス",
+      "type": "買出し",
+      "query": "Carrefour Market Rambla dels Estudis 113 Barcelona Spain",
+      "note": "旧市街の買出し候補。日本のコンビニと同じ24時間営業とは限らない。日祝の営業は公式案内へ。",
+      "source": "https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-market/ramblas_-_s.aspx"
+    },
+    {
+      "id": "life-paris-food",
+      "city": "パリ",
+      "name": "Bouillon Chartier グラン・ブルヴァール",
+      "type": "食事",
+      "query": "Bouillon Chartier 7 Rue du Faubourg Montmartre Paris France",
+      "note": "フランス料理を気軽に楽しむ候補。行列・メニュー・価格は当日確認。所在地は公的アクセシビリティ案内でも確認。",
+      "source": "https://www.groupe-joulie.com/etablissement/grands-boulevards/"
+    },
+    {
+      "id": "life-paris-shop",
+      "city": "パリ",
+      "name": "Monoprix オペラ",
+      "type": "買出し",
+      "query": "Monoprix 23 Avenue de l'Opera Paris France",
+      "note": "ルーブル・オペラ周辺で水や朝食、日用品の買出し候補。営業と食品売場の取扱は公式店舗ページへ。",
+      "source": "https://www.monoprix.fr/766.html"
+    }
+  ],
+  "sources": [
+    {
+      "label": "ローマ P.Stopの利用条件",
+      "url": "https://pstop.it/servizi-igienici/"
+    },
+    {
+      "label": "EU共通緊急番号112",
+      "url": "https://europa.eu/youreurope/citizens/travel/security-and-emergencies/index_en.htm"
+    },
+    {
+      "label": "パリのトイレを探した旅行者の体験（個人の経験）",
+      "url": "https://www.reddit.com/r/ParisTravelGuide/comments/1o9hodq"
+    },
+    {
+      "label": "RATPの給水・充電・紛失物の案内",
+      "url": "https://www.ratp.fr/en/visiting-paris/traveler-guide/prepare-stay-in-Paris-and-services"
+    },
+    {
+      "label": "表紙写真：Didier Descouens（CC BY-SA 4.0・縮小済み画像を表示時にトリミング）",
+      "url": "https://commons.wikimedia.org/wiki/File:View_of_the_Grand_Canal_from_Rialto_to_Ca%27Foscari.jpg"
+    },
+    {
+      "label": "表紙写真の利用条件：CC BY-SA 4.0",
+      "url": "https://creativecommons.org/licenses/by-sa/4.0/"
+    }
+  ]
+}
