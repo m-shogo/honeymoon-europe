@@ -57,3 +57,7 @@ Service Workerで基本画面・観光データ・表紙画像を保存。ロー
 ## 公開確認（2026-11-18）
 
 GitHub Pagesの公開URLで新ホームのタイトル、4都市、生活検索、公式案内への導線をブラウザ確認。公開画面の証跡は `docs/evidence/companion-live-mobile.png` と `docs/evidence/companion-live-desktop.png`。Nodeテスト7件成功。既存の旅程・期間・Drive同期・映画拡張の検証も成功。
+
+## 2026-11-19追記
+
+生活候補は30件へ拡張（トイレ15、食事6、スーパー/小型店6、記念日3）。My Mapsにも別の生活レイヤーとして追加した。前述の8件・未登録は初回公開時の履歴で、今回の結果は `map-amenities-2026-11.md` を参照。

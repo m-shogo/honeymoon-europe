@@ -1,0 +1,10 @@
+{
+  "checked": "2026-11-19",
+  "originalCount": 85,
+  "actualTotal": 115,
+  "unchangedExceptDynamicPhotoUrls": 85,
+  "issues": [],
+  "photoNote": "Signed Google image URLs rotate between exports; compare text with these URLs normalized, field values excluding gx_media_links, coordinates, style and image counts. All original photos were not individually re-opened this time.",
+  "descriptionIssuesAfterBothGooglePhotoHostsNormalized": [],
+  "rawPhotoUrlDifferencePins": 7
+}

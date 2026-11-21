@@ -1,0 +1,705 @@
+{
+  "checked": "2026-11-18",
+  "mapId": "1gKS7F8p3_YdS952P8K2jDE28-1epSAM",
+  "backupMapUrl": "https://www.google.com/maps/d/edit?mid=16F-YnK7T7jWXK70NTKb2k-Ejmta-x5Y",
+  "toilets": [
+    {
+      "id": "wc-venice-1",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜ディウルノ・サンマルコ",
+      "type": "トイレ",
+      "address": "San Marco 1265, Venezia",
+      "query": "San Marco 1265, Venezia",
+      "nearby": "サン・マルコ広場、寺院、ドゥカーレ宮殿",
+      "source": "https://wctoilettevenezia.com/listing/san-marco/",
+      "fee": "有料。訪問時の料金は要確認（小銭を用意）",
+      "hours": "毎日9:30–19:00",
+      "note": "一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。",
+      "checked": "2026-11-18",
+      "extraSources": [
+        "https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici"
+      ],
+      "coords": [
+        45.433577,
+        12.336794
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=45.433577%2C12.336794"
+    },
+    {
+      "id": "wc-venice-2",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜リアルト・ノーヴォ",
+      "type": "トイレ",
+      "address": "San Polo 551, Venezia",
+      "query": "San Polo 551, Venezia",
+      "nearby": "リアルト橋、リアルト市場",
+      "source": "https://wctoilettevenezia.com/listing/rialto-novo/",
+      "fee": "有料。訪問時の料金は要確認（小銭を用意）",
+      "hours": "運営本体9:30–19:00／個別案内9:30–19:30と不一致。19:00前を目安に現地確認",
+      "note": "一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。",
+      "checked": "2026-11-18",
+      "extraSources": [
+        "https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici"
+      ],
+      "coords": [
+        45.438494412868,
+        12.334724959201
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=45.438494412868%2C12.334724959201"
+    },
+    {
+      "id": "wc-venice-3",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜アカデミア橋下",
+      "type": "トイレ",
+      "address": "Dorsoduro 1050, Venezia",
+      "query": "Dorsoduro 1050, Venezia",
+      "nearby": "アカデミア橋、サルーテ聖堂方面",
+      "source": "https://wctoilettevenezia.com/listing/accademia/",
+      "fee": "有料。訪問時の料金は要確認（小銭を用意）",
+      "hours": "個別案内9:30–18:30。冬季・当日を再確認",
+      "note": "一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。",
+      "checked": "2026-11-18",
+      "extraSources": [
+        "https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici"
+      ],
+      "coords": [
+        45.431418,
+        12.32874
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=45.431418%2C12.32874"
+    },
+    {
+      "id": "wc-venice-4",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜ピアッツァーレ・ローマ",
+      "type": "トイレ",
+      "address": "Calle Cossetti 456/A, Venezia",
+      "query": "Calle Cossetti 456/A, Venezia",
+      "nearby": "ローマ広場、サンタ・ルチア駅方面",
+      "source": "https://wctoilettevenezia.com/listing/piazzale-roma/",
+      "fee": "有料。訪問時の料金は要確認（小銭を用意）",
+      "hours": "毎日8:00–20:00",
+      "note": "一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。",
+      "checked": "2026-11-18",
+      "extraSources": [
+        "https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici"
+      ],
+      "coords": [
+        45.437543,
+        12.319509
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=45.437543%2C12.319509"
+    },
+    {
+      "id": "wc-rome-1",
+      "city": "ローマ",
+      "name": "🚻ローマ｜P.Stop ナヴォーナ広場北",
+      "type": "トイレ",
+      "address": "Via Giuseppe Zanardelli, Roma",
+      "query": "Via Giuseppe Zanardelli, Roma",
+      "nearby": "ナヴォーナ広場、パンテオン",
+      "source": "https://pstop.it/portfolio/via-giuseppe-zanardelli/",
+      "fee": "個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認",
+      "hours": "毎日8:00–20:00",
+      "note": "一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。",
+      "checked": "2026-11-18",
+      "extraSources": [
+        "https://pstop.it/servizi-igienici/"
+      ],
+      "coords": [
+        41.90083477370594,
+        12.472653879742408
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=41.90083477370594%2C12.472653879742408"
+    },
+    {
+      "id": "wc-rome-2",
+      "city": "ローマ",
+      "name": "🚻ローマ｜P.Stop スペイン広場",
+      "type": "トイレ",
+      "address": "Piazza di Spagna, Roma",
+      "query": "Piazza di Spagna, Roma",
+      "nearby": "スペイン階段、コンドッティ通り",
+      "source": "https://pstop.it/portfolio/piazza-di-spagna/",
+      "fee": "個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認",
+      "hours": "毎日8:00–20:00",
+      "note": "一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。",
+      "checked": "2026-11-18",
+      "extraSources": [
+        "https://pstop.it/servizi-igienici/"
+      ],
+      "coords": [
+        41.906466077672924,
+        12.481814853903163
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=41.906466077672924%2C12.481814853903163"
+    },
+    {
+      "id": "wc-rome-3",
+      "city": "ローマ",
+      "name": "🚻ローマ｜P.Stop テルミニ駅西",
+      "type": "トイレ",
+      "address": "Largo di Villa Peretti, Roma",
+      "query": "Largo di Villa Peretti, Roma",
+      "nearby": "テルミニ駅、メルカート・チェントラーレ方面",
+      "source": "https://pstop.it/portfolio/largo-di-villa-peretti/",
+      "fee": "個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認",
+      "hours": "毎日10:00–18:00",
+      "note": "一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。",
+      "checked": "2026-11-18",
+      "extraSources": [
+        "https://pstop.it/servizi-igienici/"
+      ],
+      "coords": [
+        41.90188191748249,
+        12.497523107711075
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=41.90188191748249%2C12.497523107711075"
+    },
+    {
+      "id": "wc-paris-1",
+      "city": "パリ",
+      "name": "🚻パリ｜エッフェル塔南東",
+      "type": "トイレ",
+      "address": "12 all thomy-thierry, Paris 75007",
+      "query": "12 all thomy-thierry, Paris 75007",
+      "nearby": "エッフェル塔、シャン・ド・マルス",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216",
+      "fee": "無料（市のSanisette）",
+      "hours": "06h00 - 22h00",
+      "note": "市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。",
+      "checked": "2026-11-18",
+      "sourceRecord": "P07.SA.00703",
+      "extraSources": [
+        "https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0",
+        "https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8"
+      ],
+      "coords": [
+        48.85640899955829,
+        2.2964729998993914
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=48.85640899955829%2C2.2964729998993914"
+    },
+    {
+      "id": "wc-paris-2",
+      "city": "パリ",
+      "name": "🚻パリ｜ルーブル東・レアール",
+      "type": "トイレ",
+      "address": "44 rue berger, Paris 75001",
+      "query": "44 rue berger, Paris 75001",
+      "nearby": "ルーブル美術館、リヴォリ通り、モントルグイユ通り",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216",
+      "fee": "無料（市のSanisette）",
+      "hours": "06h00 - 23h59",
+      "note": "市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。",
+      "checked": "2026-11-18",
+      "sourceRecord": "P01.SA.00125",
+      "extraSources": [
+        "https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0",
+        "https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8"
+      ],
+      "coords": [
+        48.86235400010427,
+        2.3422090001035785
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=48.86235400010427%2C2.3422090001035785"
+    },
+    {
+      "id": "wc-paris-3",
+      "city": "パリ",
+      "name": "🚻パリ｜ノートルダム北",
+      "type": "トイレ",
+      "address": "8 rue d'arcole, Paris 75004",
+      "query": "8 rue d'arcole, Paris 75004",
+      "nearby": "ノートルダム大聖堂、サント・シャペル",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216",
+      "fee": "無料（市のSanisette）",
+      "hours": "06h00 - 22h00",
+      "note": "市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。",
+      "checked": "2026-11-18",
+      "sourceRecord": "P04.SA.00703",
+      "extraSources": [
+        "https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0",
+        "https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8"
+      ],
+      "coords": [
+        48.85402499987285,
+        2.3493969996309874
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=48.85402499987285%2C2.3493969996309874"
+    },
+    {
+      "id": "wc-paris-4",
+      "city": "パリ",
+      "name": "🚻パリ｜オペラ・カプシーヌ",
+      "type": "トイレ",
+      "address": "37 bd des capucines, Paris 75002",
+      "query": "37 bd des capucines, Paris 75002",
+      "nearby": "オペラ・ガルニエ、ラファイエット方面",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216",
+      "fee": "無料（市のSanisette）",
+      "hours": "06h00 - 22h00",
+      "note": "市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。",
+      "checked": "2026-11-18",
+      "sourceRecord": "P02.SA.00111",
+      "extraSources": [
+        "https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0",
+        "https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8"
+      ],
+      "coords": [
+        48.87006399987241,
+        2.329369999633761
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=48.87006399987241%2C2.329369999633761"
+    },
+    {
+      "id": "wc-paris-5",
+      "city": "パリ",
+      "name": "🚻パリ｜モンマルトル麓",
+      "type": "トイレ",
+      "address": "2 rue ronsard, Paris 75018",
+      "query": "2 rue ronsard, Paris 75018",
+      "nearby": "サクレクール、モンマルトル",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216",
+      "fee": "無料（市のSanisette）",
+      "hours": "24/24h",
+      "note": "市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。",
+      "checked": "2026-11-18",
+      "sourceRecord": "P18.SA.00702",
+      "extraSources": [
+        "https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0",
+        "https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8"
+      ],
+      "coords": [
+        48.88513800043196,
+        2.344348000195785
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=48.88513800043196%2C2.344348000195785"
+    },
+    {
+      "id": "wc-barcelona-1",
+      "city": "バルセロナ",
+      "name": "🚻バルセロナ｜サグラダ・ファミリア図書館",
+      "type": "トイレ",
+      "address": "C Provença 480, Barcelona",
+      "query": "C Provença 480, Barcelona",
+      "nearby": "サグラダ・ファミリア",
+      "source": "https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics",
+      "fee": "要確認",
+      "hours": "月水木9:30–13:30／15:30–20:30、火金9:30–20:30、土10–14／16–20、日10–14（市データの通常案内）",
+      "note": "公共施設内のトイレ。館の開館中のみ。職員に場所・利用条件を確認。昼休みあり。 2027年訪問日の条件は再確認。",
+      "checked": "2026-11-18",
+      "sourceRecord": "99400661660",
+      "sourceModified": "2026-06-17T10:00:51.012833",
+      "coords": [
+        41.40541560676076,
+        2.1767746457391186
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=41.40541560676076%2C2.1767746457391186"
+    },
+    {
+      "id": "wc-barcelona-2",
+      "city": "バルセロナ",
+      "name": "🚻バルセロナ｜大聖堂前",
+      "type": "トイレ",
+      "address": "Avinguda de la Catedral 9, Barcelona",
+      "query": "Avinguda de la Catedral 9, Barcelona",
+      "nearby": "バルセロナ大聖堂、ゴシック地区",
+      "source": "https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics",
+      "fee": "要確認",
+      "hours": "市データは24時間。現地の休止・清掃状況を確認",
+      "note": "公共トイレ。料金は要確認。市の掲載は営業保証ではない。 2027年訪問日の条件は再確認。",
+      "checked": "2026-11-18",
+      "sourceRecord": "99400627980",
+      "sourceModified": "2025-08-05T09:19:37.213924",
+      "coords": [
+        41.38523497548024,
+        2.1761845327386324
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=41.38523497548024%2C2.1761845327386324"
+    },
+    {
+      "id": "wc-barcelona-3",
+      "city": "バルセロナ",
+      "name": "🚻バルセロナ｜ボケリア市場地下",
+      "type": "トイレ",
+      "address": "Mercat de la Boqueria, La Rambla 91, Barcelona",
+      "query": "Mercat de la Boqueria, La Rambla 91, Barcelona",
+      "nearby": "ボケリア市場、ランブラス通り",
+      "source": "https://www.boqueria.barcelona/services",
+      "fee": "買い物レシート提示で無料／購入なし€0.50（公式現行案内）",
+      "hours": "市場は月–土8:00–20:30、日曜休み。トイレ単独の営業時間は要確認",
+      "note": "市場事務所棟の地下1階。ピンは市場の代表位置で、正確なトイレ入口ではない。場内案内に従う。レシートは捨てない。",
+      "checked": "2026-11-18",
+      "coords": [
+        41.38173,
+        2.17158
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=41.38173%2C2.17158"
+    }
+  ],
+  "places": [
+    {
+      "id": "life-venice-food",
+      "city": "ヴェネツィア",
+      "name": "Dal Moro’s（テイクアウト・パスタ）",
+      "type": "食事",
+      "address": "Dal Moro's Calle de la Casseleria 5324 Venezia Italy",
+      "query": "Dal Moro's Calle de la Casseleria 5324 Venezia Italy",
+      "nearby": "サン・マルコ広場、寺院",
+      "source": "https://www.dalmoros.it/fresh-pasta-to-go/locations/venice",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "サン・マルコ周辺で手軽な食事の候補。食べる場所は現地の案内に従う。営業・メニュー・価格は公式で再確認。",
+      "checked": "2026-11-18",
+      "booking": "通常の食事候補。営業・予約方法は公式で確認",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Dal%20Moro%27s%20Calle%20de%20la%20Casseleria%205324%20Venezia%20Italy",
+      "japaneseNote": "手軽な食事の追加候補。日本人に人気という順位・統計は未確認。",
+      "coords": [
+        45.43617,
+        12.33979
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-venice-shop",
+      "city": "ヴェネツィア",
+      "name": "Coop ピアッツァーレ・ローマ",
+      "type": "スーパー",
+      "address": "Coop Santa Croce 499 Piazzale Roma Venezia Italy",
+      "query": "Coop Santa Croce 499 Piazzale Roma Venezia Italy",
+      "nearby": "ローマ広場、サンタ・ルチア駅",
+      "source": "https://www.coopalleanza3-0.it/volantino/featured/2542-venezia---piazzale-roma.html",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "鉄道・バス移動の日の水や軽食の買出し候補。店舗の営業日・営業時間は訪問前に確認。",
+      "checked": "2026-11-18",
+      "booking": "予約不要。24時間営業とは限らない",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Coop%20Santa%20Croce%20499%20Piazzale%20Roma%20Venezia%20Italy",
+      "coords": [
+        45.43955,
+        12.31791
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-rome-food",
+      "city": "ローマ",
+      "name": "All’Antico Vinaio（パンテオン周辺）",
+      "type": "食事",
+      "address": "All'Antico Vinaio Piazza della Maddalena Roma Italy",
+      "query": "All'Antico Vinaio Piazza della Maddalena Roma Italy",
+      "nearby": "パンテオン、ナヴォーナ広場",
+      "source": "https://www.allanticovinaio.com/roma/",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "スキアッチャータの手軽な食事候補。行列と食べる場所を確認。所在地の最終確認は公式の店舗案内へ。",
+      "checked": "2026-11-18",
+      "booking": "通常の食事候補。営業・予約方法は公式で確認",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=All%27Antico%20Vinaio%20Piazza%20della%20Maddalena%20Roma%20Italy",
+      "japaneseNote": "手軽な食事の追加候補。日本人に人気という順位・統計は未確認。",
+      "coords": [
+        41.89996,
+        12.47647
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-rome-shop",
+      "city": "ローマ",
+      "name": "Carrefour Express ジュスティニアーニ通り",
+      "type": "小型スーパー・コンビニ代わり",
+      "address": "Carrefour Express Via Giustiniani 15B Roma Italy",
+      "query": "Carrefour Express Via Giustiniani 15B Roma Italy",
+      "nearby": "パンテオン、ナヴォーナ広場",
+      "source": "https://www.carrefour.it/punti-vendita/carrefour-express-roma-via-giustiniani-15b-4752.html",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "パンテオン周辺の小型スーパー。水・果物・軽食・朝食の買出し候補。営業時間は公式店舗ページへ。",
+      "checked": "2026-11-18",
+      "booking": "予約不要。24時間営業とは限らない",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrefour%20Express%20Via%20Giustiniani%2015B%20Roma%20Italy",
+      "coords": [
+        41.89949,
+        12.47565
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-barcelona-food",
+      "city": "バルセロナ",
+      "name": "Vinitus（コンセル・デ・セント通り）",
+      "type": "食事",
+      "address": "Vinitus Consell de Cent 333 Barcelona Spain",
+      "query": "Vinitus Consell de Cent 333 Barcelona Spain",
+      "nearby": "カサ・バトリョ、グラシア通り",
+      "source": "https://guia.barcelona.cat/es/detall/restaurant-vinitus_99400152011.html",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "グラシア通り周辺でタパスを食べる候補。価格帯・当日の営業・待ち時間は現地確認。市の施設案内で所在地を確認。",
+      "checked": "2026-11-18",
+      "booking": "通常の食事候補。営業・予約方法は公式で確認",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Vinitus%20Consell%20de%20Cent%20333%20Barcelona%20Spain",
+      "japaneseSource": "https://www.tour.ne.jp/w_review/BCN/restaurant/spot/164117/",
+      "japaneseNote": "日本語旅行ガイドで紹介あり。日本人の利用率・人気順位を示す統計ではない。",
+      "coords": [
+        41.39002,
+        2.16404
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-barcelona-shop",
+      "city": "バルセロナ",
+      "name": "Carrefour Market ランブラス",
+      "type": "スーパー",
+      "address": "Carrefour Market Rambla dels Estudis 113 Barcelona Spain",
+      "query": "Carrefour Market Rambla dels Estudis 113 Barcelona Spain",
+      "nearby": "ランブラス通り、ボケリア市場",
+      "source": "https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-market/ramblas_-_s.aspx",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "旧市街の買出し候補。日本のコンビニと同じ24時間営業とは限らない。日祝の営業は公式案内へ。",
+      "checked": "2026-11-18",
+      "booking": "予約不要。24時間営業とは限らない",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrefour%20Market%20Rambla%20dels%20Estudis%20113%20Barcelona%20Spain",
+      "coords": [
+        41.38397,
+        2.17075
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-paris-food",
+      "city": "パリ",
+      "name": "Bouillon Chartier グラン・ブルヴァール",
+      "type": "食事",
+      "address": "Bouillon Chartier 7 Rue du Faubourg Montmartre Paris France",
+      "query": "Bouillon Chartier 7 Rue du Faubourg Montmartre Paris France",
+      "nearby": "オペラ・ガルニエ、ラファイエット",
+      "source": "https://www.groupe-joulie.com/etablissement/grands-boulevards/",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "フランス料理を気軽に楽しむ候補。行列・メニュー・価格は当日確認。所在地は公的アクセシビリティ案内でも確認。",
+      "checked": "2026-11-18",
+      "booking": "通常の食事候補。営業・予約方法は公式で確認",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bouillon%20Chartier%207%20Rue%20du%20Faubourg%20Montmartre%20Paris%20France",
+      "japaneseSource": "https://www.jtb.co.jp/kaigai_guide/report/FR/2026/08/413_452476_1786614245.html",
+      "japaneseNote": "JTB日本語グルメ案内で紹介。記念日より日常の食事候補。",
+      "coords": [
+        48.87192,
+        2.34303
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-paris-shop",
+      "city": "パリ",
+      "name": "Monoprix オペラ",
+      "type": "スーパー",
+      "address": "Monoprix 23 Avenue de l'Opera Paris France",
+      "query": "Monoprix 23 Avenue de l'Opera Paris France",
+      "nearby": "ルーブル美術館、オペラ",
+      "source": "https://www.monoprix.fr/766.html",
+      "fee": "要確認",
+      "hours": "要確認（公式ページで訪問前に再確認）",
+      "note": "ルーブル・オペラ周辺で水や朝食、日用品の買出し候補。営業と食品売場の取扱は公式店舗ページへ。",
+      "checked": "2026-11-18",
+      "booking": "予約不要。24時間営業とは限らない",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Monoprix%2023%20Avenue%20de%20l%27Opera%20Paris%20France",
+      "coords": [
+        48.86657,
+        2.33369
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-venice-madonna",
+      "city": "ヴェネツィア",
+      "name": "トラットリア・アッラ・マドンナ",
+      "type": "食事",
+      "address": "Calle della Madonna 594, San Polo, Venezia",
+      "query": "Calle della Madonna 594, San Polo, Venezia",
+      "nearby": "リアルト橋、リアルト市場",
+      "source": "https://www.ristoranteallamadonna.com/",
+      "fee": "要確認",
+      "hours": "水曜定休と公式記載。昼夜の開始・終了時刻は要確認",
+      "note": "魚介・イカ墨パスタなどの郷土料理候補。価格・席料は注文前に確認。",
+      "checked": "2026-11-18",
+      "booking": "公式サイトで予約推奨。水曜の訪問は避ける",
+      "japaneseSource": "https://www.jtb.co.jp/news/list/kaigai/europe/italy/news_ap_osarea_0000130",
+      "japaneseNote": "JTBのヴェネツィア・パスタ店案内に掲載。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Calle%20della%20Madonna%20594%2C%20San%20Polo%2C%20Venezia",
+      "coords": [
+        45.43821,
+        12.33453
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-rome-carlomenta",
+      "city": "ローマ",
+      "name": "カルロ・メンタ",
+      "type": "食事",
+      "address": "Carlo Menta, Via della Lungaretta 101, Roma",
+      "query": "Carlo Menta, Via della Lungaretta 101, Roma",
+      "nearby": "トラステヴェレ地区",
+      "source": "https://www.carlomenta.it/",
+      "fee": "要確認",
+      "hours": "毎日12:00–23:00（金土は23:20までの記載もあり）。訪問前に確認",
+      "note": "カルボナーラ、アマトリチャーナなど。日本語記事の古い価格は採用せず現行メニューで確認。",
+      "checked": "2026-11-18",
+      "booking": "公式の予約案内へ。席料・サービス料を確認",
+      "japaneseSource": "https://allabout.co.jp/gm/gc/410057/",
+      "japaneseNote": "日本語の現地ガイド記事あり。古い記事なので料金・営業は店公式を優先。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carlo%20Menta%2C%20Via%20della%20Lungaretta%20101%2C%20Roma",
+      "coords": [
+        41.88963,
+        12.47278
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-barcelona-marina",
+      "city": "バルセロナ",
+      "name": "Carrefour Express マリーナ",
+      "type": "小型スーパー・コンビニ代わり",
+      "address": "Carrefour Express, Carrer de la Marina 265, Barcelona",
+      "query": "Carrefour Express, Carrer de la Marina 265, Barcelona",
+      "nearby": "サグラダ・ファミリア",
+      "source": "https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-express/c_marina-s.aspx",
+      "fee": "要確認",
+      "hours": "月–土8:30–22:30、日祝は指定営業日のみ。2027年の特別営業は要確認",
+      "note": "水、軽食、朝食を買う小型スーパー。日本のコンビニと同じ24時間営業ではない。",
+      "checked": "2026-11-18",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Carrefour%20Express%2C%20Carrer%20de%20la%20Marina%20265%2C%20Barcelona",
+      "coords": [
+        41.40491,
+        2.1737
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-paris-monopdom",
+      "city": "パリ",
+      "name": "Monop’ サン・ドミニク",
+      "type": "小型スーパー・コンビニ代わり",
+      "address": "Monop Saint Dominique, 102 Rue Saint-Dominique, 75007 Paris",
+      "query": "Monop Saint Dominique, 102 Rue Saint-Dominique, 75007 Paris",
+      "nearby": "エッフェル塔、アンヴァリッド方面",
+      "source": "https://www.monoprix.fr/2430.html",
+      "fee": "要確認",
+      "hours": "月–土7:30–23:55／日8:00–23:00（公式現行案内）",
+      "note": "水・朝食・軽食の買出し。24時間営業ではない。2027年の臨時変更は再確認。",
+      "checked": "2026-11-18",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Monop%20Saint%20Dominique%2C%20102%20Rue%20Saint-Dominique%2C%2075007%20Paris",
+      "coords": [
+        48.85906,
+        2.30405
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-paris-racine",
+      "city": "パリ",
+      "name": "🥂記念日候補｜ブイヨン・ラシーヌ",
+      "type": "記念日ディナー候補",
+      "address": "Bouillon Racine, 3 Rue Racine, 75006 Paris",
+      "query": "Bouillon Racine, 3 Rue Racine, 75006 Paris",
+      "nearby": "リュクサンブール公園、サント・シャペル、ノートルダム方面",
+      "source": "https://www.bouillonracine.fr/menus-carte/",
+      "fee": "現行Menu 1900（前菜＋主菜＋デザート）€44、飲み物別。参考約7,734円／人（1€=175.78円、ECB 2026-11-16、カード手数料別）",
+      "hours": "公式は毎日12:00–24:00。夜のコース提供と最終注文は予約時に確認",
+      "note": "アールヌーヴォーの内装を楽しむ候補。予算内に収めるなら飲み物を含む合計€55前後を上限の目安に確認。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
+      "checked": "2026-11-18",
+      "booking": "公式サイトから要予約。予約開始日・2月11日の空席は未確認。",
+      "dress": "公式の確認ページに服装の明文規定を確認できず、予約時に要確認。服装の提案（店の必須規則ではない）：襟付きトップス・長ズボン、ワンピース等ときれいめの靴。ジャケット必須とは断定しない。",
+      "extraSources": [
+        "https://www.bouillonracine.fr/informations-contact/",
+        "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-jpy.en.html"
+      ],
+      "japaneseSource": "https://www.tsuji.ac.jp/college/france/blog/mail_france/bouillon.html",
+      "japaneseNote": "辻調フランス校の紹介あり。現在の料理・料金は店公式で確認。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bouillon%20Racine%2C%203%20Rue%20Racine%2C%2075006%20Paris",
+      "coords": [
+        48.85017,
+        2.34202
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    },
+    {
+      "id": "life-paris-bofinger",
+      "city": "パリ",
+      "name": "🥂記念日候補｜ボファンジェ",
+      "type": "記念日ディナー候補",
+      "address": "Bofinger, 5-7 Rue de la Bastille, 75004 Paris",
+      "query": "Bofinger, 5-7 Rue de la Bastille, 75004 Paris",
+      "nearby": "マレ地区、ヴォージュ広場、バスティーユ",
+      "source": "https://www.bofingerparis.com/menus-carte/",
+      "fee": "現行Menu Bofinger（前菜＋主菜＋デザート）€35.90、飲み物別。参考約6,311円／人（ECB 2026-11-16：1€=175.78円、カード手数料別）",
+      "hours": "月–金12–15時／18:30–24時、土12–15:30／18:30–24時、日12–23時（公式現行案内）",
+      "note": "歴史あるブラッスリーの装飾・ガラスドームが魅力。賑やかな雰囲気。夜のコース利用とドーム下の席を予約時に相談。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
+      "checked": "2026-11-19",
+      "booking": "公式サイトから要予約。予約開始日・2月11日の空席は未確認。",
+      "dress": "予約媒体OpenTableの店舗案内はSmart Casual。JTB（2025年更新）は指定なしと異なるため、最終条件は予約時に店へ再確認。襟付きトップス・長ズボン、ワンピース等ときれいめの靴を推奨。ジャケット必須という記載は確認できず。",
+      "extraSources": [
+        "https://www.bofingerparis.com/informations-contact/",
+        "https://www.opentable.com/r/bofinger-paris"
+      ],
+      "japaneseSource": "https://www.jtb.co.jp/kaigai_guide/western_europe/french_republic/PAR/105844/",
+      "japaneseNote": "JTB日本語ガイドに掲載。内装と伝統料理を重視する候補。",
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Bofinger%2C%205-7%20Rue%20de%20la%20Bastille%2C%2075004%20Paris",
+      "coords": [
+        48.85394,
+        2.36786
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）",
+      "dressChecked": "2026-11-19"
+    },
+    {
+      "id": "life-paris-procope",
+      "city": "パリ",
+      "name": "🥂記念日候補｜ル・プロコープ",
+      "type": "記念日ディナー候補",
+      "address": "Le Procope, 13 Rue de l'Ancienne Comédie, 75006 Paris",
+      "query": "Le Procope, 13 Rue de l'Ancienne Comédie, 75006 Paris",
+      "nearby": "サンジェルマン、ノートルダム方面",
+      "source": "https://www.procope.com/menus-karte/",
+      "fee": "現行夜Menu des Révolutionnaires €49.50、飲み物別。参考約8,701円／人（ECB 2026-11-16：1€=175.78円、カード手数料別）。飲み物追加で1万円超の可能性",
+      "hours": "公式は毎日12:00–24:00。夜コースは17:00以降、祝祭日等を除く。昼の€33.50コースとは異なる",
+      "note": "歴史ある内装とサンジェルマン散策を組み合わせる候補。今回の予算では余裕が少なめ。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
+      "checked": "2026-11-18",
+      "booking": "公式予約ページ：https://www.procope.com/o/reserver/ ｜予約開始日・2月11日の空席は未確認。",
+      "dress": "公式の確認ページに服装の明文規定を確認できず、予約時に要確認。服装の提案（店の必須規則ではない）：襟付きトップス・長ズボン、ワンピース等ときれいめの靴。ジャケット必須とは断定しない。",
+      "extraSources": [
+        "https://www.procope.com/o/reserver/",
+        "https://www.procope.com/"
+      ],
+      "mapUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Procope%2C%2013%20Rue%20de%20l%27Ancienne%20Com%C3%A9die%2C%2075006%20Paris",
+      "coords": [
+        48.85299,
+        2.33879
+      ],
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+    }
+  ],
+  "excluded": [
+    {
+      "name": "P.Stop Piazza della Città Leonina",
+      "reason": "公式個別ページが工事による一時閉鎖を表示。再開日未確認。利用候補には追加しない。",
+      "source": "https://pstop.it/portfolio/piazza-della-citta-leonina/"
+    }
+  ],
+  "notes": [
+    "既存85観光ピンとは別ID。観光CSVの001〜085は変更しない。",
+    "日本語案内の掲載と、日本人の利用率・人気ランキングを区別。",
+    "公式座標はトイレ位置。市場など施設内トイレは代表位置であることを明記。",
+    "記念日候補は未予約。現在の価格を2027年の確定料金として扱わない。"
+  ],
+  "driveFiles": {
+    "wcKml": "https://drive.google.com/file/d/1S8qZEaujzFXrfTxFYcnUk12MdkajRiVX/view",
+    "foodCsv": "https://drive.google.com/file/d/1blU7u9tZU38yvhLxlg0gfukVOCIHK2uw/view",
+    "foodSheet": "https://docs.google.com/spreadsheets/d/1dmPRNfAHnSF5euSTxd0KDdfIZUT9k1IrHYJGmlaH3o0/edit"
+  }
+}

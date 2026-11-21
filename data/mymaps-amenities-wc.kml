@@ -1,0 +1,287 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>🚻観光地近くのトイレ</name>
+    <Style id="wc">
+      <IconStyle>
+        <color>ff7d7d7d</color>
+        <scale>0.85</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+    </Style>
+    <Placemark>
+      <name>🚻ヴェネツィア｜ディウルノ・サンマルコ</name>
+      <description>分類：トイレ
+都市：ヴェネツィア
+場所：San Marco 1265, Venezia
+近くの観光：サン・マルコ広場、寺院、ドゥカーレ宮殿
+料金：有料。訪問時の料金は要確認（小銭を用意）
+営業時間：毎日9:30–19:00
+利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。
+確認日：2026-11-18
+公式・出典：https://wctoilettevenezia.com/listing/san-marco/
+補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=45.433577%2C12.336794</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>12.336794,45.433577,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻ヴェネツィア｜リアルト・ノーヴォ</name>
+      <description>分類：トイレ
+都市：ヴェネツィア
+場所：San Polo 551, Venezia
+近くの観光：リアルト橋、リアルト市場
+料金：有料。訪問時の料金は要確認（小銭を用意）
+営業時間：運営本体9:30–19:00／個別案内9:30–19:30と不一致。19:00前を目安に現地確認
+利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。
+確認日：2026-11-18
+公式・出典：https://wctoilettevenezia.com/listing/rialto-novo/
+補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=45.438494412868%2C12.334724959201</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>12.334724959201,45.438494412868,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻ヴェネツィア｜アカデミア橋下</name>
+      <description>分類：トイレ
+都市：ヴェネツィア
+場所：Dorsoduro 1050, Venezia
+近くの観光：アカデミア橋、サルーテ聖堂方面
+料金：有料。訪問時の料金は要確認（小銭を用意）
+営業時間：個別案内9:30–18:30。冬季・当日を再確認
+利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。
+確認日：2026-11-18
+公式・出典：https://wctoilettevenezia.com/listing/accademia/
+補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=45.431418%2C12.32874</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>12.32874,45.431418,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻ヴェネツィア｜ピアッツァーレ・ローマ</name>
+      <description>分類：トイレ
+都市：ヴェネツィア
+場所：Calle Cossetti 456/A, Venezia
+近くの観光：ローマ広場、サンタ・ルチア駅方面
+料金：有料。訪問時の料金は要確認（小銭を用意）
+営業時間：毎日8:00–20:00
+利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。
+確認日：2026-11-18
+公式・出典：https://wctoilettevenezia.com/listing/piazzale-roma/
+補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=45.437543%2C12.319509</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>12.319509,45.437543,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻ローマ｜P.Stop ナヴォーナ広場北</name>
+      <description>分類：トイレ
+都市：ローマ
+場所：Via Giuseppe Zanardelli, Roma
+近くの観光：ナヴォーナ広場、パンテオン
+料金：個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認
+営業時間：毎日8:00–20:00
+利用条件・注意：一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。
+確認日：2026-11-18
+公式・出典：https://pstop.it/portfolio/via-giuseppe-zanardelli/
+補足出典：https://pstop.it/servizi-igienici/
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=41.90083477370594%2C12.472653879742408</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>12.472653879742408,41.90083477370594,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻ローマ｜P.Stop スペイン広場</name>
+      <description>分類：トイレ
+都市：ローマ
+場所：Piazza di Spagna, Roma
+近くの観光：スペイン階段、コンドッティ通り
+料金：個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認
+営業時間：毎日8:00–20:00
+利用条件・注意：一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。
+確認日：2026-11-18
+公式・出典：https://pstop.it/portfolio/piazza-di-spagna/
+補足出典：https://pstop.it/servizi-igienici/
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=41.906466077672924%2C12.481814853903163</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>12.481814853903163,41.906466077672924,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻ローマ｜P.Stop テルミニ駅西</name>
+      <description>分類：トイレ
+都市：ローマ
+場所：Largo di Villa Peretti, Roma
+近くの観光：テルミニ駅、メルカート・チェントラーレ方面
+料金：個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認
+営業時間：毎日10:00–18:00
+利用条件・注意：一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。
+確認日：2026-11-18
+公式・出典：https://pstop.it/portfolio/largo-di-villa-peretti/
+補足出典：https://pstop.it/servizi-igienici/
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=41.90188191748249%2C12.497523107711075</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>12.497523107711075,41.90188191748249,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻パリ｜エッフェル塔南東</name>
+      <description>分類：トイレ
+都市：パリ
+場所：12 all thomy-thierry, Paris 75007
+近くの観光：エッフェル塔、シャン・ド・マルス
+料金：無料（市のSanisette）
+営業時間：06h00 - 22h00
+利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。
+確認日：2026-11-18
+公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216
+補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0
+補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=48.85640899955829%2C2.2964729998993914</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.2964729998993914,48.85640899955829,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻パリ｜ルーブル東・レアール</name>
+      <description>分類：トイレ
+都市：パリ
+場所：44 rue berger, Paris 75001
+近くの観光：ルーブル美術館、リヴォリ通り、モントルグイユ通り
+料金：無料（市のSanisette）
+営業時間：06h00 - 23h59
+利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。
+確認日：2026-11-18
+公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216
+補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0
+補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=48.86235400010427%2C2.3422090001035785</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.3422090001035785,48.86235400010427,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻パリ｜ノートルダム北</name>
+      <description>分類：トイレ
+都市：パリ
+場所：8 rue d'arcole, Paris 75004
+近くの観光：ノートルダム大聖堂、サント・シャペル
+料金：無料（市のSanisette）
+営業時間：06h00 - 22h00
+利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。
+確認日：2026-11-18
+公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216
+補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0
+補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=48.85402499987285%2C2.3493969996309874</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.3493969996309874,48.85402499987285,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻パリ｜オペラ・カプシーヌ</name>
+      <description>分類：トイレ
+都市：パリ
+場所：37 bd des capucines, Paris 75002
+近くの観光：オペラ・ガルニエ、ラファイエット方面
+料金：無料（市のSanisette）
+営業時間：06h00 - 22h00
+利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。
+確認日：2026-11-18
+公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216
+補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0
+補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=48.87006399987241%2C2.329369999633761</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.329369999633761,48.87006399987241,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻パリ｜モンマルトル麓</name>
+      <description>分類：トイレ
+都市：パリ
+場所：2 rue ronsard, Paris 75018
+近くの観光：サクレクール、モンマルトル
+料金：無料（市のSanisette）
+営業時間：24/24h
+利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。
+確認日：2026-11-18
+公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216
+補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0
+補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=48.88513800043196%2C2.344348000195785</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.344348000195785,48.88513800043196,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻バルセロナ｜サグラダ・ファミリア図書館</name>
+      <description>分類：トイレ
+都市：バルセロナ
+場所：C Provença 480, Barcelona
+近くの観光：サグラダ・ファミリア
+料金：要確認
+営業時間：月水木9:30–13:30／15:30–20:30、火金9:30–20:30、土10–14／16–20、日10–14（市データの通常案内）
+利用条件・注意：公共施設内のトイレ。館の開館中のみ。職員に場所・利用条件を確認。昼休みあり。 2027年訪問日の条件は再確認。
+確認日：2026-11-18
+公式・出典：https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=41.40541560676076%2C2.1767746457391186</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.1767746457391186,41.40541560676076,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻バルセロナ｜大聖堂前</name>
+      <description>分類：トイレ
+都市：バルセロナ
+場所：Avinguda de la Catedral 9, Barcelona
+近くの観光：バルセロナ大聖堂、ゴシック地区
+料金：要確認
+営業時間：市データは24時間。現地の休止・清掃状況を確認
+利用条件・注意：公共トイレ。料金は要確認。市の掲載は営業保証ではない。 2027年訪問日の条件は再確認。
+確認日：2026-11-18
+公式・出典：https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=41.38523497548024%2C2.1761845327386324</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.1761845327386324,41.38523497548024,0</coordinates>
+      </Point>
+    </Placemark>
+    <Placemark>
+      <name>🚻バルセロナ｜ボケリア市場地下</name>
+      <description>分類：トイレ
+都市：バルセロナ
+場所：Mercat de la Boqueria, La Rambla 91, Barcelona
+近くの観光：ボケリア市場、ランブラス通り
+料金：買い物レシート提示で無料／購入なし€0.50（公式現行案内）
+営業時間：市場は月–土8:00–20:30、日曜休み。トイレ単独の営業時間は要確認
+利用条件・注意：市場事務所棟の地下1階。ピンは市場の代表位置で、正確なトイレ入口ではない。場内案内に従う。レシートは捨てない。
+確認日：2026-11-18
+公式・出典：https://www.boqueria.barcelona/services
+Googleマップ：https://www.google.com/maps/search/?api=1&amp;query=41.38173%2C2.17158</description>
+      <styleUrl>#wc</styleUrl>
+      <Point>
+        <coordinates>2.17158,41.38173,0</coordinates>
+      </Point>
+    </Placemark>
+  </Document>
+</kml>

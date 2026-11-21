@@ -52,7 +52,7 @@
       "taxi": "https://romamobilita.it/muoversi-a-roma/taxi/",
       "news": "イタリア ローマ 交通 ストライキ",
       "tip": "予約時刻と離れた観光地の移動を先に確認。鉄道券・交通券は購入した券種の利用条件を確認。",
-      "toiletNote": "P.Stopは運営者の現行案内で€1。硬貨・非接触カード等に対応。各施設の営業時間は公式地図へ。",
+      "toiletNote": "P.Stopの総合案内は€1、個別施設案内は€1.50と不一致。現地料金を確認。チッタ・レオニーナは工事休止の公式案内があるため利用候補から除外。",
       "phrase": "Dov’è il bagno?",
       "translation": "トイレはどこですか？",
       "water": "fontanelle acqua potabile",
@@ -130,16 +130,16 @@
       "name": "Dal Moro’s（テイクアウト・パスタ）",
       "type": "食事",
       "query": "Dal Moro's Calle de la Casseleria 5324 Venezia Italy",
-      "note": "サン・マルコ周辺で手軽な食事の候補。食べる場所は現地の案内に従う。営業・メニュー・価格は公式で再確認。",
+      "note": "予約：通常の食事候補。営業・予約方法は公式で確認\n分類：食事\n都市：ヴェネツィア\n場所：Dal Moro's Calle de la Casseleria 5324 Venezia Italy\n近くの観光：サン・マルコ広場、寺院\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：サン・マルコ周辺で手軽な食事の候補。食べる場所は現地の案内に従う。営業・メニュー・価格は公式で再確認。\n日本語での紹介：手軽な食事の追加候補。日本人に人気という順位・統計は未確認。\n確認日：2026-11-18\n公式・出典：https://www.dalmoros.it/fresh-pasta-to-go/locations/venice\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Dal%20Moro%27s%20Calle%20de%20la%20Casseleria%205324%20Venezia%20Italy",
       "source": "https://www.dalmoros.it/fresh-pasta-to-go/locations/venice"
     },
     {
       "id": "life-venice-shop",
       "city": "ヴェネツィア",
       "name": "Coop ピアッツァーレ・ローマ",
-      "type": "買出し",
+      "type": "スーパー",
       "query": "Coop Santa Croce 499 Piazzale Roma Venezia Italy",
-      "note": "鉄道・バス移動の日の水や軽食の買出し候補。店舗の営業日・営業時間は訪問前に確認。",
+      "note": "予約：予約不要。24時間営業とは限らない\n分類：スーパー\n都市：ヴェネツィア\n場所：Coop Santa Croce 499 Piazzale Roma Venezia Italy\n近くの観光：ローマ広場、サンタ・ルチア駅\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：鉄道・バス移動の日の水や軽食の買出し候補。店舗の営業日・営業時間は訪問前に確認。\n確認日：2026-11-18\n公式・出典：https://www.coopalleanza3-0.it/volantino/featured/2542-venezia---piazzale-roma.html\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Coop%20Santa%20Croce%20499%20Piazzale%20Roma%20Venezia%20Italy",
       "source": "https://www.coopalleanza3-0.it/volantino/featured/2542-venezia---piazzale-roma.html"
     },
     {
@@ -148,16 +148,16 @@
       "name": "All’Antico Vinaio（パンテオン周辺）",
       "type": "食事",
       "query": "All'Antico Vinaio Piazza della Maddalena Roma Italy",
-      "note": "スキアッチャータの手軽な食事候補。行列と食べる場所を確認。所在地の最終確認は公式の店舗案内へ。",
+      "note": "予約：通常の食事候補。営業・予約方法は公式で確認\n分類：食事\n都市：ローマ\n場所：All'Antico Vinaio Piazza della Maddalena Roma Italy\n近くの観光：パンテオン、ナヴォーナ広場\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：スキアッチャータの手軽な食事候補。行列と食べる場所を確認。所在地の最終確認は公式の店舗案内へ。\n日本語での紹介：手軽な食事の追加候補。日本人に人気という順位・統計は未確認。\n確認日：2026-11-18\n公式・出典：https://www.allanticovinaio.com/roma/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=All%27Antico%20Vinaio%20Piazza%20della%20Maddalena%20Roma%20Italy",
       "source": "https://www.allanticovinaio.com/roma/"
     },
     {
       "id": "life-rome-shop",
       "city": "ローマ",
       "name": "Carrefour Express ジュスティニアーニ通り",
-      "type": "買出し",
+      "type": "小型スーパー・コンビニ代わり",
       "query": "Carrefour Express Via Giustiniani 15B Roma Italy",
-      "note": "パンテオン周辺の小型スーパー。水・果物・軽食・朝食の買出し候補。営業時間は公式店舗ページへ。",
+      "note": "予約：予約不要。24時間営業とは限らない\n分類：小型スーパー・コンビニ代わり\n都市：ローマ\n場所：Carrefour Express Via Giustiniani 15B Roma Italy\n近くの観光：パンテオン、ナヴォーナ広場\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：パンテオン周辺の小型スーパー。水・果物・軽食・朝食の買出し候補。営業時間は公式店舗ページへ。\n確認日：2026-11-18\n公式・出典：https://www.carrefour.it/punti-vendita/carrefour-express-roma-via-giustiniani-15b-4752.html\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Carrefour%20Express%20Via%20Giustiniani%2015B%20Roma%20Italy",
       "source": "https://www.carrefour.it/punti-vendita/carrefour-express-roma-via-giustiniani-15b-4752.html"
     },
     {
@@ -166,16 +166,16 @@
       "name": "Vinitus（コンセル・デ・セント通り）",
       "type": "食事",
       "query": "Vinitus Consell de Cent 333 Barcelona Spain",
-      "note": "グラシア通り周辺でタパスを食べる候補。価格帯・当日の営業・待ち時間は現地確認。市の施設案内で所在地を確認。",
+      "note": "予約：通常の食事候補。営業・予約方法は公式で確認\n分類：食事\n都市：バルセロナ\n場所：Vinitus Consell de Cent 333 Barcelona Spain\n近くの観光：カサ・バトリョ、グラシア通り\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：グラシア通り周辺でタパスを食べる候補。価格帯・当日の営業・待ち時間は現地確認。市の施設案内で所在地を確認。\n日本語での紹介：日本語旅行ガイドで紹介あり。日本人の利用率・人気順位を示す統計ではない。\n確認日：2026-11-18\n公式・出典：https://guia.barcelona.cat/es/detall/restaurant-vinitus_99400152011.html\n日本語紹介の出典：https://www.tour.ne.jp/w_review/BCN/restaurant/spot/164117/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Vinitus%20Consell%20de%20Cent%20333%20Barcelona%20Spain",
       "source": "https://guia.barcelona.cat/es/detall/restaurant-vinitus_99400152011.html"
     },
     {
       "id": "life-barcelona-shop",
       "city": "バルセロナ",
       "name": "Carrefour Market ランブラス",
-      "type": "買出し",
+      "type": "スーパー",
       "query": "Carrefour Market Rambla dels Estudis 113 Barcelona Spain",
-      "note": "旧市街の買出し候補。日本のコンビニと同じ24時間営業とは限らない。日祝の営業は公式案内へ。",
+      "note": "予約：予約不要。24時間営業とは限らない\n分類：スーパー\n都市：バルセロナ\n場所：Carrefour Market Rambla dels Estudis 113 Barcelona Spain\n近くの観光：ランブラス通り、ボケリア市場\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：旧市街の買出し候補。日本のコンビニと同じ24時間営業とは限らない。日祝の営業は公式案内へ。\n確認日：2026-11-18\n公式・出典：https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-market/ramblas_-_s.aspx\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Carrefour%20Market%20Rambla%20dels%20Estudis%20113%20Barcelona%20Spain",
       "source": "https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-market/ramblas_-_s.aspx"
     },
     {
@@ -184,17 +184,215 @@
       "name": "Bouillon Chartier グラン・ブルヴァール",
       "type": "食事",
       "query": "Bouillon Chartier 7 Rue du Faubourg Montmartre Paris France",
-      "note": "フランス料理を気軽に楽しむ候補。行列・メニュー・価格は当日確認。所在地は公的アクセシビリティ案内でも確認。",
+      "note": "予約：通常の食事候補。営業・予約方法は公式で確認\n分類：食事\n都市：パリ\n場所：Bouillon Chartier 7 Rue du Faubourg Montmartre Paris France\n近くの観光：オペラ・ガルニエ、ラファイエット\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：フランス料理を気軽に楽しむ候補。行列・メニュー・価格は当日確認。所在地は公的アクセシビリティ案内でも確認。\n日本語での紹介：JTB日本語グルメ案内で紹介。記念日より日常の食事候補。\n確認日：2026-11-18\n公式・出典：https://www.groupe-joulie.com/etablissement/grands-boulevards/\n日本語紹介の出典：https://www.jtb.co.jp/kaigai_guide/report/FR/2026/08/413_452476_1786614245.html\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Bouillon%20Chartier%207%20Rue%20du%20Faubourg%20Montmartre%20Paris%20France",
       "source": "https://www.groupe-joulie.com/etablissement/grands-boulevards/"
     },
     {
       "id": "life-paris-shop",
       "city": "パリ",
       "name": "Monoprix オペラ",
-      "type": "買出し",
+      "type": "スーパー",
       "query": "Monoprix 23 Avenue de l'Opera Paris France",
-      "note": "ルーブル・オペラ周辺で水や朝食、日用品の買出し候補。営業と食品売場の取扱は公式店舗ページへ。",
+      "note": "予約：予約不要。24時間営業とは限らない\n分類：スーパー\n都市：パリ\n場所：Monoprix 23 Avenue de l'Opera Paris France\n近くの観光：ルーブル美術館、オペラ\n料金：要確認\n営業時間：要確認（公式ページで訪問前に再確認）\n利用条件・注意：ルーブル・オペラ周辺で水や朝食、日用品の買出し候補。営業と食品売場の取扱は公式店舗ページへ。\n確認日：2026-11-18\n公式・出典：https://www.monoprix.fr/766.html\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Monoprix%2023%20Avenue%20de%20l%27Opera%20Paris%20France",
       "source": "https://www.monoprix.fr/766.html"
+    },
+    {
+      "id": "life-venice-madonna",
+      "city": "ヴェネツィア",
+      "name": "トラットリア・アッラ・マドンナ",
+      "type": "食事",
+      "query": "Calle della Madonna 594, San Polo, Venezia",
+      "note": "予約：公式サイトで予約推奨。水曜の訪問は避ける\n分類：食事\n都市：ヴェネツィア\n場所：Calle della Madonna 594, San Polo, Venezia\n近くの観光：リアルト橋、リアルト市場\n料金：要確認\n営業時間：水曜定休と公式記載。昼夜の開始・終了時刻は要確認\n利用条件・注意：魚介・イカ墨パスタなどの郷土料理候補。価格・席料は注文前に確認。\n日本語での紹介：JTBのヴェネツィア・パスタ店案内に掲載。\n確認日：2026-11-18\n公式・出典：https://www.ristoranteallamadonna.com/\n日本語紹介の出典：https://www.jtb.co.jp/news/list/kaigai/europe/italy/news_ap_osarea_0000130\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Calle%20della%20Madonna%20594%2C%20San%20Polo%2C%20Venezia",
+      "source": "https://www.ristoranteallamadonna.com/"
+    },
+    {
+      "id": "life-rome-carlomenta",
+      "city": "ローマ",
+      "name": "カルロ・メンタ",
+      "type": "食事",
+      "query": "Carlo Menta, Via della Lungaretta 101, Roma",
+      "note": "予約：公式の予約案内へ。席料・サービス料を確認\n分類：食事\n都市：ローマ\n場所：Carlo Menta, Via della Lungaretta 101, Roma\n近くの観光：トラステヴェレ地区\n料金：要確認\n営業時間：毎日12:00–23:00（金土は23:20までの記載もあり）。訪問前に確認\n利用条件・注意：カルボナーラ、アマトリチャーナなど。日本語記事の古い価格は採用せず現行メニューで確認。\n日本語での紹介：日本語の現地ガイド記事あり。古い記事なので料金・営業は店公式を優先。\n確認日：2026-11-18\n公式・出典：https://www.carlomenta.it/\n日本語紹介の出典：https://allabout.co.jp/gm/gc/410057/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Carlo%20Menta%2C%20Via%20della%20Lungaretta%20101%2C%20Roma",
+      "source": "https://www.carlomenta.it/"
+    },
+    {
+      "id": "life-barcelona-marina",
+      "city": "バルセロナ",
+      "name": "Carrefour Express マリーナ",
+      "type": "小型スーパー・コンビニ代わり",
+      "query": "Carrefour Express, Carrer de la Marina 265, Barcelona",
+      "note": "分類：小型スーパー・コンビニ代わり\n都市：バルセロナ\n場所：Carrefour Express, Carrer de la Marina 265, Barcelona\n近くの観光：サグラダ・ファミリア\n料金：要確認\n営業時間：月–土8:30–22:30、日祝は指定営業日のみ。2027年の特別営業は要確認\n利用条件・注意：水、軽食、朝食を買う小型スーパー。日本のコンビニと同じ24時間営業ではない。\n確認日：2026-11-18\n公式・出典：https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-express/c_marina-s.aspx\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Carrefour%20Express%2C%20Carrer%20de%20la%20Marina%20265%2C%20Barcelona",
+      "source": "https://www.carrefour.es/tiendas-carrefour/supermercados/carrefour-express/c_marina-s.aspx"
+    },
+    {
+      "id": "life-paris-monopdom",
+      "city": "パリ",
+      "name": "Monop’ サン・ドミニク",
+      "type": "小型スーパー・コンビニ代わり",
+      "query": "Monop Saint Dominique, 102 Rue Saint-Dominique, 75007 Paris",
+      "note": "分類：小型スーパー・コンビニ代わり\n都市：パリ\n場所：Monop Saint Dominique, 102 Rue Saint-Dominique, 75007 Paris\n近くの観光：エッフェル塔、アンヴァリッド方面\n料金：要確認\n営業時間：月–土7:30–23:55／日8:00–23:00（公式現行案内）\n利用条件・注意：水・朝食・軽食の買出し。24時間営業ではない。2027年の臨時変更は再確認。\n確認日：2026-11-18\n公式・出典：https://www.monoprix.fr/2430.html\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Monop%20Saint%20Dominique%2C%20102%20Rue%20Saint-Dominique%2C%2075007%20Paris",
+      "source": "https://www.monoprix.fr/2430.html"
+    },
+    {
+      "id": "life-paris-racine",
+      "city": "パリ",
+      "name": "🥂記念日候補｜ブイヨン・ラシーヌ",
+      "type": "記念日ディナー候補",
+      "query": "Bouillon Racine, 3 Rue Racine, 75006 Paris",
+      "note": "予約：公式サイトから要予約。予約開始日・2月11日の空席は未確認。\n服装・ドレスコード：公式の確認ページに服装の明文規定を確認できず、予約時に要確認。服装の提案（店の必須規則ではない）：襟付きトップス・長ズボン、ワンピース等ときれいめの靴。ジャケット必須とは断定しない。\n分類：記念日ディナー候補\n都市：パリ\n場所：Bouillon Racine, 3 Rue Racine, 75006 Paris\n近くの観光：リュクサンブール公園、サント・シャペル、ノートルダム方面\n料金：現行Menu 1900（前菜＋主菜＋デザート）€44、飲み物別。参考約7,734円／人（1€=175.78円、ECB 2026-11-16、カード手数料別）\n営業時間：公式は毎日12:00–24:00。夜のコース提供と最終注文は予約時に確認\n利用条件・注意：アールヌーヴォーの内装を楽しむ候補。予算内に収めるなら飲み物を含む合計€55前後を上限の目安に確認。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。\n日本語での紹介：辻調フランス校の紹介あり。現在の料理・料金は店公式で確認。\n確認日：2026-11-18\n公式・出典：https://www.bouillonracine.fr/menus-carte/\n補足出典：https://www.bouillonracine.fr/informations-contact/\n補足出典：https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-jpy.en.html\n日本語紹介の出典：https://www.tsuji.ac.jp/college/france/blog/mail_france/bouillon.html\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Bouillon%20Racine%2C%203%20Rue%20Racine%2C%2075006%20Paris",
+      "source": "https://www.bouillonracine.fr/menus-carte/"
+    },
+    {
+      "id": "life-paris-bofinger",
+      "city": "パリ",
+      "name": "🥂記念日候補｜ボファンジェ",
+      "type": "記念日ディナー候補",
+      "query": "Bofinger, 5-7 Rue de la Bastille, 75004 Paris",
+      "note": "予約：公式サイトから要予約。予約開始日・2月11日の空席は未確認。\n服装・ドレスコード：予約媒体OpenTableの店舗案内はSmart Casual。JTB（2025年更新）は指定なしと異なるため、最終条件は予約時に店へ再確認。襟付きトップス・長ズボン、ワンピース等ときれいめの靴を推奨。ジャケット必須という記載は確認できず。\n分類：記念日ディナー候補\n都市：パリ\n場所：Bofinger, 5-7 Rue de la Bastille, 75004 Paris\n近くの観光：マレ地区、ヴォージュ広場、バスティーユ\n料金：現行Menu Bofinger（前菜＋主菜＋デザート）€35.90、飲み物別。参考約6,311円／人（ECB 2026-11-16：1€=175.78円、カード手数料別）\n営業時間：月–金12–15時／18:30–24時、土12–15:30／18:30–24時、日12–23時（公式現行案内）\n利用条件・注意：歴史あるブラッスリーの装飾・ガラスドームが魅力。賑やかな雰囲気。夜のコース利用とドーム下の席を予約時に相談。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。\n日本語での紹介：JTB日本語ガイドに掲載。内装と伝統料理を重視する候補。\n確認日：2026-11-19\n公式・出典：https://www.bofingerparis.com/menus-carte/\n補足出典：https://www.bofingerparis.com/informations-contact/\n補足出典：https://www.opentable.com/r/bofinger-paris\n日本語紹介の出典：https://www.jtb.co.jp/kaigai_guide/western_europe/french_republic/PAR/105844/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Bofinger%2C%205-7%20Rue%20de%20la%20Bastille%2C%2075004%20Paris",
+      "source": "https://www.bofingerparis.com/menus-carte/"
+    },
+    {
+      "id": "life-paris-procope",
+      "city": "パリ",
+      "name": "🥂記念日候補｜ル・プロコープ",
+      "type": "記念日ディナー候補",
+      "query": "Le Procope, 13 Rue de l'Ancienne Comédie, 75006 Paris",
+      "note": "予約：公式予約ページ：https://www.procope.com/o/reserver/ ｜予約開始日・2月11日の空席は未確認。\n服装・ドレスコード：公式の確認ページに服装の明文規定を確認できず、予約時に要確認。服装の提案（店の必須規則ではない）：襟付きトップス・長ズボン、ワンピース等ときれいめの靴。ジャケット必須とは断定しない。\n分類：記念日ディナー候補\n都市：パリ\n場所：Le Procope, 13 Rue de l'Ancienne Comédie, 75006 Paris\n近くの観光：サンジェルマン、ノートルダム方面\n料金：現行夜Menu des Révolutionnaires €49.50、飲み物別。参考約8,701円／人（ECB 2026-11-16：1€=175.78円、カード手数料別）。飲み物追加で1万円超の可能性\n営業時間：公式は毎日12:00–24:00。夜コースは17:00以降、祝祭日等を除く。昼の€33.50コースとは異なる\n利用条件・注意：歴史ある内装とサンジェルマン散策を組み合わせる候補。今回の予算では余裕が少なめ。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。\n確認日：2026-11-18\n公式・出典：https://www.procope.com/menus-karte/\n補足出典：https://www.procope.com/o/reserver/\n補足出典：https://www.procope.com/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=Le%20Procope%2C%2013%20Rue%20de%20l%27Ancienne%20Com%C3%A9die%2C%2075006%20Paris",
+      "source": "https://www.procope.com/menus-karte/"
+    },
+    {
+      "id": "wc-venice-1",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜ディウルノ・サンマルコ",
+      "type": "トイレ",
+      "query": "San Marco 1265, Venezia",
+      "note": "分類：トイレ\n都市：ヴェネツィア\n場所：San Marco 1265, Venezia\n近くの観光：サン・マルコ広場、寺院、ドゥカーレ宮殿\n料金：有料。訪問時の料金は要確認（小銭を用意）\n営業時間：毎日9:30–19:00\n利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。\n確認日：2026-11-18\n公式・出典：https://wctoilettevenezia.com/listing/san-marco/\n補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=45.433577%2C12.336794",
+      "source": "https://wctoilettevenezia.com/listing/san-marco/"
+    },
+    {
+      "id": "wc-venice-2",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜リアルト・ノーヴォ",
+      "type": "トイレ",
+      "query": "San Polo 551, Venezia",
+      "note": "分類：トイレ\n都市：ヴェネツィア\n場所：San Polo 551, Venezia\n近くの観光：リアルト橋、リアルト市場\n料金：有料。訪問時の料金は要確認（小銭を用意）\n営業時間：運営本体9:30–19:00／個別案内9:30–19:30と不一致。19:00前を目安に現地確認\n利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。\n確認日：2026-11-18\n公式・出典：https://wctoilettevenezia.com/listing/rialto-novo/\n補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=45.438494412868%2C12.334724959201",
+      "source": "https://wctoilettevenezia.com/listing/rialto-novo/"
+    },
+    {
+      "id": "wc-venice-3",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜アカデミア橋下",
+      "type": "トイレ",
+      "query": "Dorsoduro 1050, Venezia",
+      "note": "分類：トイレ\n都市：ヴェネツィア\n場所：Dorsoduro 1050, Venezia\n近くの観光：アカデミア橋、サルーテ聖堂方面\n料金：有料。訪問時の料金は要確認（小銭を用意）\n営業時間：個別案内9:30–18:30。冬季・当日を再確認\n利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。\n確認日：2026-11-18\n公式・出典：https://wctoilettevenezia.com/listing/accademia/\n補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=45.431418%2C12.32874",
+      "source": "https://wctoilettevenezia.com/listing/accademia/"
+    },
+    {
+      "id": "wc-venice-4",
+      "city": "ヴェネツィア",
+      "name": "🚻ヴェネツィア｜ピアッツァーレ・ローマ",
+      "type": "トイレ",
+      "query": "Calle Cossetti 456/A, Venezia",
+      "note": "分類：トイレ\n都市：ヴェネツィア\n場所：Calle Cossetti 456/A, Venezia\n近くの観光：ローマ広場、サンタ・ルチア駅方面\n料金：有料。訪問時の料金は要確認（小銭を用意）\n営業時間：毎日8:00–20:00\n利用条件・注意：一般向け公衆トイレ。市から案内される運営者の位置。営業時間外・清掃中は利用不可。橋や階段を含む実際の徒歩ルートはGoogleマップで確認。\n確認日：2026-11-18\n公式・出典：https://wctoilettevenezia.com/listing/piazzale-roma/\n補足出典：https://www.gruppoveritas.it/comune/venezia-centro-e-isole/domestica-non-domestica/territorio/servizi-igienici\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=45.437543%2C12.319509",
+      "source": "https://wctoilettevenezia.com/listing/piazzale-roma/"
+    },
+    {
+      "id": "wc-rome-1",
+      "city": "ローマ",
+      "name": "🚻ローマ｜P.Stop ナヴォーナ広場北",
+      "type": "トイレ",
+      "query": "Via Giuseppe Zanardelli, Roma",
+      "note": "分類：トイレ\n都市：ローマ\n場所：Via Giuseppe Zanardelli, Roma\n近くの観光：ナヴォーナ広場、パンテオン\n料金：個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認\n営業時間：毎日8:00–20:00\n利用条件・注意：一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。\n確認日：2026-11-18\n公式・出典：https://pstop.it/portfolio/via-giuseppe-zanardelli/\n補足出典：https://pstop.it/servizi-igienici/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=41.90083477370594%2C12.472653879742408",
+      "source": "https://pstop.it/portfolio/via-giuseppe-zanardelli/"
+    },
+    {
+      "id": "wc-rome-2",
+      "city": "ローマ",
+      "name": "🚻ローマ｜P.Stop スペイン広場",
+      "type": "トイレ",
+      "query": "Piazza di Spagna, Roma",
+      "note": "分類：トイレ\n都市：ローマ\n場所：Piazza di Spagna, Roma\n近くの観光：スペイン階段、コンドッティ通り\n料金：個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認\n営業時間：毎日8:00–20:00\n利用条件・注意：一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。\n確認日：2026-11-18\n公式・出典：https://pstop.it/portfolio/piazza-di-spagna/\n補足出典：https://pstop.it/servizi-igienici/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=41.906466077672924%2C12.481814853903163",
+      "source": "https://pstop.it/portfolio/piazza-di-spagna/"
+    },
+    {
+      "id": "wc-rome-3",
+      "city": "ローマ",
+      "name": "🚻ローマ｜P.Stop テルミニ駅西",
+      "type": "トイレ",
+      "query": "Largo di Villa Peretti, Roma",
+      "note": "分類：トイレ\n都市：ローマ\n場所：Largo di Villa Peretti, Roma\n近くの観光：テルミニ駅、メルカート・チェントラーレ方面\n料金：個別施設ページ€1.50／総合案内€1と不一致。現地料金を確認\n営業時間：毎日10:00–18:00\n利用条件・注意：一般向け。地下の案内所に併設。スペイン広場は地下鉄改札内と取り違えない。公式表示は現在の案内で、2027年2月の確約ではない。\n確認日：2026-11-18\n公式・出典：https://pstop.it/portfolio/largo-di-villa-peretti/\n補足出典：https://pstop.it/servizi-igienici/\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=41.90188191748249%2C12.497523107711075",
+      "source": "https://pstop.it/portfolio/largo-di-villa-peretti/"
+    },
+    {
+      "id": "wc-paris-1",
+      "city": "パリ",
+      "name": "🚻パリ｜エッフェル塔南東",
+      "type": "トイレ",
+      "query": "12 all thomy-thierry, Paris 75007",
+      "note": "分類：トイレ\n都市：パリ\n場所：12 all thomy-thierry, Paris 75007\n近くの観光：エッフェル塔、シャン・ド・マルス\n料金：無料（市のSanisette）\n営業時間：06h00 - 22h00\n利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。\n確認日：2026-11-18\n公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216\n補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0\n補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=48.85640899955829%2C2.2964729998993914",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216"
+    },
+    {
+      "id": "wc-paris-2",
+      "city": "パリ",
+      "name": "🚻パリ｜ルーブル東・レアール",
+      "type": "トイレ",
+      "query": "44 rue berger, Paris 75001",
+      "note": "分類：トイレ\n都市：パリ\n場所：44 rue berger, Paris 75001\n近くの観光：ルーブル美術館、リヴォリ通り、モントルグイユ通り\n料金：無料（市のSanisette）\n営業時間：06h00 - 23h59\n利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。\n確認日：2026-11-18\n公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216\n補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0\n補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=48.86235400010427%2C2.3422090001035785",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216"
+    },
+    {
+      "id": "wc-paris-3",
+      "city": "パリ",
+      "name": "🚻パリ｜ノートルダム北",
+      "type": "トイレ",
+      "query": "8 rue d'arcole, Paris 75004",
+      "note": "分類：トイレ\n都市：パリ\n場所：8 rue d'arcole, Paris 75004\n近くの観光：ノートルダム大聖堂、サント・シャペル\n料金：無料（市のSanisette）\n営業時間：06h00 - 22h00\n利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。\n確認日：2026-11-18\n公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216\n補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0\n補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=48.85402499987285%2C2.3493969996309874",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216"
+    },
+    {
+      "id": "wc-paris-4",
+      "city": "パリ",
+      "name": "🚻パリ｜オペラ・カプシーヌ",
+      "type": "トイレ",
+      "query": "37 bd des capucines, Paris 75002",
+      "note": "分類：トイレ\n都市：パリ\n場所：37 bd des capucines, Paris 75002\n近くの観光：オペラ・ガルニエ、ラファイエット方面\n料金：無料（市のSanisette）\n営業時間：06h00 - 22h00\n利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。\n確認日：2026-11-18\n公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216\n補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0\n補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=48.87006399987241%2C2.329369999633761",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216"
+    },
+    {
+      "id": "wc-paris-5",
+      "city": "パリ",
+      "name": "🚻パリ｜モンマルトル麓",
+      "type": "トイレ",
+      "query": "2 rue ronsard, Paris 75018",
+      "note": "分類：トイレ\n都市：パリ\n場所：2 rue ronsard, Paris 75018\n近くの観光：サクレクール、モンマルトル\n料金：無料（市のSanisette）\n営業時間：24/24h\n利用条件・注意：市の公式地図データでは En service（確認時）。故障・清掃・工事は変わるため当日表示を確認。自動洗浄が終わってから次の人が入る。入口の数メートルの差は現地で確認。\n確認日：2026-11-18\n公式・出典：https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216\n補足出典：https://capgeo2.paris.fr/public/rest/services/SG/SG_Toilettes_publiques/MapServer/0\n補足出典：https://capgeo.maps.arcgis.com/apps/instant/basic/index.html?appid=40209a99ec55421ba1d92f763f79e6b8\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=48.88513800043196%2C2.344348000195785",
+      "source": "https://www.paris.fr/pages/les-toilettes-publiques-a-paris-27216"
+    },
+    {
+      "id": "wc-barcelona-1",
+      "city": "バルセロナ",
+      "name": "🚻バルセロナ｜サグラダ・ファミリア図書館",
+      "type": "トイレ",
+      "query": "C Provença 480, Barcelona",
+      "note": "分類：トイレ\n都市：バルセロナ\n場所：C Provença 480, Barcelona\n近くの観光：サグラダ・ファミリア\n料金：要確認\n営業時間：月水木9:30–13:30／15:30–20:30、火金9:30–20:30、土10–14／16–20、日10–14（市データの通常案内）\n利用条件・注意：公共施設内のトイレ。館の開館中のみ。職員に場所・利用条件を確認。昼休みあり。 2027年訪問日の条件は再確認。\n確認日：2026-11-18\n公式・出典：https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=41.40541560676076%2C2.1767746457391186",
+      "source": "https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics"
+    },
+    {
+      "id": "wc-barcelona-2",
+      "city": "バルセロナ",
+      "name": "🚻バルセロナ｜大聖堂前",
+      "type": "トイレ",
+      "query": "Avinguda de la Catedral 9, Barcelona",
+      "note": "分類：トイレ\n都市：バルセロナ\n場所：Avinguda de la Catedral 9, Barcelona\n近くの観光：バルセロナ大聖堂、ゴシック地区\n料金：要確認\n営業時間：市データは24時間。現地の休止・清掃状況を確認\n利用条件・注意：公共トイレ。料金は要確認。市の掲載は営業保証ではない。 2027年訪問日の条件は再確認。\n確認日：2026-11-18\n公式・出典：https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=41.38523497548024%2C2.1761845327386324",
+      "source": "https://opendata-ajuntament.barcelona.cat/data/es/dataset/lavabos-publics"
+    },
+    {
+      "id": "wc-barcelona-3",
+      "city": "バルセロナ",
+      "name": "🚻バルセロナ｜ボケリア市場地下",
+      "type": "トイレ",
+      "query": "Mercat de la Boqueria, La Rambla 91, Barcelona",
+      "note": "分類：トイレ\n都市：バルセロナ\n場所：Mercat de la Boqueria, La Rambla 91, Barcelona\n近くの観光：ボケリア市場、ランブラス通り\n料金：買い物レシート提示で無料／購入なし€0.50（公式現行案内）\n営業時間：市場は月–土8:00–20:30、日曜休み。トイレ単独の営業時間は要確認\n利用条件・注意：市場事務所棟の地下1階。ピンは市場の代表位置で、正確なトイレ入口ではない。場内案内に従う。レシートは捨てない。\n確認日：2026-11-18\n公式・出典：https://www.boqueria.barcelona/services\nGoogleマップ：https://www.google.com/maps/search/?api=1&query=41.38173%2C2.17158",
+      "source": "https://www.boqueria.barcelona/services"
     }
   ],
   "sources": [
