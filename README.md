@@ -92,3 +92,7 @@ node scripts/validate-trip.mjs
 ### 2/1出発案の予約整理
 
 [予約優先順と日程の懸念](docs/booking-priority-feb01.md)を、旅行サイトの `booking.html` と共通データから生成。記念日候補の空席確認と生活写真の出典は [生活スポットの作業記録](docs/map-amenities-2026-11.md) を参照。
+
+### 日程変更時の休業警告
+
+旅手帖の「旅の設定」で出発日を変更すると、ホーム・日別旅程の休業／早閉まりの注意を再計算します。予定へ追加した場所の定休日も強調します。[対象と確認範囲](docs/schedule-warnings.md)。

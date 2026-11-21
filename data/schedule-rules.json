@@ -1,0 +1,212 @@
+{
+  "checked": "2026-11-22",
+  "year": 2027,
+  "rules": [
+    {
+      "id": "life-venice-madonna",
+      "city": "ヴェネツィア",
+      "name": "アッラ・マドンナ",
+      "source": "https://www.ristoranteallamadonna.com/",
+      "advice": "別の日の食事候補に移してください。冬季休暇は別確認。",
+      "closedWeekdays": [
+        3
+      ]
+    },
+    {
+      "id": "043",
+      "city": "ヴェネツィア",
+      "name": "リアルト魚市場",
+      "source": "https://www.veneziaunica.it/it/cosa-fare-a-venezia/il-territorio-di-venezia/mercati",
+      "advice": "午前の訪問を優先。",
+      "closedWeekdays": [
+        0,
+        1
+      ],
+      "cutoff": 840,
+      "early": true
+    },
+    {
+      "id": "009",
+      "city": "バルセロナ",
+      "name": "ボケリア市場",
+      "source": "https://www.boqueria.barcelona/contact",
+      "advice": "営業する別日の午前〜昼へ。個店は別確認。",
+      "closedWeekdays": [
+        0
+      ]
+    },
+    {
+      "id": "014",
+      "city": "バルセロナ",
+      "name": "サンタ・カテリーナ市場",
+      "source": "https://mercatsantacaterina.com/contacte/",
+      "advice": "午前の訪問を優先。個店の営業時間は別。",
+      "closedWeekdays": [
+        0
+      ],
+      "cutoffByWeekday": {
+        "1": 930,
+        "2": 1230,
+        "3": 930,
+        "4": 1230,
+        "5": 1230,
+        "6": 930
+      },
+      "early": true
+    },
+    {
+      "id": "026",
+      "city": "ローマ",
+      "name": "テスタッチョ市場",
+      "source": "https://www.mercatoditestaccio.it/info/",
+      "advice": "夕食用には使わず、午前〜昼へ。",
+      "closedWeekdays": [
+        0
+      ],
+      "cutoff": 930,
+      "early": true
+    },
+    {
+      "id": "016",
+      "city": "ローマ",
+      "name": "コロッセオ",
+      "source": "https://colosseo.it/orari-e-biglietti/",
+      "advice": "冬の最終入場15:30。予約枠を先に確保。",
+      "cutoff": 930,
+      "early": true,
+      "months": [
+        1,
+        2,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "032",
+      "city": "ローマ",
+      "name": "バチカン美術館",
+      "source": "https://www.museivaticani.va/content/museivaticani/en/info/orari-musei-vaticani.html",
+      "advice": "無料公開の最終日曜は通常券と別条件。開館日でも在庫は別確認。",
+      "closedWeekdays": [
+        0
+      ],
+      "exceptLastSunday": true,
+      "closedMonthDays": [
+        "01-01",
+        "01-06",
+        "02-11",
+        "05-01",
+        "06-29",
+        "08-15",
+        "12-08",
+        "12-25",
+        "12-26"
+      ]
+    },
+    {
+      "id": "030",
+      "city": "ローマ",
+      "name": "サンタンジェロ城",
+      "source": "https://www.gebart.it/musei/museo-nazionale-di-castel-santangelo/",
+      "advice": "臨時開館・特別休館は公式で確認。",
+      "closedWeekdays": [
+        1
+      ]
+    },
+    {
+      "id": "052",
+      "city": "パリ",
+      "name": "ルーブル美術館",
+      "source": "https://www.louvre.fr/en/visit/hours-admission",
+      "advice": "ほかの営業日へ。",
+      "closedWeekdays": [
+        2
+      ],
+      "closedMonthDays": [
+        "01-01",
+        "05-01",
+        "12-25"
+      ]
+    },
+    {
+      "id": "074",
+      "city": "パリ",
+      "name": "オルセー美術館",
+      "source": "https://www.musee-orsay.fr/en/visit",
+      "advice": "ほかの営業日へ。木曜夜間も食事予約との重複に注意。",
+      "closedWeekdays": [
+        1
+      ],
+      "closedMonthDays": [
+        "05-01",
+        "12-25"
+      ]
+    },
+    {
+      "id": "078",
+      "city": "パリ",
+      "name": "オランジュリー美術館",
+      "source": "https://www.musee-orangerie.fr/en/visit-orangerie",
+      "advice": "ほかの営業日へ。金曜夜間は展示期間による。",
+      "closedWeekdays": [
+        2
+      ],
+      "closedMonthDays": [
+        "05-01",
+        "12-25"
+      ]
+    },
+    {
+      "id": "075",
+      "city": "パリ",
+      "name": "ヴェルサイユ宮殿",
+      "source": "https://www.chateauversailles.fr/preparer-ma-visite/informations-pratiques",
+      "advice": "宮殿と庭園の営業は別。",
+      "closedWeekdays": [
+        1
+      ]
+    },
+    {
+      "id": "081",
+      "city": "パリ",
+      "name": "BnFリシュリュー・オヴァル室",
+      "source": "https://www.bnf.fr/fr/richelieu",
+      "advice": "研究閲覧室や博物館の条件とは別です。",
+      "closedWeekdays": [
+        1
+      ]
+    },
+    {
+      "id": "061",
+      "city": "ノルマンディー",
+      "name": "モンサンミッシェル修道院",
+      "source": "https://www.abbaye-mont-saint-michel.fr/en/visit/practical-information",
+      "advice": "冬は17:00最終入場。往復交通から決める。",
+      "closedMonthDays": [
+        "01-01",
+        "05-01",
+        "12-25"
+      ],
+      "cutoff": 1020,
+      "early": true,
+      "months": [
+        1,
+        2,
+        3,
+        4,
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "070",
+      "city": "ヴェネツィア",
+      "name": "サン・ジョルジョ鐘楼",
+      "source": "https://www.abbaziasangiorgio.it/",
+      "advice": "",
+      "notice": "修理休止の記録あり。再開日は未確認。教会の見学とは分けて確認してください。"
+    }
+  ]
+}
