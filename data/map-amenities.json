@@ -491,7 +491,18 @@
         48.87192,
         2.34303
       ],
-      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）",
+      "photo": {
+        "id": "life-paris-food",
+        "title": "Une vue intérieure de Bouillon Chartier Grands Boulevards (août 2023).jpg",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Une_vue_int%C3%A9rieure_de_Bouillon_Chartier_Grands_Boulevards_%28ao%C3%BBt_2023%29.jpg/1280px-Une_vue_int%C3%A9rieure_de_Bouillon_Chartier_Grands_Boulevards_%28ao%C3%BBt_2023%29.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Une_vue_intérieure_de_Bouillon_Chartier_Grands_Boulevards_(août_2023).jpg",
+        "author": "Benoît Prieur",
+        "license": "CC0 1.0",
+        "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+        "file": "data/amenity-photos/life-paris-food.jpg",
+        "driveUrl": "https://drive.google.com/file/d/1ZcD29OOuf3-8L4PeymNACqVPJPnuftBf/view"
+      }
     },
     {
       "id": "life-paris-shop",
@@ -611,13 +622,14 @@
       "source": "https://www.bouillonracine.fr/menus-carte/",
       "fee": "現行Menu 1900（前菜＋主菜＋デザート）€44、飲み物別。参考約7,734円／人（1€=175.78円、ECB 2026-11-16、カード手数料別）",
       "hours": "公式は毎日12:00–24:00。夜のコース提供と最終注文は予約時に確認",
-      "note": "アールヌーヴォーの内装を楽しむ候補。予算内に収めるなら飲み物を含む合計€55前後を上限の目安に確認。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
-      "checked": "2026-11-18",
-      "booking": "公式サイトから要予約。予約開始日・2月11日の空席は未確認。",
+      "note": "アールヌーヴォーの内装を楽しむ候補。予算内に収めるなら飲み物を含む合計€55前後を上限の目安に確認。2027年2月11日の予約時間枠は表示確認済み。訪問日のコース提供と確定料金は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
+      "checked": "2026-11-21",
+      "booking": "公式予約で2027年2月11日・2名の19:00／19:15／19:30など夜枠を確認（2026-11-21）。未予約。空席は変動。予約時刻から15分を過ぎると席の保証なし。",
       "dress": "公式の確認ページに服装の明文規定を確認できず、予約時に要確認。服装の提案（店の必須規則ではない）：襟付きトップス・長ズボン、ワンピース等ときれいめの靴。ジャケット必須とは断定しない。",
       "extraSources": [
         "https://www.bouillonracine.fr/informations-contact/",
-        "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-jpy.en.html"
+        "https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/eurofxref-graph-jpy.en.html",
+        "https://bookings.zenchef.com/results?rid=132&lang=fr"
       ],
       "japaneseSource": "https://www.tsuji.ac.jp/college/france/blog/mail_france/bouillon.html",
       "japaneseNote": "辻調フランス校の紹介あり。現在の料理・料金は店公式で確認。",
@@ -626,7 +638,18 @@
         48.85017,
         2.34202
       ],
-      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）",
+      "photo": {
+        "id": "life-paris-racine",
+        "title": "File:Interior of the Bouillon Racine (Paris) (01).jpg",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg/1280px-Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Bouillon_Racine_(Paris)_(01).jpg",
+        "author": "Neoclassicism Enthusiast",
+        "license": "CC BY-SA 4.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+        "file": "data/amenity-photos/life-paris-racine.jpg",
+        "driveUrl": "https://drive.google.com/file/d/1kcmL6GQIgzB_lBh2VHz08PLyVJIObYU1/view"
+      }
     },
     {
       "id": "life-paris-bofinger",
@@ -640,12 +663,13 @@
       "fee": "現行Menu Bofinger（前菜＋主菜＋デザート）€35.90、飲み物別。参考約6,311円／人（ECB 2026-11-16：1€=175.78円、カード手数料別）",
       "hours": "月–金12–15時／18:30–24時、土12–15:30／18:30–24時、日12–23時（公式現行案内）",
       "note": "歴史あるブラッスリーの装飾・ガラスドームが魅力。賑やかな雰囲気。夜のコース利用とドーム下の席を予約時に相談。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
-      "checked": "2026-11-19",
-      "booking": "公式サイトから要予約。予約開始日・2月11日の空席は未確認。",
+      "checked": "2026-11-21",
+      "booking": "公式予約で2027年2月11日・2名は「オンライン予約はまだ開始していない」と表示（2026-11-21）。売切れとは扱わない。開始日は明記なし。未予約。遅刻15分超は席の保証なし。",
       "dress": "予約媒体OpenTableの店舗案内はSmart Casual。JTB（2025年更新）は指定なしと異なるため、最終条件は予約時に店へ再確認。襟付きトップス・長ズボン、ワンピース等ときれいめの靴を推奨。ジャケット必須という記載は確認できず。",
       "extraSources": [
         "https://www.bofingerparis.com/informations-contact/",
-        "https://www.opentable.com/r/bofinger-paris"
+        "https://www.opentable.com/r/bofinger-paris",
+        "https://bookings.zenchef.com/results?rid=84941&lang=fr"
       ],
       "japaneseSource": "https://www.jtb.co.jp/kaigai_guide/western_europe/french_republic/PAR/105844/",
       "japaneseNote": "JTB日本語ガイドに掲載。内装と伝統料理を重視する候補。",
@@ -655,7 +679,18 @@
         2.36786
       ],
       "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）",
-      "dressChecked": "2026-11-19"
+      "dressChecked": "2026-11-19",
+      "photo": {
+        "id": "life-paris-bofinger",
+        "title": "File:Bofinger.JPG",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bofinger.JPG/1280px-Bofinger.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Bofinger.JPG",
+        "author": "LPLT",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "data/amenity-photos/life-paris-bofinger.jpg",
+        "driveUrl": "https://drive.google.com/file/d/10DyOBv53PzEBXJXz2GJBVBKJaNCqBPP9/view"
+      }
     },
     {
       "id": "life-paris-procope",
@@ -668,20 +703,32 @@
       "source": "https://www.procope.com/menus-karte/",
       "fee": "現行夜Menu des Révolutionnaires €49.50、飲み物別。参考約8,701円／人（ECB 2026-11-16：1€=175.78円、カード手数料別）。飲み物追加で1万円超の可能性",
       "hours": "公式は毎日12:00–24:00。夜コースは17:00以降、祝祭日等を除く。昼の€33.50コースとは異なる",
-      "note": "歴史ある内装とサンジェルマン散策を組み合わせる候補。今回の予算では余裕が少なめ。2027年2月11日の営業・コース提供・空席は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
-      "checked": "2026-11-18",
-      "booking": "公式予約ページ：https://www.procope.com/o/reserver/ ｜予約開始日・2月11日の空席は未確認。",
+      "note": "歴史ある内装とサンジェルマン散策を組み合わせる候補。今回の予算では余裕が少なめ。2027年2月11日の予約時間枠は表示確認済み。訪問日のコース提供と確定料金は未確認。予約前に最終価格、飲み物、キャンセル条件とドレスコードを確認。記念日の席・デザート対応は希望として相談し、無料とは扱わない。",
+      "checked": "2026-11-21",
+      "booking": "公式予約で2027年2月11日・2名の18:00〜20:30、21:00以降など夜枠を確認（2026-11-21）。19:00選択可。未予約。空席は変動。",
       "dress": "公式の確認ページに服装の明文規定を確認できず、予約時に要確認。服装の提案（店の必須規則ではない）：襟付きトップス・長ズボン、ワンピース等ときれいめの靴。ジャケット必須とは断定しない。",
       "extraSources": [
         "https://www.procope.com/o/reserver/",
-        "https://www.procope.com/"
+        "https://www.procope.com/",
+        "https://bookings.zenchef.com/results?rid=250682&lang=fr"
       ],
       "mapUrl": "https://www.google.com/maps/search/?api=1&query=Le%20Procope%2C%2013%20Rue%20de%20l%27Ancienne%20Com%C3%A9die%2C%2075006%20Paris",
       "coords": [
         48.85299,
         2.33879
       ],
-      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）"
+      "coordinateSource": "My Mapsの住所解決後の表示座標（小数5桁、入口の厳密位置までは未確認）",
+      "photo": {
+        "id": "life-paris-procope",
+        "title": "File:Interior of the Cafe Le Procope, Paris - 2011.JPG",
+        "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG/1280px-Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG",
+        "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Cafe_Le_Procope,_Paris_-_2011.JPG",
+        "author": "The original uploader was DIMSFIKAS at Greek Wikipedia.",
+        "license": "CC BY-SA 3.0",
+        "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+        "file": "data/amenity-photos/life-paris-procope.jpg",
+        "driveUrl": "https://drive.google.com/file/d/18kJSbKjAY67OYR_t7lAfdZ-r03Cu-TPp/view"
+      }
     }
   ],
   "excluded": [

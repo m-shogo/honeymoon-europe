@@ -1,0 +1,46 @@
+[
+  {
+    "id": "life-paris-racine",
+    "title": "File:Interior of the Bouillon Racine (Paris) (01).jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg/1280px-Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Bouillon_Racine_(Paris)_(01).jpg",
+    "author": "Neoclassicism Enthusiast",
+    "license": "CC BY-SA 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+    "file": "data/amenity-photos/life-paris-racine.jpg",
+    "driveUrl": "https://drive.google.com/file/d/1kcmL6GQIgzB_lBh2VHz08PLyVJIObYU1/view"
+  },
+  {
+    "id": "life-paris-bofinger",
+    "title": "File:Bofinger.JPG",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bofinger.JPG/1280px-Bofinger.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Bofinger.JPG",
+    "author": "LPLT",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "file": "data/amenity-photos/life-paris-bofinger.jpg",
+    "driveUrl": "https://drive.google.com/file/d/10DyOBv53PzEBXJXz2GJBVBKJaNCqBPP9/view"
+  },
+  {
+    "id": "life-paris-procope",
+    "title": "File:Interior of the Cafe Le Procope, Paris - 2011.JPG",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG/1280px-Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG",
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Cafe_Le_Procope,_Paris_-_2011.JPG",
+    "author": "The original uploader was DIMSFIKAS at Greek Wikipedia.",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "file": "data/amenity-photos/life-paris-procope.jpg",
+    "driveUrl": "https://drive.google.com/file/d/18kJSbKjAY67OYR_t7lAfdZ-r03Cu-TPp/view"
+  },
+  {
+    "id": "life-paris-food",
+    "title": "Une vue intérieure de Bouillon Chartier Grands Boulevards (août 2023).jpg",
+    "imageUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Une_vue_int%C3%A9rieure_de_Bouillon_Chartier_Grands_Boulevards_%28ao%C3%BBt_2023%29.jpg/1280px-Une_vue_int%C3%A9rieure_de_Bouillon_Chartier_Grands_Boulevards_%28ao%C3%BBt_2023%29.jpg",
+    "source": "https://commons.wikimedia.org/wiki/File:Une_vue_intérieure_de_Bouillon_Chartier_Grands_Boulevards_(août_2023).jpg",
+    "author": "Benoît Prieur",
+    "license": "CC0 1.0",
+    "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "file": "data/amenity-photos/life-paris-food.jpg",
+    "driveUrl": "https://drive.google.com/file/d/1ZcD29OOuf3-8L4PeymNACqVPJPnuftBf/view"
+  }
+]

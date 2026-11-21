@@ -6,3 +6,5 @@
 @media(max-width:700px){.cities{flex-basis:100%;width:100%;flex-grow:0}.hero h1{font-size:23px}.hero figure{min-height:225px}.network{font-size:9px;max-width:180px}.city{flex:1;justify-content:center;padding:10px 7px;font-size:10px}.city span{font-size:8px}}
 
 #daily-places .desc{white-space:pre-line;font-size:.88rem;line-height:1.75}#daily-places .place-card .desc{max-height:18rem;overflow:auto}
+
+.amenity-photo{display:block;width:100%;height:190px;object-fit:cover;border-radius:8px;margin:0 0 8px}.booking-summary{margin-top:20px}

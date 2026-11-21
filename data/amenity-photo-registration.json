@@ -1,0 +1,38 @@
+[
+  {
+    "id": "life-paris-food",
+    "name": "Bouillon Chartier グラン・ブルヴァール",
+    "imageCount": 1,
+    "source": "https://commons.wikimedia.org/wiki/File:Une_vue_intérieure_de_Bouillon_Chartier_Grands_Boulevards_(août_2023).jpg",
+    "driveUrl": "https://drive.google.com/file/d/1ZcD29OOuf3-8L4PeymNACqVPJPnuftBf/view",
+    "checked": "2026-11-21",
+    "savedKmlVerified": true
+  },
+  {
+    "id": "life-paris-racine",
+    "name": "🥂記念日候補｜ブイヨン・ラシーヌ",
+    "imageCount": 1,
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Bouillon_Racine_(Paris)_(01).jpg",
+    "driveUrl": "https://drive.google.com/file/d/1kcmL6GQIgzB_lBh2VHz08PLyVJIObYU1/view",
+    "checked": "2026-11-21",
+    "savedKmlVerified": true
+  },
+  {
+    "id": "life-paris-bofinger",
+    "name": "🥂記念日候補｜ボファンジェ",
+    "imageCount": 1,
+    "source": "https://commons.wikimedia.org/wiki/File:Bofinger.JPG",
+    "driveUrl": "https://drive.google.com/file/d/10DyOBv53PzEBXJXz2GJBVBKJaNCqBPP9/view",
+    "checked": "2026-11-21",
+    "savedKmlVerified": true
+  },
+  {
+    "id": "life-paris-procope",
+    "name": "🥂記念日候補｜ル・プロコープ",
+    "imageCount": 1,
+    "source": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Cafe_Le_Procope,_Paris_-_2011.JPG",
+    "driveUrl": "https://drive.google.com/file/d/18kJSbKjAY67OYR_t7lAfdZ-r03Cu-TPp/view",
+    "checked": "2026-11-21",
+    "savedKmlVerified": true
+  }
+]

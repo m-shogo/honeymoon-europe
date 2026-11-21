@@ -1,5 +1,5 @@
 'use strict';
-const CACHE='honeymoon-companion-20261118-v2';
+const CACHE='honeymoon-companion-20261121-v3';
 const LOCAL=['./','index.html','assets/companion.css','assets/companion.js','assets/companion-core.js','assets/companion-data.json','assets/venice.jpg','assets/icon.svg','manifest.webmanifest'];
 self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(LOCAL))));
 self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k.startsWith('honeymoon-companion-')&&k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));

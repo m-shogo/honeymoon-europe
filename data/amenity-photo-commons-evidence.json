@@ -1,0 +1,334 @@
+{
+  "0": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "114203928": {
+          "pageid": 114203928,
+          "ns": 6,
+          "title": "File:Interior of the Bouillon Racine (Paris) (01).jpg",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg/1280px-Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1200,
+              "thumbheight": 1600,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/8/85/Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg/1280px-Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1200,
+                "height": 1600,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/8/85/Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/8/85/Interior_of_the_Bouillon_Racine_%28Paris%29_%2801%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Bouillon_Racine_(Paris)_(01).jpg",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/114203928",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2022-01-11 15:17:48",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Interior of the Bouillon Racine (Paris) (01)",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Bouillon Racine|Columns in Paris|Self-published work|Walls in Paris|Mosaics in Paris|Paris photographs taken on 2021-07-23|Mirrors in Paris|Sunflowers in Art Nouveau",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Interior of the Bouillon Racine (Paris)",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "23 July 2021, 14:22",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:Neoclassicism_Enthusiast\" title=\"User:Neoclassicism Enthusiast\">Neoclassicism Enthusiast</a>",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 4.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 4.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-4.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "1": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "22470417": {
+          "pageid": 22470417,
+          "ns": 6,
+          "title": "File:Bofinger.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bofinger.JPG/1280px-Bofinger.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1200,
+              "thumbheight": 1600,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bofinger.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/55/Bofinger.JPG/1280px-Bofinger.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1200,
+                "height": 1600,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bofinger.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/5/55/Bofinger.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Bofinger.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/22470417",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2012-10-30 21:04:32",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Bofinger",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "GFDL|Taken with Kodak EasyShare Z740|License migration redundant|Brasserie Bofinger|Self-published work",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Brasserie Bofinger at rue de la Bastille in <a href=\"//commons.wikimedia.org/wiki/Paris\" title=\"Paris\">Paris</a>",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2012-10-31",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+                  "source": "commons-desc-page"
+                },
+                "Permission": {
+                  "value": "<div style=\"clear:both; border: 1px solid #999; margin: 0.5em; padding: 0.5em; color:var(--color-base,#202122); background-color: var(--background-color-neutral, #eeefff);\">\n<p>You are free to use this picture for any purpose under the conditions specified in the license below as long as you credit its author, <b><a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a></b>.\n</p><p>Example:<span style=\"color:var(--color-base,#202122); background-color:var(--background-color-base,#fff)\">  LPLT / Wikimedia Commons</span>\n</p><p>A message on my <a href=\"//commons.wikimedia.org/wiki/User_talk:LPLT\" title=\"User talk:LPLT\">discussion page</a> would be welcome.\n</p>\n<hr>\n</div>",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  },
+  "2": {
+    "batchcomplete": "",
+    "query": {
+      "pages": {
+        "23669280": {
+          "pageid": 23669280,
+          "ns": 6,
+          "title": "File:Interior of the Cafe Le Procope, Paris - 2011.JPG",
+          "imagerepository": "local",
+          "imageinfo": [
+            {
+              "thumburl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG/1280px-Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+              "thumbwidth": 1200,
+              "thumbheight": 900,
+              "responsiveUrls": {
+                "2": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+              },
+              "thumbattribs": {
+                "src": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG/1280px-Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+                "decoding": "async",
+                "loading": "lazy",
+                "width": 1200,
+                "height": 900,
+                "srcset": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled 2x"
+              },
+              "url": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Interior_of_the_Cafe_Le_Procope%2C_Paris_-_2011.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+              "descriptionurl": "https://commons.wikimedia.org/wiki/File:Interior_of_the_Cafe_Le_Procope,_Paris_-_2011.JPG",
+              "descriptionshorturl": "https://commons.wikimedia.org/wiki/Special:Redirect/page/23669280",
+              "extmetadata": {
+                "DateTime": {
+                  "value": "2013-01-07 16:29:55",
+                  "source": "mediawiki-metadata",
+                  "hidden": ""
+                },
+                "ObjectName": {
+                  "value": "Interior of the Cafe Le Procope, Paris - 2011",
+                  "source": "mediawiki-metadata"
+                },
+                "CommonsMetadataExtension": {
+                  "value": 1.2,
+                  "source": "extension",
+                  "hidden": ""
+                },
+                "Categories": {
+                  "value": "Taken with Sony DSC-P92|Interior of Café Procope",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "Assessments": {
+                  "value": "",
+                  "source": "commons-categories",
+                  "hidden": ""
+                },
+                "ImageDescription": {
+                  "value": "Interior of the Cafe Le Procope, Paris - 2011",
+                  "source": "commons-desc-page"
+                },
+                "DateTimeOriginal": {
+                  "value": "2011-03-16",
+                  "source": "commons-desc-page"
+                },
+                "Credit": {
+                  "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> (<span lang=\"en\" dir=\"ltr\">Original text: <i><bdi lang=\"\">Φωτογράφηση του χρήστη DIMSFIKAS (Δημήτρη Σφήκα)</bdi></i></span>)",
+                  "source": "commons-desc-page"
+                },
+                "Artist": {
+                  "value": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/el:User:DIMSFIKAS\" class=\"extiw\" title=\"w:el:User:DIMSFIKAS\">DIMSFIKAS</a> at <a href=\"https://en.wikipedia.org/wiki/el:\" class=\"extiw\" title=\"w:el:\">Greek Wikipedia</a>.",
+                  "source": "commons-desc-page"
+                },
+                "LicenseShortName": {
+                  "value": "CC BY-SA 3.0",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "UsageTerms": {
+                  "value": "Creative Commons Attribution-Share Alike 3.0",
+                  "source": "commons-desc-page"
+                },
+                "AttributionRequired": {
+                  "value": "true",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "LicenseUrl": {
+                  "value": "https://creativecommons.org/licenses/by-sa/3.0",
+                  "source": "commons-desc-page"
+                },
+                "Copyrighted": {
+                  "value": "True",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "Restrictions": {
+                  "value": "",
+                  "source": "commons-desc-page",
+                  "hidden": ""
+                },
+                "License": {
+                  "value": "cc-by-sa-3.0",
+                  "source": "commons-templates",
+                  "hidden": ""
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

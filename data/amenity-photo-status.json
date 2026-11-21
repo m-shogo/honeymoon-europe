@@ -1,0 +1,182 @@
+[
+  {
+    "id": "life-venice-food",
+    "name": "Dal Moro’s（テイクアウト・パスタ）",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-venice-shop",
+    "name": "Coop ピアッツァーレ・ローマ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-rome-food",
+    "name": "All’Antico Vinaio（パンテオン周辺）",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-rome-shop",
+    "name": "Carrefour Express ジュスティニアーニ通り",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-barcelona-food",
+    "name": "Vinitus（コンセル・デ・セント通り）",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-barcelona-shop",
+    "name": "Carrefour Market ランブラス",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-paris-food",
+    "name": "Bouillon Chartier グラン・ブルヴァール",
+    "photoStatus": "地図内1枚表示・保存後KML検証済み",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-paris-shop",
+    "name": "Monoprix オペラ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-venice-madonna",
+    "name": "トラットリア・アッラ・マドンナ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-rome-carlomenta",
+    "name": "カルロ・メンタ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-barcelona-marina",
+    "name": "Carrefour Express マリーナ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-paris-monopdom",
+    "name": "Monop’ サン・ドミニク",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-paris-racine",
+    "name": "🥂記念日候補｜ブイヨン・ラシーヌ",
+    "photoStatus": "地図内1枚表示・保存後KML検証済み",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-paris-bofinger",
+    "name": "🥂記念日候補｜ボファンジェ",
+    "photoStatus": "地図内1枚表示・保存後KML検証済み",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "life-paris-procope",
+    "name": "🥂記念日候補｜ル・プロコープ",
+    "photoStatus": "地図内1枚表示・保存後KML検証済み",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-venice-1",
+    "name": "🚻ヴェネツィア｜ディウルノ・サンマルコ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-venice-2",
+    "name": "🚻ヴェネツィア｜リアルト・ノーヴォ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-venice-3",
+    "name": "🚻ヴェネツィア｜アカデミア橋下",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-venice-4",
+    "name": "🚻ヴェネツィア｜ピアッツァーレ・ローマ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-rome-1",
+    "name": "🚻ローマ｜P.Stop ナヴォーナ広場北",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-rome-2",
+    "name": "🚻ローマ｜P.Stop スペイン広場",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-rome-3",
+    "name": "🚻ローマ｜P.Stop テルミニ駅西",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-paris-1",
+    "name": "🚻パリ｜エッフェル塔南東",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-paris-2",
+    "name": "🚻パリ｜ルーブル東・レアール",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-paris-3",
+    "name": "🚻パリ｜ノートルダム北",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-paris-4",
+    "name": "🚻パリ｜オペラ・カプシーヌ",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-paris-5",
+    "name": "🚻パリ｜モンマルトル麓",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-barcelona-1",
+    "name": "🚻バルセロナ｜サグラダ・ファミリア図書館",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-barcelona-2",
+    "name": "🚻バルセロナ｜大聖堂前",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  },
+  {
+    "id": "wc-barcelona-3",
+    "name": "🚻バルセロナ｜ボケリア市場地下",
+    "photoStatus": "未登録：個別場所と利用条件を確認できる写真を未取得。Commons検索APIはHTTP429制限",
+    "checked": "2026-11-21"
+  }
+]

@@ -16,6 +16,9 @@ def description(p):
     text+='\n公式・出典：'+p['source']
     for source in p.get('extraSources',[]):text+='\n補足出典：'+source
     if p.get('japaneseSource'):text+='\n日本語紹介の出典：'+p['japaneseSource']
+    if p.get('photo'):
+        ph=p['photo']
+        text+='\n写真：'+ph['author']+' / Wikimedia Commons / '+ph['license']+'\n写真出典：'+ph['source']+'\n写真ライセンス：'+ph['licenseUrl']+'\n写真（Drive）：'+ph['driveUrl']
     text+='\nGoogleマップ：'+p['mapUrl']
     return text
 def main():
@@ -31,7 +34,7 @@ def main():
         w=csv.writer(f);w.writerow(['Name','Description','Address','City','Category','Google Maps URL','ID'])
         for p in places:w.writerow([p['name'],description(p),p['query'],p['city'],p['type'],p['mapUrl'],p['id']])
     essentials=json.loads((ROOT/'data/daily-essentials.json').read_text())
-    essentials['places']=[dict(id=p['id'],city=p['city'],name=p['name'],type=p['type'],query=p.get('query') or ','.join(map(str,p['coords'])),note=description(p),source=p['source']) for p in places+wc]
+    essentials['places']=[dict(id=p['id'],city=p['city'],name=p['name'],type=p['type'],query=p.get('query') or ','.join(map(str,p['coords'])),note=description(p),source=p['source'],checked=p['checked'],**({'photo':p['photo']} if p.get('photo') else {})) for p in places+wc]
     for c in essentials['cities']:
         if c['id']=='rome':c['toiletNote']='P.Stopの総合案内は€1、個別施設案内は€1.50と不一致。現地料金を確認。チッタ・レオニーナは工事休止の公式案内があるため利用候補から除外。'
     (ROOT/'data/daily-essentials.json').write_text(json.dumps(essentials,ensure_ascii=False,indent=2)+'\n')

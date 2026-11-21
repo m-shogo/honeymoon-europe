@@ -88,3 +88,7 @@ node scripts/validate-trip.mjs
 ## 85スポット・定番候補と作品ゆかり（2026-11-16最新版）
 
 [写真付き地図](https://www.google.com/maps/d/viewer?mid=1gKS7F8p3_YdS952P8K2jDE28-1epSAM)を85件へ更新。既存62件を保持し、定番候補16件・映画アニメ寄り道7件を追加。32ピンに作品・場面情報、10ピンに2枚目の場面画像を登録。[更新結果・採否の選び方・未確定事項](docs/classic-film-expansion.md)を参照。候補は既存旅程へ自動追加していない。上記の61/62件の記述は過去の完了履歴。
+
+### 2/1出発案の予約整理
+
+[予約優先順と日程の懸念](docs/booking-priority-feb01.md)を、旅行サイトの `booking.html` と共通データから生成。記念日候補の空席確認と生活写真の出典は [生活スポットの作業記録](docs/map-amenities-2026-11.md) を参照。
