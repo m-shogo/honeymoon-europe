@@ -83,3 +83,8 @@ GitHub Pagesの公開データを取得し、観光85件・生活30件を確認�
 検証：`data/amenity-photo-registration.json`、地図の4枚と予約画面の記録は `docs/evidence/*20270211*`、`docs/evidence/*map-photo-registered.jpg`。
 
 [2月1日出発の予約優先順と懸念](booking-priority-feb01.md)を追加。価格や販売開始の目安と、実際の空席確認を区別している。
+
+
+公開後も `booking.html` の本文と公開データの写真4件を取得し、ブラウザで予約一覧を確認。My Mapsの新しい閲覧タブでラシーヌを検索して開き、写真と最新予約説明が残っていることを確認。スマートフォン幅390pxで予約一覧に横はみ出しがないこと、生活写真4枚の読み込み完了も確認した。実機スマートフォンでの検証ではない。
+
+補助シートの変更4セルを読戻し一致確認し、変更行だけ高さを調整。既存15件の行順・IDと他セルは維持。`docs/evidence/amenity-sheet-photo-credit.jpg` はGoogleネイティブ表示の記録。
