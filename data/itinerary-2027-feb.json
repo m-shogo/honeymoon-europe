@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-16",
+  "updated_at": "2026-11-23",
   "status": "route_almost_fixed_feb01_primary_unbooked",
   "title": "新婚旅行｜2027年2月・羽田→ミラノ→ヴェネツィア→ローマ→バルセロナ→パリ→羽田",
   "authoritative_for": "現時点の最新旅程（旧12・14・16日モデルとは別、こちらを優先）",
@@ -152,7 +152,7 @@
       "status": "到着空港とホテル未確定"
     }
   ],
-  "chosen_date_status": "unconfirmed_all_flight_options_allowed",
+  "chosen_date_status": "unconfirmed_compare_direct_vs_overnight_or_same_day_connections",
   "provisional_preferred_departure": "2027-02-01",
   "departure_options": [
     {
@@ -281,14 +281,15 @@
     },
     {
       "start": "2027-02-08",
-      "label": "比較候補・現行11泊なら帰国期限超過",
-      "grade": "deadline_incompatible",
+      "label": "候補・同日イタリア入りなら2/20帰国可能",
+      "grade": "conditional_viable_with_same_day_arrival",
       "notes": [
         "11泊・4都市泊数そのままだとパリ2/20発→羽田2/21着、2/20帰国希望に反する",
         "期限内に戻る場合はパリ2/19発・3泊へ短縮、モンサン・ディズニー・市街地を十分に回る時間が不足",
         "2/11（木）はバチカン美術館休館、2/12（金）に見学予定",
         "ヴェネツィア2/9カーニバル最終日、2/10魚市場営業",
-        "同一ホテル日付別保存価格11泊参考合計$1,937。ANA実売未確認"
+        "同一ホテル日付別保存価格11泊参考合計$1,937。ANA実売未確認",
+        "重要訂正：羽田EK313 00:05→ミラノ同日13:05またはパリ経由同日ヴェネツィア着なら、ヴェネツィア2/8・9泊→パリ2/15〜18泊→2/19パリ発・2/20羽田着で期限内。2/11バチカン休館、ディズニー混雑は不利。"
       ],
       "outbound_haneda": "2027-02-08",
       "milan_and_venice_arrival": "2027-02-09",
@@ -319,7 +320,30 @@
         "barcelona_to_paris": "2027-02-16"
       },
       "paris_departure": "2027-02-20",
-      "haneda_arrival": "2027-02-21"
+      "haneda_arrival": "2027-02-21",
+      "same_day_arrival_alternative": {
+        "venice": [
+          "2027-02-08",
+          "2027-02-09"
+        ],
+        "rome": [
+          "2027-02-10",
+          "2027-02-11"
+        ],
+        "barcelona": [
+          "2027-02-12",
+          "2027-02-13",
+          "2027-02-14"
+        ],
+        "paris": [
+          "2027-02-15",
+          "2027-02-16",
+          "2027-02-17",
+          "2027-02-18"
+        ],
+        "paris_departure": "2027-02-19",
+        "haneda_arrival": "2027-02-20"
+      }
     },
     {
       "start": "2027-01-30",
@@ -582,7 +606,7 @@
     "https://www.flight.info/VY8062",
     "https://www.louvre.fr/en/visit/hours-admission"
   ],
-  "latest_comparison_doc": "docs/2027-jan29-30-31-vs-feb01-comparison.md",
+  "latest_comparison_doc": "docs/2027-jan29-feb08-all-routes-compare.md",
   "days_note": "daysは2027-02-01出発の暫定第一候補14日モデル。2/6・2/8はdeparture_optionsと比較文書を参照。日付正式決定後に施設予約時刻を確定する。",
   "price_comparison_as_of": "2026-11-15",
   "price_comparison_notes": "ANAオープンジョー3日付組の実売未取得。同一ホテル・2名1室11泊を比較するAxel保存参考価格USD: 2/1 $1921, 2/6 $2072, 2/8 $1937（税や特定部屋条件の再確認必須）。",
@@ -612,7 +636,7 @@
     "flight_airport_note": "FCO11時着→12:35発は余裕が少ないため、9:30〜10:00空港着を別の推奨案として保持。本人案は上書きしない。",
     "booking_status": "未確認・予約済みとは扱わない"
   },
-  "jan_29_31_flight_constraint": "NH207 no operation Fri Jan 29 and Sun Jan 31, but THESE DATES ARE STILL ELIGIBLE via Dubai or Paris connecting flights; do not exclude them.",
+  "jan_29_31_flight_constraint": "Jan29 and Jan31 have no NH207 but Dubai or Paris transfer exists in principle. Same-day Venice arrival (Paris) and same-day Milan arrival (EK313 HND 00:05) may shift hotel nights and return date by one day; exact sale availability unverified.",
   "flight_choice_policy": {
     "long_haul_preference": "Compare total itinerary, not ANA nonstop only. Emirates via Dubai, ANA or Air France via Paris, and other feasible one-stop options are valid.",
     "outbound_candidates": [
@@ -624,7 +648,42 @@
       "2027-02-06",
       "2027-02-08"
     ],
-    "note": "NH207 only operates Mon/Wed/Sat but Fridays/Sundays are NOT excluded dates; arrival timestamps and Venice station/rail segments must be reoptimized for connecting flights. EK321 NRT 21:30→MXP next day 13:05 (example) cannot take 12:00 Milan rail. EK313 HND 00:05 departure date must be handled carefully. Need verify exact 2027 date specific flight inventory, price, layover, connection, baggage and hotel check-in.",
-    "booking_status": "route choices not confirmed"
+    "note": "Compare 11 hotel nights starting on flight departure day OR following day depending on selected route. Do not disqualify Feb 8 automatically: same-day Venice arrival allows Feb 20 Haneda return; next-day does not.",
+    "booking_status": "route choices not confirmed",
+    "arrivals_may_be_same_day": "Emirates EK313 HND 00:05 -> MXP 13:05 on same Japanese calendar date (Dubai transfer, approx 21h). ANA NH215 HND 09:50 -> CDG 16:30 + AF1326 CDG 21:30 -> Venice 23:15 on same local date for some candidate dates, if booking allows. Dates and connection inventory must be checked.",
+    "apply_to_all_candidates": true
+  },
+  "feb_08_deadline_exception": "2027-02-08 departure with same-day arrival to Venice (via Emirates HND00:05→MXP13:05+rail or ANA NH215→AF1326 Paris→Venice late) permits 11 hotel nights and Paris departure Feb 19, Haneda Feb 20. With NH207 next-day arrival, Feb21 return violates deadline.",
+  "additional_competitive_scenario": {
+    "start": "2027-02-03",
+    "arrival": "2027-02-03",
+    "route": "EK313 HND 00:05 -> DXB -> MXP 13:05 -> Venezia train, OR NH215 HND 09:50 -> CDG 16:30 -> AF1326 21:30 -> VCE 23:15",
+    "venice_hotel": [
+      "2027-02-03",
+      "2027-02-04"
+    ],
+    "rome_hotel": [
+      "2027-02-05",
+      "2027-02-06"
+    ],
+    "barcelona_hotel": [
+      "2027-02-07",
+      "2027-02-08",
+      "2027-02-09"
+    ],
+    "paris_hotel": [
+      "2027-02-10",
+      "2027-02-11",
+      "2027-02-12",
+      "2027-02-13"
+    ],
+    "paris_departure": "2027-02-14",
+    "haneda_arrival": "2027-02-15",
+    "notes": [
+      "Vatican museum on Sat Feb 6, not closed Sun Feb 7",
+      "Venice Carnival street show Thu Feb 4 plus Rialto fish market Thu open",
+      "DLP Thu Feb 11 third-party forecast 46 vs Feb 1 model Wed Feb 10 forecast44",
+      "Late Venice arrival, different flight cost and baggage connection unverified"
+    ]
   }
 }
