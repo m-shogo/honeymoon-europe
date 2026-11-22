@@ -406,9 +406,10 @@
     },
     {
       "start": "2027-01-31",
-      "label": "対抗案：1/31成田夜発ドバイ乗継→2/1ミラノ午後着",
+      "label": "有力第二候補：成田→ドバイ→ヴェネツィア直行接続、2/1 13:15 VCE着",
       "grade": "strong_alternative",
       "notes": [
+        "訂正：ミラノ経由不要。EK135はドバイからヴェネツィアVCEへ直行。2/1 13:15に到着し、バスや水上バスで本島ホテルへ。",
         "1/31 NRT EK321 21:30→2/1 MXP 13:05ならホテルはVenice 2/1-2、Rome 2/3-4、Barcelona 2/5-7、Paris 2/8-11。",
         "Venice Rialto fish market Tuesday 2/2 FULL DAY open, not departure morning only.",
         "Rome full sightseeing Thursday Feb4 Vatican and Colosseum, Wednesday Papal Audience usually before Rome arrival.",
@@ -448,7 +449,9 @@
         "venice_to_rome": "2027-02-03",
         "rome_to_barcelona": "2027-02-05",
         "barcelona_to_paris": "2027-02-08"
-      }
+      },
+      "route": "Emirates EK321 NRT21:30 (Jan31) -> DXB04:40+1 / 4h55 layover -> EK135 DXB09:35 -> VCE13:15 (Feb1)",
+      "destination_airport": "VCE"
     }
   ],
   "days": [
@@ -682,7 +685,27 @@
     "note": "Compare 11 hotel nights starting on flight departure day OR following day depending on selected route. Do not disqualify Feb 8 automatically: same-day Venice arrival allows Feb 20 Haneda return; next-day does not.",
     "booking_status": "route choices not confirmed",
     "arrivals_may_be_same_day": "Emirates EK313 HND 00:05 -> MXP 13:05 on same Japanese calendar date (Dubai transfer, approx 21h). ANA NH215 HND 09:50 -> CDG 16:30 + AF1326 CDG 21:30 -> Venice 23:15 on same local date for some candidate dates, if booking allows. Dates and connection inventory must be checked.",
-    "apply_to_all_candidates": true
+    "apply_to_all_candidates": true,
+    "jan31_preferred_flight_option": {
+      "flight_date": "2027-01-31",
+      "airport": "NRT",
+      "first": "EK321 NRT 21:30 -> DXB 04:40 +1",
+      "connection": "DXB 4h55",
+      "second": "EK135 DXB 09:35 -> Venice Marco Polo VCE 13:15",
+      "arrival_date": "2027-02-01",
+      "total_duration": "23h45",
+      "must_not_route_via_milan": true,
+      "note": "Schedules verified on Emirates route page, not actual 2-adult ticket inventory or fare."
+    },
+    "jan31_same_day_arrival_option": {
+      "flight_date": "2027-01-31",
+      "airport": "HND",
+      "first": "EK313 HND 00:05 (arrive airport Jan30 night) -> DXB 06:55",
+      "second": "EK135 DXB 09:35 -> VCE 13:15",
+      "arrival_date": "2027-01-31",
+      "total_duration": "21h10",
+      "note": "different Venice hotel dates: Jan31 and Feb1; distinct itinerary"
+    }
   },
   "feb_08_deadline_exception": "2027-02-08 departure with same-day arrival to Venice (via Emirates HND00:05→MXP13:05+rail or ANA NH215→AF1326 Paris→Venice late) permits 11 hotel nights and Paris departure Feb 19, Haneda Feb 20. With NH207 next-day arrival, Feb21 return violates deadline.",
   "additional_competitive_scenario": {
@@ -741,5 +764,5 @@
       "https://www.flight.info/VY8062"
     ]
   },
-  "jan31_vs_feb01_comparison_note": "Corrected: Jan31 departing Narita 21:30 via Dubai => MXP Feb1 13:05 => Venice hotels Feb1, Feb2, Rome Feb3,4, BCN Feb5-7, Paris Feb8-11, CDG Feb12, HND Feb13. Rialto fish market opens Feb2 Tue FULL DAY; Vatican Feb4 Thu (not Wed audience); Friday Feb5 FCO→BCN VY6007 12:35 matches published weekdays; Monday Feb8 BCN→CDG 15:40. DLP Feb10 Wed 44 same day available to BOTH Jan31 and Feb1 models, so no Disney crowd advantage for Feb1 if itinerary optimized. Feb1 ANA direct arrives Venice afternoon Feb2 (more sightseeing and less flight time). Prices not verified. Distinguish Jan31 same-day midnight EK313 alternative."
+  "jan31_vs_feb01_comparison_note": "2026-11-23 CORRECTION: Emirates Jan31 21:30 NRT EK321→Feb1 04:40 DXB connection 4h55→09:35 EK135 DXB→Feb1 13:15 VCE (Venice Marco Polo), 23h45 end-to-end. Do NOT route via Milan by default. Venice hotel Feb1-2, Rome Feb3-4, Barcelona Feb5-7, Paris Feb8-11, NH216 Paris Feb12→Haneda Feb13. Vatican Feb4 Thu, Rialto fish market Feb2 Tue; Disney Feb10 Wed works for BOTH Jan31 and Feb1 options. Haneda alternative EK313 departs Jan31 00:05 (airport arrival Jan30 night)→VCE Jan31 13:15, shifting hotels one day earlier. Tickets not priced or confirmed."
 }
