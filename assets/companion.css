@@ -10,3 +10,5 @@
 .amenity-photo{display:block;width:100%;height:190px;object-fit:cover;border-radius:8px;margin:0 0 8px}.booking-summary{margin-top:20px}
 
 .warning-summary{border-left:4px solid #b07227;background:#fffaf0}.schedule-warnings{padding:0;list-style:none}.schedule-warning{padding:14px;margin:12px 0;border:1px solid #dbc9a5;border-radius:8px;background:#fffdf6;overflow-wrap:anywhere}.schedule-warning.closed{border-color:#ba4b3e;border-left:5px solid #ba4b3e}.schedule-warning p{margin:8px 0;font-size:13px}.schedule-warning.check{border-style:dashed}.schedule-warning .source{display:inline-block;min-height:36px;padding-top:8px}
+
+.nearby-registered{margin-top:1.5rem}.nearby-list{list-style:none;padding:0}.nearby-list li{padding:1rem 0;border-bottom:1px solid var(--line,#ddd)}.nearby-list strong,.nearby-list span{display:block}.nearby-registered h4{margin:1.2rem 0 .4rem}.map-help li{margin:.6rem 0}

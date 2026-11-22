@@ -34,6 +34,9 @@ const Core={
   });
   return {dates,items,checked:db.scheduleRules?.checked||'',outsideYear:dates.length>0&&dates.some(d=>d.slice(0,4)!==String(db.scheduleRules?.year)),basis:'都市順・ホテル11泊の標準案で再計算。追加した場所はその日を優先して判定します。到着日の目安は便・列車の変更に自動追従しません。'};
  },
+ distance(a,b){const valid=x=>Array.isArray(x)&&x.length===2&&x.every(Number.isFinite)&&Math.abs(x[0])<=90&&Math.abs(x[1])<=180;if(!valid(a)||!valid(b))return null;const rad=v=>v*Math.PI/180,dlat=rad(b[0]-a[0]),dlon=rad(b[1]-a[1]);const h=Math.sin(dlat/2)**2+Math.cos(rad(a[0]))*Math.cos(rad(b[0]))*Math.sin(dlon/2)**2;return 6371000*2*Math.asin(Math.sqrt(Math.min(1,h)));},
+ nearest(place,candidates,limit=3,maxMeters=2000){return candidates.filter(p=>p.id!==place.id&&p.city===place.city).map(p=>({place:p,meters:this.distance(place.coords,p.coords)})).filter(x=>x.meters!==null&&x.meters<=maxMeters).sort((a,b)=>a.meters-b.meters).slice(0,limit);},
+ myMap(coords,zoom=15){const u=new URL('https://www.google.com/maps/d/viewer');u.searchParams.set('mid','1gKS7F8p3_YdS952P8K2jDE28-1epSAM');if(this.distance(coords,coords)===0){u.searchParams.set('ll',coords.join(','));u.searchParams.set('z',String(zoom));}return u.href;},
  search(query){return 'https://www.google.com/maps/search/?'+new URLSearchParams({api:'1',query});},
  directions(points,mode='walking',origin=''){const p=points.filter(Boolean);if(!p.length)return '';const q={api:'1',travelmode:mode,destination:p.at(-1)};if(origin)q.origin=origin;else if(p.length>1)q.origin=p[0];const middle=origin?p.slice(0,-1):p.slice(1,-1);if(mode==='walking'&&middle.length)q.waypoints=middle.slice(0,3).join('|');return 'https://www.google.com/maps/dir/?'+new URLSearchParams(q);},
  yen(eur,rate){const a=Number(eur),b=Number(rate);return Number.isFinite(a)&&Number.isFinite(b)&&a>=0&&b>0?Math.round(a*b):null;},
