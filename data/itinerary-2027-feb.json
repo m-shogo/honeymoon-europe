@@ -152,7 +152,7 @@
       "status": "到着空港とホテル未確定"
     }
   ],
-  "chosen_date_status": "unconfirmed_2027_01_30_vs_02_01",
+  "chosen_date_status": "unconfirmed_all_flight_options_allowed",
   "provisional_preferred_departure": "2027-02-01",
   "departure_options": [
     {
@@ -364,6 +364,36 @@
       },
       "paris_departure": "2027-02-11",
       "haneda_arrival": "2027-02-12"
+    },
+    {
+      "start": "2027-01-29",
+      "label": "Eligible: connecting flight via Dubai or Paris; timing to be recalculated",
+      "grade": "candidate_flight_timing_pending",
+      "notes": [
+        "Do not treat ANA NH207 not operating as inability to travel",
+        "Check EK321 from NRT 21:30 or ANA NH215 via CDG; specific date availability unverified",
+        "Expected Milan arrival and connection into Venice may be later than original itinerary, so hotel 2 nights and 14 calendar days must be recalculated from selected flights"
+      ],
+      "outbound_haneda": null,
+      "milan_and_venice_arrival": null,
+      "hotel_nights": null,
+      "paris_departure": null,
+      "haneda_arrival": null
+    },
+    {
+      "start": "2027-01-31",
+      "label": "Eligible: connecting flight via Dubai or Paris; timing to be recalculated",
+      "grade": "candidate_flight_timing_pending",
+      "notes": [
+        "Do not treat ANA NH207 not operating as inability to travel",
+        "Check EK321 from NRT 21:30 or ANA NH215 via CDG; specific date availability unverified",
+        "Expected Milan arrival and connection into Venice may be later than original itinerary, so hotel 2 nights and 14 calendar days must be recalculated from selected flights"
+      ],
+      "outbound_haneda": null,
+      "milan_and_venice_arrival": null,
+      "hotel_nights": null,
+      "paris_departure": null,
+      "haneda_arrival": null
     }
   ],
   "days": [
@@ -582,5 +612,19 @@
     "flight_airport_note": "FCO11時着→12:35発は余裕が少ないため、9:30〜10:00空港着を別の推奨案として保持。本人案は上書きしない。",
     "booking_status": "未確認・予約済みとは扱わない"
   },
-  "jan_29_31_flight_constraint": "NH207 2027年1月29日（金）と1月31日（日）は運航なし。1月30日（土）のみ有効。"
+  "jan_29_31_flight_constraint": "NH207 no operation Fri Jan 29 and Sun Jan 31, but THESE DATES ARE STILL ELIGIBLE via Dubai or Paris connecting flights; do not exclude them.",
+  "flight_choice_policy": {
+    "long_haul_preference": "Compare total itinerary, not ANA nonstop only. Emirates via Dubai, ANA or Air France via Paris, and other feasible one-stop options are valid.",
+    "outbound_candidates": [
+      "2027-01-29",
+      "2027-01-30",
+      "2027-01-31",
+      "2027-02-01",
+      "2027-02-03",
+      "2027-02-06",
+      "2027-02-08"
+    ],
+    "note": "NH207 only operates Mon/Wed/Sat but Fridays/Sundays are NOT excluded dates; arrival timestamps and Venice station/rail segments must be reoptimized for connecting flights. EK321 NRT 21:30→MXP next day 13:05 (example) cannot take 12:00 Milan rail. EK313 HND 00:05 departure date must be handled carefully. Need verify exact 2027 date specific flight inventory, price, layover, connection, baggage and hotel check-in.",
+    "booking_status": "route choices not confirmed"
+  }
 }
