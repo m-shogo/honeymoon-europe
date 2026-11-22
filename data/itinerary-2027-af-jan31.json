@@ -200,5 +200,26 @@
     "Barcelona Palau de la Musica interior/Sant Pau Hospital interior/Monjuic castle",
     "Paris Versailles/Loire/Orsay/Orange museum/Opera Garnier interior/Montmartre unless city-day swapped"
   ],
-  "source_of_truth_note": "This is a candidate; preserve data/itinerary-2027-feb.json and original 47 spot IDs. If user confirms, update primary scenario only then."
+  "source_of_truth_note": "This is a candidate; preserve data/itinerary-2027-feb.json and original 47 spot IDs. If user confirms, update primary scenario only then.",
+  "latest_castle_airfare_analysis_doc": "docs/2027-af-castel-santangelo-bcn-paris-ticket-options.md",
+  "optional_castel_sant_angelo": {
+    "visit_date": "2027-02-04",
+    "admission": "€18 per adult, €36 for two",
+    "schedule": "Tue-Sun 09:00-19:30 last admission 18:30",
+    "estimated_duration_minutes": "90-120",
+    "alternative_to": "Foro Romano interior",
+    "visit_time_candidate": "16:30-18:15 after Colosseum, conditional on Vatican + Colosseum timings",
+    "priority": "User interested; undecided",
+    "film_reference": "Angels & Demons movie setting; interiors in film may be sets",
+    "passetto": "Separate guided tour for historic corridor"
+  },
+  "air_france_european_segment_booking_options": {
+    "flight_date": "2027-02-08",
+    "flight": "AF1649 BCN 15:00 -> CDG 17:00, 2h flight (timetable verified, inventory unverified)",
+    "later_option": "AF1549 BCN 17:55 -> CDG 19:55, less desirable ahead of Mont Saint Michel early departure",
+    "option_a": "AF three-segment multi-city in one ticket: HND-VCE Jan31; BCN-CDG Feb8; CDG-HND Feb12",
+    "option_b": "AF two segment open-jaw HND-VCE Jan31 and CDG-HND Feb12 + AF BCN-CDG Feb8 one-way",
+    "fare_difference_verified": false,
+    "note": "Multi-city not automatically cheaper, stopover fare rules and remaining-coupon order constraints if all one ticket. Price AF one-way reference other date Feb26 ¥27040+ not valid Feb8 price."
+  }
 }
