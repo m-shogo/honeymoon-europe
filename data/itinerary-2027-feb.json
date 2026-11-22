@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "updated_at": "2026-11-23",
-  "status": "route_almost_fixed_feb01_primary_unbooked",
+  "status": "route_almost_fixed_2027_feb_airlines_and_dates_unbooked",
   "title": "新婚旅行｜2027年2月・羽田→ミラノ→ヴェネツィア→ローマ→バルセロナ→パリ→羽田",
   "authoritative_for": "現時点の最新旅程（旧12・14・16日モデルとは別、こちらを優先）",
   "source": "2026-11-15本人提供の移動便・ホテル泊数と、公開公式情報の検証",
@@ -764,5 +764,105 @@
       "https://www.flight.info/VY8062"
     ]
   },
-  "jan31_vs_feb01_comparison_note": "2026-11-23 CORRECTION: Emirates Jan31 21:30 NRT EK321→Feb1 04:40 DXB connection 4h55→09:35 EK135 DXB→Feb1 13:15 VCE (Venice Marco Polo), 23h45 end-to-end. Do NOT route via Milan by default. Venice hotel Feb1-2, Rome Feb3-4, Barcelona Feb5-7, Paris Feb8-11, NH216 Paris Feb12→Haneda Feb13. Vatican Feb4 Thu, Rialto fish market Feb2 Tue; Disney Feb10 Wed works for BOTH Jan31 and Feb1 options. Haneda alternative EK313 departs Jan31 00:05 (airport arrival Jan30 night)→VCE Jan31 13:15, shifting hotels one day earlier. Tickets not priced or confirmed."
+  "jan31_vs_feb01_comparison_note": "2026-11-23 CORRECTION: Emirates Jan31 21:30 NRT EK321→Feb1 04:40 DXB connection 4h55→09:35 EK135 DXB→Feb1 13:15 VCE (Venice Marco Polo), 23h45 end-to-end. Do NOT route via Milan by default. Venice hotel Feb1-2, Rome Feb3-4, Barcelona Feb5-7, Paris Feb8-11, NH216 Paris Feb12→Haneda Feb13. Vatican Feb4 Thu, Rialto fish market Feb2 Tue; Disney Feb10 Wed works for BOTH Jan31 and Feb1 options. Haneda alternative EK313 departs Jan31 00:05 (airport arrival Jan30 night)→VCE Jan31 13:15, shifting hotels one day earlier. Tickets not priced or confirmed.",
+  "latest_airfare_and_schedule_comparison_doc": "docs/2027-airfare-haneda-evening-return-compare.md",
+  "user_flight_preferences": {
+    "outbound_airport_preferred": "HND (NRT acceptable if strong fare or itinerary advantage)",
+    "return_airport_preferred": "HND (NRT acceptable)",
+    "return_japan_local_time_target": "around 21:00, prefer 20:00-21:00",
+    "do_not_combine_outbound_and_return_flight_hours": true,
+    "calculate_each_flight_segment_separately": true,
+    "airfare_compare_on_same_conditions": "two adult economy multi-city HND/NRT->VCE/MXP, CDG->HND/NRT; taxes, fuel, checked baggage included",
+    "actual_comparable_fares_verified": false
+  },
+  "current_aviation_options": {
+    "haneda_emirates_feb1_midnight": {
+      "date": "2027-02-01",
+      "airport_check_in_date": "2027-01-31",
+      "first": "EK313 HND 00:05 -> DXB 06:55 flight 11h50m",
+      "layover": "DXB 2h40m",
+      "second": "EK135 DXB 09:35 -> Venice Marco Polo VCE 13:15 flight 6h40m",
+      "arrival_date": "2027-02-01",
+      "venice_hotel_nights": [
+        "2027-02-01",
+        "2027-02-02"
+      ],
+      "rome_hotel_nights": [
+        "2027-02-03",
+        "2027-02-04"
+      ],
+      "barcelona_hotel_nights": [
+        "2027-02-05",
+        "2027-02-06",
+        "2027-02-07"
+      ],
+      "paris_hotel_nights": [
+        "2027-02-08",
+        "2027-02-09",
+        "2027-02-10",
+        "2027-02-11"
+      ],
+      "paris_departure": "2027-02-12",
+      "haneda_arrival": "2027-02-13"
+    },
+    "narita_emirates_jan31_night": {
+      "date": "2027-01-31",
+      "first": "EK321 NRT 21:30 -> DXB +1 04:40 flight 12h10m",
+      "layover": "DXB 4h55m",
+      "second": "EK135 DXB 09:35 -> VCE 13:15 flight 6h40m",
+      "arrival_date": "2027-02-01",
+      "note": "Same European hotel dates as Feb1 HND 00:05 EK option; Narita flight overall 2h35m longer."
+    },
+    "haneda_emirates_jan31_midnight": {
+      "date": "2027-01-31",
+      "airport_check_in_date": "2027-01-30",
+      "first": "EK313 HND 00:05 -> DXB 06:55 flight 11h50m",
+      "layover": "DXB 2h40m",
+      "second": "EK135 DXB 09:35 -> VCE 13:15 flight 6h40m",
+      "arrival_date": "2027-01-31",
+      "paris_departure": "2027-02-11",
+      "haneda_arrival": "2027-02-12"
+    },
+    "ana_haneda_milan_feb1": {
+      "date": "2027-02-01",
+      "first": "NH207 HND 21:40 -> Milan MXP +1 04:50 flight 15h10m",
+      "venice_station_estimate": "2027-02-02 14:30",
+      "paris_departure": "2027-02-13",
+      "haneda_arrival": "2027-02-14"
+    }
+  },
+  "return_flight_options": [
+    {
+      "airline": "Air France",
+      "flight": "AF274",
+      "from": "CDG",
+      "to": "HND",
+      "departure_local": "22:20",
+      "arrival_local_next_day": "19:55",
+      "flight_duration": "13h35m",
+      "layover": "none",
+      "rank_for_time_preference": 1
+    },
+    {
+      "airline": "Emirates",
+      "flights": [
+        "EK76 CDG21:30 -> DXB07:20 +1 flight 6h50m",
+        "EK312 DXB08:20 -> HND22:30 flight 9h10m"
+      ],
+      "layover": "DXB 1h",
+      "arrival_local_next_day": "22:30",
+      "rank_for_time_preference": 2
+    },
+    {
+      "airline": "ANA",
+      "flight": "NH216",
+      "from": "CDG",
+      "to": "HND",
+      "departure_local": "18:40",
+      "arrival_local_next_day": "16:10",
+      "flight_duration": "13h30m",
+      "layover": "none",
+      "rank_for_time_preference": 3
+    }
+  ]
 }
