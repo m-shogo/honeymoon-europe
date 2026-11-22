@@ -683,7 +683,31 @@
       "Vatican museum on Sat Feb 6, not closed Sun Feb 7",
       "Venice Carnival street show Thu Feb 4 plus Rialto fish market Thu open",
       "DLP Thu Feb 11 third-party forecast 46 vs Feb 1 model Wed Feb 10 forecast44",
-      "Late Venice arrival, different flight cost and baggage connection unverified"
+      "Late Venice arrival, different flight cost and baggage connection unverified",
+      "ローマ→バルセロナ2/7(日)はVY6007 12:35の掲載なし。ITA AZ76 14:05->15:55またはVueling VY6001 09:45->11:35の時刻表例を比較。"
+    ]
+  },
+  "inter_europe_schedule_review": {
+    "reviewed_at": "2026-11-23",
+    "scope": "Flight.info timetable examples; exact day booking availability and price not verified",
+    "user_original_FCO_BCN": "12:35->14:25",
+    "matching_flight": "VY6007",
+    "weekend_warning": "2027-01-31 through 2027-02-12 VY6007 published weekdays only, so Feb 6 Saturday and Feb 7 Sunday do not match user selected 12:35 flight",
+    "feb_6_sat_alternatives": [
+      "VY6001 09:45->11:35",
+      "VY6015 19:50->21:40"
+    ],
+    "feb_7_sun_alternatives": [
+      "AZ76 14:05->15:55",
+      "VY6001 09:45->11:35"
+    ],
+    "BCN_CDG_note": "VY8062 around Feb9-10: 15:35->17:35 timetable not previous 15:40->17:40; verify purchase details",
+    "sources": [
+      "https://www.flight.info/VY6007",
+      "https://www.flight.info/VY6001",
+      "https://www.flight.info/VY6015",
+      "https://www.flight.info/AZ76",
+      "https://www.flight.info/VY8062"
     ]
   }
 }
