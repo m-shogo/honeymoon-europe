@@ -1,0 +1,204 @@
+{
+  "schema_version": 1,
+  "title": "2027欧州新婚旅行｜Air France往復・1/31羽田発・2/13羽田着",
+  "status": "PROVISIONAL_NOT_BOOKED",
+  "updated_at": "2026-11-23",
+  "constraints": {
+    "same_longhaul_airline": "Air France",
+    "departure": "2027-01-31",
+    "return": "2027-02-13",
+    "return_time": "19:55 HND",
+    "hotel_nights": 11,
+    "overnights_by_city": {
+      "venice": 2,
+      "rome": 2,
+      "barcelona": 3,
+      "paris": 4
+    },
+    "must_return_by": "2027-02-20"
+  },
+  "long_haul": {
+    "outbound": [
+      "AF279 HND 2027-01-31 22:55→CDG 2027-02-01 05:50",
+      "AF1426 CDG 2027-02-01 10:00→VCE 2027-02-01 11:45"
+    ],
+    "return": [
+      "AF274 CDG 2027-02-12 22:20→HND 2027-02-13 19:55"
+    ]
+  },
+  "intra_europe": {
+    "venice_to_rome": "2027-02-03 morning high-speed train, bookable schedule TBD",
+    "rome_to_barcelona": "2027-02-05 VY6007 FCO12:35→BCN14:25 (timetable only)",
+    "barcelona_to_paris": "2027-02-08 AF1649 BCN15:00→CDG17:00 (timetable only)"
+  },
+  "booking_verified": false,
+  "deep_analysis_doc": "docs/2027-af-jan31-feasibility-day-by-day.md",
+  "days": [
+    {
+      "date": "2027-01-31",
+      "city": "日本→パリ（機内泊）",
+      "transport": "HND22:55 AF279",
+      "outline": "羽田出発・機内泊",
+      "risks": [
+        "長距離便はAir France運航便"
+      ],
+      "load": "low"
+    },
+    {
+      "date": "2027-02-01",
+      "city": "ヴェネツィア（1泊目）",
+      "transport": "CDG05:50・AF1426 10:00→VCE11:45",
+      "outline": "13:30-14:30ホテル→リアルト橋→大運河→サンマルコ広場→夕食",
+      "risks": [
+        "到着日、疲労を考え施設内予約は少なめ",
+        "カーニバル期間中、公式街頭ショー日ではない"
+      ],
+      "load": "medium"
+    },
+    {
+      "date": "2027-02-02",
+      "city": "ヴェネツィア（2泊目）",
+      "transport": "",
+      "outline": "07:30リアルト魚市場→09:30サンマルコ寺院→11:00ドゥカーレ宮殿→午後街歩き・アクアアルタ書店→15:00ゴンドラ→夕食",
+      "risks": [
+        "魚市場は火曜営業",
+        "ムラーノ・ブラーノ離島は今回は見送り",
+        "ゴンドラ悪天候は中止あり"
+      ],
+      "load": "medium_high"
+    },
+    {
+      "date": "2027-02-03",
+      "city": "ヴェネツィア→ローマ（1泊目）",
+      "transport": "午前高速鉄道 約4時間",
+      "outline": "午後14時頃荷物預け→15:15真実の口→16:20パンテオン（時間なければ外観）→トレビの泉→スペイン階段→夕食",
+      "risks": [
+        "真実の口は17:50閉場",
+        "列車到着遅延の場合パンテオン内部を割愛"
+      ],
+      "load": "high"
+    },
+    {
+      "date": "2027-02-04",
+      "city": "ローマ（2泊目）",
+      "transport": "",
+      "outline": "07:15サン・ピエトロ大聖堂→09:00バチカン美術館・システィーナ礼拝堂→午後13:30コロッセオ→フォロロマーノ（時間があれば）→夕食",
+      "risks": [
+        "旅行の一番の過密日",
+        "美術館とコロッセオ時間予約",
+        "コロッセオは16:30閉場・最終入場15:30",
+        "サンタンジェロ城内部は見送り"
+      ],
+      "load": "very_high"
+    },
+    {
+      "date": "2027-02-05",
+      "city": "ローマ→バルセロナ（1泊目）",
+      "transport": "VY6007 FCO12:35→BCN14:25",
+      "outline": "朝FCOへ移動→ホテル16:00以降→カタルーニャ広場・グラシア通り散歩・夕食",
+      "risks": [
+        "ローマ午前の観光なし",
+        "Vuelingは欧州内別手配"
+      ],
+      "load": "medium"
+    },
+    {
+      "date": "2027-02-06",
+      "city": "バルセロナ（2泊目）",
+      "transport": "",
+      "outline": "09:00サグラダ・ファミリア→11:15カサ・バトリョ→13:00ボケリア市場→ゴシック地区・ランブラス・お土産→17:00ごろ地区カーニバル（ついでなら）",
+      "risks": [
+        "サリア地区の17:00パレードへ行くには地区移動が必要",
+        "市場と店は土曜営業",
+        "歩行と予約時間に注意"
+      ],
+      "load": "high"
+    },
+    {
+      "date": "2027-02-07",
+      "city": "バルセロナ（3泊目）",
+      "transport": "",
+      "outline": "09:30グエル公園→12:30カサ・ミラ→グラシア地区・海辺街歩き→夕食",
+      "risks": [
+        "日曜は一般店やボケリア市場休み",
+        "カサミラは日曜営業"
+      ],
+      "load": "medium"
+    },
+    {
+      "date": "2027-02-08",
+      "city": "バルセロナ→パリ（1泊目）",
+      "transport": "AF1649 BCN15:00→CDG17:00",
+      "outline": "午前軽い散歩→午後空港へ→19時台ホテル→近所で夕食",
+      "risks": [
+        "AF1649は公表ダイヤのみ、空席未確認",
+        "VY8062の月曜15:40は掲載されていない"
+      ],
+      "load": "medium"
+    },
+    {
+      "date": "2027-02-09",
+      "city": "パリ（2泊目）・モン・サン＝ミッシェル",
+      "transport": "",
+      "outline": "早朝Paris Montparnasse→TGV Rennes約2h→バス約1h15→修道院・島散策→夜パリ",
+      "risks": [
+        "片道ドアツードア4〜5h、全日12〜15h",
+        "2027実際の列車バスの時刻未確認",
+        "ルーブルは火曜休館のため合理的"
+      ],
+      "load": "very_high"
+    },
+    {
+      "date": "2027-02-10",
+      "city": "パリ（3泊目）・ディズニー",
+      "transport": "",
+      "outline": "朝RER A→Disneyland Paris終日→夜市内へ戻る",
+      "risks": [
+        "市内観光とは両立しない",
+        "学校冬休み期間",
+        "開園時間未発表"
+      ],
+      "load": "very_high"
+    },
+    {
+      "date": "2027-02-11",
+      "city": "パリ（4泊目）・中心部",
+      "transport": "",
+      "outline": "09:00ルーブル→昼シャンゼリゼ・凱旋門→午後エッフェル塔・トロカデロ→夕食",
+      "risks": [
+        "エッフェル塔頂上・凱旋門屋上・ルーブル全館を同日網羅は厳しい",
+        "写真スポット歩行を優先"
+      ],
+      "load": "high"
+    },
+    {
+      "date": "2027-02-12",
+      "city": "パリ→日本（機内泊）",
+      "transport": "CDG22:20 AF274",
+      "outline": "10:00ノートルダム→マレ・モントルグイユ・ギャラリーラファイエット等から2地区を選択→16:30荷物回収→17:30〜18:00空港へ",
+      "risks": [
+        "帰国日17:30頃にはパリ中心部を離れる",
+        "すべての商店街を回る時間はない"
+      ],
+      "load": "medium"
+    },
+    {
+      "date": "2027-02-13",
+      "city": "日本帰国",
+      "transport": "HND19:55 AF274",
+      "outline": "羽田到着→帰宅",
+      "risks": [
+        "到着時刻はダイヤ上で確定便予約は未実施"
+      ],
+      "load": "low"
+    }
+  ],
+  "unscheduled": [
+    "Venice Murano+Burano both full visits",
+    "Rome Castel Sant Angelo interior unless Vatican/Colosseum reduced",
+    "Pantheon interior if train late",
+    "Barcelona Palau de la Musica interior/Sant Pau Hospital interior/Monjuic castle",
+    "Paris Versailles/Loire/Orsay/Orange museum/Opera Garnier interior/Montmartre unless city-day swapped"
+  ],
+  "source_of_truth_note": "This is a candidate; preserve data/itinerary-2027-feb.json and original 47 spot IDs. If user confirms, update primary scenario only then."
+}
