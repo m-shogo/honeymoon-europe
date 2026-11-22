@@ -152,7 +152,7 @@
       "status": "到着空港とホテル未確定"
     }
   ],
-  "chosen_date_status": "2026-11-16本人の詳細旅程は2/1出発本線。補足回答では日付未定の選択もあるため発券確定とは扱わず、他候補は参考保存。",
+  "chosen_date_status": "unconfirmed_2027_01_30_vs_02_01",
   "provisional_preferred_departure": "2027-02-01",
   "departure_options": [
     {
@@ -320,6 +320,50 @@
       },
       "paris_departure": "2027-02-20",
       "haneda_arrival": "2027-02-21"
+    },
+    {
+      "start": "2027-01-30",
+      "label": "新・有力第二候補：バルセロナカーニバル＋日曜ヴェネツィア",
+      "grade": "alternative",
+      "notes": [
+        "ベネチア1/31午後の公式街頭ショーは開催日。ただし鉄道14:30着で観覧時間未確定",
+        "魚市場は1/31日・2/1月休み。2/2火の移動前7:30〜8:15のみ候補",
+        "ローマ2/3水はバチカン美術館営業も通常教皇謁見による混雑の可能性",
+        "バルセロナ2/4木到着は祭り開幕日、2/6土17:00サリア地区パレードが市公式で告知",
+        "パリ2/7〜11、ディズニー2/8月混雑予測58、ルーブル2/10水夜間開館",
+        "Axelのヴェネツィア保存参考: 1/31〜2/2 2人2泊 Carnival Palace $462, Ai Mori $309, NH Venezia $434。実売未確認",
+        "ANAと欧州内便の公式予約最終料金・空席未確認"
+      ],
+      "outbound_haneda": "2027-01-30",
+      "milan_and_venice_arrival": "2027-01-31",
+      "hotel_nights": {
+        "venice": [
+          "2027-01-31",
+          "2027-02-01"
+        ],
+        "rome": [
+          "2027-02-02",
+          "2027-02-03"
+        ],
+        "barcelona": [
+          "2027-02-04",
+          "2027-02-05",
+          "2027-02-06"
+        ],
+        "paris": [
+          "2027-02-07",
+          "2027-02-08",
+          "2027-02-09",
+          "2027-02-10"
+        ]
+      },
+      "intercity": {
+        "venice_to_rome": "2027-02-02",
+        "rome_to_barcelona": "2027-02-04",
+        "barcelona_to_paris": "2027-02-07"
+      },
+      "paris_departure": "2027-02-11",
+      "haneda_arrival": "2027-02-12"
     }
   ],
   "days": [
@@ -508,7 +552,7 @@
     "https://www.flight.info/VY8062",
     "https://www.louvre.fr/en/visit/hours-admission"
   ],
-  "latest_comparison_doc": "docs/2027-feb-01-06-08-comparison.md",
+  "latest_comparison_doc": "docs/2027-jan29-30-31-vs-feb01-comparison.md",
   "days_note": "daysは2027-02-01出発の暫定第一候補14日モデル。2/6・2/8はdeparture_optionsと比較文書を参照。日付正式決定後に施設予約時刻を確定する。",
   "price_comparison_as_of": "2026-11-15",
   "price_comparison_notes": "ANAオープンジョー3日付組の実売未取得。同一ホテル・2名1室11泊を比較するAxel保存参考価格USD: 2/1 $1921, 2/6 $2072, 2/8 $1937（税や特定部屋条件の再確認必須）。",
@@ -537,5 +581,6 @@
     ],
     "flight_airport_note": "FCO11時着→12:35発は余裕が少ないため、9:30〜10:00空港着を別の推奨案として保持。本人案は上書きしない。",
     "booking_status": "未確認・予約済みとは扱わない"
-  }
+  },
+  "jan_29_31_flight_constraint": "NH207 2027年1月29日（金）と1月31日（日）は運航なし。1月30日（土）のみ有効。"
 }
