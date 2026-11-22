@@ -152,7 +152,7 @@
       "status": "到着空港とホテル未確定"
     }
   ],
-  "chosen_date_status": "unconfirmed_prioritize_same_airline_air_france_or_emirates",
+  "chosen_date_status": "unconfirmed_AF_Jan31_vs_EK_Feb1_same_venice_date",
   "provisional_preferred_departure": "2027-02-01",
   "departure_options": [
     {
@@ -780,7 +780,8 @@
       "Emirates"
     ],
     "no_mixed_carrier_roundtrip": true,
-    "same_airline_clarification": "For the honeymoon long-haul outbound and return, the same operating airline is mandatory (e.g. AF + AF, or EK + EK). Intra-Europe flights between Rome/Barcelona/Paris are separate segments and need not be same airline unless user later clarifies."
+    "same_airline_clarification": "For the honeymoon long-haul outbound and return, the same operating airline is mandatory (e.g. AF + AF, or EK + EK). Intra-Europe flights between Rome/Barcelona/Paris are separate segments and need not be same airline unless user later clarifies.",
+    "comparative_quotes_for_selected_openjaw_date_obtained": false
   },
   "current_aviation_options": {
     "haneda_emirates_feb1_midnight": {
@@ -895,5 +896,64 @@
     "Outbound Emirates / return Air France",
     "Outbound Air France / return Emirates",
     "Outbound ANA / return Air France unless user explicitly changes must-same-airline rule"
-  ]
+  ],
+  "same_hotels_competing_flight_paths": {
+    "air_france_both_legs": {
+      "outbound_flight_date": "2027-01-31",
+      "outbound": "AF279 HND Jan31 22:55 -> CDG Feb1 05:50 (14h55) + CDG transfer 4h10 + AF1426 CDG Feb1 10:00 -> VCE Feb1 11:45 (1h45)",
+      "outbound_total": "20h50",
+      "return_flight_date": "2027-02-12",
+      "return": "AF274 CDG Feb12 22:20 -> HND Feb13 19:55 (13h35 direct)",
+      "venice_hotel": [
+        "2027-02-01",
+        "2027-02-02"
+      ],
+      "rome_hotel": [
+        "2027-02-03",
+        "2027-02-04"
+      ],
+      "barcelona_hotel": [
+        "2027-02-05",
+        "2027-02-06",
+        "2027-02-07"
+      ],
+      "paris_hotel": [
+        "2027-02-08",
+        "2027-02-09",
+        "2027-02-10",
+        "2027-02-11"
+      ],
+      "fares_verified": false
+    },
+    "emirates_both_legs": {
+      "outbound_flight_date": "2027-02-01",
+      "airport_checkin": "2027-01-31 evening",
+      "outbound": "EK313 HND Feb1 00:05 -> DXB Feb1 06:55 (11h50) + transfer 2h40 + EK135 DXB Feb1 09:35 -> VCE Feb1 13:15 (6h40)",
+      "outbound_total": "21h10",
+      "return_flight_date": "2027-02-12",
+      "return": "EK76 CDG Feb12 21:30 -> DXB Feb13 07:20 (6h50) + transfer 1h + EK312 DXB Feb13 08:20 -> HND Feb13 22:30 (9h10)",
+      "return_total": "17h",
+      "venice_hotel": [
+        "2027-02-01",
+        "2027-02-02"
+      ],
+      "rome_hotel": [
+        "2027-02-03",
+        "2027-02-04"
+      ],
+      "barcelona_hotel": [
+        "2027-02-05",
+        "2027-02-06",
+        "2027-02-07"
+      ],
+      "paris_hotel": [
+        "2027-02-08",
+        "2027-02-09",
+        "2027-02-10",
+        "2027-02-11"
+      ],
+      "fares_verified": false
+    }
+  },
+  "booking_fare_research_note": "Reference only: AF HND-CDG round trip Feb3-9 JPY205685/adult (different route); EK HND-VCE Jan29-Feb2 JPY207720/adult (different dates and return airport); neither is valid current HND-VCE/CDG-HND two-person open-jaw fare; difference cannot be calculated. Need same-date official quote including checked baggage and taxes."
 }
