@@ -955,5 +955,8 @@
       "fares_verified": false
     }
   },
-  "booking_fare_research_note": "Reference only: AF HND-CDG round trip Feb3-9 JPY205685/adult (different route); EK HND-VCE Jan29-Feb2 JPY207720/adult (different dates and return airport); neither is valid current HND-VCE/CDG-HND two-person open-jaw fare; difference cannot be calculated. Need same-date official quote including checked baggage and taxes."
+  "booking_fare_research_note": "Reference only: AF HND-CDG round trip Feb3-9 JPY205685/adult (different route); EK HND-VCE Jan29-Feb2 JPY207720/adult (different dates and return airport); neither is valid current HND-VCE/CDG-HND two-person open-jaw fare; difference cannot be calculated. Need same-date official quote including checked baggage and taxes.",
+  "latest_air_france_roundtrip_day_plan": "data/itinerary-2027-af-jan31.json",
+  "latest_air_france_feasibility_doc": "docs/2027-af-jan31-feasibility-day-by-day.md",
+  "af_candidate_status": "provisional, unbooked. User asks feasibility; do not overwrite prior ANA/Emirates scenarios."
 }
