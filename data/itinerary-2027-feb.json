@@ -406,18 +406,49 @@
     },
     {
       "start": "2027-01-31",
-      "label": "Eligible: connecting flight via Dubai or Paris; timing to be recalculated",
-      "grade": "candidate_flight_timing_pending",
+      "label": "対抗案：1/31成田夜発ドバイ乗継→2/1ミラノ午後着",
+      "grade": "strong_alternative",
       "notes": [
-        "Do not treat ANA NH207 not operating as inability to travel",
-        "Check EK321 from NRT 21:30 or ANA NH215 via CDG; specific date availability unverified",
-        "Expected Milan arrival and connection into Venice may be later than original itinerary, so hotel 2 nights and 14 calendar days must be recalculated from selected flights"
+        "1/31 NRT EK321 21:30→2/1 MXP 13:05ならホテルはVenice 2/1-2、Rome 2/3-4、Barcelona 2/5-7、Paris 2/8-11。",
+        "Venice Rialto fish market Tuesday 2/2 FULL DAY open, not departure morning only.",
+        "Rome full sightseeing Thursday Feb4 Vatican and Colosseum, Wednesday Papal Audience usually before Rome arrival.",
+        "Feb5 Friday Rome→Barcelona desired VY6007 12:35→14:25 matches published weekday timetable (booking unconfirmed).",
+        "Barcelona Carnival Feb6 Sat parade, shop/Boqueria Friday/Saturday. Sunday Feb7 shops mostly closed.",
+        "Paris Tue Feb9 Mont Saint Michel, Wed Feb10 Disneyland (crowd forecast 44, same as Feb1 departure), Thu Feb11 Louvre/Eiffel/Arc; CDG departure Fri Feb12 and Japan arrival Feb13.",
+        "Emirates 23h35 vs ANA NH207 roughly 15h10, Milan afternoon arrival implies late Venice checkin and less sightseeing.",
+        "Bed&Market sample nightly median total Feb1+2 €328 vs Feb2+3 €333 for Feb1 ANA plan; not a real hotel quote, no fare comparison.",
+        "Do not confuse Jan31 HND 00:05 same-day Milan arrival (needs Jan30 night airport) with this overnight Narita itinerary."
       ],
-      "outbound_haneda": null,
-      "milan_and_venice_arrival": null,
-      "hotel_nights": null,
-      "paris_departure": null,
-      "haneda_arrival": null
+      "outbound_haneda": "2027-01-31",
+      "milan_and_venice_arrival": "2027-02-01",
+      "hotel_nights": {
+        "venice": [
+          "2027-02-01",
+          "2027-02-02"
+        ],
+        "rome": [
+          "2027-02-03",
+          "2027-02-04"
+        ],
+        "barcelona": [
+          "2027-02-05",
+          "2027-02-06",
+          "2027-02-07"
+        ],
+        "paris": [
+          "2027-02-08",
+          "2027-02-09",
+          "2027-02-10",
+          "2027-02-11"
+        ]
+      },
+      "paris_departure": "2027-02-12",
+      "haneda_arrival": "2027-02-13",
+      "intercity": {
+        "venice_to_rome": "2027-02-03",
+        "rome_to_barcelona": "2027-02-05",
+        "barcelona_to_paris": "2027-02-08"
+      }
     }
   ],
   "days": [
@@ -606,7 +637,7 @@
     "https://www.flight.info/VY8062",
     "https://www.louvre.fr/en/visit/hours-admission"
   ],
-  "latest_comparison_doc": "docs/2027-jan29-feb08-all-routes-compare.md",
+  "latest_comparison_doc": "docs/2027-jan31-vs-feb01-corrected-comparison.md",
   "days_note": "daysは2027-02-01出発の暫定第一候補14日モデル。2/6・2/8はdeparture_optionsと比較文書を参照。日付正式決定後に施設予約時刻を確定する。",
   "price_comparison_as_of": "2026-11-15",
   "price_comparison_notes": "ANAオープンジョー3日付組の実売未取得。同一ホテル・2名1室11泊を比較するAxel保存参考価格USD: 2/1 $1921, 2/6 $2072, 2/8 $1937（税や特定部屋条件の再確認必須）。",
@@ -709,5 +740,6 @@
       "https://www.flight.info/AZ76",
       "https://www.flight.info/VY8062"
     ]
-  }
+  },
+  "jan31_vs_feb01_comparison_note": "Corrected: Jan31 departing Narita 21:30 via Dubai => MXP Feb1 13:05 => Venice hotels Feb1, Feb2, Rome Feb3,4, BCN Feb5-7, Paris Feb8-11, CDG Feb12, HND Feb13. Rialto fish market opens Feb2 Tue FULL DAY; Vatican Feb4 Thu (not Wed audience); Friday Feb5 FCO→BCN VY6007 12:35 matches published weekdays; Monday Feb8 BCN→CDG 15:40. DLP Feb10 Wed 44 same day available to BOTH Jan31 and Feb1 models, so no Disney crowd advantage for Feb1 if itinerary optimized. Feb1 ANA direct arrives Venice afternoon Feb2 (more sightseeing and less flight time). Prices not verified. Distinguish Jan31 same-day midnight EK313 alternative."
 }
