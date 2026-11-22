@@ -152,7 +152,7 @@
       "status": "到着空港とホテル未確定"
     }
   ],
-  "chosen_date_status": "unconfirmed_compare_direct_vs_overnight_or_same_day_connections",
+  "chosen_date_status": "unconfirmed_prioritize_same_airline_air_france_or_emirates",
   "provisional_preferred_departure": "2027-02-01",
   "departure_options": [
     {
@@ -767,13 +767,20 @@
   "jan31_vs_feb01_comparison_note": "2026-11-23 CORRECTION: Emirates Jan31 21:30 NRT EK321→Feb1 04:40 DXB connection 4h55→09:35 EK135 DXB→Feb1 13:15 VCE (Venice Marco Polo), 23h45 end-to-end. Do NOT route via Milan by default. Venice hotel Feb1-2, Rome Feb3-4, Barcelona Feb5-7, Paris Feb8-11, NH216 Paris Feb12→Haneda Feb13. Vatican Feb4 Thu, Rialto fish market Feb2 Tue; Disney Feb10 Wed works for BOTH Jan31 and Feb1 options. Haneda alternative EK313 departs Jan31 00:05 (airport arrival Jan30 night)→VCE Jan31 13:15, shifting hotels one day earlier. Tickets not priced or confirmed.",
   "latest_airfare_and_schedule_comparison_doc": "docs/2027-airfare-haneda-evening-return-compare.md",
   "user_flight_preferences": {
-    "outbound_airport_preferred": "HND (NRT acceptable if strong fare or itinerary advantage)",
+    "outbound_airport_preferred": "HND (NRT acceptable)",
     "return_airport_preferred": "HND (NRT acceptable)",
-    "return_japan_local_time_target": "around 21:00, prefer 20:00-21:00",
+    "return_japan_local_time_target": "around 21:00",
     "do_not_combine_outbound_and_return_flight_hours": true,
     "calculate_each_flight_segment_separately": true,
     "airfare_compare_on_same_conditions": "two adult economy multi-city HND/NRT->VCE/MXP, CDG->HND/NRT; taxes, fuel, checked baggage included",
-    "actual_comparable_fares_verified": false
+    "actual_comparable_fares_verified": false,
+    "same_airline_outbound_return_mandatory": true,
+    "airlines_compared": [
+      "Air France",
+      "Emirates"
+    ],
+    "no_mixed_carrier_roundtrip": true,
+    "same_airline_clarification": "For the honeymoon long-haul outbound and return, the same operating airline is mandatory (e.g. AF + AF, or EK + EK). Intra-Europe flights between Rome/Barcelona/Paris are separate segments and need not be same airline unless user later clarifies."
   },
   "current_aviation_options": {
     "haneda_emirates_feb1_midnight": {
@@ -841,7 +848,8 @@
       "arrival_local_next_day": "19:55",
       "flight_duration": "13h35m",
       "layover": "none",
-      "rank_for_time_preference": 1
+      "rank_for_time_preference": 1,
+      "eligible_only_if_outbound_airline_matches": true
     },
     {
       "airline": "Emirates",
@@ -851,7 +859,8 @@
       ],
       "layover": "DXB 1h",
       "arrival_local_next_day": "22:30",
-      "rank_for_time_preference": 2
+      "rank_for_time_preference": 2,
+      "eligible_only_if_outbound_airline_matches": true
     },
     {
       "airline": "ANA",
@@ -862,7 +871,29 @@
       "arrival_local_next_day": "16:10",
       "flight_duration": "13h30m",
       "layover": "none",
-      "rank_for_time_preference": 3
+      "rank_for_time_preference": 3,
+      "eligible_only_if_outbound_airline_matches": true
     }
+  ],
+  "allowed_roundtrip_airline_pairings": [
+    {
+      "airline": "Air France",
+      "outbound": "HND→CDG→VCE on AF-operated flights (connection must be checked for selected date)",
+      "return": "AF274 CDG22:20→HND19:55 next day",
+      "priority": "arrival_time_preferred",
+      "note": "2027 Jan31 AF281 daylight service absent per published schedule; AF279 HND22:55→CDG05:50 following day appears, then same-airline AF domestic-European connector subject to seat availability; do not imply Jan31 same-day Venezia arrival"
+    },
+    {
+      "airline": "Emirates",
+      "outbound": "EK313 HND00:05→DXB→EK135 VCE13:15 (same departure date); or EK321 NRT21:30→DXB→EK135 VCE13:15 next date",
+      "return": "EK76 CDG21:30→DXB→EK312 HND22:30 next day",
+      "priority": "dubai_airport_layover_option",
+      "note": "EK return includes one-hour connection in DXB; confirm through-ticket and transfer requirements"
+    }
+  ],
+  "disallowed_roundtrip_airline_pairings": [
+    "Outbound Emirates / return Air France",
+    "Outbound Air France / return Emirates",
+    "Outbound ANA / return Air France unless user explicitly changes must-same-airline rule"
   ]
 }
