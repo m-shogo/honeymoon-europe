@@ -1,0 +1,86 @@
+[
+  {
+    "id": "087",
+    "name": "カンポ・サンタ・マルゲリータ",
+    "filename": "087_カンポ・サンタ・マルゲリータ.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Campo_Santa_Margherita_%28Venice%29.jpg/1280px-Campo_Santa_Margherita_%28Venice%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Campo_Santa_Margherita_(Venice).jpg",
+    "author": "Didier Descouens",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 443323,
+    "sha256": "34bc22c18d2ab4bdd601cae1c5f2ccac3f9cba994550541171e8dfc246e874a7"
+  },
+  {
+    "id": "088",
+    "name": "ゴヴェルノ・ヴェッキオ通り",
+    "filename": "088_ゴヴェルノ・ヴェッキオ通り.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/53/Via_del_Governo_vecchio_%28Rome%29.jpg/1280px-Via_del_Governo_vecchio_%28Rome%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Via_del_Governo_vecchio_(Rome).jpg",
+    "author": "Pere prlpz",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "bytes": 829369,
+    "sha256": "b6c8305f2fc45ef4ff3413cbb41d99dcfc0fae16d87525ed728b25bd9e2cd850"
+  },
+  {
+    "id": "089",
+    "name": "ペトリチョル通り",
+    "filename": "089_ペトリチョル通り.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/017_Carrer_de_Petritxol_%28Barcelona%29.jpg/1280px-017_Carrer_de_Petritxol_%28Barcelona%29.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:017_Carrer_de_Petritxol_(Barcelona).jpg",
+    "author": "Enric",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 585276,
+    "sha256": "f4d76e5ba5700190d1ae66713e332eb5828f8c9cbf70d15caf9189fb8cd85771"
+  },
+  {
+    "id": "090",
+    "name": "ギャルリー・ヴィヴィエンヌ",
+    "filename": "090_ギャルリー・ヴィヴィエンヌ.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Galerie_Vivienne%2C_12_March_2015.jpg/1280px-Galerie_Vivienne%2C_12_March_2015.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Galerie_Vivienne,_12_March_2015.jpg",
+    "author": "Benh LIEU SONG",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "bytes": 341741,
+    "sha256": "434cf3fbb072a2319ddbf19792c010df99c7502a3c90d4fddea8d859f3cdcf7e"
+  },
+  {
+    "id": "091",
+    "name": "パッサージュ・デュ・グラン・セール",
+    "filename": "091_パッサージュ・デュ・グラン・セール.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4e/Paris_passage_du_grand_cerf.jpg/1280px-Paris_passage_du_grand_cerf.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Paris_passage_du_grand_cerf.jpg",
+    "author": "Ralf.treinen",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "bytes": 605993,
+    "sha256": "78dcf01155533bfd4a7cca94260196e79aa4afd3aacaf4c728ca04f240192c31"
+  },
+  {
+    "id": "092",
+    "name": "サマリテーヌ",
+    "filename": "092_サマリテーヌ.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Exterior_of_La_Samaritaine_2.jpg/1280px-Exterior_of_La_Samaritaine_2.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Exterior_of_La_Samaritaine_2.jpg",
+    "author": "DiscoA340",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 355325,
+    "sha256": "d724c43227921913ca5740b2f00dc8e1800c14b0666b687be3848f0dce133df2"
+  },
+  {
+    "id": "093",
+    "name": "ヴィラージュ・サン・ポール",
+    "filename": "093_ヴィラージュ・サン・ポール.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Cour_Charles_V_-_Paris_IV_%28FR75%29_-_2023-05-24_-_1.jpg/1280px-Cour_Charles_V_-_Paris_IV_%28FR75%29_-_2023-05-24_-_1.jpg",
+    "source_url": "https://commons.wikimedia.org/wiki/File:Cour_Charles_V_-_Paris_IV_(FR75)_-_2023-05-24_-_1.jpg",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "bytes": 573020,
+    "sha256": "cf9c3eb56d106482c516c57dbbf02da93d7cc4c7b063e1c840388eec9ca8b33c"
+  }
+]
