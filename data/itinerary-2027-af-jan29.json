@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "title": "欧州新婚旅行｜AF往復2027年1月29日(金)発〜2月11日(木)羽田帰着",
+  "updated_at": "2026-11-23",
+  "status": "PROVISIONAL_NOT_BOOKED",
+  "hotel_nights_total": 11,
+  "longhaul_same_airline": "Air France",
+  "flight_pricing_verified": false,
+  "outbound": [
+    "AF279 2027-01-29 HND22:55→CDG 2027-01-30 05:50",
+    "AF1426 2027-01-30 CDG09:25→VCE11:10 (Flight.info timetable; through-bookability not verified)"
+  ],
+  "return": [
+    "AF274 2027-02-10 CDG22:20→2027-02-11 HND19:55"
+  ],
+  "hotels": {
+    "venice": [
+      "2027-01-30",
+      "2027-01-31"
+    ],
+    "rome": [
+      "2027-02-01",
+      "2027-02-02"
+    ],
+    "barcelona": [
+      "2027-02-03",
+      "2027-02-04",
+      "2027-02-05"
+    ],
+    "paris": [
+      "2027-02-06",
+      "2027-02-07",
+      "2027-02-08",
+      "2027-02-09"
+    ]
+  },
+  "intercity": {
+    "venice_rome": "2027-02-01 morning high-speed rail, schedule unverified",
+    "rome_barcelona": "VY6007 FCO 2027-02-03 12:35→BCN14:25 (timetable only)",
+    "barcelona_paris": "AF1649 BCN 2027-02-06 15:00→CDG17:00 (timetable only)"
+  },
+  "days": [
+    {
+      "date": "2027-01-29",
+      "city": "羽田→パリ",
+      "activities": [
+        "22:55 AF279羽田出発"
+      ],
+      "night": "plane"
+    },
+    {
+      "date": "2027-01-30",
+      "city": "ヴェネツィア",
+      "activities": [
+        "05:50パリ乗継",
+        "09:25-11:10 AF1426",
+        "ホテルへ",
+        "サンマルコ・大運河・カーニバル街頭ショー"
+      ],
+      "night": "venice"
+    },
+    {
+      "date": "2027-01-31",
+      "city": "ヴェネツィア",
+      "activities": [
+        "ドゥカーレ宮殿",
+        "サンマルコ寺院は日曜午後に内部見学可",
+        "ゴンドラ",
+        "カーニバル街頭ショー・街歩き"
+      ],
+      "night": "venice"
+    },
+    {
+      "date": "2027-02-01",
+      "city": "ヴェネツィア→ローマ",
+      "activities": [
+        "午前高速鉄道",
+        "午後真実の口優先",
+        "トレビ・スペイン階段・映画ロケ地"
+      ],
+      "night": "rome"
+    },
+    {
+      "date": "2027-02-02",
+      "city": "ローマ",
+      "activities": [
+        "午前バチカン美術館・システィーナ礼拝堂",
+        "サンタンジェロ城内部は条件付き",
+        "午後コロッセオ"
+      ],
+      "night": "rome"
+    },
+    {
+      "date": "2027-02-03",
+      "city": "ローマ→バルセロナ",
+      "activities": [
+        "12:35-14:25 VY6007",
+        "夕方カタルーニャ広場・グラシア通り"
+      ],
+      "night": "barcelona"
+    },
+    {
+      "date": "2027-02-04",
+      "city": "バルセロナ",
+      "activities": [
+        "サグラダ・ファミリア",
+        "カサ・バトリョ",
+        "ボケリア市場",
+        "旧市街・カーニバル開幕"
+      ],
+      "night": "barcelona"
+    },
+    {
+      "date": "2027-02-05",
+      "city": "バルセロナ",
+      "activities": [
+        "グエル公園",
+        "カサ・ミラ",
+        "買い物・商店街"
+      ],
+      "night": "barcelona"
+    },
+    {
+      "date": "2027-02-06",
+      "city": "バルセロナ→パリ",
+      "activities": [
+        "15:00-17:00 AF1649",
+        "ホテル・夕食"
+      ],
+      "night": "paris"
+    },
+    {
+      "date": "2027-02-07",
+      "city": "パリ",
+      "activities": [
+        "ルーブル",
+        "凱旋門",
+        "エッフェル塔"
+      ],
+      "night": "paris"
+    },
+    {
+      "date": "2027-02-08",
+      "city": "パリ",
+      "activities": [
+        "ディズニー終日"
+      ],
+      "night": "paris"
+    },
+    {
+      "date": "2027-02-09",
+      "city": "パリ",
+      "activities": [
+        "モン・サン＝ミッシェル終日"
+      ],
+      "night": "paris"
+    },
+    {
+      "date": "2027-02-10",
+      "city": "パリ→羽田",
+      "activities": [
+        "午前ノートルダム・マレ・お土産",
+        "17:30頃市内出発",
+        "22:20 AF274"
+      ],
+      "night": "plane"
+    },
+    {
+      "date": "2027-02-11",
+      "city": "羽田",
+      "activities": [
+        "19:55帰着"
+      ],
+      "night": "home"
+    }
+  ],
+  "important_closures": [
+    "Venice Rialto fish market: Jan31 Sun and Feb1 Mon closed; Jan30 Sat 14:00 closes before feasible hotel checkin",
+    "Venice Basilica Jan31 Sunday admission afternoon 14:00-17:15",
+    "Rome Castel Sant Angelo Feb1 Mon closed, Feb2 Tue open but time constrained with Vatican and Colosseum",
+    "Paris Louvre closed Tue Feb9; schedule Sun Feb7 or return Wed Feb10 daytime",
+    "Disney Feb8 predicted crowd index 58 vs Feb10 44 in Jan31 candidate"
+  ],
+  "major_festival_dates": [
+    "Venice Carnival 2027 street shows Jan30-31",
+    "Barcelona Carnival begins Thu Feb4",
+    "Paris Zone C winter holiday from Sat Feb6"
+  ],
+  "unscheduled_or_conditional": [
+    "Rialto fish market interior-market experience effectively not possible",
+    "Castel Sant Angelo interior conditional in Rome Tuesday",
+    "Roman Forum interior with Vatican and castle too rushed",
+    "Murano and Burano visits",
+    "Montmartre, Versailles, Loire, Orsay, other Paris museums beyond Louvre"
+  ],
+  "description_doc": "docs/2027-af-jan29-feasibility-vs-jan31.md",
+  "primary_existing_kept": true
+}
