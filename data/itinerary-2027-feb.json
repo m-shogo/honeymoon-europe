@@ -974,5 +974,8 @@
       "Paris Louvre Sunday Feb7 open but weekend crowd, Tue Feb9 closed",
       "BCN→CDG Feb6 Sat AF1649 15:00→17:00 timetable, Air France longhaul both directions"
     ]
-  }
+  },
+  "latest_spot_pricing_data": "data/spot-prices-2027-af-jan31.json",
+  "latest_spot_pricing_report": "docs/2027-af-jan31-all-86-sightseeing-prices.md",
+  "af_jan31_mont_method": "Organized optional MyBus bus tour €112.50/adult winter promo excluding abbey €13, or €170 incl abbey, €220 with lunch/guide; planned 2027-02-09 07:10 meet; inventory not confirmed"
 }
