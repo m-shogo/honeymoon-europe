@@ -139,12 +139,13 @@
     {
       "date": "2027-02-09",
       "city": "パリ（2泊目）・モン・サン＝ミッシェル",
-      "transport": "",
-      "outline": "早朝Paris Montparnasse→TGV Rennes約2h→バス約1h15→修道院・島散策→夜パリ",
+      "transport": "MyBus organized coach optional tour (bookings not confirmed): meet 07:10, depart 07:20 Paris; ~13h30, bus round trip. Includes Japanese explanation in vehicle.",
+      "outline": "07:10パリのマイバス集合→07:20オプショナルバス出発→モンサンミッシェル島・修道院・写真散策→夜20:50頃パリ戻り。修道院入場券別購入または込みプラン選択。",
       "risks": [
-        "片道ドアツードア4〜5h、全日12〜15h",
-        "2027実際の列車バスの時刻未確認",
-        "ルーブルは火曜休館のため合理的"
+        "バス往復の13時間30分ツアーで歩く時間は限定",
+        "2027/2/9の空席・キャンペーン適用・修道院券は未確定",
+        "基本の€112.50は修道院券が付かない。€13別購入、二重計上禁止",
+        "翌日の2/10ディズニーも終日で連続疲労あり"
       ],
       "load": "very_high"
     },
@@ -221,5 +222,8 @@
     "option_b": "AF two segment open-jaw HND-VCE Jan31 and CDG-HND Feb12 + AF BCN-CDG Feb8 one-way",
     "fare_difference_verified": false,
     "note": "Multi-city not automatically cheaper, stopover fare rules and remaining-coupon order constraints if all one ticket. Price AF one-way reference other date Feb26 ¥27040+ not valid Feb8 price."
-  }
+  },
+  "mont_saint_michel_method": "Optional organized coach tour from Paris (not DIY TGV): MyBus MBP9ED on Tue 2027-02-09, departure 07:20, meet 07:10, duration 13h30, promo €112.50/adult excluding €13 abbey ticket; alternative MBP9SD €170 incl abbey; MBP9DD €220 incl abbey, lunch, Japanese on-island guide. Date-specific inventory not verified.",
+  "tour_cost_reference_url": "https://mybus-europe.jp/eBroucher.do?cityCode=PAR&countryCode=FR&itemCode=JPFR0108",
+  "prices_reference": "data/spot-prices-2027-af-jan31.json"
 }
