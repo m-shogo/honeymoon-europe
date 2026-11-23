@@ -145,41 +145,42 @@
         "バス往復の13時間30分ツアーで歩く時間は限定",
         "2027/2/9の空席・キャンペーン適用・修道院券は未確定",
         "基本の€112.50は修道院券が付かない。€13別購入、二重計上禁止",
-        "翌日の2/10ディズニーも終日で連続疲労あり"
+        "翌2/10はパリ市内観光に変更、ディズニー連続行程の疲れがなくなる"
       ],
       "load": "very_high"
     },
     {
       "date": "2027-02-10",
-      "city": "パリ（3泊目）・ディズニー",
-      "transport": "",
-      "outline": "朝RER A→Disneyland Paris終日→夜市内へ戻る",
+      "city": "パリ（3泊目）・エッフェル塔・凱旋門と街歩き",
+      "transport": "徒歩＋地下鉄中心（観光施設は時間指定予約）",
+      "outline": "09:00トロカデロ写真→10:00〜12:00エッフェル塔（最上階は待ち時間を考慮）→13:30シャンゼリゼ散策→15:00凱旋門屋上→16:30アレクサンドル3世橋・セーヌ沿い→18:00夕食",
       "risks": [
-        "市内観光とは両立しない",
-        "学校冬休み期間",
-        "開園時間未発表"
+        "エッフェル塔最上階は天候による閉鎖や行列あり",
+        "凱旋門屋上とエッフェル塔最上階を同日に入れる場合、事前時間枠が必要",
+        "ディズニーは本人希望により今回見送り"
       ],
-      "load": "very_high"
+      "load": "medium"
     },
     {
       "date": "2027-02-11",
-      "city": "パリ（4泊目）・中心部",
+      "city": "パリ（4泊目）・ルーブル・ノートルダム・マレ地区",
       "transport": "",
-      "outline": "09:00ルーブル→昼シャンゼリゼ・凱旋門→午後エッフェル塔・トロカデロ→夕食",
+      "outline": "09:00〜11:00ルーブル（主要作品中心）→11:30チュイルリー・リヴォリ通り→13:00ノートルダム大聖堂（内部は行列次第）・シテ島→15:00マレ地区とお土産屋・サントシャペル（時間があれば）→18:00夕食",
       "risks": [
-        "エッフェル塔頂上・凱旋門屋上・ルーブル全館を同日網羅は厳しい",
-        "写真スポット歩行を優先"
+        "ルーブルは館内歩行・入場列込みで2時間以上を想定",
+        "サントシャペルを追加する場合はマレ地区の買い物時間と引換",
+        "以前の同日エッフェル塔・凱旋門詰込みを解消"
       ],
-      "load": "high"
+      "load": "medium"
     },
     {
       "date": "2027-02-12",
       "city": "パリ→日本（機内泊）",
       "transport": "CDG22:20 AF274",
-      "outline": "10:00ノートルダム→マレ・モントルグイユ・ギャラリーラファイエット等から2地区を選択→16:30荷物回収→17:30〜18:00空港へ",
+      "outline": "10:00ギャラリーラファイエット・ラファイエットグルメ→昼食→13:30モントルグイユ通り・ストレー等で食べ歩き／土産→16:00〜17:00ホテルで荷物回収→17:30〜18:00市内からCDGへ→22:20 AF274",
       "risks": [
-        "帰国日17:30頃にはパリ中心部を離れる",
-        "すべての商店街を回る時間はない"
+        "空港移動に遅れないよう17:30〜18:00にはパリ中心部を出発",
+        "街歩き最終日も雨天や買物に柔軟に対応"
       ],
       "load": "medium"
     },
@@ -199,7 +200,8 @@
     "Rome Castel Sant Angelo interior unless Vatican/Colosseum reduced",
     "Pantheon interior if train late",
     "Barcelona Palau de la Musica interior/Sant Pau Hospital interior/Monjuic castle",
-    "Paris Versailles/Loire/Orsay/Orange museum/Opera Garnier interior/Montmartre unless city-day swapped"
+    "Paris Versailles/Loire/Orsay/Orange museum/Opera Garnier interior/Montmartre unless city-day swapped",
+    "Disneyland Paris (ID064) explicitly excluded at user request on 2026-11-23"
   ],
   "source_of_truth_note": "This is a candidate; preserve data/itinerary-2027-feb.json and original 47 spot IDs. If user confirms, update primary scenario only then.",
   "latest_castle_airfare_analysis_doc": "docs/2027-af-castel-santangelo-bcn-paris-ticket-options.md",
@@ -225,5 +227,8 @@
   },
   "mont_saint_michel_method": "Optional organized coach tour from Paris (not DIY TGV): MyBus MBP9ED on Tue 2027-02-09, departure 07:20, meet 07:10, duration 13h30, promo €112.50/adult excluding €13 abbey ticket; alternative MBP9SD €170 incl abbey; MBP9DD €220 incl abbey, lunch, Japanese on-island guide. Date-specific inventory not verified.",
   "tour_cost_reference_url": "https://mybus-europe.jp/eBroucher.do?cityCode=PAR&countryCode=FR&itemCode=JPFR0108",
-  "prices_reference": "data/spot-prices-2027-af-jan31.json"
+  "prices_reference": "data/spot-prices-2027-af-jan31.json",
+  "exclude_disneyland_paris": true,
+  "exclude_disneyland_paris_note": "2026-11-23 本人指定でディズニーランド・パリ（ID064）を旅行日程から削除。台帳には『今回は見送り』として保持。",
+  "revised_paris_plan": "Feb9 MyBus Mont Saint Michel, Feb10 Eiffel/Arc/Champs/Trocadero/Alexandre III, Feb11 Louvre/Notre Dame/Sainte Chapelle optional/Marais, Feb12 Galeries Lafayette/food shops/Montorgueil before evening AF274."
 }
