@@ -958,5 +958,21 @@
   "booking_fare_research_note": "Reference only: AF HND-CDG round trip Feb3-9 JPY205685/adult (different route); EK HND-VCE Jan29-Feb2 JPY207720/adult (different dates and return airport); neither is valid current HND-VCE/CDG-HND two-person open-jaw fare; difference cannot be calculated. Need same-date official quote including checked baggage and taxes.",
   "latest_air_france_roundtrip_day_plan": "data/itinerary-2027-af-jan31.json",
   "latest_air_france_feasibility_doc": "docs/2027-af-jan31-feasibility-day-by-day.md",
-  "af_candidate_status": "provisional, unbooked. User asks feasibility; do not overwrite prior ANA/Emirates scenarios."
+  "af_candidate_status": "provisional, unbooked. User asks feasibility; do not overwrite prior ANA/Emirates scenarios.",
+  "alternative_air_france_jan29": {
+    "itinerary": "data/itinerary-2027-af-jan29.json",
+    "analysis": "docs/2027-af-jan29-feasibility-vs-jan31.md",
+    "status": "alternative only, not booked",
+    "departure": "2027-01-29",
+    "return": "2027-02-11",
+    "primary_unchanged": true,
+    "notes": [
+      "VCE Jan30 Sat, Jan31 Sun carnival street shows",
+      "Rialto fish market effectively cannot be visited",
+      "Rome Feb1 Mon Castel Sant Angelo closed, Tue Feb2 full Vatican+Colosseum+castle very tight",
+      "Disney Feb8 pred58 vs Feb10 pred44 for Jan31",
+      "Paris Louvre Sunday Feb7 open but weekend crowd, Tue Feb9 closed",
+      "BCN→CDG Feb6 Sat AF1649 15:00→17:00 timetable, Air France longhaul both directions"
+    ]
+  }
 }
