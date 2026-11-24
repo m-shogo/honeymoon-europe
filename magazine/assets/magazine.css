@@ -541,3 +541,89 @@ details[open] > summary .chev::after { transform: translate(-50%, -50%) rotate(0
   .pr__en { border-top: 1px dashed var(--cream-2); padding-top: 6px; }
   .pr__en b::before { content: "EN  "; font-family: var(--f-big); font-size: 11px; color: var(--ink-3); letter-spacing: .1em; }
 }
+
+/* =========================================================
+   v6：今日・ホテル住所カード・予約済み・徒歩の目安・予約リスト・オフライン
+   ========================================================= */
+.today { flex: none; font-family: var(--f-round); font-weight: 900; font-size: 12px; text-decoration: none; background: var(--sun); color: var(--ink); padding: 6px 12px; border-radius: 999px; white-space: nowrap; box-shadow: 0 2px 0 rgba(0,0,0,.12); }
+.today:hover { background: var(--c2); color: #fff; }
+.hero__go { display: inline-flex; margin-top: 18px; text-decoration: none; background: var(--sun); color: var(--ink); font-family: var(--f-round); font-weight: 900; font-size: 15px; padding: 10px 22px; border-radius: 999px; box-shadow: 0 8px 20px -8px rgba(0,0,0,.5); }
+.hero__go:hover { background: #fff; }
+@media (max-width: 720px) { .hero--day { min-height: 76vh; } .hero--day .hero__sticker { top: 70px; } }
+
+/* ホテル */
+.chip--hotel { text-align: left; border: 2px dashed var(--c); background: #fff; cursor: pointer; font: inherit; color: inherit; }
+.chip--hotel b { color: var(--c); }
+.chip--hotel em { display: block; font-style: normal; font-size: 11px; color: var(--ink-3); }
+.chip--hotel.set { border-style: solid; background: var(--c-soft); }
+.hdlg { border: 0; padding: 0; width: min(560px, calc(100vw - 24px)); max-height: calc(100vh - 24px); border-radius: 24px; box-shadow: 0 30px 80px rgba(0,0,0,.4); color: var(--ink); }
+.hdlg::backdrop { background: rgba(20,16,14,.6); }
+.hdlg__view { background: var(--c); color: #fff; padding: 26px 24px 22px; }
+.hdlg.editing .hdlg__view { display: none; }
+.hdlg:not(.editing) .hdlg__edit { display: none; }
+.hdlg__city { font-family: var(--f-hand); font-size: 24px; color: var(--sun); margin: 0 0 6px; }
+.hdlg__phrase { font-family: var(--f-round); font-weight: 900; font-size: clamp(26px, 7vw, 34px); line-height: 1.25; margin: 0; }
+.hdlg__en { font-size: 15px; opacity: .85; margin: 4px 0 18px; }
+.hdlg__name { background: #fff; color: var(--ink); font-family: var(--f-round); font-weight: 900; font-size: clamp(24px, 6.4vw, 32px); line-height: 1.3; padding: 14px 16px 4px; border-radius: 16px 16px 0 0; margin: 0; }
+.hdlg__addr { background: #fff; color: var(--ink); font-size: clamp(20px, 5.4vw, 26px); font-weight: 700; line-height: 1.45; padding: 0 16px 14px; margin: 0; border-radius: 0 0 16px 16px; white-space: pre-wrap; }
+.hdlg__tel { font-size: 18px; font-weight: 700; margin: 10px 0 0; }
+.hdlg__btns { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+.hdlg__view .btn { border-color: #fff; }
+.hdlg__view .btn.main { background: var(--sun); color: var(--ink); border-color: var(--sun); }
+.hdlg__edit { padding: 22px 22px 20px; background: #fff; }
+.hdlg__edit h3 { font-size: 20px; margin-bottom: 12px; }
+.hdlg__edit label { display: block; font-size: 13px; font-weight: 700; margin-bottom: 12px; }
+.hdlg__edit input, .hdlg__edit textarea { display: block; width: 100%; margin-top: 4px; font: 16px var(--f-jp); padding: 10px 12px; border: 2px solid var(--line); border-radius: 12px; background: var(--bg); }
+.hdlg__note { font-size: 12px; color: var(--ink-3); }
+
+/* 予約済み */
+.badge.booked { display: none; background: #2c7a3a; color: #fff; }
+.booked .badge.booked { display: inline-block; }
+.booked .badge.book { display: none; }
+.bookme { display: flex; gap: 12px; align-items: center; margin: 18px 0 0; padding: 12px 14px; border-radius: 14px; background: #fff7c9; cursor: pointer; }
+.bookme input, .bk__check input { appearance: none; flex: none; width: 26px; height: 26px; border-radius: 8px; border: 2.5px solid #2c7a3a; background: #fff; display: grid; place-items: center; cursor: pointer; margin: 0; }
+.bookme input:checked, .bk__check input:checked { background: #2c7a3a; }
+.bookme input:checked::after, .bk__check input:checked::after { content: "✓"; color: #fff; font-weight: 900; font-size: 16px; line-height: 1; }
+.bookme span { font-weight: 900; font-family: var(--f-round); }
+.bookme small { display: block; font-family: var(--f-jp); font-weight: 400; font-size: 12px; color: var(--ink-2); }
+.tk.booked .tk__go { background: #2c7a3a; color: #fff; }
+.tk.booked .tk__go::before { content: "✓ "; }
+
+/* 徒歩の目安 */
+.walk { list-style: none; margin: -2px 0 10px; padding-left: 92px; font-size: 12.5px; font-weight: 700; color: var(--ink-2); }
+.walk span { display: inline-block; background: var(--bg); padding: 2px 10px; border-radius: 999px; border: 1.5px dashed var(--line); }
+.walk.far span { border-color: var(--c); color: var(--c); }
+@media (max-width: 720px) { .walk { padding-left: 14px; } }
+
+/* 表紙：今日・予約リスト */
+.todaybar { margin-top: 28px; }
+.todaybar__go { display: grid; grid-template-columns: auto 1fr; gap: 0 18px; align-items: center; text-decoration: none; background: var(--sun); color: var(--ink); border-radius: 24px; padding: 18px 24px; box-shadow: 0 14px 30px -20px rgba(70,40,20,.7); }
+.todaybar__go small { grid-row: span 2; font-family: var(--f-hand); font-weight: 700; font-size: 26px; color: var(--c2); }
+.todaybar__go b { font-family: var(--f-round); font-weight: 900; font-size: clamp(22px, 4vw, 30px); line-height: 1.2; }
+.todaybar__go span { font-size: 13px; font-weight: 700; color: var(--ink-2); }
+.todaybar__go:hover { background: #ffe27a; }
+body[data-page="index"] .panels, body[data-page="index"] > .wrap > .panel { margin-top: 18px; }
+body[data-page="index"] .wrap > details.panel { margin-top: 18px; }
+.bk__sum { font-size: 14px; margin: 0 0 10px; }
+.bk__sum b { font-family: var(--f-big); font-size: 22px; color: #2c7a3a; letter-spacing: .04em; }
+.bks { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; }
+.bk { display: grid; grid-template-columns: 34px 1fr auto; gap: 12px; align-items: center; background: var(--cream); border-radius: 14px; padding: 12px 14px; }
+.bk.booked { background: #e3f4e4; }
+.bk.booked .bk__main b { text-decoration: line-through; text-decoration-color: #2c7a3a; color: var(--ink-2); }
+.bk__main b { display: block; font-family: var(--f-round); font-weight: 900; font-size: 15.5px; line-height: 1.4; }
+.bk__meta { display: flex; flex-wrap: wrap; gap: 4px 8px; margin: 2px 0; }
+.bk__open { font-size: 12px; font-weight: 700; color: var(--c); background: #fff; border-radius: 999px; padding: 0 10px; }
+.bk__open.now { background: var(--c2); color: #fff; }
+.bk.booked .bk__open { background: #fff; color: #2c7a3a; }
+.bk__day { font-size: 12px; font-weight: 700; color: var(--ink-2); }
+.bk small { display: block; font-size: 12px; color: var(--ink-2); line-height: 1.6; }
+.bk .btn { padding: 6px 12px; font-size: 12px; }
+@media (max-width: 520px) { .bk { grid-template-columns: 30px 1fr; } .bk .btn { grid-column: 2; justify-self: start; } }
+
+/* オフライン */
+.offline { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; margin-top: 28px; background: var(--c-soft); border-radius: 18px; padding: 16px 18px; }
+.offline b { display: block; font-family: var(--f-round); font-weight: 900; font-size: 16px; }
+.offline span { display: block; font-size: 13px; color: var(--ink-2); line-height: 1.7; }
+.offline progress { width: 100%; height: 10px; margin-top: 8px; accent-color: var(--c); }
+.offline .btn[disabled] { opacity: .5; cursor: wait; }
+.panel .offline { margin-top: 20px; }

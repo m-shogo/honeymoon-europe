@@ -157,7 +157,8 @@ def icon(kind):
 
 
 # ------------------------------------------------------------------ 写真
-from magazine_content import TL_PHOTOS, HIGHLIGHT, PHRASES, DAY_LANG, DAY_LANG_NOTE, DAY_PHRASE_FOCUS  # noqa: E402
+from magazine_content import (TL_PHOTOS, HIGHLIGHT, PHRASES, DAY_LANG, DAY_LANG_NOTE, DAY_PHRASE_FOCUS,  # noqa: E402
+                              BOOKING_RULES, MANUAL_BOOKINGS, HOTEL_CITY)
 
 KIND_LABEL = {"plane": "FLIGHT", "train": "TRAIN", "bus": "BUS", "metro": "METRO", "boat": "BOAT",
               "walk": "WALK", "sight": "SIGHT", "food": "EAT", "shop": "SHOP", "hotel": "HOTEL", "night": "NIGHT"}
@@ -301,6 +302,7 @@ def mast(current):
     links.append(f'<a href="flights.html"{cur} style="--dc:#ef4f3b" title="空の旅">✈</a>')
     return f"""<header class="mast"><div class="mast__in">
 <a class="mast__logo" href="index.html"><i>♡</i><span>ふたりの欧州手帖</span></a>
+<a class="today" href="day01.html" data-today data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}" hidden>今日</a>
 <nav class="days" aria-label="日付">{''.join(links)}</nav>
 </div></header>"""
 
@@ -399,6 +401,71 @@ def panel(pid, icon_, title, en, inner, count="", open_=False):
             f'<div class="panel__body">{inner}</div></details>')
 
 
+NOBOOK = ("予約不要", "対象外", "店舗別", "飲食店ごと", "個別確認")
+
+
+def bookable(sid):
+    """予約・チケットの対象か（予約不要の街歩き・市場などは除く）。"""
+    if sid in BOOKING_RULES:
+        return True
+    if sid in ("062",):  # 真実の口は前売り制度なし（任意の寄付）
+        return False
+    s = SPOTS.get(sid) or {}
+    b = dict(booking_lines(s)).get("予約") or ""
+    return bool(s.get("official") and b and not any(w in b for w in NOBOOK))
+
+
+def booking_open(sid, visit):
+    rule = BOOKING_RULES.get(sid)
+    if rule and rule[0]:
+        return visit - dt.timedelta(days=rule[0])
+    return None
+
+
+def dist_km(a, b):
+    la1, lo1, la2, lo2 = map(math.radians, (a[0], a[1], b[0], b[1]))
+    h = math.sin((la2 - la1) / 2) ** 2 + math.cos(la1) * math.cos(la2) * math.sin((lo2 - lo1) / 2) ** 2
+    return 6371 * 2 * math.asin(math.sqrt(h))
+
+
+CITY_NAMES = {"venice": "ヴェネツィア", "rome": "ローマ", "barcelona": "バルセロナ", "paris": "パリ"}
+CITY_LANG = {"venice": "it", "rome": "it", "barcelona": "es", "paris": "fr"}
+
+
+def hotel_phrase(city):
+    L = PHRASES[CITY_LANG[city]]
+    row = next(r for r in L["rows"] if r[1].startswith("このホテルまで"))
+    return row[2], row[4], L["lang"]
+
+
+def hotel_chip(n, day):
+    city = HOTEL_CITY.get(n)
+    if not city:
+        return f'<div class="chip"><small>🛏 宿泊</small><b>{e(day["stay"])}</b></div>'
+    loc, en, lang = hotel_phrase(city)
+    return (f'<button type="button" class="chip chip--hotel" data-hotel="{city}" data-city-name="{CITY_NAMES[city]}" '
+            f'data-phrase="{e(loc)}" data-phrase-en="{e(en)}" data-lang="{lang}"><small>🛏 {e(day["stay"])}</small>'
+            f'<b data-hotel-label>ホテルを登録する</b><em>タップで住所カード（タクシーで見せる）</em></button>')
+
+
+HOTEL_DIALOG = """<dialog class="hdlg" id="hotel-dlg" aria-label="ホテル住所カード">
+<div class="hdlg__view">
+<p class="hdlg__city" data-v="city"></p>
+<p class="hdlg__phrase" data-v="phrase"></p><p class="hdlg__en" data-v="phrase-en"></p>
+<p class="hdlg__name" data-v="name"></p><p class="hdlg__addr" data-v="addr"></p><p class="hdlg__tel" data-v="tel"></p>
+<div class="hdlg__btns"><a class="btn" data-v="map" target="_blank" rel="noopener">📍 Googleマップで開く</a><button type="button" class="btn" data-hd="edit">✏️ 編集</button><button type="button" class="btn main" data-hd="close">閉じる</button></div>
+</div>
+<form class="hdlg__edit" method="dialog">
+<h3>🏨 <span data-v="city2"></span>のホテル</h3>
+<label>ホテル名<input name="name" autocomplete="off" placeholder="例：Hotel ○○"></label>
+<label>住所（現地の表記で）<textarea name="addr" rows="3" placeholder="例：Calle ○○ 12, 30121 Venezia"></textarea></label>
+<label>電話（任意）<input name="tel" inputmode="tel" autocomplete="off" placeholder="+39 ..."></label>
+<p class="hdlg__note">この端末のブラウザにだけ保存されます。予約番号やパスポート番号は入れないでください。</p>
+<div class="hdlg__btns"><button type="button" class="btn" data-hd="close">やめる</button><button type="button" class="btn main" data-hd="save">保存して表示</button></div>
+</form>
+</dialog>"""
+
+
 PHRASE_IC = {"挨拶": "👋", "普段": "🙏", "ご飯": "🍽", "お土産": "🛍", "ホテル": "🛏", "移動": "🚕", "トイレ": "🚻", "困ったとき": "🆘", "乾杯": "🥂", "機内": "✈"}
 
 
@@ -463,6 +530,7 @@ def day_page(day):
 <span class="hero__pill"><b>DAY {n:02d}</b>{d.month}月{d.day}日（{WEEK_JA[wd]}）· {e(day['stay'])}</span>
 <p class="hero__city">{e(day['local'])}</p>
 <h1 class="hero__copy">{day['title']}</h1>
+<a class="hero__go" href="#sec-plan" data-open="sec-plan">今日の日程へ ↓</a>
 </div></section>"""
 
     # ---- 今日のルート（写真の帯）
@@ -481,14 +549,30 @@ def day_page(day):
 <div><div class="intro__kicker">{e(day['kicker'])}</div><p class="intro__lede">{e(day['lede'])}</p></div>
 <div class="chips">
 <div class="chip wide"><small>🚆 きょうの移動</small><b>{e(day['move'])}</b></div>
-<div class="chip"><small>🛏 宿泊</small><b>{e(day['stay'])}</b></div>
+{hotel_chip(n, day)}
 <div class="chip"><small>👟 歩く量</small><b><span class="shoes">{shoes}</span>{load_word}</b></div>
 <div class="chip wide"><small>☀ {e(cname)}の日の出・日の入</small><b>{hm(rise)} → {hm(sset)}</b></div>
 </div></div>"""
 
     # ---- 日程（アコーディオン）
     rows = []
+    prev = None  # (座標, 名前) 直前のスポット。移動の項目でリセット
+    ride = "水上バス・水上タクシー" if theme == "venice" else "地下鉄・タクシー"
     for i, (t, kind, title, note, sid) in enumerate(day["timeline"], 1):
+        here = SPOTS.get(sid, {}).get("coords") if sid else None
+        if here and prev:
+            km = dist_km(prev[0], here)
+            if km < 0.15:
+                rows.append(f'<li class="walk"><span>🚶 {e(prev[1])}のすぐ近く</span></li>')
+            elif km * 1.3 <= 1.9 or (kind in ("walk", "shop") and km * 1.3 <= 3):  # 街歩きの予定は歩く前提
+                mins = max(3, round(km * 1.3 / 4.5 * 60))
+                rows.append(f'<li class="walk"><span>🚶 {e(prev[1])}から 徒歩 約{mins}分（{km * 1.3:.1f}km）</span></li>')
+            else:
+                rows.append(f'<li class="walk far"><span>🚇 {e(prev[1])}から 約{km:.1f}km（直線・徒歩なら{round(km * 1.3 / 4.5 * 60)}分）・{ride}が便利</span></li>')
+        if kind in MOVE_KINDS:
+            prev = None
+        elif here:
+            prev = (here, SPOTS[sid]["name"])
         k = use(tl_photo_key(n, t, sid))
         thumb = f'<span class="th"><img src="{e(purl(k, 500))}" alt="" loading="lazy"></span>' if k and pinfo(k) else '<span class="th none"></span>'
         chips = []
@@ -497,7 +581,10 @@ def day_page(day):
             if s.get("duration"):
                 chips.append(f'<span class="badge">⏱ {e(s["duration"])}</span>')
             chips += spot_badges(s)
+            if bookable(sid):
+                chips.append('<span class="badge booked" data-booked-badge>✓ 予約済み</span>')
         move = " move" if kind in MOVE_KINDS else ""
+        bk = f' data-book="{sid}"' if sid and bookable(sid) else ""
         summ = (f'<time>{e(t)}</time>{thumb}<span class="tx"><span class="kind">{icon(kind)}{KIND_LABEL.get(kind, "")}</span>'
                 f'<b class="ttl">{e(title)}</b>{f"<span class=nt>{e(note)}</span>" if note else ""}'
                 f'{f"<span class=chips>{chr(10).join(chips)}</span>" if chips else ""}</span>')
@@ -505,8 +592,11 @@ def day_page(day):
             for kk in [sid, f"x:{sid}:1", f"x:{sid}:2"]:
                 use(kk)
             body = spot_detail(sid, feats.get(sid, {}))
+            if bk:
+                body = (f'<label class="bookme"><input type="checkbox" data-book-toggle="{sid}">'
+                        f'<span>🎟 予約済みにする<small>チケットを買ったらチェック。この端末に保存</small></span></label>') + body
             star = " star" if sid in feats else ""
-            rows.append(f'<li class="it{move}{star}" id="t{i}"><details class="acc"><summary>{summ}<span class="chev" aria-hidden="true"></span></summary>'
+            rows.append(f'<li class="it{move}{star}" id="t{i}"{bk}><details class="acc"><summary>{summ}<span class="chev" aria-hidden="true"></span></summary>'
                         f'<div class="acc__body">{body}<button type="button" class="acc__close" data-close>閉じる ▲</button></div></details></li>')
         elif k and pinfo(k):
             rows.append(f'<li class="it{move}" id="t{i}"><details class="acc"><summary>{summ}<span class="chev" aria-hidden="true"></span></summary>'
@@ -515,7 +605,7 @@ def day_page(day):
             rows.append(f'<li class="it{move}" id="t{i}"><div class="acc"><div class="sum">{summ}</div></div></li>')
     rp, sp = max(0, min(100, rise / 14.4)), max(0, min(100, sset / 14.4))
     sunbar = "" if theme == "sky" else f'<div class="sunbar"><span>☀ {hm(rise)}</span><span class="sunbar__bar" style="--rise:{rp:.1f}%;--set:{sp:.1f}%"></span><span>☾ {hm(sset)}</span></div>'
-    tools = '<div class="tl-tools"><span>★ は今日の見どころ。タップで写真・歴史・映画・料金がひらく</span><button type="button" class="btn" data-toggle-all>すべて開く</button></div>'
+    tools = '<div class="tl-tools"><span>★ は今日の見どころ。タップで写真・歴史・映画・料金がひらく。🚶の時間は直線距離からの目安</span><button type="button" class="btn" data-toggle-all>すべて開く</button></div>'
     timeline = (f'<section class="sec" id="sec-plan"><div class="sec__head"><span class="sec__en">Schedule</span><h2 class="sec__title">今日の日程</h2>'
                 f'<span class="sec__sub">時刻は予約前の目安。予約した時刻・列車・便に合わせて組み直す。</span></div>{sunbar}{tools}<ol class="tl2">{"".join(rows)}</ol></section>')
 
@@ -579,7 +669,7 @@ def day_page(day):
         b = dict(booking_lines(s)).get("予約")
         if not s.get("official") or not b:
             continue
-        tix.append(f'<a class="tk" href="{e(s["official"])}" target="_blank" rel="noopener">{img(sid, 500, s["name"], cap=False)}'
+        tix.append(f'<a class="tk" data-book="{sid}" href="{e(s["official"])}" target="_blank" rel="noopener">{img(sid, 500, s["name"], cap=False)}'
                    f'<div class="tk__b"><b>{e(s["name"])}</b><span>🎟 {e(b)}</span><span>💶 {e(s.get("fee", ""))}</span></div><span class="tk__go">OFFICIAL</span></a>')
     if tix:
         panels.append(panel("sec-tix", "🎟", "予約・チケット", "Tickets", f'<div class="tix">{"".join(tix)}</div>'
@@ -620,6 +710,9 @@ def day_page(day):
     prev_ = nav_card(DAYS[n - 2], "", "← Back") if n > 1 else '<a href="index.html" style="--nc:#ef4f3b"><small>← Cover</small><b>Contents</b><span>表紙と目次</span></a>'
     next_ = nav_card(DAYS[n], "r", "Next →") if n < len(DAYS) else '<a class="r" href="flights.html" style="--nc:#18306b"><small>Next →</small><b>In the sky</b><span>空の旅（航空ページ）</span></a>'
     pager = f'<nav class="next">{prev_}{next_}</nav>'
+    offline = ('<div class="offline" data-offline="day"><div><b>📥 電波がなくても見られるように</b>'
+               '<span data-offline-state>このページの文字とデザインは、一度開くと自動で保存されます。</span></div>'
+               f'<button type="button" class="btn main" data-save-day>この日の写真も保存（{len(used)}枚）</button></div>')
 
     creds = "".join(f"<li>{credit(k)}</li>" for k in used)
     foot = f"""<footer class="foot">
@@ -629,7 +722,8 @@ def day_page(day):
 </footer>"""
 
     body = (f'<body data-theme="{theme}" data-page="day{n:02d}">{mast(n)}<main>{hero}{strip}'
-            f'<div class="wrap">{intro}</div>{subnav}<div class="wrap">{timeline}<div class="panels">{"".join(panels)}</div>{pager}{foot}</div></main>'
+            f'<div class="wrap">{intro}</div>{subnav}<div class="wrap">{timeline}<div class="panels">{"".join(panels)}</div>{offline}{pager}{foot}</div></main>'
+            f'{HOTEL_DIALOG if HOTEL_CITY.get(n) else ""}'
             f'<a class="totop" href="#" aria-label="ページの先頭へ">↑</a>'
             f'<script src="assets/magazine.js?v={JS_V}" defer></script></body></html>')
     title = f'DAY {n:02d} {d.month}/{d.day}（{WEEK_JA[wd]}）{day["local"]}｜ふたりの欧州手帖'
@@ -759,6 +853,43 @@ def route_map():
     return f'<div class="mapbox"><svg viewBox="0 0 {W} {H}" role="img" aria-label="周遊ルート図">{sea}{paths}{dots}{legend}</svg></div>'
 
 
+
+def booking_list():
+    """表紙の「予約しなきゃリスト」。発売日（訪問日から計算）の早い順。"""
+    items, seen = [], set()
+    for d in DAYS:
+        visit = date_of(d)
+        for t, kind, title, note, sid in d["timeline"]:
+            if not sid or sid in seen or not bookable(sid):
+                continue
+            seen.add(sid)
+            s = SPOTS[sid]
+            rule = BOOKING_RULES.get(sid)
+            text = rule[1] if rule else (dict(booking_lines(s)).get("予約") or "")
+            op = booking_open(sid, visit)
+            items.append({"id": sid, "visit": visit, "open": op, "name": s["name"], "text": text, "url": s.get("official"),
+                          "icon": "🎟", "day": d["n"], "key": (1, op.isoformat() if op else "9", visit.isoformat())})
+    for bid, date, ic, name, text in MANUAL_BOOKINGS:
+        v = dt.date.fromisoformat(date)
+        n = (v - date_of(DAYS[0])).days + 1
+        items.append({"id": bid, "visit": v, "open": None, "name": name, "text": text, "url": None, "icon": ic, "day": max(1, n),
+                      "key": (0, "", v.isoformat())})
+    items.sort(key=lambda x: x["key"])
+    rows = []
+    for it in items:
+        v = it["visit"]
+        when = (f'<span class="bk__open" data-open-date="{it["open"].isoformat()}">発売の目安 {it["open"].month}/{it["open"].day}ごろ</span>'
+                if it["open"] else ('<span class="bk__open now">いますぐ確認</span>' if it["key"][0] == 0 else '<span class="bk__open">公式で確認</span>'))
+        link = f'<a class="btn" href="{e(it["url"])}" target="_blank" rel="noopener">公式 ↗</a>' if it["url"] else ""
+        rows.append(f'<li class="bk" data-book="{e(it["id"])}"><label class="bk__check"><input type="checkbox" data-book-toggle="{e(it["id"])}" aria-label="{e(it["name"])}を予約済みにする"></label>'
+                    f'<div class="bk__main"><b>{it["icon"]} {e(it["name"])}</b><span class="bk__meta">{when}'
+                    f'<a class="bk__day" href="day{it["day"]:02d}.html">{v.month}/{v.day}（{WEEK_JA[v.weekday()]}）DAY{it["day"]:02d}</a></span>'
+                    f'<small>{e(it["text"])}</small></div>{link}</li>')
+    done = '<p class="bk__sum" data-book-sum></p>'
+    return (f'<p class="panel__lead">予約したら左の□にチェック（この端末に保存。各日のページの「予約済み」と連動）。発売日は2026年11月時点の確認記録と、今回の訪問日から計算した目安です。</p>'
+            f'{done}<ol class="bks">{"".join(rows)}</ol>')
+
+
 def index_page():
     panels, used = [], []
     for sid, label, jp, day in [("036", "Venezia", "ヴェネツィア DAY2–3", 2), ("017", "Roma", "ローマ DAY4–5", 4),
@@ -801,8 +932,11 @@ def index_page():
 <div class="cover__stk"><div><b>13</b>DAYS<br>4 CITIES</div></div>
 </header>
 <div class="wrap">
+<section class="todaybar" data-todaybar data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}"></section>
+{panel("sec-book", "🎟", "予約しなきゃリスト", "To book", booking_list(), "発売の早い順", open_=True)}
 {section("13日間のもくじ", "Contents", f'<div class="dgrid">{"".join(cards)}</div>', "1/31 羽田発 → 2/12 羽田着　カードをタップして各日のページへ")}
 {section("旅のルート", "Route", route_map(), "位置関係のイメージ図（緯度経度から描いた概略。海岸線は省略）")}
+{panel("sec-offline", "📥", "電波がなくても見られるように", "Offline", '<div class="offline" data-offline="all"><div><b>旅行の前に、Wi‑Fiでまとめて保存</b><span data-offline-state>ページの文字とデザインは自動で保存されます。写真（全385枚・約75MB）は下のボタンでまとめて保存できます。地図は通信が必要です。</span><progress data-offline-progress max="100" value="0" hidden></progress></div><button type="button" class="btn main" data-save-all>全日の写真をまとめて保存</button></div>', "", open_=True)}
 {section("ふたりの地図", "My Maps", map_html("sky", 520, "新婚旅行の地図"), "作成済みのMy Mapsをそのまま表示。拡大すると各都市のピン")}
 {section("出発前に知っておくこと", "Before you go", basics)}
 {section("ひとことフレーズ", "Phrases", phr)}
@@ -816,6 +950,60 @@ def index_page():
 
 
 # ------------------------------------------------------------------ 出力
+def write_sw():
+    """オフライン用のService Worker。ページとデザインは先に保存、写真・フォントは見たものから保存。"""
+    import hashlib
+    pages = ["./", "index.html", "flights.html"] + [f"day{d['n']:02d}.html" for d in DAYS]
+    core = pages + [f"assets/magazine.css?v={CSS_V}", f"assets/magazine.js?v={JS_V}"]
+    h = hashlib.sha1("".join((OUT / q).read_text() for q in pages if q != "./").encode()).hexdigest()[:10]
+    js = f"""'use strict';
+// ふたりの欧州手帖：オフライン用（scripts/build-magazine.py が生成）
+const CORE = 'techo-core-{h}';
+const MEDIA = 'techo-media';
+const CORE_URLS = {json.dumps(core)};
+const MEDIA_HOSTS = ['upload.wikimedia.org', 'fonts.googleapis.com', 'fonts.gstatic.com'];
+self.addEventListener('install', e => {{
+  e.waitUntil(caches.open(CORE).then(c => c.addAll(CORE_URLS)).then(() => self.skipWaiting()));
+}});
+self.addEventListener('activate', e => {{
+  e.waitUntil(caches.keys().then(ks => Promise.all(ks.filter(k => k.startsWith('techo-core-') && k !== CORE).map(k => caches.delete(k)))).then(() => self.clients.claim()));
+}});
+self.addEventListener('fetch', e => {{
+  const req = e.request;
+  if (req.method !== 'GET') return;
+  const url = new URL(req.url);
+  if (MEDIA_HOSTS.includes(url.hostname)) {{
+    e.respondWith((async () => {{
+      const cache = await caches.open(MEDIA);
+      const hit = await cache.match(req.url);
+      if (hit) return hit;
+      try {{
+        const res = await fetch(req.url, {{ mode: 'cors', credentials: 'omit' }});
+        if (res.ok) cache.put(req.url, res.clone());
+        return res;
+      }} catch (err) {{ return fetch(req); }}
+    }})());
+    return;
+  }}
+  if (url.origin !== self.location.origin || !url.pathname.startsWith(new URL(self.registration.scope).pathname)) return;
+  e.respondWith((async () => {{
+    const cache = await caches.open(CORE);
+    try {{
+      const res = await Promise.race([fetch(req), new Promise((_, rej) => setTimeout(() => rej(new Error('slow')), 4000))]);
+      if (res && res.ok) cache.put(req, res.clone());
+      return res;
+    }} catch (err) {{
+      const hit = await cache.match(req, {{ ignoreSearch: req.mode === 'navigate' }}) || await cache.match(req.url.split('#')[0]);
+      if (hit) return hit;
+      if (req.mode === 'navigate') return cache.match('index.html');
+      throw err;
+    }}
+  }})());
+}});
+"""
+    (OUT / "sw.js").write_text(js)
+
+
 def main():
     missing = [(d["n"], f["id"]) for d in DAYS for f in d["features"] if f["id"] not in SPOTS]
     missing += [(d["n"], s) for d in DAYS for *_, s in d["timeline"] if s and s not in SPOTS]
@@ -826,6 +1014,7 @@ def main():
     for d in DAYS:
         (OUT / f"day{d['n']:02d}.html").write_text(day_page(d))
     (OUT / "flights.html").write_text(flights_page())
+    write_sw()
     nophoto = [(d["n"], t) for d in DAYS for t, _, _, _, s in d["timeline"] if not pinfo(tl_photo_key(d["n"], t, s))]
     print(f"magazine/: index + {len(DAYS)} days + flights  / 写真なしのタイムライン項目: {nophoto}")
 
