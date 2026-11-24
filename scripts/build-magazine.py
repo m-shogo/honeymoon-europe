@@ -157,7 +157,7 @@ def icon(kind):
 
 
 # ------------------------------------------------------------------ 写真
-from magazine_content import TL_PHOTOS, HIGHLIGHT, PHRASES, DAY_LANG, DAY_LANG_NOTE  # noqa: E402
+from magazine_content import TL_PHOTOS, HIGHLIGHT, PHRASES, DAY_LANG, DAY_LANG_NOTE, DAY_PHRASE_FOCUS  # noqa: E402
 
 KIND_LABEL = {"plane": "FLIGHT", "train": "TRAIN", "bus": "BUS", "metro": "METRO", "boat": "BOAT",
               "walk": "WALK", "sight": "SIGHT", "food": "EAT", "shop": "SHOP", "hotel": "HOTEL", "night": "NIGHT"}
@@ -399,24 +399,30 @@ def panel(pid, icon_, title, en, inner, count="", open_=False):
             f'<div class="panel__body">{inner}</div></details>')
 
 
-PHRASE_IC = {"挨拶": "👋", "普段": "🙏", "ご飯": "🍽", "お土産": "🛍", "ホテル": "🛏", "乾杯": "🥂"}
+PHRASE_IC = {"挨拶": "👋", "普段": "🙏", "ご飯": "🍽", "お土産": "🛍", "ホテル": "🛏", "移動": "🚕", "トイレ": "🚻", "困ったとき": "🆘", "乾杯": "🥂", "機内": "✈"}
 
 
 def phrases_html(n):
     code = DAY_LANG.get(n, "fr")
     L = PHRASES[code]
-    cats = list(dict.fromkeys(r[0] for r in L["rows"]))
-    tabs = '<button type="button" class="on" data-cat="all">すべて</button>' + "".join(
-        f'<button type="button" data-cat="{e(c)}">{PHRASE_IC.get(c, "")} {e(c)}</button>' for c in cats)
+    focus = DAY_PHRASE_FOCUS.get(n, [])
+    rows_all = [r for r in L["rows"] if r[0] != "機内" or n in (1, 13)]
+    cats = list(dict.fromkeys(r[0] for r in rows_all))
+    cats = [c for c in focus if c in cats] + [c for c in cats if c not in focus]
+    rows_all.sort(key=lambda r: cats.index(r[0]))
+    tabs = '<button type="button" class="on" data-cat="today">⭐ 今日よく使う</button>' + "".join(
+        f'<button type="button" data-cat="{e(c)}">{PHRASE_IC.get(c, "")} {e(c)}</button>' for c in cats) + '<button type="button" data-cat="all">すべて</button>'
     rows = []
-    for cat, ja, loc, rd, en in L["rows"]:
-        rows.append(f'<div class="pr" data-cat="{e(cat)}"><div class="pr__ja"><span>{PHRASE_IC.get(cat, "")}</span>{e(ja)}</div>'
+    for cat, ja, loc, rd, en in rows_all:
+        f = "1" if cat in focus else ""
+        hid = "" if f else " hidden"
+        rows.append(f'<div class="pr" data-cat="{e(cat)}" data-focus="{f}"{hid}><div class="pr__ja"><span>{PHRASE_IC.get(cat, "")}</span>{e(ja)}</div>'
                     f'<div class="pr__loc"><b lang="{L["lang"][:2]}">{e(loc)}</b><small>{e(rd)}</small>'
                     f'<button type="button" class="say" data-say="{e(loc)}" data-lang="{L["lang"]}" aria-label="{e(loc)}を読み上げる">🔊</button></div>'
                     f'<div class="pr__en"><b lang="en">{e(en)}</b><button type="button" class="say" data-say="{e(en)}" data-lang="en-US" aria-label="{e(en)}を読み上げる">🔊</button></div></div>')
     note = DAY_LANG_NOTE.get(n, "")
     head = (f'<div class="pr-head"><span class="pr-lang">{e(L["local"])}<small>{e(L["name"])}</small></span><span class="pr-lang en">English<small>英語</small></span></div>')
-    return (f'<p class="panel__lead">{e(note)} カタカナの読みは目安。🔊で発音を再生（端末の読み上げ機能を使用）。</p>'
+    return (f'<p class="panel__lead">{e(note)} 最初は「今日よく使う」場面（{"・".join(focus)}）だけを表示。カタカナの読みは目安。🔊で発音を再生（端末の読み上げ機能。やわらかい女性の声を優先して選びます）。</p>'
             f'<div class="pr-tabs" role="group" aria-label="場面">{tabs}</div>{head}<div class="prs">{"".join(rows)}</div>'), L
 
 
@@ -593,7 +599,8 @@ def day_page(day):
         nav.append(("sec-album", "📷", "アルバム"))
     # ---- ひとことフレーズ
     ph_inner, L = phrases_html(n)
-    panels.append(panel("sec-talk", "🗣", "ひとことフレーズ", f"{L['local']} & English", ph_inner, L["name"].split("（")[0]))
+    n_pr = ph_inner.count('class="pr"')
+    panels.append(panel("sec-talk", "🗣", "ひとことフレーズ", f"{L['local']} & English", ph_inner, f"{L['name'].split('（')[0]}・{n_pr}文"))
     nav.append(("sec-talk", "🗣", "会話"))
     # ---- メモ
     panels.append(panel("sec-memo", "✏️", "ふたりのメモ", "Notes", '<div class="memo"><textarea data-memo="day" placeholder="ホテル名、予約時刻、行きたいお店…"></textarea>'

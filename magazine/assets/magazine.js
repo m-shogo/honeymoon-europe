@@ -44,22 +44,59 @@
   });
 
 
-  // ひとことフレーズ：場面で絞り込み・読み上げ
+  // ひとことフレーズ：場面で絞り込み
   document.querySelectorAll(".pr-tabs").forEach(function (box) {
     box.addEventListener("click", function (ev) {
       var b = ev.target.closest("button"); if (!b) return;
       box.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
       var cat = b.getAttribute("data-cat");
-      box.parentElement.querySelectorAll(".pr").forEach(function (r) { r.hidden = cat !== "all" && r.getAttribute("data-cat") !== cat; });
+      box.parentElement.querySelectorAll(".pr").forEach(function (r) {
+        r.hidden = cat === "today" ? r.getAttribute("data-focus") !== "1" : (cat !== "all" && r.getAttribute("data-cat") !== cat);
+      });
     });
   });
-  if (!("speechSynthesis" in window)) document.body.classList.add("no-tts");
+
+  // 読み上げ：やわらかい自然な声を優先。低い声・効果音的な声（Whisper, Bad News など）は使わない
+  var PREFER = {
+    it: ["Alice", "Federica", "Emma", "Elsa", "Isabella", "Google italiano", "Microsoft Elsa"],
+    es: ["Mónica", "Monica", "Marisol", "Paulina", "Helena", "Google español", "Microsoft Helena", "Microsoft Elvira"],
+    fr: ["Audrey", "Amélie", "Amelie", "Marie", "Aurélie", "Google français", "Microsoft Denise", "Microsoft Julie"],
+    en: ["Samantha", "Ava", "Allison", "Susan", "Karen", "Google US English", "Microsoft Aria", "Microsoft Jenny", "Microsoft Zira"]
+  };
+  var AVOID = /(Whisper|Bad News|Good News|Bahh|Bells|Boing|Bubbles|Cellos|Jester|Organ|Superstar|Trinoids|Wobble|Zarvox|Albert|Fred|Junior|Ralph|Kathy|Grandpa|Grandma|Rocko|Shelley|Eddy|Reed|Sandy|Flo|Deranged|Hysterical|Pipe Organ|Luca|Jorge|Diego|Thomas|Jacques|Daniel|Alex|Aaron|Arthur|Nicolas|Diego)/i;
+  var voices = [];
+  function loadVoices() { try { voices = window.speechSynthesis.getVoices() || []; } catch (e) { voices = []; } }
+  function pickVoice(lang) {
+    var base = lang.slice(0, 2);
+    var cand = voices.filter(function (v) { return v.lang && v.lang.replace("_", "-").toLowerCase().indexOf(base) === 0 && !AVOID.test(v.name); });
+    if (!cand.length) return null;
+    function score(v) {
+      var s = 0, pref = PREFER[base] || [];
+      for (var i = 0; i < pref.length; i++) if (v.name.indexOf(pref[i]) >= 0) { s += 100 - i; break; }
+      if (/premium|enhanced|natural|neural/i.test(v.name)) s += 30;
+      if (v.lang.replace("_", "-").toLowerCase() === lang.toLowerCase()) s += 10;
+      if (v.localService) s += 2;
+      return s;
+    }
+    cand.sort(function (a, b) { return score(b) - score(a); });
+    return cand[0];
+  }
+  if ("speechSynthesis" in window) {
+    loadVoices();
+    if (window.speechSynthesis.addEventListener) window.speechSynthesis.addEventListener("voiceschanged", loadVoices);
+  } else {
+    document.body.classList.add("no-tts");
+  }
   document.querySelectorAll(".say").forEach(function (b) {
     b.addEventListener("click", function () {
       try {
+        if (!voices.length) loadVoices();
+        var lang = b.getAttribute("data-lang");
         var text = b.getAttribute("data-say").replace(/\s*\/\s*/g, ", ").replace(/…/g, "");
         var u = new SpeechSynthesisUtterance(text);
-        u.lang = b.getAttribute("data-lang"); u.rate = 0.85;
+        u.lang = lang;
+        var v = pickVoice(lang); if (v) u.voice = v;
+        u.rate = 0.95; u.pitch = 1.1;
         window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);
         b.classList.add("on"); u.onend = function () { b.classList.remove("on"); };
       } catch (e) { /* 読み上げに対応しない端末では何もしない */ }
