@@ -801,3 +801,89 @@ HIGHLIGHT = {
     6: "ボケリア市場", 7: "サグラダの塔", 8: "グエル公園", 9: "パリ到着", 10: "海の修道院",
     11: "光る塔", 12: "パッサージュ", 13: "ただいま",
 }
+
+
+# ひとことフレーズ（その国の言葉＋英語）。読みのカタカナは目安。
+# (場面, 日本語, 現地語, 読み, 英語)
+PHRASES = {
+    "it": {
+        "name": "イタリア語", "local": "Italiano", "lang": "it-IT",
+        "rows": [
+            ("挨拶", "こんにちは（朝〜昼）", "Buongiorno", "ブオンジョルノ", "Good morning / Hello"),
+            ("挨拶", "こんばんは", "Buonasera", "ブオナセーラ", "Good evening"),
+            ("挨拶", "さようなら", "Arrivederci", "アッリヴェデルチ", "Goodbye"),
+            ("普段", "ありがとう", "Grazie mille", "グラツィエ ミッレ", "Thank you so much"),
+            ("普段", "ごめんなさい／すみません", "Mi scusi", "ミ スクーズィ", "I'm sorry / Excuse me"),
+            ("普段", "お願いします", "Per favore", "ペル ファヴォーレ", "Please"),
+            ("ご飯", "2人です、席はありますか？", "Un tavolo per due, per favore", "ウン ターヴォロ ペル ドゥーエ ペル ファヴォーレ", "A table for two, please"),
+            ("ご飯", "おすすめは何ですか？", "Cosa ci consiglia?", "コーザ チ コンスィーリア？", "What do you recommend?"),
+            ("ご飯", "とてもおいしい！", "È buonissimo!", "エ ブオニッスィモ！", "It's delicious!"),
+            ("ご飯", "お会計をお願いします", "Il conto, per favore", "イル コント ペル ファヴォーレ", "The check, please"),
+            ("お土産", "これはいくらですか？", "Quanto costa?", "クアント コスタ？", "How much is this?"),
+            ("お土産", "カードで払えますか？", "Posso pagare con la carta?", "ポッソ パガーレ コン ラ カルタ？", "Can I pay by card?"),
+            ("お土産", "これをください", "Prendo questo", "プレンド クエスト", "I'll take this"),
+            ("ホテル", "予約しています（名前は〇〇です）", "Ho una prenotazione a nome …", "オ ウナ プレノタツィオーネ ア ノーメ …", "I have a reservation under …"),
+            ("ホテル", "荷物を預かってもらえますか？", "Possiamo lasciare i bagagli?", "ポッスィアーモ ラッシャーレ イ バガーリ？", "Can we leave our luggage?"),
+            ("ホテル", "朝食は何時ですか？", "A che ora è la colazione?", "ア ケ オーラ エ ラ コラツィオーネ？", "What time is breakfast?"),
+            ("乾杯", "乾杯！", "Salute! / Cin cin!", "サルーテ！／チン チン！", "Cheers!"),
+            ("乾杯", "新婚旅行中です", "Siamo in luna di miele", "スィアーモ イン ルーナ ディ ミエーレ", "We're on our honeymoon"),
+        ],
+    },
+    "es": {
+        "name": "スペイン語（＋カタルーニャ語）", "local": "Español", "lang": "es-ES",
+        "rows": [
+            ("挨拶", "こんにちは", "Hola", "オラ", "Hello"),
+            ("挨拶", "おはよう（カタルーニャ語は Bon dia）", "Buenos días", "ブエノス ディアス", "Good morning"),
+            ("挨拶", "さようなら", "Adiós", "アディオス", "Goodbye"),
+            ("普段", "ありがとう（カタルーニャ語は Gràcies）", "Muchas gracias", "ムチャス グラシアス", "Thank you so much"),
+            ("普段", "ごめんなさい／すみません", "Perdón", "ペルドン", "I'm sorry / Excuse me"),
+            ("普段", "お願いします", "Por favor", "ポル ファボール", "Please"),
+            ("ご飯", "2人です、席はありますか？", "Una mesa para dos, por favor", "ウナ メサ パラ ドス ポル ファボール", "A table for two, please"),
+            ("ご飯", "おすすめは何ですか？", "¿Qué nos recomienda?", "ケ ノス レコミエンダ？", "What do you recommend?"),
+            ("ご飯", "とてもおいしい！", "¡Está buenísimo!", "エスタ ブエニシモ！", "It's delicious!"),
+            ("ご飯", "お会計をお願いします", "La cuenta, por favor", "ラ クエンタ ポル ファボール", "The check, please"),
+            ("お土産", "これはいくらですか？", "¿Cuánto cuesta?", "クアント クエスタ？", "How much is this?"),
+            ("お土産", "カードで払えますか？", "¿Puedo pagar con tarjeta?", "プエド パガール コン タルヘタ？", "Can I pay by card?"),
+            ("お土産", "これをください", "Me llevo esto", "メ ジェボ エスト", "I'll take this"),
+            ("ホテル", "予約しています（名前は〇〇です）", "Tengo una reserva a nombre de …", "テンゴ ウナ レセルバ ア ノンブレ デ …", "I have a reservation under …"),
+            ("ホテル", "荷物を預かってもらえますか？", "¿Podemos dejar las maletas?", "ポデモス デハール ラス マレタス？", "Can we leave our luggage?"),
+            ("ホテル", "朝食は何時ですか？", "¿A qué hora es el desayuno?", "ア ケ オラ エス エル デサジュノ？", "What time is breakfast?"),
+            ("乾杯", "乾杯！（カタルーニャ語は Salut!）", "¡Salud!", "サルー！", "Cheers!"),
+            ("乾杯", "新婚旅行中です", "Estamos de luna de miel", "エスタモス デ ルナ デ ミエル", "We're on our honeymoon"),
+        ],
+    },
+    "fr": {
+        "name": "フランス語", "local": "Français", "lang": "fr-FR",
+        "rows": [
+            ("挨拶", "こんにちは（お店に入ったら必ず）", "Bonjour", "ボンジュール", "Hello"),
+            ("挨拶", "こんばんは", "Bonsoir", "ボンソワール", "Good evening"),
+            ("挨拶", "さようなら", "Au revoir", "オ ルヴォワール", "Goodbye"),
+            ("普段", "ありがとう", "Merci beaucoup", "メルスィ ボク", "Thank you so much"),
+            ("普段", "ごめんなさい／すみません", "Pardon / Excusez-moi", "パルドン／エクスキュゼ モワ", "I'm sorry / Excuse me"),
+            ("普段", "お願いします", "S'il vous plaît", "スィル ヴ プレ", "Please"),
+            ("ご飯", "2人です、席はありますか？", "Une table pour deux, s'il vous plaît", "ユヌ ターブル プール ドゥ スィル ヴ プレ", "A table for two, please"),
+            ("ご飯", "おすすめは何ですか？", "Qu'est-ce que vous nous conseillez ?", "ケス ク ヴ ヌ コンセイエ？", "What do you recommend?"),
+            ("ご飯", "とてもおいしい！", "C'est délicieux !", "セ デリスィユー！", "It's delicious!"),
+            ("ご飯", "お会計をお願いします", "L'addition, s'il vous plaît", "ラディスィオン スィル ヴ プレ", "The check, please"),
+            ("お土産", "これはいくらですか？", "C'est combien ?", "セ コンビアン？", "How much is this?"),
+            ("お土産", "カードで払えますか？", "Je peux payer par carte ?", "ジュ プ ペイエ パール カルト？", "Can I pay by card?"),
+            ("お土産", "これをください", "Je prends ça", "ジュ プラン サ", "I'll take this"),
+            ("ホテル", "予約しています（名前は〇〇です）", "J'ai une réservation au nom de …", "ジェ ユヌ レゼルヴァスィオン オ ノン ドゥ …", "I have a reservation under …"),
+            ("ホテル", "荷物を預かってもらえますか？", "Pouvons-nous laisser nos bagages ?", "プヴォン ヌ レセ ノ バガージュ？", "Can we leave our luggage?"),
+            ("ホテル", "朝食は何時ですか？", "Le petit-déjeuner est à quelle heure ?", "ル プティ デジュネ エ タ ケルール？", "What time is breakfast?"),
+            ("乾杯", "乾杯！", "Santé ! / Tchin-tchin !", "サンテ！／チン チン！", "Cheers!"),
+            ("乾杯", "新婚旅行中です", "Nous sommes en lune de miel", "ヌ ソム アン リュヌ ドゥ ミエル", "We're on our honeymoon"),
+        ],
+    },
+}
+
+# 日ごとの言葉（1日目・13日目はエールフランスの機内なのでフランス語）
+DAY_LANG = {1: "fr", 2: "it", 3: "it", 4: "it", 5: "it", 6: "es", 7: "es", 8: "es",
+            9: "fr", 10: "fr", 11: "fr", 12: "fr", 13: "fr"}
+DAY_LANG_NOTE = {
+    1: "エールフランスの機内とパリの乗継で使える言葉。英語も通じます。",
+    2: "パリで乗り継いだら、ここからイタリア語。観光地では英語も通じます。",
+    6: "バルセロナはスペイン語とカタルーニャ語。スペイン語で通じます。ありがとう・乾杯はカタルーニャ語にすると喜ばれることも。",
+    9: "ここからフランス語。お店では最初の「Bonjour」が大切。",
+    13: "帰りのエールフランスの機内で。",
+}

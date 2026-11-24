@@ -512,3 +512,32 @@ details[open] > summary .chev::after { transform: translate(-50%, -50%) rotate(0
   .food h4 { font-size: 15px; } .food p { font-size: 12px; }
   .gifts { grid-template-columns: 1fr 1fr; gap: 14px 10px; }
 }
+
+/* ひとことフレーズ */
+.pr-tabs { display: flex; flex-wrap: wrap; gap: 6px; margin: 14px 0 16px; }
+.pr-tabs button { font: 900 13px var(--f-round); padding: 6px 14px; border-radius: 999px; border: 2px solid var(--c-soft); background: #fff; color: var(--ink); cursor: pointer; }
+.pr-tabs button.on, .pr-tabs button:hover { background: var(--c); border-color: var(--c); color: #fff; }
+.pr-head, .pr { display: grid; grid-template-columns: 1fr 1.35fr 1fr; gap: 0 14px; }
+.pr-head { padding: 0 14px 6px; }
+.pr-lang { grid-column: 2; font-family: var(--f-big); font-size: 22px; color: var(--c); letter-spacing: .04em; line-height: 1.1; }
+.pr-lang.en { grid-column: 3; color: var(--ink-2); }
+.pr-lang small { display: block; font-family: var(--f-jp); font-size: 11px; color: var(--ink-3); letter-spacing: 0; }
+.prs { display: grid; gap: 8px; }
+.pr { align-items: center; background: var(--cream); border-radius: 14px; padding: 12px 14px; }
+.pr[hidden] { display: none; }
+.pr__ja { font-size: 13px; color: var(--ink-2); font-weight: 700; line-height: 1.5; display: flex; gap: 6px; }
+.pr__loc, .pr__en { position: relative; padding-right: 40px; }
+.pr__loc b { display: block; font-family: var(--f-round); font-weight: 900; font-size: 17px; line-height: 1.35; color: var(--ink); }
+.pr__loc small { display: block; font-size: 12px; color: var(--c); font-weight: 700; margin-top: 2px; }
+.pr__en b { font-weight: 500; font-size: 14px; color: var(--ink-2); line-height: 1.45; }
+.say { position: absolute; right: 0; top: 50%; transform: translateY(-50%); width: 34px; height: 34px; border-radius: 50%; border: 0; background: #fff; box-shadow: 0 2px 8px -3px rgba(0,0,0,.3); cursor: pointer; font-size: 15px; line-height: 34px; padding: 0; }
+.say:hover, .say.on { background: var(--sun); }
+.no-tts .say { display: none; }
+.no-tts .pr__loc, .no-tts .pr__en { padding-right: 0; }
+@media (max-width: 720px) {
+  .pr-head { display: none; }
+  .pr { grid-template-columns: 1fr; gap: 6px; }
+  .pr__ja { font-size: 12.5px; }
+  .pr__en { border-top: 1px dashed var(--cream-2); padding-top: 6px; }
+  .pr__en b::before { content: "EN  "; font-family: var(--f-big); font-size: 11px; color: var(--ink-3); letter-spacing: .1em; }
+}

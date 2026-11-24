@@ -43,6 +43,29 @@
     });
   });
 
+
+  // ひとことフレーズ：場面で絞り込み・読み上げ
+  document.querySelectorAll(".pr-tabs").forEach(function (box) {
+    box.addEventListener("click", function (ev) {
+      var b = ev.target.closest("button"); if (!b) return;
+      box.querySelectorAll("button").forEach(function (x) { x.classList.toggle("on", x === b); });
+      var cat = b.getAttribute("data-cat");
+      box.parentElement.querySelectorAll(".pr").forEach(function (r) { r.hidden = cat !== "all" && r.getAttribute("data-cat") !== cat; });
+    });
+  });
+  if (!("speechSynthesis" in window)) document.body.classList.add("no-tts");
+  document.querySelectorAll(".say").forEach(function (b) {
+    b.addEventListener("click", function () {
+      try {
+        var text = b.getAttribute("data-say").replace(/\s*\/\s*/g, ", ").replace(/…/g, "");
+        var u = new SpeechSynthesisUtterance(text);
+        u.lang = b.getAttribute("data-lang"); u.rate = 0.85;
+        window.speechSynthesis.cancel(); window.speechSynthesis.speak(u);
+        b.classList.add("on"); u.onend = function () { b.classList.remove("on"); };
+      } catch (e) { /* 読み上げに対応しない端末では何もしない */ }
+    });
+  });
+
   // すべて開く／閉じる
   var allBtn = document.querySelector("[data-toggle-all]");
   if (allBtn) allBtn.addEventListener("click", function () {

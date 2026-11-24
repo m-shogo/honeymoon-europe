@@ -157,7 +157,7 @@ def icon(kind):
 
 
 # ------------------------------------------------------------------ 写真
-from magazine_content import TL_PHOTOS, HIGHLIGHT  # noqa: E402
+from magazine_content import TL_PHOTOS, HIGHLIGHT, PHRASES, DAY_LANG, DAY_LANG_NOTE  # noqa: E402
 
 KIND_LABEL = {"plane": "FLIGHT", "train": "TRAIN", "bus": "BUS", "metro": "METRO", "boat": "BOAT",
               "walk": "WALK", "sight": "SIGHT", "food": "EAT", "shop": "SHOP", "hotel": "HOTEL", "night": "NIGHT"}
@@ -399,6 +399,27 @@ def panel(pid, icon_, title, en, inner, count="", open_=False):
             f'<div class="panel__body">{inner}</div></details>')
 
 
+PHRASE_IC = {"挨拶": "👋", "普段": "🙏", "ご飯": "🍽", "お土産": "🛍", "ホテル": "🛏", "乾杯": "🥂"}
+
+
+def phrases_html(n):
+    code = DAY_LANG.get(n, "fr")
+    L = PHRASES[code]
+    cats = list(dict.fromkeys(r[0] for r in L["rows"]))
+    tabs = '<button type="button" class="on" data-cat="all">すべて</button>' + "".join(
+        f'<button type="button" data-cat="{e(c)}">{PHRASE_IC.get(c, "")} {e(c)}</button>' for c in cats)
+    rows = []
+    for cat, ja, loc, rd, en in L["rows"]:
+        rows.append(f'<div class="pr" data-cat="{e(cat)}"><div class="pr__ja"><span>{PHRASE_IC.get(cat, "")}</span>{e(ja)}</div>'
+                    f'<div class="pr__loc"><b lang="{L["lang"][:2]}">{e(loc)}</b><small>{e(rd)}</small>'
+                    f'<button type="button" class="say" data-say="{e(loc)}" data-lang="{L["lang"]}" aria-label="{e(loc)}を読み上げる">🔊</button></div>'
+                    f'<div class="pr__en"><b lang="en">{e(en)}</b><button type="button" class="say" data-say="{e(en)}" data-lang="en-US" aria-label="{e(en)}を読み上げる">🔊</button></div></div>')
+    note = DAY_LANG_NOTE.get(n, "")
+    head = (f'<div class="pr-head"><span class="pr-lang">{e(L["local"])}<small>{e(L["name"])}</small></span><span class="pr-lang en">English<small>英語</small></span></div>')
+    return (f'<p class="panel__lead">{e(note)} カタカナの読みは目安。🔊で発音を再生（端末の読み上げ機能を使用）。</p>'
+            f'<div class="pr-tabs" role="group" aria-label="場面">{tabs}</div>{head}<div class="prs">{"".join(rows)}</div>'), L
+
+
 def scard_html(sid):
     s = SPOTS[sid]
     mini = " ・ ".join(x for x in [s.get("hours"), s.get("duration")] if x)
@@ -570,6 +591,10 @@ def day_page(day):
                             '<div class="memo" style="margin-top:22px"><textarea data-memo="best" placeholder="いちばんの思い出は？"></textarea></div>'
                             '<div class="memo"><textarea data-memo="gifts" placeholder="お土産を渡す人リスト"></textarea></div>', open_=True))
         nav.append(("sec-album", "📷", "アルバム"))
+    # ---- ひとことフレーズ
+    ph_inner, L = phrases_html(n)
+    panels.append(panel("sec-talk", "🗣", "ひとことフレーズ", f"{L['local']} & English", ph_inner, L["name"].split("（")[0]))
+    nav.append(("sec-talk", "🗣", "会話"))
     # ---- メモ
     panels.append(panel("sec-memo", "✏️", "ふたりのメモ", "Notes", '<div class="memo"><textarea data-memo="day" placeholder="ホテル名、予約時刻、行きたいお店…"></textarea>'
                         '<small>この端末のブラウザだけに保存されます。予約番号やパスポート番号は書かないでください。</small></div>'))
