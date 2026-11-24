@@ -287,7 +287,14 @@ def head(title, desc, theme):
 <title>{e(title)}</title>
 {FONTS}
 <link rel="stylesheet" href="assets/magazine.css?v={CSS_V}">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='16' fill='%23ef4f3b'/%3E%3Ctext x='16' y='22' font-family='Arial' font-weight='900' font-size='17' fill='%23fff' text-anchor='middle'%3E%E2%99%A1%3C/text%3E%3C/svg%3E">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<link rel="manifest" href="manifest.webmanifest">
+<meta name="apple-mobile-web-app-title" content="欧州手帖">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
 </head>
 """
 
@@ -936,7 +943,7 @@ def index_page():
 {panel("sec-book", "🎟", "予約しなきゃリスト", "To book", booking_list(), "発売の早い順", open_=True)}
 {section("13日間のもくじ", "Contents", f'<div class="dgrid">{"".join(cards)}</div>', "1/31 羽田発 → 2/12 羽田着　カードをタップして各日のページへ")}
 {section("旅のルート", "Route", route_map(), "位置関係のイメージ図（緯度経度から描いた概略。海岸線は省略）")}
-{panel("sec-offline", "📥", "電波がなくても見られるように", "Offline", '<div class="offline" data-offline="all"><div><b>旅行の前に、Wi‑Fiでまとめて保存</b><span data-offline-state>ページの文字とデザインは自動で保存されます。写真（全385枚・約75MB）は下のボタンでまとめて保存できます。地図は通信が必要です。</span><progress data-offline-progress max="100" value="0" hidden></progress></div><button type="button" class="btn main" data-save-all>全日の写真をまとめて保存</button></div>', "", open_=True)}
+{panel("sec-offline", "📥", "電波がなくても見られるように", "Offline", '<div class="offline" data-offline="all"><div><b>旅行の前に、Wi‑Fiでまとめて保存</b><span data-offline-state>ページの文字とデザインは自動で保存されます。写真（全385枚・約75MB）は下のボタンでまとめて保存できます。地図は通信が必要です。iPhoneはSafariの共有ボタン→「ホーム画面に追加」で、アプリのように開けます。</span><progress data-offline-progress max="100" value="0" hidden></progress></div><button type="button" class="btn main" data-save-all>全日の写真をまとめて保存</button></div>', "", open_=True)}
 {section("ふたりの地図", "My Maps", map_html("sky", 520, "新婚旅行の地図"), "作成済みのMy Mapsをそのまま表示。拡大すると各都市のピン")}
 {section("出発前に知っておくこと", "Before you go", basics)}
 {section("ひとことフレーズ", "Phrases", phr)}
@@ -950,11 +957,23 @@ def index_page():
 
 
 # ------------------------------------------------------------------ 出力
+def write_manifest():
+    m = {"name": "ふたりの欧州手帖", "short_name": "欧州手帖", "lang": "ja", "start_url": "./index.html", "scope": "./",
+         "display": "standalone", "background_color": "#fffdf9", "theme_color": "#ef4f3b",
+         "description": "2027年 新婚旅行13日間の旅行誌（ヴェネツィア・ローマ・バルセロナ・パリ）",
+         "icons": [{"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                   {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"},
+                   {"src": "assets/icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"},
+                   {"src": "assets/favicon.svg", "sizes": "any", "type": "image/svg+xml"}]}
+    (OUT / "manifest.webmanifest").write_text(json.dumps(m, ensure_ascii=False, indent=1))
+
+
 def write_sw():
     """オフライン用のService Worker。ページとデザインは先に保存、写真・フォントは見たものから保存。"""
     import hashlib
     pages = ["./", "index.html", "flights.html"] + [f"day{d['n']:02d}.html" for d in DAYS]
-    core = pages + [f"assets/magazine.css?v={CSS_V}", f"assets/magazine.js?v={JS_V}"]
+    core = pages + [f"assets/magazine.css?v={CSS_V}", f"assets/magazine.js?v={JS_V}", "manifest.webmanifest",
+                    "assets/favicon.svg", "assets/favicon-32.png", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png"]
     h = hashlib.sha1("".join((OUT / q).read_text() for q in pages if q != "./").encode()).hexdigest()[:10]
     js = f"""'use strict';
 // ふたりの欧州手帖：オフライン用（scripts/build-magazine.py が生成）
@@ -1014,6 +1033,7 @@ def main():
     for d in DAYS:
         (OUT / f"day{d['n']:02d}.html").write_text(day_page(d))
     (OUT / "flights.html").write_text(flights_page())
+    write_manifest()
     write_sw()
     nophoto = [(d["n"], t) for d in DAYS for t, _, _, _, s in d["timeline"] if not pinfo(tl_photo_key(d["n"], t, s))]
     print(f"magazine/: index + {len(DAYS)} days + flights  / 写真なしのタイムライン項目: {nophoto}")
