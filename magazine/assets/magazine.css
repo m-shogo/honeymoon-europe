@@ -752,3 +752,10 @@ body[data-page="index"] .wrap > details.panel { margin-top: 18px; }
 .tl2 li.it.is-done { opacity: .55; }
 .chip.wx.wet { background: #e8f1fb; }
 .nowbar a span { flex: 1; min-width: 0; }
+
+/* ---------- v12 表紙のフレーズにカタカナ */
+.phr dl { gap: 14px; }
+.phr__row { position: relative; padding-right: 44px; }
+.phr__kana { display: block; font-size: 14px; font-weight: 700; color: #ffe9a8; margin: 2px 0 1px; letter-spacing: .02em; }
+.phr__row .say { color: var(--ink); }
+.phr__note { grid-column: 1 / -1; margin: 4px 0 0; font-size: 12px; color: var(--ink-2); }

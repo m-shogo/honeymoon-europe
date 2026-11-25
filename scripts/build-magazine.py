@@ -1330,11 +1330,24 @@ def index_page():
 <div class="basic"><div class="ic">👜</div><h4>スリ対策</h4><p>駅・地下鉄・有名広場が多発地帯。リュックは前、スマホはテーブルに置かない、署名・ミサンガは無視。</p></div>
 <div class="basic"><div class="ic">🎭</div><h4>カーニバルの季節</h4><p>ヴェネツィアは1/23〜2/9（公式）、バルセロナは2/4〜2/10（地元メディア）。2都市ともお祭りの季節に滞在する。</p></div>
 </div>"""
-    phr = """<div class="phr">
-<div style="background:#0d7480"><h4>ITALIANO</h4><dl><dt>Buongiorno</dt><dd>こんにちは</dd><dt>Grazie</dt><dd>ありがとう</dd><dt>Il conto, per favore</dt><dd>お会計お願いします</dd><dt>Dov’è il bagno?</dt><dd>トイレはどこ？</dd></dl></div>
-<div style="background:#1f56c6"><h4>ESPAÑOL · CATALÀ</h4><dl><dt>Hola</dt><dd>こんにちは</dd><dt>Gracias / Gràcies</dt><dd>ありがとう</dd><dt>La cuenta, por favor</dt><dd>お会計お願いします</dd><dt>On és el lavabo?</dt><dd>トイレはどこ？（カタルーニャ語）</dd></dl></div>
-<div style="background:#283a6b"><h4>FRANÇAIS</h4><dl><dt>Bonjour</dt><dd>こんにちは（入店時に必ず）</dd><dt>Merci</dt><dd>ありがとう</dd><dt>L’addition, s’il vous plaît</dt><dd>お会計お願いします</dd><dt>Où sont les toilettes ?</dt><dd>トイレはどこ？</dd></dl></div>
-</div>"""
+    plain_apos = lambda x: x.replace("\u2019", "\u0027")  # 読み上げ用に ’ を ' に
+    PHR_BASIC = [
+        ("#0d7480", "ITALIANO", "it-IT", [("Buongiorno", "ブオンジョルノ", "こんにちは"), ("Grazie", "グラツィエ", "ありがとう"),
+                                         ("Il conto, per favore", "イル コント ペル ファヴォーレ", "お会計お願いします"),
+                                         ("Dov’è il bagno?", "ドヴェ イル バーニョ？", "トイレはどこ？")]),
+        ("#1f56c6", "ESPAÑOL · CATALÀ", "es-ES", [("Hola", "オラ", "こんにちは"), ("Gracias / Gràcies", "グラシアス ／ グラシエス（カタルーニャ語）", "ありがとう"),
+                                                 ("La cuenta, por favor", "ラ クエンタ ポル ファボール", "お会計お願いします"),
+                                                 ("¿Dónde está el baño?", "ドンデ エスタ エル バーニョ？", "トイレはどこ？（カタルーニャ語は On és el lavabo?＝オン エス エル ラバブ？）")]),
+        ("#283a6b", "FRANÇAIS", "fr-FR", [("Bonjour", "ボンジュール", "こんにちは（入店時に必ず）"), ("Merci", "メルスィ", "ありがとう"),
+                                          ("L’addition, s’il vous plaît", "ラディスィオン スィル ヴ プレ", "お会計お願いします"),
+                                          ("Où sont les toilettes ?", "ウ ソン レ トワレット？", "トイレはどこ？")]),
+    ]
+    phr = '<div class="phr">' + "".join(
+        f'<div style="background:{bg}"><h4>{h}</h4><dl>' + "".join(
+            f'<div class="phr__row"><dt lang="{lang[:2]}">{e(loc)}</dt><span class="phr__kana">{e(kana)}</span><dd>{e(ja)}</dd>'
+            f'<button type="button" class="say" data-say="{e(plain_apos(loc))}" data-lang="{lang}" aria-label="{e(loc)}を読み上げる">🔊</button></div>'
+            for loc, kana, ja in rows) + '</dl></div>' for bg, h, lang, rows in PHR_BASIC) + \
+        '<p class="phr__note">カタカナは目安。🔊で発音を再生（端末の読み上げ機能）。各日のページの「ひとことフレーズ」にもっとたくさん。</p></div>'
     creds = "".join(f"<li>{credit(k)}</li>" for k in dict.fromkeys(used + (["p:af-777"] if pinfo("p:af-777") else [])))
     body = f"""<body data-theme="sky" data-page="{ED['prefix']}index" data-root="{ED['root']}" data-edition="{ED['key']}">
 <header class="cover">{''.join(panels)}
