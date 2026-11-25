@@ -161,7 +161,7 @@
   if (tl) {
     var ti = tripInfo(tl);
     if (ti.diff >= 0 && ti.diff < ti.days) {
-      tl.href = "day" + pad(ti.n) + ".html"; tl.textContent = "今日 DAY" + pad(ti.n); tl.hidden = false;
+      tl.href = "day" + pad(ti.n) + ".html#now"; tl.textContent = "今日 DAY" + pad(ti.n); tl.hidden = false;
     } else if (ti.diff < 0 && ti.diff > -120) {
       tl.href = "day01.html"; tl.textContent = "出発まで" + (-ti.diff) + "日"; tl.hidden = false;
     }
@@ -170,7 +170,7 @@
   if (tb) {
     var t2 = tripInfo(tb), html;
     if (t2.diff >= 0 && t2.diff < t2.days) {
-      html = '<a class="todaybar__go" href="day' + pad(t2.n) + '.html"><small>Today</small><b>今日は DAY ' + pad(t2.n) + '</b><span>今日のページを開く →</span></a>';
+      html = '<a class="todaybar__go" href="day' + pad(t2.n) + '.html#now"><small>Today</small><b>今日は DAY ' + pad(t2.n) + '</b><span>今日のページを開く →</span></a>';
     } else if (t2.diff < 0) {
       html = '<a class="todaybar__go" href="day01.html"><small>Countdown</small><b>出発まで あと ' + (-t2.diff) + ' 日</b><span>' + (tb.getAttribute("data-depart") || "") + ' ／ DAY01を開く →</span></a>';
     } else {
@@ -626,9 +626,28 @@
     else html += '<a class="nb-next" href="#sec-memo"><small>つぎ</small><span>今日の予定はおしまい。おつかれさま！</span></a>';
     nowbar.innerHTML = html + (n.test ? '<a><small>試験</small><span>?now= で表示中</span></a>' : "");
     nowbar.hidden = false;
+    return (cur || nxt || {}).li || null;
   }
-  paintNow();
+  var nowCur = paintNow();
+  // 旅行の当日にページを開いたら「いま」の項目へ飛んで開く。
+  // 場所を指すリンク（#sec-hotels など）で開いたときと、同じ項目へ30分以内に飛んだときは飛ばない。
+  (function () {
+    if (!nowCur) return;
+    if (location.hash.length > 1 && location.hash !== "#now") return;
+    var key = "techo:nowjump:" + (document.body.getAttribute("data-page") || ""), last = null;
+    try { last = JSON.parse(store.get(key) || "null"); } catch (e) {}
+    if (last && last.id === nowCur.id && Date.now() - last.t < 30 * 60 * 1000) {
+      if (location.hash === "#now" && history.replaceState) history.replaceState(null, "", location.pathname + location.search);
+      return;
+    }
+    store.set(key, JSON.stringify({ id: nowCur.id, t: Date.now() }));
+    setTimeout(function () { openTarget(nowCur.id); }, 80);
+  })();
   if (plan) setInterval(paintNow, 60000);
+  window.addEventListener("hashchange", function () {
+    if (location.hash !== "#now") return;
+    var li = paintNow(); if (li) openTarget(li.id);
+  });
   if (nowbar) nowbar.addEventListener("click", function (ev) {
     var a = ev.target.closest("a[href^='#t']"); if (!a) return;
     var li = document.getElementById(a.getAttribute("href").slice(1)); var dd = li && li.querySelector("details");

@@ -748,7 +748,7 @@ body[data-page="index"] .wrap > details.panel { margin-top: 18px; }
 .nowbar a.nb-next small { background: #fff; color: var(--ink); }
 .nowbar em { font-style: normal; opacity: .75; font-size: 12px; margin-left: auto; flex: none; }
 .tl2 li.it.is-now > .acc { outline: 3px solid var(--c); outline-offset: 2px; border-radius: 18px; }
-.tl2 li.it.is-now time::after { content: "いま"; display: block; font-size: 10px; background: var(--c); color: #fff; border-radius: 999px; padding: 0 6px; margin-top: 2px; text-align: center; }
+.tl2 li.it.is-now time::after { content: "いま"; display: inline-block; vertical-align: middle; font-size: 10px; line-height: 1.6; background: var(--c); color: #fff; border-radius: 999px; padding: 0 7px; margin-left: 6px; }
 .tl2 li.it.is-done { opacity: .55; }
 .chip.wx.wet { background: #e8f1fb; }
 .nowbar a span { flex: 1; min-width: 0; }
