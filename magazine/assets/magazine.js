@@ -469,6 +469,75 @@
     if (st) { st.textContent = msg; var p = document.getElementById("sec-share"); if (p) { p.open = true; p.scrollIntoView({ block: "start" }); } }
   }
 
+
+  // ---------- いまの時刻（現地と日本）
+  var ck = document.querySelector("[data-clock]");
+  if (ck) {
+    var tz = ck.getAttribute("data-tz"), city = ck.getAttribute("data-city"), out = ck.querySelector("[data-clock-text]");
+    var fmt = function (zone) { try { return new Intl.DateTimeFormat("ja-JP", { timeZone: zone, hour: "2-digit", minute: "2-digit", weekday: "short" }).format(new Date()); } catch (e) { return "—"; } };
+    var tick = function () { out.textContent = (city === "東京" ? "パリ" : city) + " " + fmt(tz) + "　／　日本 " + fmt("Asia/Tokyo"); };
+    tick(); setInterval(tick, 30000);
+  }
+
+  // ---------- ふたりの写真（この端末のIndexedDBに保存）
+  function albumDB() {
+    return new Promise(function (ok, ng) {
+      if (!window.indexedDB) return ng(new Error("no idb"));
+      var rq = indexedDB.open("techo-album", 1);
+      rq.onupgradeneeded = function () { var os = rq.result.createObjectStore("photos", { keyPath: "id" }); os.createIndex("day", "day"); };
+      rq.onsuccess = function () { ok(rq.result); }; rq.onerror = function () { ng(rq.error); };
+    });
+  }
+  function shrink(file) {
+    return new Promise(function (ok, ng) {
+      var url = URL.createObjectURL(file), im = new Image();
+      im.onload = function () {
+        var k = Math.min(1, 1600 / Math.max(im.naturalWidth, im.naturalHeight));
+        var c = document.createElement("canvas"); c.width = Math.round(im.naturalWidth * k); c.height = Math.round(im.naturalHeight * k);
+        c.getContext("2d").drawImage(im, 0, 0, c.width, c.height); URL.revokeObjectURL(url);
+        c.toBlob(function (b) { b ? ok(b) : ng(new Error("blob")); }, "image/jpeg", 0.85);
+      };
+      im.onerror = function () { URL.revokeObjectURL(url); ng(new Error("img")); };
+      im.src = url;
+    });
+  }
+  document.querySelectorAll("[data-album]").forEach(function (box) {
+    var day = +box.getAttribute("data-album"), grid = box.querySelector("[data-album-grid]"), inp = box.querySelector("[data-album-input]");
+    var urls = [];
+    function render() {
+      albumDB().then(function (db) {
+        var rq = db.transaction("photos").objectStore("photos").index("day").getAll(day);
+        rq.onsuccess = function () {
+          urls.forEach(URL.revokeObjectURL); urls = [];
+          grid.innerHTML = rq.result.sort(function (a, b) { return a.ts - b.ts; }).map(function (p) {
+            var u = URL.createObjectURL(p.blob); urls.push(u);
+            return '<figure><a href="' + u + '" target="_blank" rel="noopener"><img src="' + u + '" alt=""></a><button type="button" data-ph-del="' + p.id + '" aria-label="この写真を削除">×</button></figure>';
+          }).join("") || '<p class="empty">まだ写真がありません。旅行中に撮った写真を追加すると、ここに並びます。</p>';
+        };
+      }).catch(function () { grid.innerHTML = '<p class="empty">このブラウザでは写真を保存できません。</p>'; });
+    }
+    inp.addEventListener("change", function () {
+      var files = Array.prototype.slice.call(inp.files || []);
+      albumDB().then(function (db) {
+        return files.reduce(function (pr, f, i) {
+          return pr.then(function () { return shrink(f); }).then(function (blob) {
+            return new Promise(function (ok) {
+              var tx = db.transaction("photos", "readwrite");
+              tx.objectStore("photos").put({ id: day + "-" + Date.now() + "-" + i, day: day, ts: Date.now() + i, blob: blob });
+              tx.oncomplete = ok; tx.onerror = ok;
+            });
+          }).catch(function () {});
+        }, Promise.resolve());
+      }).then(function () { inp.value = ""; render(); });
+    });
+    grid.addEventListener("click", function (ev) {
+      var b = ev.target.closest("[data-ph-del]"); if (!b) return;
+      if (!window.confirm("この写真を手帖から削除しますか？（写真アプリの元の写真は消えません）")) return;
+      albumDB().then(function (db) { var tx = db.transaction("photos", "readwrite"); tx.objectStore("photos").delete(b.getAttribute("data-ph-del")); tx.oncomplete = render; });
+    });
+    render();
+  });
+
   // 現在の日を帯の中で見える位置に
   var cur = document.querySelector('.days a[aria-current="page"]');
   if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: "nearest", inline: "center" });

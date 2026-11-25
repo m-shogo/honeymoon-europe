@@ -187,6 +187,30 @@ def load_extra_photos():
 PHOTOS.update(load_extra_photos())
 
 
+def load_dinners():
+    """記念日ディナー候補（リポジトリの生活スポット記録）をスポット・写真として追加。"""
+    out = []
+    for x in json.loads((ROOT / "data/map-amenities.json").read_text())["places"]:
+        if x.get("type") != "記念日ディナー候補":
+            continue
+        sid = "d-" + x["id"].split("-")[-1]
+        book = next((u for u in x.get("extraSources", []) if "zenchef" in u or "reserver" in u), x.get("source"))
+        SPOTS[sid] = {"id": sid, "name": x["name"].split("｜")[-1], "local": x["address"].split(",")[0],
+                      "category": "記念日ディナー", "priority": "★★★", "fee": x.get("fee"), "hours": x.get("hours"),
+                      "caution": "服装：" + (x.get("dress") or "予約時に確認"), "summary": (x.get("note") or "").split("。")[0] + "。",
+                      "official": book, "booking": "🎟 予約：" + (x.get("booking") or ""), "coords": x.get("coords"),
+                      "checked": x.get("checked"), "nearby": x.get("nearby"), "query": x.get("query"), "menu": x.get("source")}
+        ph = x.get("photo") or {}
+        if ph.get("imageUrl"):
+            PHOTOS[sid] = {"image_url": ph["imageUrl"], "source_url": ph["source"], "author": ph.get("author", ""),
+                           "license": ph.get("license", ""), "license_url": ph.get("licenseUrl", "")}
+        out.append(sid)
+    return out
+
+
+DINNERS = load_dinners()
+
+
 def pinfo(key):
     """スポットID・写真キーから写真情報を返す。"""
     return PHOTOS.get(key) if key else None
@@ -392,8 +416,15 @@ def spot_detail(sid, f):
     right = f'<dl class="info">{dl}</dl><div class="btns">{"".join(btns)}</div>'
     if s.get("checked"):
         right += f'<p class="checked">料金・時間の確認日：{e(s["checked"])}（2027年の訪問日に再確認）</p>'
+    if s.get("menu"):
+        right = right.replace('<div class="btns">', f'<div class="btns"><a class="btn" href="{e(s["menu"])}" target="_blank" rel="noopener">🍽 メニュー（公式）</a>', 1)
     col = f'<div class="{cls}">{figs}</div>' if figs else ""
-    return f'{col}<div class="feat__grid"><div>{"".join(left)}</div><div>{right}</div></div>'
+    alts = ""
+    if sid in DINNERS:
+        others = [x for x in DINNERS if x != sid]
+        alts = (f'<div class="alts"><h4>🥂 ほかの記念日ディナー候補</h4><div class="cards">{"".join(scard_html(x) for x in others)}</div>'
+                '<p class="checked">料金は2026年11月の公式メニュー。2027年の価格・コース・空席は予約時に確認。</p></div>')
+    return f'{col}<div class="feat__grid"><div>{"".join(left)}</div><div>{right}</div></div>{alts}'
 
 
 def plain_detail(k, title, note):
@@ -474,6 +505,8 @@ HOTEL_DIALOG = """<dialog class="hdlg" id="hotel-dlg" aria-label="ホテル住�
 
 
 WEATHER_CHIP = {"☔": ("rain", "☔ 雨でもOK"), "🌦": ("mix", "🌦 半分屋外"), "🌤": ("sun", "🌤 屋外")}
+TZ = {"venice": "Europe/Rome", "rome": "Europe/Rome", "barcelona": "Europe/Madrid", "paris": "Europe/Paris",
+      "normandy": "Europe/Paris", "sky": "Europe/Paris"}
 CITY_JA = {"venice": "ヴェネツィア", "rome": "ローマ", "barcelona": "バルセロナ", "paris": "パリ", "normandy": "ノルマンディー"}
 FX_DEFAULT = json.loads((ROOT / "data/spot-prices-2027-af-jan31.json").read_text()).get("approx_fx_eur_jpy", 170)
 
@@ -508,6 +541,29 @@ def rain_panel(day, theme):
     btn = f'<a class="btn main" href="{e(url)}" target="_blank" rel="noopener">☁ {city}の天気予報（公式）↗</a>' if url else ""
     cards = "".join(scard_html(x) for x in alts)
     return lead + f'<div class="btns" style="margin-bottom:16px">{btn}</div>' + (f'<div class="cards">{cards}</div>' if cards else "")
+
+
+def transit_panel(theme):
+    cid = {"normandy": "paris", "sky": "paris"}.get(theme, theme)
+    c = next((x for x in json.loads((ROOT / "assets/companion-data.json").read_text())["cities"] if x["id"] == cid), None)
+    if not c:
+        return ""
+    from urllib.parse import quote
+    word = {"venice": "sciopero", "rome": "sciopero", "barcelona": "huelga", "paris": "grève"}[cid]
+    links = [("🚇 市内交通の運行状況（公式）", c.get("transit")), ("🚕 タクシー（公式・アプリ）", c.get("taxi")),
+             ("🚄 鉄道の予約・運行（公式）", c.get("rail")),
+             (f"📰 ストライキのニュースを探す（「{word}」）", "https://news.google.com/search?q=" + quote(f"{c['local']} {word}"))]
+    lis = "".join(f'<li><a href="{e(u)}" target="_blank" rel="noopener">{e(t)} ↗</a></li>' for t, u in links if u)
+    return (f'<p class="panel__lead">イタリア・スペイン・フランスは交通のストライキが事前に告知されることが多い。移動の前日と当日の朝に確認。'
+            f'現地の言葉でストライキは「{word}」。{e(c.get("tip", ""))}</p><ul class="em__links">{lis}</ul>')
+
+
+def album_panel(n):
+    return f"""<div class="album-day" data-album="{n}">
+<label class="btn main album-add">📷 この日の写真を追加<input type="file" accept="image/*" multiple data-album-input hidden></label>
+<div class="album-grid" data-album-grid></div>
+<p class="panel__lead">写真はこのスマホのブラウザの中だけに保存されます（共有リンクには入りません）。保存の前に軽くするため、長い辺1600pxに縮めます。大切な写真は写真アプリにも残してください。</p>
+</div>"""
 
 
 def money_panel(n):
@@ -649,6 +705,7 @@ def day_page(day):
 <div class="chip"><small>👟 歩く量</small><b><span class="shoes">{shoes}</span>{load_word}</b></div>
 <div class="chip wide"><small>☀ {e(cname)}の日の出・日の入</small><b>{hm(rise)} → {hm(sset)}</b></div>
 {photo_chip(n, sset)}
+<div class="chip wide clock" data-clock data-tz="{TZ.get(theme, 'Europe/Paris')}" data-city="{e(cname)}"><small>🕗 いまの時刻</small><b data-clock-text>—</b></div>
 </div></div>"""
 
     # ---- 日程（アコーディオン）
@@ -797,6 +854,11 @@ def day_page(day):
         items = "".join(f'<li><label><input type="checkbox" data-k="ret-{i}"><span>{e(x)}</span></label></li>' for i, x in enumerate(RETURN_PACKING))
         panels.append(panel("sec-return", "🧳", "帰国の前に", "Before flying home", f'<ul class="checks">{items}</ul>', f"{len(RETURN_PACKING)}項目", open_=True))
         nav.append(("sec-return", "🧳", "帰国前"))
+    # ---- 交通
+    tr = transit_panel(theme)
+    if tr:
+        panels.append(panel("sec-transit", "🚇", "交通・運行情報", "Transit", tr, "ストライキの確認"))
+        nav.append(("sec-transit", "🚇", "交通"))
     # ---- お金
     panels.append(panel("sec-money", "💶", "お金・ふたりの割り勘", "Money", money_panel(n), "円換算・支出メモ"))
     nav.append(("sec-money", "💶", "お金"))
@@ -808,6 +870,9 @@ def day_page(day):
     n_pr = ph_inner.count('class="pr"')
     panels.append(panel("sec-talk", "🗣", "ひとことフレーズ", f"{L['local']} & English", ph_inner, f"{L['name'].split('（')[0]}・{n_pr}文"))
     nav.append(("sec-talk", "🗣", "会話"))
+    # ---- アルバム
+    panels.append(panel("sec-photos", "📷", "ふたりの写真", "Our photos", album_panel(n), "この日の思い出"))
+    nav.append(("sec-photos", "📷", "写真"))
     # ---- メモ
     panels.append(panel("sec-memo", "✏️", "ふたりのメモ", "Notes", '<div class="memo"><textarea data-memo="day" placeholder="ホテル名、予約時刻、行きたいお店…"></textarea>'
                         '<small>この端末のブラウザだけに保存されます。予約番号やパスポート番号は書かないでください。'

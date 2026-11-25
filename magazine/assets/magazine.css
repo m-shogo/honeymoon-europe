@@ -671,3 +671,14 @@ body[data-page="index"] .wrap > details.panel { margin-top: 18px; }
 .share__state { font-weight: 700; color: var(--c); margin: 12px 0 0; }
 .share__url { width: 100%; font: 12px ui-monospace, monospace; padding: 10px; border: 2px dashed var(--line); border-radius: 12px; margin-top: 8px; background: var(--cream); }
 #import-dlg .hdlg__edit p { font-size: 14px; line-height: 1.8; }
+
+/* v9：記念日ディナーの候補・時計・アルバム */
+.alts { margin-top: 26px; border-top: 2px dashed var(--line); padding-top: 18px; }
+.alts h4 { font-size: 17px; margin-bottom: 12px; }
+.chip.clock b { font-family: var(--f-round); font-weight: 900; }
+.album-add { cursor: pointer; }
+.album-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; margin: 16px 0 6px; }
+.album-grid figure { margin: 0; position: relative; aspect-ratio: 1; border-radius: 12px; overflow: hidden; background: var(--cream); }
+.album-grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.album-grid button { position: absolute; right: 4px; top: 4px; width: 28px; height: 28px; border-radius: 50%; border: 0; background: rgba(255,255,255,.9); cursor: pointer; }
+.album-grid .empty { grid-column: 1 / -1; font-size: 13px; color: var(--ink-3); margin: 0; }
