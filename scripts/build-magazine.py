@@ -605,6 +605,29 @@ def hours_panel(day):
     return lead + ev + f'<ol class="hrs">{"".join(rows)}</ol>', bad, len(rows)
 
 
+TRANSPORT = json.loads((ROOT / "data/transport-options.json").read_text())
+
+
+def entry_panel():
+    en = TRANSPORT["entry"]
+    items = "".join(f'<li><b>{e(t)}</b><p>{e(x)} <a href="{e(u)}" target="_blank" rel="noopener">出典↗</a></p></li>' for t, x, u in en["items"])
+    return panel("sec-entry", "🛂", en["title"], "Entry rules",
+                 f'<ul class="entry">{items}</ul><p class="checked">{e(TRANSPORT["checked"])}にEU公式などで確認。出発の1か月前と前日にもう一度。</p>', "EES・ETIAS")
+
+
+def move_panel(n):
+    m = TRANSPORT["days"].get(str(n))
+    if not m:
+        return None
+    head = "".join(f"<th>{e(c)}</th>" for c in m["cols"])
+    body = "".join("<tr>" + "".join(f"<td>{e(c)}</td>" for c in r) + "</tr>" for r in m["rows"])
+    tips = "".join(f"<li>{e(t)}</li>" for t in m["tips"])
+    links = "".join(f'<a class="btn" href="{e(u)}" target="_blank" rel="noopener">{e(t)} ↗</a>' for t, u in m["links"])
+    return (f'<p class="panel__lead">{e(m["lead"])}</p><div class="mv-wrap"><table class="mv"><thead><tr>{head}</tr></thead><tbody>{body}</tbody></table></div>'
+            f'<ul class="em__links plain">{tips}</ul><div class="btns">{links}</div>'
+            f'<p class="checked">{e(TRANSPORT["checked"])}時点の公式・予約サイトの掲載から。<a href="{e(m["src"])}" target="_blank" rel="noopener">出典↗</a></p>'), m["title"]
+
+
 HOTEL_CANDIDATES = json.loads((ROOT / "data/hotel-candidates.json").read_text())
 
 
@@ -641,7 +664,7 @@ def hotel_candidates_panel(n):
 
 WEATHER_CHIP = {"☔": ("rain", "☔ 雨でもOK"), "🌦": ("mix", "🌦 半分屋外"), "🌤": ("sun", "🌤 屋外")}
 TZ = {"venice": "Europe/Rome", "rome": "Europe/Rome", "barcelona": "Europe/Madrid", "paris": "Europe/Paris",
-      "normandy": "Europe/Paris", "sky": "Europe/Paris"}
+      "normandy": "Europe/Paris", "sky": "Asia/Tokyo"}
 CITY_JA = {"venice": "ヴェネツィア", "rome": "ローマ", "barcelona": "バルセロナ", "paris": "パリ", "normandy": "ノルマンディー"}
 FX_DEFAULT = json.loads((ROOT / "data/spot-prices-2027-af-jan31.json").read_text()).get("approx_fx_eur_jpy", 170)
 
@@ -840,6 +863,7 @@ def day_page(day):
 <div class="chip"><small>👟 歩く量</small><b><span class="shoes">{shoes}</span>{load_word}</b></div>
 <div class="chip wide"><small>☀ {e(cname)}の日の出・日の入</small><b>{hm(rise)} → {hm(sset)}</b></div>
 {photo_chip(n, sset)}
+<div class="chip wide wx" data-wx data-date="{day['date']}" data-lat="{lat}" data-lon="{lon}" data-tz="{TZ.get(theme, 'Europe/Paris')}"><small>🌤 {e(cname)}の天気予報</small><b data-wx-text>予報は{(date_of(day) - dt.timedelta(days=15)).month}/{(date_of(day) - dt.timedelta(days=15)).day}ごろから</b><em data-wx-note>16日先までの予報（Open-Meteo）</em></div>
 <div class="chip wide clock" data-clock data-tz="{TZ.get(theme, 'Europe/Paris')}" data-city="{e(cname)}"><small>🕗 いまの時刻</small><b data-clock-text>—</b></div>
 </div></div>"""
 
@@ -903,8 +927,9 @@ def day_page(day):
     rp, sp = max(0, min(100, rise / 14.4)), max(0, min(100, sset / 14.4))
     sunbar = "" if theme == "sky" else f'<div class="sunbar"><span>☀ {hm(rise)}</span><span class="sunbar__bar" style="--rise:{rp:.1f}%;--set:{sp:.1f}%"></span><span>☾ {hm(sset)}</span></div>'
     tools = '<div class="tl-tools"><span>★ は今日の見どころ。タップで写真・歴史・映画・料金がひらく。🚶の時間は直線距離からの目安</span><button type="button" class="btn" data-toggle-all>すべて開く</button></div>'
-    timeline = (f'<section class="sec" id="sec-plan"><div class="sec__head"><span class="sec__en">Schedule</span><h2 class="sec__title">今日の日程</h2>'
-                f'<span class="sec__sub">時刻は予約前の目安。予約した時刻・列車・便に合わせて組み直す。</span></div>{sunbar}{tools}<ol class="tl2">{"".join(rows)}</ol></section>')
+    nowbar = '<div class="nowbar" data-nowbar hidden></div>'
+    timeline = (f'<section class="sec" id="sec-plan" data-now-date="{day["date"]}" data-now-tz="{TZ.get(theme, "Europe/Paris")}"><div class="sec__head"><span class="sec__en">Schedule</span><h2 class="sec__title">今日の日程</h2>'
+                f'<span class="sec__sub">時刻は予約前の目安。予約した時刻・列車・便に合わせて組み直す。</span></div>{nowbar}{sunbar}{tools}<ol class="tl2">{"".join(rows)}</ol></section>')
 
     panels = []
     nav = [("sec-plan", "🗓", "日程")]
@@ -912,6 +937,15 @@ def day_page(day):
     if theme != "sky":
         panels.append(panel("sec-map", "🗺", "地図", "Map", map_html(theme, 460, f"{cname}の地図"), cname, open_=True))
         nav.append(("sec-map", "🗺", "地図"))
+    # ---- 移動の選び方
+    mv = move_panel(n)
+    if mv:
+        panels.append(panel("sec-move", "🚆", mv[1], "Getting there", mv[0], "時刻・料金の比較", open_=True))
+        nav.append(("sec-move", "🚆", "移動"))
+    # ---- 入国の手続き（1日目・2日目）
+    if n in (1, 2):
+        panels.append(entry_panel())
+        nav.append(("sec-entry", "🛂", "入国"))
     # ---- ホテル候補（その都市に着いた日）
     hc = hotel_candidates_panel(n)
     if hc:
@@ -1312,6 +1346,7 @@ def index_page():
 <section class="todaybar" data-todaybar data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}" data-depart="{date_of(DAYS[0]).month}/{date_of(DAYS[0]).day}（{WEEK_JA[date_of(DAYS[0]).weekday()]}）22:55 羽田発"></section>
 {panel("sec-book", "🎟", "予約しなきゃリスト", "To book", booking_list(), "発売の早い順", open_=True)}
 {hours_summary()}
+{entry_panel()}
 {panel("sec-share", "📤", "ふたりで共有", "Share", share_panel(), "リンクで送る")}
 {panel("sec-sos", "🆘", "困ったとき・緊急連絡先", "Emergency", emergency_panel(), "112")}
 {panel("sec-money", "💶", "お金・ふたりの割り勘", "Money", money_panel(0), "全日の合計")}

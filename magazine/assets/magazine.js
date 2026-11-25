@@ -565,6 +565,76 @@
     render();
   });
 
+  // ---------- 現地の日付と時刻（?now=2027-02-04T16:00 で試せる）
+  var qs = (function () { var o = {}; location.search.replace(/^\?/, "").split("&").forEach(function (kv) { if (!kv) return; var p = kv.split("="); o[decodeURIComponent(p[0])] = decodeURIComponent(p[1] || ""); }); return o; })();
+  function localNow(tz, real) {
+    if (!real && qs.now && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}$/.test(qs.now)) return { date: qs.now.slice(0, 10), mins: +qs.now.slice(11, 13) * 60 + +qs.now.slice(14, 16), test: true };
+    try {
+      var parts = {};
+      new Intl.DateTimeFormat("en-CA", { timeZone: tz, year: "numeric", month: "2-digit", day: "2-digit", hour: "2-digit", minute: "2-digit", hourCycle: "h23" })
+        .formatToParts(new Date()).forEach(function (x) { parts[x.type] = x.value; });
+      return { date: parts.year + "-" + parts.month + "-" + parts.day, mins: +parts.hour * 60 + +parts.minute };
+    } catch (e) { var d = new Date(); return { date: d.toISOString().slice(0, 10), mins: d.getHours() * 60 + d.getMinutes() }; }
+  }
+  function dayDiff(a, b) { return Math.round((Date.parse(b + "T00:00:00Z") - Date.parse(a + "T00:00:00Z")) / 86400000); }
+
+  // ---------- 天気予報（Open-Meteo・16日先まで）
+  var WMO = [[0, "☀", "晴れ"], [2, "🌤", "晴れ時々くもり"], [3, "☁", "くもり"], [48, "🌫", "霧"], [57, "🌦", "霧雨"], [67, "🌧", "雨"], [77, "❄", "雪"], [82, "🌧", "にわか雨"], [86, "🌨", "にわか雪"], [99, "⛈", "雷雨"]];
+  function wmo(c) { for (var i = 0; i < WMO.length; i++) if (c <= WMO[i][0]) return WMO[i]; return ["", "", ""]; }
+  document.querySelectorAll("[data-wx]").forEach(function (el) {
+    var tz = el.getAttribute("data-tz"), date = qs.wxdate || el.getAttribute("data-date");
+    var out = el.querySelector("[data-wx-text]"), note = el.querySelector("[data-wx-note]");
+    var diff = dayDiff(localNow(tz, true).date, date);
+    if (!qs.wxdate && (diff > 15 || diff < 0)) { if (diff < 0) { out.textContent = "この日は終わりました"; } return; }
+    var key = "techo:wx:" + date + ":" + el.getAttribute("data-lat");
+    function show(d, when) {
+      var w = wmo(d.weather_code[0]);
+      out.textContent = w[1] + " " + w[2] + "　" + Math.round(d.temperature_2m_max[0]) + "° / " + Math.round(d.temperature_2m_min[0]) + "°　☔ " + (d.precipitation_probability_max[0] == null ? "—" : d.precipitation_probability_max[0] + "%");
+      var t = new Date(when);
+      note.innerHTML = "予報 " + (t.getMonth() + 1) + "/" + t.getDate() + " " + pad(t.getHours()) + ":" + pad(t.getMinutes()) + "更新・<a href=\"https://open-meteo.com/\" target=\"_blank\" rel=\"noopener\">Open-Meteo</a>（CC BY 4.0）";
+      if ((d.precipitation_probability_max[0] || 0) >= 50) el.classList.add("wet");
+    }
+    var cached = null; try { cached = JSON.parse(store.get(key) || "null"); } catch (e) {}
+    if (cached) show(cached.d, cached.t);
+    if (cached && Date.now() - cached.t < 3 * 3600 * 1000) return;
+    var url = "https://api.open-meteo.com/v1/forecast?latitude=" + el.getAttribute("data-lat") + "&longitude=" + el.getAttribute("data-lon") +
+      "&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&timezone=" + encodeURIComponent(tz) + "&start_date=" + date + "&end_date=" + date;
+    out.textContent = cached ? out.textContent : "予報を取得中…";
+    fetch(url).then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); }).then(function (j) {
+      if (!j.daily || !j.daily.time || !j.daily.time.length) throw new Error("no data");
+      var rec = { d: j.daily, t: Date.now() }; store.set(key, JSON.stringify(rec)); show(rec.d, rec.t);
+    }).catch(function () { if (!cached) out.textContent = "予報を取得できませんでした（電波を確認）"; });
+  });
+
+  // ---------- いま・次（旅行中、その日のページで）
+  var plan = document.querySelector("[data-now-date]"), nowbar = document.querySelector("[data-nowbar]");
+  function paintNow() {
+    if (!plan || !nowbar) return;
+    var tz = plan.getAttribute("data-now-tz"), n = localNow(tz);
+    var items = [].slice.call(plan.querySelectorAll("li.it")).map(function (li) {
+      var tm = li.querySelector("time"), m = tm && /^(\d{2}):(\d{2})$/.exec(tm.textContent.trim());
+      return m ? { li: li, mins: +m[1] * 60 + +m[2], t: tm.textContent.trim(), title: (li.querySelector(".ttl") || {}).textContent || "" } : null;
+    }).filter(Boolean);
+    items.forEach(function (x) { x.li.classList.remove("is-now", "is-next", "is-done"); });
+    if (n.date !== plan.getAttribute("data-now-date") || !items.length) { nowbar.hidden = true; return; }
+    var cur = null, nxt = null;
+    items.forEach(function (x) { if (x.mins <= n.mins) cur = x; else if (!nxt) nxt = x; });
+    items.forEach(function (x) { if (cur && x.mins < cur.mins) x.li.classList.add("is-done"); });
+    var html = "";
+    if (cur) { cur.li.classList.add("is-now"); html += '<a href="#' + cur.li.id + '"><small>いま</small><span>' + cur.t + " " + cur.title + "</span></a>"; }
+    if (nxt) { nxt.li.classList.add("is-next"); var left = nxt.mins - n.mins; html += '<a class="nb-next" href="#' + nxt.li.id + '"><small>つぎ</small><span>' + nxt.t + " " + nxt.title + "</span><em>あと" + (left >= 60 ? Math.floor(left / 60) + "時間" : "") + (left % 60) + "分</em></a>"; }
+    else html += '<a class="nb-next" href="#sec-memo"><small>つぎ</small><span>今日の予定はおしまい。おつかれさま！</span></a>';
+    nowbar.innerHTML = html + (n.test ? '<a><small>試験</small><span>?now= で表示中</span></a>' : "");
+    nowbar.hidden = false;
+  }
+  paintNow();
+  if (plan) setInterval(paintNow, 60000);
+  if (nowbar) nowbar.addEventListener("click", function (ev) {
+    var a = ev.target.closest("a[href^='#t']"); if (!a) return;
+    var li = document.getElementById(a.getAttribute("href").slice(1)); var dd = li && li.querySelector("details");
+    if (dd) dd.open = true;
+  });
+
   // 現在の日を帯の中で見える位置に
   var cur = document.querySelector('.days a[aria-current="page"]');
   if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: "nearest", inline: "center" });

@@ -729,3 +729,26 @@ body[data-page="index"] .wrap > details.panel { margin-top: 18px; }
 .badge.hrb.hr-ng { background: #fde3e5; color: #b02a36; }
 .em__links.plain { display: block; }
 .em__links.plain li { list-style: disc; margin-left: 1.2em; font-size: 14px; line-height: 1.8; }
+
+/* ---------- v12 入国・移動・天気・いま */
+.entry { list-style: none; padding: 0; margin: 0; display: grid; gap: 12px; }
+.entry li { background: #fff; border-radius: 14px; padding: 12px 14px; }
+.entry b { font-size: 15px; }
+.entry p { margin: 4px 0 0; font-size: 13px; line-height: 1.8; color: var(--ink-2); }
+.mv-wrap { overflow-x: auto; margin: 12px 0; -webkit-overflow-scrolling: touch; }
+.mv { border-collapse: collapse; width: 100%; min-width: 520px; background: #fff; border-radius: 14px; overflow: hidden; font-size: 13px; }
+.mv th { background: var(--c); color: #fff; text-align: left; padding: 8px 10px; font-size: 12px; white-space: nowrap; }
+.mv td { padding: 9px 10px; border-top: 1px solid var(--line); vertical-align: top; line-height: 1.6; }
+.mv td:first-child { font-weight: 700; white-space: nowrap; }
+.chip.wx em { display: block; font-style: normal; font-size: 11px; color: var(--ink-3); margin-top: 2px; }
+.chip.wx em a { color: inherit; }
+.nowbar { position: relative; margin: 0 auto 16px; max-width: 760px; background: var(--ink); color: #fff; border-radius: 16px; padding: 10px 14px; display: flex; flex-direction: column; gap: 6px; box-shadow: 0 10px 24px -14px rgba(0,0,0,.6); }
+.nowbar a { color: #fff; text-decoration: none; display: flex; gap: 8px; align-items: baseline; font-size: 14px; }
+.nowbar a small { font-weight: 700; font-size: 11px; letter-spacing: .08em; background: var(--c); border-radius: 999px; padding: 1px 8px; flex: none; }
+.nowbar a.nb-next small { background: #fff; color: var(--ink); }
+.nowbar em { font-style: normal; opacity: .75; font-size: 12px; margin-left: auto; flex: none; }
+.tl2 li.it.is-now > .acc { outline: 3px solid var(--c); outline-offset: 2px; border-radius: 18px; }
+.tl2 li.it.is-now time::after { content: "いま"; display: block; font-size: 10px; background: var(--c); color: #fff; border-radius: 999px; padding: 0 6px; margin-top: 2px; text-align: center; }
+.tl2 li.it.is-done { opacity: .55; }
+.chip.wx.wet { background: #e8f1fb; }
+.nowbar a span { flex: 1; min-width: 0; }

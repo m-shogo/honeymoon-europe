@@ -1,8 +1,8 @@
 'use strict';
 // ふたりの欧州手帖：オフライン用（scripts/build-magazine.py が生成）
-const CORE = 'techo-core-8e4e946377';
+const CORE = 'techo-core-a7be613a86';
 const MEDIA = 'techo-media';
-const CORE_URLS = ["./", "index.html", "flights.html", "day01.html", "day02.html", "day03.html", "day04.html", "day05.html", "day06.html", "day07.html", "day08.html", "day09.html", "day10.html", "day11.html", "day12.html", "day13.html", "feb01/", "feb01/index.html", "feb01/flights.html", "feb01/day01.html", "feb01/day02.html", "feb01/day03.html", "feb01/day04.html", "feb01/day05.html", "feb01/day06.html", "feb01/day07.html", "feb01/day08.html", "feb01/day09.html", "feb01/day10.html", "feb01/day11.html", "feb01/day12.html", "feb01/day13.html", "assets/magazine.css?v=99ba4d60", "assets/magazine.js?v=92c58c6d", "manifest.webmanifest", "assets/favicon.svg", "assets/favicon-32.png", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png"];
+const CORE_URLS = ["./", "index.html", "flights.html", "day01.html", "day02.html", "day03.html", "day04.html", "day05.html", "day06.html", "day07.html", "day08.html", "day09.html", "day10.html", "day11.html", "day12.html", "day13.html", "feb01/", "feb01/index.html", "feb01/flights.html", "feb01/day01.html", "feb01/day02.html", "feb01/day03.html", "feb01/day04.html", "feb01/day05.html", "feb01/day06.html", "feb01/day07.html", "feb01/day08.html", "feb01/day09.html", "feb01/day10.html", "feb01/day11.html", "feb01/day12.html", "feb01/day13.html", "assets/magazine.css?v=227a5634", "assets/magazine.js?v=631ce6aa", "manifest.webmanifest", "assets/favicon.svg", "assets/favicon-32.png", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png"];
 const MEDIA_HOSTS = ['upload.wikimedia.org', 'fonts.googleapis.com', 'fonts.gstatic.com'];
 self.addEventListener('install', e => {
   e.waitUntil(caches.open(CORE).then(c => c.addAll(CORE_URLS)).then(() => self.skipWaiting()));
