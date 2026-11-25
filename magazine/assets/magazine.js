@@ -139,6 +139,15 @@
     if (a) location.href = a.getAttribute("href");
   });
 
+
+  // ---------- 版（出発日）の切り替えを覚える
+  document.querySelectorAll("[data-edition-switch]").forEach(function (a) {
+    a.addEventListener("click", function () { store.set("techo:g:edition", a.getAttribute("data-edition-switch")); });
+  });
+  if (document.body.getAttribute("data-page") === "index" && !location.hash && store.get("techo:g:edition") === "0201") {
+    location.replace("feb01/index.html");
+  }
+
   // ---------- 今日（旅行中は今日のページへ、出発前はカウントダウン）
   function pad(n) { return (n < 10 ? "0" : "") + n; }
   function tripInfo(el) {
@@ -163,7 +172,7 @@
     if (t2.diff >= 0 && t2.diff < t2.days) {
       html = '<a class="todaybar__go" href="day' + pad(t2.n) + '.html"><small>Today</small><b>今日は DAY ' + pad(t2.n) + '</b><span>今日のページを開く →</span></a>';
     } else if (t2.diff < 0) {
-      html = '<a class="todaybar__go" href="day01.html"><small>Countdown</small><b>出発まで あと ' + (-t2.diff) + ' 日</b><span>1/31（日）22:55 羽田発 ／ DAY01を開く →</span></a>';
+      html = '<a class="todaybar__go" href="day01.html"><small>Countdown</small><b>出発まで あと ' + (-t2.diff) + ' 日</b><span>' + (tb.getAttribute("data-depart") || "") + ' ／ DAY01を開く →</span></a>';
     } else {
       html = '<a class="todaybar__go" href="day13.html"><small>Welcome home</small><b>おかえりなさい</b><span>13日間のアルバムへ →</span></a>';
     }
@@ -262,7 +271,7 @@
   var offState = document.querySelector("[data-offline-state]");
   function say(msg) { if (offState) offState.textContent = msg; }
   if ("serviceWorker" in navigator && location.protocol !== "file:") {
-    navigator.serviceWorker.register("sw.js").then(function () {
+    navigator.serviceWorker.register((document.body.getAttribute("data-root") || "") + "sw.js").then(function () {
       return navigator.serviceWorker.ready;
     }).then(function () {
       if (document.querySelector('[data-offline="day"]')) countSaved();

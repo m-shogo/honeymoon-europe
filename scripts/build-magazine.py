@@ -25,6 +25,11 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from magazine_content import DAYS, FLIGHTS  # noqa: E402
 
 BUILT = "2026-11-24"
+# 版：1/31出発（magazine/）と2/1出発（magazine/feb01/）。ED は今作っている版。
+EDITIONS = {"0131": {"key": "0131", "root": "", "prefix": "", "sub": "", "label": "1/31（日）出発",
+                     "note": "貼り付けた表の曜日（1/31が金曜など）は2025年の暦。2027年は1/31が日曜。表の注意書き（2/7日曜はボケリア休み、火曜はルーブル休館）は2027年の曜日と一致するので、2027年の曜日で組んでいる。"},
+            "0201": {"key": "0201", "root": "../", "prefix": "feb01-", "sub": "feb01/", "label": "2/1（月）出発", "note": ""}}
+ED = EDITIONS["0131"]
 WEEK_JA = "月火水木金土日"
 WEEK_EN = ["MON", "TUE", "WED", "THU", "FRI", "SAT", "SUN"]
 
@@ -72,6 +77,19 @@ def load_spots():
         if sid in spots:
             spots[sid].update(o)
     return spots
+
+
+def use_edition(key):
+    """版を切り替える（本文・便・予約の規則・スポットの注意書きを差し替え）。"""
+    global ED, OUT_DIR
+    ED = EDITIONS[key]
+    OUT_DIR = OUT / ED["sub"] if ED["sub"] else OUT
+    if key == "0201":
+        import magazine_edition_0201 as E2
+        globals().update(E2.build())
+        for sid, cau in E2.SPOT_CAUTIONS.items():
+            SPOTS[sid]["caution"] = cau
+        EDITIONS["0201"]["note"] = E2.WEEKDAY_NOTE
 
 
 def wm(url, width):
@@ -310,17 +328,24 @@ def head(title, desc, theme):
 <meta name="theme-color" content="{DAY_COLOR.get(theme, '#18306b')}">
 <title>{e(title)}</title>
 {FONTS}
-<link rel="stylesheet" href="assets/magazine.css?v={CSS_V}">
-<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
-<link rel="icon" href="assets/favicon-32.png" sizes="32x32" type="image/png">
-<link rel="apple-touch-icon" href="assets/icon-180.png">
-<link rel="manifest" href="manifest.webmanifest">
+<link rel="stylesheet" href="{ED['root']}assets/magazine.css?v={CSS_V}">
+<link rel="icon" href="{ED['root']}assets/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{ED['root']}assets/favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{ED['root']}assets/icon-180.png">
+<link rel="manifest" href="{ED['root']}manifest.webmanifest">
 <meta name="apple-mobile-web-app-title" content="欧州手帖">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 </head>
 """
+
+
+def edition_switch(current):
+    file = f"day{current:02d}.html" if isinstance(current, int) else f"{current}.html"
+    other = EDITIONS["0201" if ED["key"] == "0131" else "0131"]
+    href = ("feb01/" if ED["key"] == "0131" else "../") + file
+    return f'<a class="edsw-mini" href="{href}" data-edition-switch="{other["key"]}" title="{e(other["label"])}の版へ">{ED["label"].split("（")[0]}出発 ⇄</a>'
 
 
 def mast(current):
@@ -333,6 +358,7 @@ def mast(current):
     links.append(f'<a href="flights.html"{cur} style="--dc:#ef4f3b" title="空の旅">✈</a>')
     return f"""<header class="mast"><div class="mast__in">
 <a class="mast__logo" href="index.html"><i>♡</i><span>ふたりの欧州手帖</span></a>
+{edition_switch(current)}
 <a class="today" href="day01.html" data-today data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}" hidden>今日</a>
 <nav class="days" aria-label="日付">{''.join(links)}</nav>
 </div></header>"""
@@ -903,11 +929,11 @@ def day_page(day):
 <p>行程は2026-11-24に受け取った13日間の表（未予約の仮案）。料金・営業時間・予約の目安はリポジトリの確認記録（確認日は各スポットに記載）。日の出・日の入りは計算値（NOAA近似式）。歴史・豆知識は一般的な解説で、現地の案内を優先。写真は場所のイメージで、撮影時期・天候は訪問時と異なる。地図は作成済みのMy Mapsを埋め込み表示。作成：{BUILT}</p></details>
 </footer>"""
 
-    body = (f'<body data-theme="{theme}" data-page="day{n:02d}">{mast(n)}<main>{hero}{strip}'
+    body = (f'<body data-theme="{theme}" data-page="{ED['prefix']}day{n:02d}" data-root="{ED['root']}" data-edition="{ED['key']}">{mast(n)}<main>{hero}{strip}'
             f'<div class="wrap">{intro}</div>{subnav}<div class="wrap">{timeline}<div class="panels">{"".join(panels)}</div>{offline}{pager}{foot}</div></main>'
             f'{HOTEL_DIALOG if HOTEL_CITY.get(n) else ""}'
             f'<a class="totop" href="#" aria-label="ページの先頭へ">↑</a>'
-            f'<script src="assets/magazine.js?v={JS_V}" defer></script></body></html>')
+            f'<script src="{ED['root']}assets/magazine.js?v={JS_V}" defer></script></body></html>')
     title = f'DAY {n:02d} {d.month}/{d.day}（{WEEK_JA[wd]}）{day["local"]}｜ふたりの欧州手帖'
     return head(title, day["lede"], theme) + body
 
@@ -983,13 +1009,13 @@ def flights_page():
 <div class="hero__in"><span class="hero__pill"><b>FLIGHTS</b>羽田 ⇄ パリ ＋ 欧州内</span>
 <p class="hero__city">In the sky</p><h1 class="hero__copy">空の旅も、<br>旅のうち。</h1></div></section>"""
     creds = "".join(f"<li>{credit(k)}</li>" for k in dict.fromkeys(used + ([hk] if pinfo(hk) else [])))
-    body = (f'<body data-theme="sky" data-page="flights">{mast("flights")}<main>{hero}<div class="wrap">'
+    body = (f'<body data-theme="sky" data-page="{ED['prefix']}flights" data-root="{ED['root']}" data-edition="{ED['key']}">{mast("flights")}<main>{hero}<div class="wrap">'
             + section("搭乗ガイド", "Boarding guide", "".join(cards), "所要時間は表の発着時刻と時差から計算。機材・ターミナルは予約画面と当日の案内を優先。")
             + section("航空会社と機内", "Airlines", airline)
             + section("空港と手荷物のルール", "Airport rules", rules)
             + '<nav class="next"><a href="day13.html" style="--nc:#18306b"><small>← Back</small><b>DAY 13 Tokyo</b><span>帰国</span></a><a class="r" href="index.html" style="--nc:#ef4f3b"><small>Cover →</small><b>Contents</b><span>表紙と目次</span></a></nav>'
             + f'<footer class="foot"><h4>PHOTO CREDITS（Wikimedia Commons）</h4><ol>{creds}</ol><h4>SOURCES</h4><p>便名・時刻：2026-11-24にユーザーから受け取った表、およびリポジトリの <code>data/itinerary-2027-af-jan31.json</code>・<code>docs/2027-af-jan31-feasibility-day-by-day.md</code>。777-300ER・ラ・プルミエールはCAPA（2026-03）と便追跡サイトの記録。写真は機材・空港のイメージで、実際の便の機体とは限らない。作成：{BUILT}</p></footer>'
-            + f'</div></main><script src="assets/magazine.js?v={JS_V}" defer></script></body></html>')
+            + f'</div></main><script src="{ED['root']}assets/magazine.js?v={JS_V}" defer></script></body></html>')
     return head("空の旅｜ふたりの欧州手帖", "羽田〜パリ往復のエールフランス便と、欧州内の乗継・LCC便の搭乗ガイド。", "sky") + body
 
 
@@ -1072,6 +1098,15 @@ def booking_list():
             f'{done}<ol class="bks">{"".join(rows)}</ol>')
 
 
+def index_edition_block():
+    a = "index.html" if ED["key"] == "0131" else "../index.html"
+    b = "feb01/index.html" if ED["key"] == "0131" else "index.html"
+    on = lambda k: ' class="on" aria-current="page"' if ED["key"] == k else ""
+    return (f'<div class="edsw"><span>出発日はまだ未定。2つの版を用意しています：</span>'
+            f'<a href="{a}" data-edition-switch="0131"{on("0131")}>✈ 1/31（日）出発 → 2/12 着</a>'
+            f'<a href="{b}" data-edition-switch="0201"{on("0201")}>✈ 2/1（月）出発 → 2/13 着</a></div>')
+
+
 def index_page():
     panels, used = [], []
     for sid, label, jp, day in [("036", "Venezia", "ヴェネツィア DAY2–3", 2), ("017", "Roma", "ローマ DAY4–5", 4),
@@ -1093,7 +1128,7 @@ def index_page():
     cards.append(f'<a class="dcard" href="flights.html" style="--dc:#18306b">{f"<img src={chr(34)}{e(purl(k, 960))}{chr(34)} alt={chr(34)}{chr(34)} loading={chr(34)}lazy{chr(34)}>" if pinfo(k) else ""}'
                  f'<span class="n">✈<small>5 flights</small></span><span class="tag">航空ガイド</span><span class="city">IN THE SKY</span><h3>空の旅も、旅のうち。</h3><p>エールフランス往復・欧州内の乗継とLCC</p></a>')
     basics = """<div class="basics">
-<div class="basic"><div class="ic">📅</div><h4>曜日について</h4><p>貼り付けた表の曜日（1/31が金曜など）は2025年の暦。2027年は1/31が日曜。表の注意書き（2/7日曜はボケリア休み、火曜はルーブル休館）は2027年の曜日と一致するので、2027年の曜日で組んでいる。</p></div>
+<div class="basic"><div class="ic">📅</div><h4>曜日について</h4><p>{ED["note"]}</p></div>
 <div class="basic"><div class="ic">🕗</div><h4>時差は−8時間</h4><p>イタリア・スペイン・フランスは日本の−8時間。現地の朝9時＝日本の夕方5時。</p></div>
 <div class="basic"><div class="ic">💶</div><h4>お金はユーロ</h4><p>3か国ともユーロ。タッチ決済のクレジットカードが主役。小銭はトイレやチップ用に少し。</p></div>
 <div class="basic"><div class="ic">🔌</div><h4>電源</h4><p>Cタイプ（丸ピン2本）でほぼ対応、230V。</p></div>
@@ -1108,18 +1143,19 @@ def index_page():
 <div style="background:#283a6b"><h4>FRANÇAIS</h4><dl><dt>Bonjour</dt><dd>こんにちは（入店時に必ず）</dd><dt>Merci</dt><dd>ありがとう</dd><dt>L’addition, s’il vous plaît</dt><dd>お会計お願いします</dd><dt>Où sont les toilettes ?</dt><dd>トイレはどこ？</dd></dl></div>
 </div>"""
     creds = "".join(f"<li>{credit(k)}</li>" for k in dict.fromkeys(used + (["p:af-777"] if pinfo("p:af-777") else [])))
-    body = f"""<body data-theme="sky" data-page="index">
+    body = f"""<body data-theme="sky" data-page="{ED['prefix']}index" data-root="{ED['root']}" data-edition="{ED['key']}">
 <header class="cover">{''.join(panels)}
 <div class="cover__t"><div><span class="hand">Our honeymoon in Europe</span><h1>Buon viaggio!</h1><p>ふたりの欧州手帖</p></div></div>
 <div class="cover__stk"><div><b>13</b>DAYS<br>4 CITIES</div></div>
 </header>
 <div class="wrap">
-<section class="todaybar" data-todaybar data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}"></section>
+{index_edition_block()}
+<section class="todaybar" data-todaybar data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}" data-depart="{date_of(DAYS[0]).month}/{date_of(DAYS[0]).day}（{WEEK_JA[date_of(DAYS[0]).weekday()]}）22:55 羽田発"></section>
 {panel("sec-book", "🎟", "予約しなきゃリスト", "To book", booking_list(), "発売の早い順", open_=True)}
 {panel("sec-share", "📤", "ふたりで共有", "Share", share_panel(), "リンクで送る")}
 {panel("sec-sos", "🆘", "困ったとき・緊急連絡先", "Emergency", emergency_panel(), "112")}
 {panel("sec-money", "💶", "お金・ふたりの割り勘", "Money", money_panel(0), "全日の合計")}
-{section("13日間のもくじ", "Contents", f'<div class="dgrid">{"".join(cards)}</div>', "1/31 羽田発 → 2/12 羽田着　カードをタップして各日のページへ")}
+{section("13日間のもくじ", "Contents", f'<div class="dgrid">{"".join(cards)}</div>', f"{date_of(DAYS[0]).month}/{date_of(DAYS[0]).day} 羽田発 → {date_of(DAYS[-1]).month}/{date_of(DAYS[-1]).day} 羽田着（{ED['label']}の版）　カードをタップして各日のページへ")}
 {section("旅のルート", "Route", route_map(), "位置関係のイメージ図（緯度経度から描いた概略。海岸線は省略）")}
 {panel("sec-offline", "📥", "電波がなくても見られるように", "Offline", '<div class="offline" data-offline="all"><div><b>旅行の前に、Wi‑Fiでまとめて保存</b><span data-offline-state>ページの文字とデザインは自動で保存されます。写真（全385枚・約75MB）は下のボタンでまとめて保存できます。地図は通信が必要です。iPhoneはSafariの共有ボタン→「ホーム画面に追加」で、アプリのように開けます。</span><progress data-offline-progress max="100" value="0" hidden></progress></div><button type="button" class="btn main" data-save-all>全日の写真をまとめて保存</button></div>', "", open_=True)}
 {section("ふたりの地図", "My Maps", map_html("sky", 520, "新婚旅行の地図"), "作成済みのMy Mapsをそのまま表示。拡大すると各都市のピン")}
@@ -1129,7 +1165,7 @@ def index_page():
 <p>未予約の仮の旅程（2026-11-24時点の表）をもとに作った旅行誌。料金・営業時間・予約の目安は、このリポジトリの確認記録（各スポットに確認日）を差し込んでいる。2027年の訪問日に公式サイトで再確認を。写真はWikimedia Commonsの画像を、作者・ライセンスを明記して表示。生成：<code>python3 scripts/build-magazine.py</code>　作成：{BUILT}</p>
 <h4>PHOTO CREDITS</h4><ol>{creds}</ol></footer>
 </div>
-<script src="assets/magazine.js?v={JS_V}" defer></script>
+<script src="{ED['root']}assets/magazine.js?v={JS_V}" defer></script>
 </body></html>"""
     return head("ふたりの欧州手帖｜2027 新婚旅行 13日間", "ヴェネツィア・ローマ・バルセロナ・パリ・モンサンミッシェル。13日間の新婚旅行を1日1ページにまとめた旅行誌。", "sky") + body
 
@@ -1149,10 +1185,11 @@ def write_manifest():
 def write_sw():
     """オフライン用のService Worker。ページとデザインは先に保存、写真・フォントは見たものから保存。"""
     import hashlib
-    pages = ["./", "index.html", "flights.html"] + [f"day{d['n']:02d}.html" for d in DAYS]
+    one = ["index.html", "flights.html"] + [f"day{d['n']:02d}.html" for d in DAYS]
+    pages = ["./"] + one + ["feb01/"] + ["feb01/" + q for q in one]
     core = pages + [f"assets/magazine.css?v={CSS_V}", f"assets/magazine.js?v={JS_V}", "manifest.webmanifest",
                     "assets/favicon.svg", "assets/favicon-32.png", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png"]
-    h = hashlib.sha1("".join((OUT / q).read_text() for q in pages if q != "./").encode()).hexdigest()[:10]
+    h = hashlib.sha1("".join((OUT / q).read_text() for q in pages if not q.endswith("/")).encode()).hexdigest()[:10]
     js = f"""'use strict';
 // ふたりの欧州手帖：オフライン用（scripts/build-magazine.py が生成）
 const CORE = 'techo-core-{h}';
@@ -1206,11 +1243,13 @@ def main():
     missing += [(d["n"], s) for d in DAYS for *_, s in d["timeline"] if s and s not in SPOTS]
     if missing:
         sys.exit(f"スポットIDが見つかりません: {missing}")
-    OUT.mkdir(exist_ok=True)
-    (OUT / "index.html").write_text(index_page())
-    for d in DAYS:
-        (OUT / f"day{d['n']:02d}.html").write_text(day_page(d))
-    (OUT / "flights.html").write_text(flights_page())
+    for key in ("0131", "0201"):
+        use_edition(key)
+        OUT_DIR.mkdir(parents=True, exist_ok=True)
+        (OUT_DIR / "index.html").write_text(index_page())
+        for d in DAYS:
+            (OUT_DIR / f"day{d['n']:02d}.html").write_text(day_page(d))
+        (OUT_DIR / "flights.html").write_text(flights_page())
     write_manifest()
     write_sw()
     nophoto = [(d["n"], t) for d in DAYS for t, _, _, _, s in d["timeline"] if not pinfo(tl_photo_key(d["n"], t, s))]

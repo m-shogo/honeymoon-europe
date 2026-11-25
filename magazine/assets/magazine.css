@@ -682,3 +682,13 @@ body[data-page="index"] .wrap > details.panel { margin-top: 18px; }
 .album-grid img { width: 100%; height: 100%; object-fit: cover; display: block; }
 .album-grid button { position: absolute; right: 4px; top: 4px; width: 28px; height: 28px; border-radius: 50%; border: 0; background: rgba(255,255,255,.9); cursor: pointer; }
 .album-grid .empty { grid-column: 1 / -1; font-size: 13px; color: var(--ink-3); margin: 0; }
+
+/* v10：出発日の版の切り替え */
+.edsw-mini { flex: none; font-family: var(--f-round); font-weight: 900; font-size: 11px; text-decoration: none; color: var(--ink-2); border: 1.5px dashed var(--ink-3); padding: 5px 10px; border-radius: 999px; white-space: nowrap; }
+.edsw-mini:hover { background: var(--ink); color: #fff; border-color: var(--ink); }
+.edsw { display: flex; flex-wrap: wrap; align-items: center; gap: 8px 10px; margin-top: 24px; font-size: 13px; color: var(--ink-2); }
+.edsw span { width: 100%; font-weight: 700; }
+.edsw a { flex: 1 1 220px; text-align: center; text-decoration: none; font-family: var(--f-round); font-weight: 900; font-size: 15px; padding: 12px 14px; border-radius: 16px; border: 2.5px solid var(--line); background: #fff; color: var(--ink-2); }
+.edsw a.on { border-color: var(--c2); background: #fff1ef; color: var(--ink); }
+.edsw a.on::after { content: " ✓"; color: var(--c2); }
+@media (max-width: 640px) { .edsw-mini { padding: 5px 8px; } }

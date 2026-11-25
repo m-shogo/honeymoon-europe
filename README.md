@@ -2,7 +2,7 @@
 
 ## 旅行雑誌（1日1ページ）
 
-**[ふたりの欧州手帖を開く](https://m-shogo.github.io/honeymoon-europe/magazine/)**（[ファイル](magazine/index.html)）。1/31羽田発〜2/12羽田着の13日間を、1日1ページの写真中心の旅行誌にまとめた。日程はタップで開くアコーディオン（写真・歴史・映画の聖地・料金・徒歩の目安）、地図の埋め込み、料理・お土産、現地語と英語のフレーズ（読み上げ付き）、ホテル住所カード、予約しなきゃリストと予約済み✓、電波なしで見られる保存、[航空ページ](magazine/flights.html)。生成は `python3 scripts/build-magazine.py`。設計の判断・確認範囲・表とリポジトリの便時刻の食い違いは [作成記録](docs/magazine.md)。
+**[ふたりの欧州手帖を開く](https://m-shogo.github.io/honeymoon-europe/magazine/)**（[ファイル](magazine/index.html)）。1/31羽田発〜2/12羽田着の13日間を、1日1ページの写真中心の旅行誌にまとめた。日程はタップで開くアコーディオン（写真・歴史・映画の聖地・料金・徒歩の目安）、地図の埋め込み、料理・お土産、現地語と英語のフレーズ（読み上げ付き）、ホテル住所カード、予約しなきゃリストと予約済み✓、電波なしで見られる保存、[航空ページ](magazine/flights.html)。出発日が未定のため、1/31出発版と[2/1出発版](https://m-shogo.github.io/honeymoon-europe/magazine/feb01/)を切り替えられる。生成は `python3 scripts/build-magazine.py`。設計の判断・確認範囲・表とリポジトリの便時刻の食い違いは [作成記録](docs/magazine.md)。
 
 ## 旅行前・旅行中の新婚旅行ホーム
 
