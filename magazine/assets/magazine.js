@@ -224,6 +224,24 @@
     });
   }
   labelHotels();
+  function markPicks() {
+    document.querySelectorAll("[data-hc]").forEach(function (card) {
+      var b = card.querySelector("[data-hotel-pick]"); if (!b) return;
+      var on = readHotel(b.getAttribute("data-hotel-pick")).name === b.getAttribute("data-name");
+      card.classList.toggle("hc--on", on);
+      b.textContent = on ? "✓ 住所カードに登録中" : "🏨 ここに決めた";
+    });
+  }
+  document.querySelectorAll("[data-hotel-pick]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var c = b.getAttribute("data-hotel-pick"), cur = readHotel(c), name = b.getAttribute("data-name");
+      if (cur.name === name) return;
+      if (cur.name && !window.confirm("いまの「" + cur.name + "」を「" + name + "」に置き換えますか？")) return;
+      store.set(hotelKey(c), JSON.stringify({ name: name, addr: b.getAttribute("data-addr"), tel: "" }));
+      labelHotels(); markPicks();
+    });
+  });
+  markPicks();
   if (dlg) {
     var curChip = null;
     var form = dlg.querySelector("form");
@@ -262,7 +280,7 @@
       if (act === "save") {
         var h = { name: form.name.value.trim(), addr: form.addr.value.trim(), tel: form.tel.value.trim() };
         store.set(hotelKey(curChip.getAttribute("data-hotel")), JSON.stringify(h));
-        labelHotels(); showView();
+        labelHotels(); markPicks(); showView();
       }
     });
   }

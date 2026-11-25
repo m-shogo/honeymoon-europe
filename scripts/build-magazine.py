@@ -530,6 +530,115 @@ HOTEL_DIALOG = """<dialog class="hdlg" id="hotel-dlg" aria-label="ホテル住�
 </dialog>"""
 
 
+HOURS = json.loads((ROOT / "data/opening-hours-2027.json").read_text())
+
+
+def _mins(t):
+    h_, m_ = t.split(":")
+    return int(h_) * 60 + int(m_)
+
+
+def hours_on(sid, d):
+    """その日の営業 [開く, 閉まる, 最終入場] と規則。休みなら値は None。規則がなければ (None, None)。"""
+    r = HOURS["spots"].get(sid)
+    if not r:
+        return None, None
+    v = r.get("dates", {}).get(d.isoformat(), r["week"][d.weekday()])
+    return r, v
+
+
+def hours_text(v):
+    if not v:
+        return "休み"
+    o, c, last = v
+    c = "24:00" if c == "23:59" else c
+    return f"{o}–{c}" + (f"・最終{last}" if last else "")
+
+
+def check_item(t, kind, sid, d):
+    """予定の時刻と営業時間を照らす。(状態, ひとこと) 状態は ok / warn / ng。外から眺める予定（walk）は照らさない。"""
+    r, v = hours_on(sid, d)
+    if not r or kind in ("walk",) or ":" not in t:
+        return None
+    if not v:
+        return "ng", f"{WEEK_JA[d.weekday()]}曜は休み"
+    o, c, last = v
+    lim = last or c
+    tm = _mins(t)
+    if tm < _mins(o):
+        return "warn", f"{o}に開く。予定が早すぎる"
+    if tm > _mins(lim):
+        return "ng", (f"最終入場{last}を過ぎる" if last else f"{c}に閉まった後")
+    if _mins(lim) - tm <= 20:
+        return "warn", (f"最終入場{last}の直前" if last else f"{c}の閉まる直前")
+    return "ok", "時間内"
+
+
+def day_events(day):
+    d = date_of(day).isoformat()
+    city = {"normandy": "paris", "sky": "paris"}.get(day["theme"], day["theme"])
+    return [x for x in HOURS["events"] if x["city"] == city and x["from"] <= d <= x["to"]]
+
+
+def hours_panel(day):
+    d = date_of(day)
+    rows, seen, bad = [], set(), 0
+    for t, kind, title, note, sid in day["timeline"]:
+        if not sid or (sid, t) in seen:
+            continue
+        r, v = hours_on(sid, d)
+        if not r:
+            continue
+        seen.add((sid, t))
+        ck = check_item(t, kind, sid, d)
+        st, msg = ck if ck else ("out", "外から眺める予定（中の時間は参考）")
+        bad += st in ("warn", "ng")
+        mark = {"ok": "✓", "warn": "▲", "ng": "✕", "out": "・"}[st]
+        rows.append(f'<li class="hr hr--{st}"><time>{e(t)}</time><div><b>{e(r["name"])}</b>'
+                    f'<span class="hr__h">{WEEK_JA[d.weekday()]}曜 {e(hours_text(v))}</span>'
+                    f'<span class="hr__v">{mark} {e(msg)}</span><small>{e(r["note"])}（{e(r["basis"])}・{e(r["checked"])}確認 <a href="{e(r["src"])}" target="_blank" rel="noopener">出典↗</a>）</small></div></li>')
+    ev = "".join(f'<div class="hr-ev">📣 {e(x["text"])} <a href="{e(x["src"])}" target="_blank" rel="noopener">出典↗</a></div>' for x in day_events(day))
+    if not rows and not ev:
+        return None
+    lead = (f'<p class="panel__lead">{d.month}/{d.day}（{WEEK_JA[d.weekday()]}）の曜日で、予定の時刻と営業時間・最終入場を照らし合わせた結果。'
+            f'営業時間は{e(HOURS["checked"])}までの確認で、2027年の直前告知（祝日・行事・ストライキ・工事）で変わることがある。予約の前と前日に公式で確認。</p>')
+    return lead + ev + f'<ol class="hrs">{"".join(rows)}</ol>', bad, len(rows)
+
+
+HOTEL_CANDIDATES = json.loads((ROOT / "data/hotel-candidates.json").read_text())
+
+
+def hotel_candidates_panel(n):
+    """その都市に着いた日だけ、シートのホテル候補（未決定）を並べる。"""
+    city = HOTEL_CITY.get(n)
+    c = HOTEL_CANDIDATES["cities"].get(city)
+    if not c or HOTEL_CITY.get(n - 1) == city:
+        return None
+    from urllib.parse import quote
+    cards = []
+    for h in sorted(c["hotels"], key=lambda x: x["rank"]):
+        dec = c.get("decided") == h["name"]
+        rows = [("💴", f'{h["price"]}（{c["nights"]}泊）'), ("🍳", h["meal"]), ("🛏", h["bed"]), ("🚶", h["access"]), ("⭐", "クチコミ " + h["review"])]
+        dl = "".join(f'<li><span>{a}</span>{e(b)}</li>' for a, b in rows)
+        maps = "https://www.google.com/maps/search/?api=1&query=" + quote(h["local"] + ", " + h["addr"])
+        cards.append(
+            f'<article class="hc{" hc--on" if dec else ""}" data-hc="{e(h["local"])}">'
+            f'<div class="hc__top"><span class="hc__rank">{h["rank"]}<small>位</small></span>'
+            f'<div><h4>{e(h["name"])}</h4><p class="hc__local">{e(h["local"])}</p></div><span class="hc__score">{e(h["score"])}</span></div>'
+            f'<ul class="hc__facts">{dl}</ul>'
+            f'<p class="hc__pc"><b>◎</b>{e(h["pros"])}</p><p class="hc__pc hc__pc--c"><b>△</b>{e(h["cons"])}</p>'
+            f'<p class="hc__addr">📍 {e(h["addr"])}</p>'
+            f'<div class="btns"><a class="btn" href="{e(h["url"])}" target="_blank" rel="noopener">HISで見る ↗</a>'
+            f'<a class="btn" href="{e(maps)}" target="_blank" rel="noopener">📍 地図</a>'
+            f'<button type="button" class="btn main" data-hotel-pick="{city}" data-name="{e(h["local"])}" data-addr="{e(h["addr"])}">🏨 ここに決めた</button></div>'
+            '</article>')
+    lead = (f'<p class="panel__lead">ふたりのシートにある{c["label"]}のホテル候補（<b>まだ未決定</b>）。順位はシートのランキング、点数はシートの総合評価。'
+            f'{e(c["price_note"])}。「ここに決めた」を押すと、この端末のホテル住所カード（タクシー用）に名前と住所が入ります。</p>')
+    note = (f'<p class="checked">シートは{e(HOTEL_CANDIDATES["source"].split("（")[1].split("に読み取り")[0])}時点の内容。'
+            f'住所は{e(HOTEL_CANDIDATES["address_checked"].split("。")[0])}に公式・観光局・大手予約サイトの掲載で照合。予約後は確認書の住所を正に。</p>')
+    return lead + f'<div class="hcs">{"".join(cards)}</div>' + note, f'{len(c["hotels"])}軒・未決定'
+
+
 WEATHER_CHIP = {"☔": ("rain", "☔ 雨でもOK"), "🌦": ("mix", "🌦 半分屋外"), "🌤": ("sun", "🌤 屋外")}
 TZ = {"venice": "Europe/Rome", "rome": "Europe/Rome", "barcelona": "Europe/Madrid", "paris": "Europe/Paris",
       "normandy": "Europe/Paris", "sky": "Europe/Paris"}
@@ -761,6 +870,11 @@ def day_page(day):
             if s.get("duration"):
                 chips.append(f'<span class="badge">⏱ {e(s["duration"])}</span>')
             chips += spot_badges(s)
+            hr_r, hr_v = hours_on(sid, date_of(day))
+            if hr_r and kind != "walk":
+                ck = check_item(t, kind, sid, date_of(day))
+                cls = {"ok": "", "warn": " hr-warn", "ng": " hr-ng"}.get(ck[0] if ck else "ok", "")
+                chips.append(f'<span class="badge hrb{cls}">🕘 {WEEK_JA[date_of(day).weekday()]}曜 {e(hours_text(hr_v))}</span>')
             wc = weather_of(s)
             if wc:
                 chips.append(f'<span class="badge w-{wc[0]}">{wc[1]}</span>')
@@ -798,6 +912,11 @@ def day_page(day):
     if theme != "sky":
         panels.append(panel("sec-map", "🗺", "地図", "Map", map_html(theme, 460, f"{cname}の地図"), cname, open_=True))
         nav.append(("sec-map", "🗺", "地図"))
+    # ---- ホテル候補（その都市に着いた日）
+    hc = hotel_candidates_panel(n)
+    if hc:
+        panels.append(panel("sec-hotels", "🏨", "ホテル候補", "Where to stay", hc[0], hc[1]))
+        nav.append(("sec-hotels", "🏨", "ホテル"))
     # ---- 寄り道
     shops = [s for s in day.get("shops", []) if s in SPOTS and not any(s == x[4] for x in day["timeline"])]
     if shops:
@@ -842,6 +961,12 @@ def day_page(day):
     panels.append(panel("sec-tips", "💡", "豆知識と、気をつけること", "Good to know",
                         f'{todo}<div class="alert"><span class="alert__t">気をつけて</span><ul>{al}</ul></div><div class="trivia" style="margin-top:30px">{tv}</div>', cnt))
     nav.append(("sec-tips", "💡", "注意"))
+    # ---- 営業時間チェック
+    hp = hours_panel(day)
+    if hp:
+        cnt = (f"要注意{hp[1]}件" if hp[1] else "すべて時間内") + f"・{hp[2]}か所"
+        panels.append(panel("sec-hours", "🕘", "営業時間チェック", "Opening hours", hp[0], cnt, open_=bool(hp[1])))
+        nav.append(("sec-hours", "🕘", "営業"))
     # ---- チケット
     tix, seen = [], set()
     for _, _, _, _, sid in day["timeline"]:
@@ -1107,6 +1232,40 @@ def index_edition_block():
             f'<a href="{b}" data-edition-switch="0201"{on("0201")}>✈ 2/1（月）出発 → 2/13 着</a></div>')
 
 
+def hours_summary():
+    """表紙：この版の曜日で、営業時間に注意がいる予定と、曜日で変えたところ。"""
+    items, total = [], 0
+    for day in DAYS:
+        d = date_of(day)
+        for t, kind, title, note, sid in day["timeline"]:
+            ck = check_item(t, kind, sid, d) if sid else None
+            if ck and ck[0] != "ok":
+                r, v = hours_on(sid, d)
+                items.append(f'<li class="hr hr--{ck[0]}"><time>{d.month}/{d.day}</time><div><b><a href="day{day["n"]:02d}.html#sec-hours">DAY{day["n"]:02d} {e(t)} {e(r["name"])}</a></b>'
+                             f'<span class="hr__h">{WEEK_JA[d.weekday()]}曜 {e(hours_text(v))}</span><span class="hr__v">{e(ck[1])}</span></div></li>')
+            total += bool(ck)
+    changed = "".join(f"<li>{e(x)}</li>" for x in WEEKDAY_CHANGES[ED["key"]])
+    inner = (f'<p class="panel__lead">{e(ED["label"])}の曜日で、{total}か所の予定の時刻を営業時間・最終入場と照らした（{e(HOURS["checked"])}までの確認）。'
+             '休館日に当たる予定はなし。各日のページの「🕘 営業時間チェック」に詳細と出典。</p>'
+             + (f'<ol class="hrs">{"".join(items)}</ol>' if items else "")
+             + f'<h4 style="margin:22px 0 8px">曜日と営業時間に合わせて組み替えたところ</h4><ul class="em__links plain">{changed}</ul>')
+    return panel("sec-hours", "🕘", "営業時間チェック", "Opening hours", inner, f"要注意{len(items)}件")
+
+
+WEEKDAY_CHANGES = {
+    "0131": ["ローマ到着日（2/3 水）：フォロ・ロマーノは冬の最終入場15:30。コロッセオの後は入れないので、外の歩道から眺める予定に。",
+             "バルセロナの日曜（2/7）：カタルーニャ音楽堂のガイド見学は15:30が最後。16:30→15:00に早め、エル・ボルンを後に。",
+             "モンサンミッシェル（2/9 火）：マイバス社の公式行程に合わせて、島を出るのを16:10に。",
+             "2/7（日）はボケリア市場・お店が休みなので、市場とお土産は土曜（2/6）と月曜の朝（2/8）に。"],
+    "0201": ["ローマ到着日（2/4 木）：フォロ・ロマーノは冬の最終入場15:30。コロッセオの後は入れないので、外の歩道から眺める予定に。",
+             "バルセロナ到着日（2/6 土）：サンタ・カテリーナ市場は土曜15:30で閉まるので、ペトリチョル通りに。",
+             "バルセロナ：2/7が日曜になるので、グエル公園・カサ・ミラ・音楽堂の日（日曜でも開く所）とサグラダ・お土産の日（月曜）を入れ替え。",
+             "バルセロナの日曜（2/7）：カタルーニャ音楽堂のガイド見学は15:30が最後。15:00の枠に。",
+             "モンサンミッシェル（2/10 水）：マイバス社は2月は第1日曜以外毎日出発（公式）。島を出るのは16:10。",
+             "パリ（2/11 木）：ルーブルは木曜は18時まで（最終17時）。朝いちばんに入る。夜は入籍1周年のディナー。"],
+}
+
+
 def index_page():
     panels, used = [], []
     for sid, label, jp, day in [("036", "Venezia", "ヴェネツィア DAY2–3", 2), ("017", "Roma", "ローマ DAY4–5", 4),
@@ -1152,6 +1311,7 @@ def index_page():
 {index_edition_block()}
 <section class="todaybar" data-todaybar data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}" data-depart="{date_of(DAYS[0]).month}/{date_of(DAYS[0]).day}（{WEEK_JA[date_of(DAYS[0]).weekday()]}）22:55 羽田発"></section>
 {panel("sec-book", "🎟", "予約しなきゃリスト", "To book", booking_list(), "発売の早い順", open_=True)}
+{hours_summary()}
 {panel("sec-share", "📤", "ふたりで共有", "Share", share_panel(), "リンクで送る")}
 {panel("sec-sos", "🆘", "困ったとき・緊急連絡先", "Emergency", emergency_panel(), "112")}
 {panel("sec-money", "💶", "お金・ふたりの割り勘", "Money", money_panel(0), "全日の合計")}

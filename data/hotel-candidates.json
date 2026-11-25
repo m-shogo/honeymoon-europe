@@ -1,0 +1,32 @@
+{
+  "source": "ふたりのGoogleスプレッドシート「ハネムーン❤️✈️」のローマホテル・バルセロナホテルのシート（2026-11-25に読み取り。シートは変更していない）",
+  "status": "候補（未決定）。決まったらこのファイルの decided に名前を入れる",
+  "address_checked": "2026-11-25。住所はホテル公式・観光局・大手予約サイトの掲載で照合。予約確認書の住所を正とする",
+  "cities": {
+    "rome": {
+      "label": "ローマ",
+      "nights": 2,
+      "price_note": "価格は1室2泊の合計（HISの表示をシートに記録したもの）",
+      "decided": null,
+      "hotels": [
+        {"name": "スターホテル メトロポール", "local": "Starhotels Metropole", "addr": "Via Principe Amedeo 3, 00185 Roma", "price": "72,098円", "meal": "朝食付き", "bed": "ダブル／ツイン", "access": "テルミニ駅 徒歩5分", "review": "4.3（直近2026年★5）", "score": "95点", "rank": 2, "pros": "高級感・清潔感・朝食・立地のバランスがよい", "cons": "朝食会場の混雑、道路側の騒音", "other": "HISの1位", "url": "https://hotels.his-j.com/HotelDetail/ROM00070.aspx", "addr_src": "https://www.starhotels.com/en/our-hotels/metropole-rome/location.html"},
+        {"name": "ベストウェスタンプレミア ロイヤル サンティナ", "local": "Best Western Premier Hotel Royal Santina", "addr": "Via Marsala 22, 00185 Roma", "price": "①48,683円（食事なし・ダブル）／②59,850円（朝食付き・スモールダブル）", "meal": "①なし／②朝食付き", "bed": "①ダブル／②スモールダブル", "access": "テルミニ駅 徒歩3分", "review": "4.2（直近2026年★5）", "score": "93点", "rank": 1, "pros": "駅にいちばん近い、設備がモダン。早朝移動に便利", "cons": "駅周辺が騒然としている、安い客室は狭い", "other": "", "url": "https://hotels.his-j.com/HotelDetail/ROM00800.aspx", "addr_src": "https://www.bestwestern.com/en-us/book/hotel/rome/best-western-premier-hotel-royal-santina/98296"},
+        {"name": "ベストウェスタンプラス ホテル ウニベルソ", "local": "Best Western Plus Hotel Universo", "addr": "Via Principe Amedeo 5/B, 00185 Roma", "price": "58,101円", "meal": "なし", "bed": "ツイン", "access": "テルミニ駅 徒歩5分", "review": "4.3（直近2026年★5）", "score": "90点", "rank": 3, "pros": "清潔感、サウナ、ルーフトップバー、飲食店が多い立地", "cons": "エレベーターの混雑、客室タイプで広さに差", "other": "", "url": "https://hotels.his-j.com/HotelDetail/ROM00094.aspx", "addr_src": "https://book.bestwestern.it/EN/hotel_in_Rome_98024.aspx"},
+        {"name": "ベットーヤホテル マッシーモ ダゼリオ", "local": "Bettoja Hotel Massimo d'Azeglio", "addr": "Via Cavour 18, 00184 Roma", "price": "63,901円", "meal": "朝食付き", "bed": "ダブル／ツイン", "access": "テルミニ駅 徒歩3分・コロッセオ 徒歩15分", "review": "3.9（直近2025年★5）", "score": "82点", "rank": 4, "pros": "駅近、歴史あるヨーロッパらしい内装（1875年創業）", "cons": "設備の古さ、防音性、客室による当たり外れ", "other": "", "url": "https://hotels.his-j.com/HotelDetail/ROM00067.aspx", "addr_src": "https://www.turismoroma.it/en/hospitality/massimo-dazeglio-1"}
+      ]
+    },
+    "barcelona": {
+      "label": "バルセロナ",
+      "nights": 3,
+      "price_note": "シートの見出しは「1室2泊」だが、併記の1泊単価×3と合計が一致するので3泊分として表示。宿泊税（1人1泊 €7.70〜13.20、シートの記録）は別途現地払いの場合あり",
+      "decided": null,
+      "hotels": [
+        {"name": "ロジャー デ ジュリア", "local": "Hotel Roger de Llúria", "addr": "Carrer de Roger de Llúria 28, 08010 Barcelona", "price": "111,640円（1泊 37,213円）", "meal": "朝食付き", "bed": "ダブル（クラシック）", "access": "地下鉄1号線 徒歩4分・グラシア通り 徒歩5分・カサ・バトリョ 徒歩10分・サグラダ 徒歩25分", "review": "4.4（直近2026年★4）", "score": "4.5", "rank": 4, "pros": "立地・高級感・客室の広さ。全室バスタブ付き", "cons": "設備がやや古い", "other": "全室バスタブ付き", "url": "https://hotels.his-j.com/HotelDetail/BCN00154.aspx", "addr_src": "https://www.tripadvisor.com/Hotel_Review-d232774"},
+        {"name": "グルポテル グランヴィア678", "local": "Grupotel Gran Via 678", "addr": "Gran Via de les Corts Catalanes 678, 08010 Barcelona", "price": "75,310円（1泊 25,103円・60日前割）", "meal": "朝食付き", "bed": "ツイン／ダブル（基本ダブル）", "access": "グラシア通り 徒歩8分・カサ・バトリョ 徒歩10分・サグラダは地下鉄2号線で2駅", "review": "4.6（直近2024年★5）", "score": "4.4", "rank": 2, "pros": "清潔感・朝食・設備、タクシー移動がしやすい", "cons": "客室がやや狭い", "other": "60日前割の価格", "url": "https://hotels.his-j.com/HotelDetail/BCN00522.aspx", "addr_src": "https://booking.com/hotel/es/gran-via-678.en-gb.html"},
+        {"name": "HCC サンモリッツ", "local": "HCC St. Moritz", "addr": "Carrer de la Diputació 262-264, 08007 Barcelona", "price": "93,700円（取消・変更不可）", "meal": "なし", "bed": "ツイン／ダブル", "access": "グラシア通り 徒歩2分・カサ・バトリョ 徒歩4分・カタルーニャ広場 徒歩7分", "review": "5.0（1件のみ・直近2025年★5）", "score": "4.7", "rank": 1, "pros": "立地抜群・客室が広め・周辺環境", "cons": "設備がやや古い", "other": "取消・変更不可の料金", "url": "https://hotels.his-j.com/HotelDetail/BCN00281.aspx", "addr_src": "https://www.nz.kayak.com/Barcelona-Hotels-Hcc-St-Moritz.51006.ksp"},
+        {"name": "ルネッサンス バルセロナ", "local": "Renaissance Barcelona Hotel", "addr": "Carrer de Pau Claris 122, 08009 Barcelona", "price": "①156,180円（1泊 52,060円・取消変更不可）／②171,660円（1泊 57,220円）", "meal": "なし", "bed": "キング1台", "access": "グラシア通り 徒歩2分・カサ・バトリョ 徒歩4分・カサ・ミラ 徒歩7分・空港へタクシー20分", "review": "3.5（直近2016年★2）", "score": "4.8", "rank": 3, "pros": "高級感・清潔感・立地・周辺環境（マリオット系）", "cons": "5つ星にしては客室がやや狭い、騒音が気になる場合あり、価格高め", "other": "マリオット系", "url": "https://hotels.his-j.com/HotelDetail/BCN00191.aspx", "addr_src": "https://www.marriott.com/en-us/hotels/bcndm-renaissance-barcelona-hotel/overview/"},
+        {"name": "ル メリディアン バルセロナ", "local": "Le Méridien Barcelona", "addr": "La Rambla 111, 08001 Barcelona", "price": "①153,240円（1泊 51,080円・取消変更不可）／②160,560円", "meal": "なし", "bed": "キング1台（基本ダブル）", "access": "ランブラス通り沿い・グラシア通り 徒歩7分・サグラダ 徒歩35分", "review": "4.0（1件のみ・直近2012年）", "score": "4.6", "rank": 5, "pros": "最高級の設備・サービス、旧市街観光に便利（マリオット系）", "cons": "スリへの警戒が必要、周辺が騒がしい、車でのアクセス", "other": "マリオット系", "url": "https://hotels.his-j.com/HotelDetail/BCN00244.aspx", "addr_src": "https://www.marriott.com/en-us/hotels/bcnmd-le-meridien-barcelona/overview/"}
+      ]
+    }
+  }
+}
