@@ -1,6 +1,6 @@
 'use strict';
 // ふたりの欧州手帖：オフライン用（scripts/build-magazine.py が生成）
-const CORE = 'techo-core-f3b5949d1c';
+const CORE = 'techo-core-63b0597d62';
 const MEDIA = 'techo-media';
 const CORE_URLS = ["./", "index.html", "flights.html", "day01.html", "day02.html", "day03.html", "day04.html", "day05.html", "day06.html", "day07.html", "day08.html", "day09.html", "day10.html", "day11.html", "day12.html", "day13.html", "assets/magazine.css?v=acd9d8df", "assets/magazine.js?v=26a72d9d", "manifest.webmanifest", "assets/favicon.svg", "assets/favicon-32.png", "assets/icon-180.png", "assets/icon-192.png", "assets/icon-512.png"];
 const MEDIA_HOSTS = ['upload.wikimedia.org', 'fonts.googleapis.com', 'fonts.gstatic.com'];
