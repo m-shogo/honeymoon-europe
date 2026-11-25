@@ -1072,7 +1072,7 @@ def index_page():
 # ------------------------------------------------------------------ 出力
 def write_manifest():
     m = {"name": "ふたりの欧州手帖", "short_name": "欧州手帖", "lang": "ja", "start_url": "./index.html", "scope": "./",
-         "display": "standalone", "background_color": "#fffdf9", "theme_color": "#ef4f3b",
+         "display": "standalone", "background_color": "#fffdf9", "theme_color": "#ec6870",
          "description": "2027年 新婚旅行13日間の旅行誌（ヴェネツィア・ローマ・バルセロナ・パリ）",
          "icons": [{"src": "assets/icon-192.png", "sizes": "192x192", "type": "image/png"},
                    {"src": "assets/icon-512.png", "sizes": "512x512", "type": "image/png"},

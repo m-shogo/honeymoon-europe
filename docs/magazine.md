@@ -57,7 +57,7 @@
 
 ## アイコン（2026-11-24 v7）
 
-コーラルの地に白いハート、黄色い点線の航路と紺の飛行機。`python3 scripts/make-magazine-icons.py`（Pillow）で `magazine/assets/` に icon-180（iPhoneのホーム画面）・192・512・maskable-512（Android）・favicon-32／favicon.svg を出力。`magazine/manifest.webmanifest`（ホーム画面の名前は「欧州手帖」）はビルドで生成。iPhoneはSafariの共有→「ホーム画面に追加」。実機のホーム画面での見え方は未確認。
+2026-11-25に「Just Married」の札が付いたスーツケース（ピンクの地、ハートと旅のステッカー）へ変更（ユーザーが3案からA案を選択）。前はコーラルの地に白いハートと航路の飛行機だったが、タブの大きさでは飛行機が消えて旅行感がなかった。`python3 scripts/make-magazine-icons.py`（Pillow）で `magazine/assets/` に icon-180（iPhoneのホーム画面）・192・512・maskable-512（Android）・favicon-32／favicon.svg を出力。`magazine/manifest.webmanifest`（ホーム画面の名前は「欧州手帖」）はビルドで生成。iPhoneはSafariの共有→「ホーム画面に追加」。実機のホーム画面での見え方は未確認。
 
 ## ふたりで共有・あった方がいいもの（2026-11-25 v8）
 
