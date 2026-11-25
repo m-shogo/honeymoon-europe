@@ -325,6 +325,150 @@
     }).catch(function () { sa.disabled = false; say("保存に失敗しました。通信を確認してもう一度。"); });
   });
 
+
+  // ---------- 全ページ共通のメモ（緊急連絡先など）
+  document.querySelectorAll("textarea[data-gmemo]").forEach(function (area) {
+    var key = "techo:g:" + area.getAttribute("data-gmemo"), tm;
+    area.value = store.get(key) || "";
+    area.addEventListener("input", function () { clearTimeout(tm); tm = setTimeout(function () { store.set(key, area.value); }, 300); });
+  });
+
+  // ---------- お金：円換算とふたりの割り勘
+  function readJSON(k, d) { try { return JSON.parse(store.get(k) || "") || d; } catch (e) { return d; } }
+  function yen(n) { return Math.round(n).toLocaleString("ja-JP") + " 円"; }
+  function eur(n) { return "€" + (Math.round(n * 100) / 100).toLocaleString("ja-JP", { minimumFractionDigits: 0, maximumFractionDigits: 2 }); }
+  document.querySelectorAll("[data-money]").forEach(function (box) {
+    var day = +box.getAttribute("data-day");
+    var rateIn = box.querySelector("[data-fx-rate]"), eurIn = box.querySelector("[data-fx-eur]"), out = box.querySelector("[data-fx-yen]");
+    var saved = store.get("techo:g:fx"); if (saved) rateIn.value = saved;
+    function rate() { return parseFloat(rateIn.value) || 0; }
+    function conv() { var v = parseFloat(eurIn.value); out.textContent = isNaN(v) ? "— 円" : yen(v * rate()); }
+    eurIn.addEventListener("input", conv);
+    rateIn.addEventListener("input", function () { store.set("techo:g:fx", rateIn.value); conv(); render(); });
+    var names = readJSON("techo:g:names", { a: "", b: "" });
+    box.querySelectorAll("[data-name]").forEach(function (inp) {
+      var w = inp.getAttribute("data-name"); inp.value = names[w] || "";
+      inp.addEventListener("input", function () { names[w] = inp.value.trim(); store.set("techo:g:names", JSON.stringify(names)); render(); });
+    });
+    function nm(w) { return names[w] || w.toUpperCase(); }
+    var list = box.querySelector("[data-exp-list]"), sum = box.querySelector("[data-exp-sum]");
+    function render() {
+      box.querySelector("[data-name-a]").textContent = nm("a"); box.querySelector("[data-name-b]").textContent = nm("b");
+      var all = readJSON("techo:g:expenses", []);
+      var rows = day ? all.filter(function (x) { return x.day === day; }) : all;
+      list.innerHTML = rows.map(function (x) {
+        return '<li><span>' + (day ? "" : "DAY" + ("0" + x.day).slice(-2) + " ") + x.what.replace(/[<>&]/g, "") + '</span><b>' + eur(x.eur) + '</b><small>' + nm(x.who) + '</small><button type="button" data-del="' + x.id + '" aria-label="削除">×</button></li>';
+      }).join("") || '<li class="empty">まだありません</li>';
+      var ta = 0, tb = 0; rows.forEach(function (x) { if (x.who === "a") ta += x.eur; else tb += x.eur; });
+      var total = ta + tb, diff = (ta - tb) / 2;
+      sum.innerHTML = (day ? "この日" : "全日") + "の合計 <b>" + eur(total) + "</b>（約" + yen(total * rate()) + "）<br>" +
+        nm("a") + " " + eur(ta) + "／" + nm("b") + " " + eur(tb) +
+        (Math.abs(diff) >= 0.01 ? "<br>半分ずつにするなら：<b>" + (diff > 0 ? nm("b") + " → " + nm("a") : nm("a") + " → " + nm("b")) + " " + eur(Math.abs(diff)) + "（約" + yen(Math.abs(diff) * rate()) + "）</b>" : "");
+    }
+    box.querySelector("[data-exp-form]").addEventListener("submit", function (ev) {
+      ev.preventDefault();
+      var f = ev.target, v = parseFloat(f.eur.value);
+      if (!f.what.value.trim() || isNaN(v)) return;
+      var all = readJSON("techo:g:expenses", []);
+      all.push({ id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6), day: day || 0, what: f.what.value.trim(), eur: v, who: f.who.value });
+      store.set("techo:g:expenses", JSON.stringify(all));
+      f.what.value = ""; f.eur.value = ""; render();
+    });
+    list.addEventListener("click", function (ev) {
+      var b = ev.target.closest("[data-del]"); if (!b) return;
+      var all = readJSON("techo:g:expenses", []).filter(function (x) { return x.id !== b.getAttribute("data-del"); });
+      store.set("techo:g:expenses", JSON.stringify(all)); render();
+    });
+    render();
+  });
+
+  // ---------- ふたりで共有（リンクで送って取り込む）
+  function allData() {
+    var o = {};
+    try { for (var i = 0; i < localStorage.length; i++) { var k = localStorage.key(i); if (k && k.indexOf("techo:") === 0) o[k] = localStorage.getItem(k); } } catch (e) {}
+    return o;
+  }
+  function b64url(bytes) { var s = ""; bytes.forEach(function (b) { s += String.fromCharCode(b); }); return btoa(s).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/, ""); }
+  function unb64url(str) { var s = atob(str.replace(/-/g, "+").replace(/_/g, "/")); var a = new Uint8Array(s.length); for (var i = 0; i < s.length; i++) a[i] = s.charCodeAt(i); return a; }
+  function pack(obj) {
+    var bytes = new TextEncoder().encode(JSON.stringify(obj));
+    if (window.CompressionStream) {
+      var cs = new Blob([bytes]).stream().pipeThrough(new CompressionStream("deflate-raw"));
+      return new Response(cs).arrayBuffer().then(function (buf) { return "z" + b64url(new Uint8Array(buf)); });
+    }
+    return Promise.resolve("p" + b64url(bytes));
+  }
+  function unpack(str) {
+    var bytes = unb64url(str.slice(1));
+    if (str[0] === "z") {
+      var ds = new Blob([bytes]).stream().pipeThrough(new DecompressionStream("deflate-raw"));
+      return new Response(ds).text().then(JSON.parse);
+    }
+    return Promise.resolve(JSON.parse(new TextDecoder().decode(bytes)));
+  }
+  var mk = document.querySelector("[data-share-make]");
+  if (mk) mk.addEventListener("click", function () {
+    var data = allData(), n = Object.keys(data).length, st = document.querySelector("[data-share-state]"), ta = document.querySelector("[data-share-url]");
+    if (!n) { st.textContent = "まだ共有する記録がありません。"; return; }
+    pack(data).then(function (code) {
+      var url = location.href.split("#")[0].replace(/[^/]*$/, "") + "index.html#share=" + code;
+      ta.value = url; ta.hidden = false;
+      st.textContent = n + "件の記録をリンクにしました（" + url.length + "文字）。";
+      if (navigator.share) { navigator.share({ title: "ふたりの欧州手帖の記録", url: url }).catch(function () {}); }
+      else if (navigator.clipboard) { navigator.clipboard.writeText(url).then(function () { st.textContent += " コピーしました。LINEなどに貼って送ってください。"; }); }
+    });
+  });
+  function merge(incoming) {
+    var res = { added: 0, merged: 0, kept: 0 };
+    Object.keys(incoming).forEach(function (k) {
+      if (k.indexOf("techo:") !== 0) return;
+      var v = incoming[k], cur = store.get(k);
+      if (cur === null || cur === "" || cur === "0" && v === "1") { store.set(k, v); res.added++; return; }
+      if (cur === v) return;
+      if (k === "techo:g:expenses") {
+        var a = readJSON(k, []), ids = {}; a.forEach(function (x) { ids[x.id] = 1; });
+        var b = []; try { b = JSON.parse(v); } catch (e) {}
+        b.forEach(function (x) { if (!ids[x.id]) a.push(x); }); store.set(k, JSON.stringify(a)); res.merged++; return;
+      }
+      if (/:memo:|^techo:g:em-/.test(k)) {
+        if (cur.indexOf(v) < 0 && v.indexOf(cur) < 0) { store.set(k, cur + "\n──（相手のメモ）──\n" + v); res.merged++; }
+        else if (v.length > cur.length) { store.set(k, v); res.merged++; }
+        return;
+      }
+      if (/^techo:hotel:/.test(k)) { try { if (!JSON.parse(cur).name) { store.set(k, v); res.added++; return; } } catch (e) {} }
+      res.kept++;  // チェック（1/0）は付いている方、それ以外は自分の内容を残す
+    });
+    return res;
+  }
+  var idlg = document.getElementById("import-dlg"), pending = null;
+  if (idlg) idlg.addEventListener("click", function (ev) {
+    var b = ev.target.closest("[data-import]"); if (!b || !pending) return;
+    if (b.getAttribute("data-import") === "ok") {
+      var r = merge(pending);
+      alertBox("取り込みました：新しく " + r.added + "件、合わせた " + r.merged + "件、自分の内容を残した " + r.kept + "件。");
+      paintBooked(); labelHotels();
+    }
+    pending = null;
+    if (idlg.close) idlg.close(); else idlg.removeAttribute("open");
+    history.replaceState(null, "", location.pathname);
+  });
+  function checkImport() {
+    var m = location.hash.match(/^#share=([A-Za-z0-9_-]+)$/);
+    if (!m || !idlg) return;
+    unpack(m[1]).then(function (data) {
+      var keys = Object.keys(data).filter(function (k) { return k.indexOf("techo:") === 0; });
+      idlg.querySelector("[data-import-summary]").textContent = keys.length + "件の記録（ホテル・予約済み・メモ・チェック・支出）を、この端末の記録と合わせます。この端末の内容は消えません。";
+      pending = data;
+      if (!idlg.open) { if (idlg.showModal) idlg.showModal(); else idlg.setAttribute("open", ""); }
+    }).catch(function () { alertBox("共有リンクを読み取れませんでした。リンクが途中で切れていないか確認してください。"); });
+  }
+  checkImport();
+  window.addEventListener("hashchange", checkImport);
+  function alertBox(msg) {
+    var st = document.querySelector("[data-share-state]");
+    if (st) { st.textContent = msg; var p = document.getElementById("sec-share"); if (p) { p.open = true; p.scrollIntoView({ block: "start" }); } }
+  }
+
   // 現在の日を帯の中で見える位置に
   var cur = document.querySelector('.days a[aria-current="page"]');
   if (cur && cur.scrollIntoView) cur.scrollIntoView({ block: "nearest", inline: "center" });

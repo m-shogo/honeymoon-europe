@@ -158,7 +158,7 @@ def icon(kind):
 
 # ------------------------------------------------------------------ 写真
 from magazine_content import (TL_PHOTOS, HIGHLIGHT, PHRASES, DAY_LANG, DAY_LANG_NOTE, DAY_PHRASE_FOCUS,  # noqa: E402
-                              BOOKING_RULES, MANUAL_BOOKINGS, HOTEL_CITY)
+                              BOOKING_RULES, MANUAL_BOOKINGS, HOTEL_CITY, PHOTO_SPOTS, RETURN_PACKING, EMERGENCY_LINKS)
 
 KIND_LABEL = {"plane": "FLIGHT", "train": "TRAIN", "bus": "BUS", "metro": "METRO", "boat": "BOAT",
               "walk": "WALK", "sight": "SIGHT", "food": "EAT", "shop": "SHOP", "hotel": "HOTEL", "night": "NIGHT"}
@@ -473,6 +473,86 @@ HOTEL_DIALOG = """<dialog class="hdlg" id="hotel-dlg" aria-label="ホテル住�
 </dialog>"""
 
 
+WEATHER_CHIP = {"☔": ("rain", "☔ 雨でもOK"), "🌦": ("mix", "🌦 半分屋外"), "🌤": ("sun", "🌤 屋外")}
+CITY_JA = {"venice": "ヴェネツィア", "rome": "ローマ", "barcelona": "バルセロナ", "paris": "パリ", "normandy": "ノルマンディー"}
+FX_DEFAULT = json.loads((ROOT / "data/spot-prices-2027-af-jan31.json").read_text()).get("approx_fx_eur_jpy", 170)
+
+
+def weather_of(s):
+    w = dict(booking_lines(s)).get("天気") or ""
+    return WEATHER_CHIP.get(w[:1])
+
+
+def city_weather_url(theme):
+    cid = {"normandy": "paris"}.get(theme, theme)
+    for c in json.loads((ROOT / "assets/companion-data.json").read_text())["cities"]:
+        if c["id"] == cid:
+            return c.get("weatherOfficial")
+    return None
+
+
+def rain_panel(day, theme):
+    city = CITY_JA.get(theme)
+    if not city:
+        return ""
+    today = {x[4] for x in day["timeline"] if x[4]}
+    jsday = (date_of(day).weekday() + 1) % 7  # 旅手帖の休業ルールは日曜=0
+    rules = json.loads((ROOT / "assets/companion-data.json").read_text())["scheduleRules"]["rules"]
+    closed = {r["id"] for r in rules if jsday in (r.get("closedWeekdays") or [])}
+    alts = [sid for sid, s in SPOTS.items() if s.get("city") in (city, city.replace("ヴェネツィア", "ベネチア"))
+            and sid not in today and sid not in closed and (weather_of(s) or ("",))[0] == "rain" and pinfo(sid)][:4]
+    outdoor = [SPOTS[x]["name"] for x in today if x in SPOTS and (weather_of(SPOTS[x]) or ("",))[0] == "sun"]
+    url = city_weather_url(theme)
+    lead = (f'<p class="panel__lead">今日の屋外中心の場所：{e("・".join(outdoor) or "なし")}。雨・強風のときは、下の屋内の候補と入れ替えを。'
+            f'営業日・予約は各公式で確認。</p>')
+    btn = f'<a class="btn main" href="{e(url)}" target="_blank" rel="noopener">☁ {city}の天気予報（公式）↗</a>' if url else ""
+    cards = "".join(scard_html(x) for x in alts)
+    return lead + f'<div class="btns" style="margin-bottom:16px">{btn}</div>' + (f'<div class="cards">{cards}</div>' if cards else "")
+
+
+def money_panel(n):
+    return f"""<div class="money" data-money data-day="{n}">
+<div class="fx"><label>💶 <input type="number" inputmode="decimal" min="0" step="0.01" data-fx-eur placeholder="ユーロ"> €</label><span>＝</span><b data-fx-yen>— 円</b>
+<label class="fx__rate">1€＝<input type="number" inputmode="decimal" min="1" step="0.1" data-fx-rate value="{FX_DEFAULT}">円</label></div>
+<p class="money__note">レートの初期値はリポジトリの予算メモ（2026-11-23）の参考値。旅行前に最新に直してください。カードの請求額とは差が出ます。</p>
+<form class="exp" data-exp-form autocomplete="off">
+<input name="what" placeholder="何に（例：ジェラート）" required>
+<input name="eur" type="number" inputmode="decimal" min="0" step="0.01" placeholder="€" required>
+<select name="who"><option value="a" data-name-a>A</option><option value="b" data-name-b>B</option></select>
+<button class="btn main" type="submit">追加</button>
+</form>
+<div class="names">払う人の名前：<input data-name="a" maxlength="8" placeholder="A"><input data-name="b" maxlength="8" placeholder="B"></div>
+<ul class="exp-list" data-exp-list></ul>
+<div class="exp-sum" data-exp-sum></div>
+</div>"""
+
+
+def emergency_panel():
+    links = "".join(f'<li><a href="{e(u)}" target="_blank" rel="noopener">{e(t)} ↗</a></li>' for t, u in EMERGENCY_LINKS)
+    fields = [("card", "カード会社の紛失・盗難の窓口（電話）"), ("insurance", "海外旅行保険の緊急連絡先・証券の場所"),
+              ("passport", "パスポートの写真の保存場所・メモ")]
+    inputs = "".join(f'<label class="em__f">{e(lab)}<textarea rows="2" data-gmemo="em-{k}"></textarea></label>' for k, lab in fields)
+    return f"""<div class="em">
+<a class="em__112" href="tel:112"><b>112</b><span>EU共通の緊急番号（警察・救急・消防）<small>タップで発信</small></span></a>
+<ol class="em__steps"><li>安全な場所へ。けがや危険があれば112。</li><li>盗難は近くの警察で届け出て、盗難証明をもらう（保険の請求に必要）。</li>
+<li>カードはすぐ止める（下に窓口をメモ）。</li><li>パスポートは大使館・総領事館へ（帰国のための渡航書の手続き）。</li></ol>
+<ul class="em__links">{links}</ul>
+<p class="panel__lead">電話番号・受付時間は公式サイトで確認してください。下のメモはこの端末に保存され、「ふたりで共有」でも送れます。カード番号・パスポート番号は書かないでください。</p>
+{inputs}</div>"""
+
+
+def share_panel():
+    return """<div class="share" data-share>
+<p class="panel__lead">ホテル・予約済み・メモ・お土産のチェック・支出メモは、それぞれのスマホに保存されています。下のボタンで今の内容を<b>リンクにして相手に送る</b>と、相手が開いたときに取り込めます（同じ項目は「チェックはどちらかが付けていれば付く」「メモは両方を残す」で合わせます）。</p>
+<div class="btns"><button type="button" class="btn main" data-share-make>📤 共有リンクを作って送る</button></div>
+<p class="share__state" data-share-state></p>
+<textarea class="share__url" data-share-url rows="3" readonly hidden></textarea>
+<p class="panel__lead">内容はリンクの「#」より後ろに入り、Webサーバーには送られません。LINEなどの相手にだけ送ってください。予約番号・パスポート番号は入れない前提です。</p>
+</div>
+<dialog class="hdlg" id="import-dlg"><div class="hdlg__edit"><h3>📥 相手の記録を取り込みますか？</h3><p data-import-summary></p>
+<div class="hdlg__btns"><button type="button" class="btn" data-import="cancel">やめる</button><button type="button" class="btn main" data-import="ok">取り込む</button></div></div></dialog>"""
+
+
 PHRASE_IC = {"挨拶": "👋", "普段": "🙏", "ご飯": "🍽", "お土産": "🛍", "ホテル": "🛏", "移動": "🚕", "トイレ": "🚻", "困ったとき": "🆘", "乾杯": "🥂", "機内": "✈"}
 
 
@@ -506,6 +586,15 @@ def scard_html(sid):
     buy = f'<div class="buy"><b>買う</b> {e(s.get("souvenir"))}</div>' if s.get("souvenir") else ""
     return (f'<a class="scard" href="{e(maps_link(s))}" target="_blank" rel="noopener">{img(sid, 960, s["name"])}'
             f'<div class="scard__body"><h4>{e(s["name"])}</h4><p>{e(s.get("summary"))}</p>{buy}<div class="mini">📍 {e(mini)}</div></div></a>')
+
+
+def photo_chip(n, sset):
+    ps = PHOTO_SPOTS.get(n)
+    if not ps:
+        return ""
+    place, text, sun = ps
+    when = f'<em>おすすめ：日の入り{hm(sset)}の少し前（{hm(sset - 40)}〜{hm(sset)}ごろ）</em>' if sun == "set" else ""
+    return f'<div class="chip wide photo"><small>📸 ふたりの写真スポット</small><b>{e(place)}</b><span>{e(text)}</span>{when}</div>'
 
 
 def day_page(day):
@@ -559,6 +648,7 @@ def day_page(day):
 {hotel_chip(n, day)}
 <div class="chip"><small>👟 歩く量</small><b><span class="shoes">{shoes}</span>{load_word}</b></div>
 <div class="chip wide"><small>☀ {e(cname)}の日の出・日の入</small><b>{hm(rise)} → {hm(sset)}</b></div>
+{photo_chip(n, sset)}
 </div></div>"""
 
     # ---- 日程（アコーディオン）
@@ -588,6 +678,9 @@ def day_page(day):
             if s.get("duration"):
                 chips.append(f'<span class="badge">⏱ {e(s["duration"])}</span>')
             chips += spot_badges(s)
+            wc = weather_of(s)
+            if wc:
+                chips.append(f'<span class="badge w-{wc[0]}">{wc[1]}</span>')
             if bookable(sid):
                 chips.append('<span class="badge booked" data-booked-badge>✓ 予約済み</span>')
         move = " move" if kind in MOVE_KINDS else ""
@@ -694,6 +787,22 @@ def day_page(day):
                             '<div class="memo" style="margin-top:22px"><textarea data-memo="best" placeholder="いちばんの思い出は？"></textarea></div>'
                             '<div class="memo"><textarea data-memo="gifts" placeholder="お土産を渡す人リスト"></textarea></div>', open_=True))
         nav.append(("sec-album", "📷", "アルバム"))
+    # ---- 雨の日
+    rp_html = rain_panel(day, theme)
+    if rp_html:
+        panels.append(panel("sec-rain", "☔", "雨の日は・天気", "Rainy day", rp_html, "屋内の候補"))
+        nav.append(("sec-rain", "☔", "雨の日"))
+    # ---- 帰国の前に（DAY12）
+    if n == 12:
+        items = "".join(f'<li><label><input type="checkbox" data-k="ret-{i}"><span>{e(x)}</span></label></li>' for i, x in enumerate(RETURN_PACKING))
+        panels.append(panel("sec-return", "🧳", "帰国の前に", "Before flying home", f'<ul class="checks">{items}</ul>', f"{len(RETURN_PACKING)}項目", open_=True))
+        nav.append(("sec-return", "🧳", "帰国前"))
+    # ---- お金
+    panels.append(panel("sec-money", "💶", "お金・ふたりの割り勘", "Money", money_panel(n), "円換算・支出メモ"))
+    nav.append(("sec-money", "💶", "お金"))
+    # ---- 緊急
+    panels.append(panel("sec-sos", "🆘", "困ったとき・緊急連絡先", "Emergency", emergency_panel(), "112"))
+    nav.append(("sec-sos", "🆘", "緊急"))
     # ---- ひとことフレーズ
     ph_inner, L = phrases_html(n)
     n_pr = ph_inner.count('class="pr"')
@@ -701,7 +810,8 @@ def day_page(day):
     nav.append(("sec-talk", "🗣", "会話"))
     # ---- メモ
     panels.append(panel("sec-memo", "✏️", "ふたりのメモ", "Notes", '<div class="memo"><textarea data-memo="day" placeholder="ホテル名、予約時刻、行きたいお店…"></textarea>'
-                        '<small>この端末のブラウザだけに保存されます。予約番号やパスポート番号は書かないでください。</small></div>'))
+                        '<small>この端末のブラウザだけに保存されます。予約番号やパスポート番号は書かないでください。'
+                        '相手のスマホに送るときは<a href="index.html#sec-share">表紙の「ふたりで共有」</a>から。</small></div>'))
     nav.append(("sec-memo", "✏️", "メモ"))
 
     subnav = '<nav class="subnav" aria-label="このページの中"><div class="subnav__in">' + "".join(
@@ -941,6 +1051,9 @@ def index_page():
 <div class="wrap">
 <section class="todaybar" data-todaybar data-start="{DAYS[0]['date']}" data-days="{len(DAYS)}"></section>
 {panel("sec-book", "🎟", "予約しなきゃリスト", "To book", booking_list(), "発売の早い順", open_=True)}
+{panel("sec-share", "📤", "ふたりで共有", "Share", share_panel(), "リンクで送る")}
+{panel("sec-sos", "🆘", "困ったとき・緊急連絡先", "Emergency", emergency_panel(), "112")}
+{panel("sec-money", "💶", "お金・ふたりの割り勘", "Money", money_panel(0), "全日の合計")}
 {section("13日間のもくじ", "Contents", f'<div class="dgrid">{"".join(cards)}</div>', "1/31 羽田発 → 2/12 羽田着　カードをタップして各日のページへ")}
 {section("旅のルート", "Route", route_map(), "位置関係のイメージ図（緯度経度から描いた概略。海岸線は省略）")}
 {panel("sec-offline", "📥", "電波がなくても見られるように", "Offline", '<div class="offline" data-offline="all"><div><b>旅行の前に、Wi‑Fiでまとめて保存</b><span data-offline-state>ページの文字とデザインは自動で保存されます。写真（全385枚・約75MB）は下のボタンでまとめて保存できます。地図は通信が必要です。iPhoneはSafariの共有ボタン→「ホーム画面に追加」で、アプリのように開けます。</span><progress data-offline-progress max="100" value="0" hidden></progress></div><button type="button" class="btn main" data-save-all>全日の写真をまとめて保存</button></div>', "", open_=True)}
